@@ -1,0 +1,2736 @@
+{
+  "terms": {
+    "4e-cognition": {
+      "slug": "4e-cognition",
+      "term": "4E cognition",
+      "normalizedTerm": "4e cognition",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "4e cognition",
+        "manual-enrichment",
+        "4e-cogsci-background",
+        "the",
+        "family",
+        "approaches",
+        "that",
+        "say",
+        "mind",
+        "not",
+        "just",
+        "brain",
+        "bound",
+        "symbol",
+        "processing",
+        "but",
+        "embodied",
+        "embedded",
+        "enactive",
+        "and"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added because the app should expose the wider cognitive-science lineage around Vervaeke’s terminology.",
+      "primarySourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "4ps-of-knowing": {
+      "slug": "4ps-of-knowing",
+      "term": "4Ps of knowing",
+      "normalizedTerm": "4ps of knowing",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "4ps of knowing",
+        "manual-enrichment",
+        "vervaeke core frameworks",
+        "vervaeke",
+        "fourfold",
+        "map",
+        "knowing",
+        "propositional",
+        "procedural",
+        "perspectival",
+        "and",
+        "participatory",
+        "the",
+        "point",
+        "that",
+        "cognition",
+        "not",
+        "exhausted",
+        "explicit",
+        "beliefs"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added to make the core Vervaeke cognition framework directly searchable in the corpus.",
+      "primarySourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "authorship-of-constraints": {
+      "slug": "authorship-of-constraints",
+      "term": "Authorship of constraints",
+      "normalizedTerm": "authorship of constraints",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "authorship of constraints",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "assumption",
+        "that",
+        "humans",
+        "are",
+        "sole",
+        "makers",
+        "norms",
+        "bind",
+        "them",
+        "speakers",
+        "oppose",
+        "this",
+        "arguing",
+        "some",
+        "real",
+        "constraints"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "choice-space": {
+      "slug": "choice-space",
+      "term": "Choice space",
+      "normalizedTerm": "choice space",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "choice space",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "field",
+        "possible",
+        "actions",
+        "available",
+        "situation",
+        "normativity",
+        "described",
+        "shaping",
+        "this",
+        "space",
+        "making",
+        "some",
+        "moves",
+        "feel",
+        "fitting",
+        "and"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "culture-shock": {
+      "slug": "culture-shock",
+      "term": "Culture shock",
+      "normalizedTerm": "culture shock",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "culture shock",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "disorientation",
+        "that",
+        "comes",
+        "when",
+        "one",
+        "familiar",
+        "cues",
+        "for",
+        "being",
+        "known",
+        "and",
+        "situated",
+        "break",
+        "down",
+        "becomes",
+        "existential"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "curiosity": {
+      "slug": "curiosity",
+      "term": "Curiosity",
+      "normalizedTerm": "curiosity",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "curiosity",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "desire",
+        "acquire",
+        "new",
+        "bits",
+        "information",
+        "within",
+        "stable",
+        "frame",
+        "discussion",
+        "becomes",
+        "problematic",
+        "when",
+        "degenerates",
+        "into",
+        "consumption",
+        "without"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "dialogos": {
+      "slug": "dialogos",
+      "term": "Dialogos",
+      "normalizedTerm": "dialogos",
+      "sourceLanguage": "greek",
+      "searchTerms": [
+        "dialogos",
+        "seeded-from-user-request",
+        "related transcript context",
+        "dialogue",
+        "understood",
+        "not",
+        "just",
+        "two",
+        "people",
+        "exchanging",
+        "remarks",
+        "but",
+        "shared",
+        "movement",
+        "meaning",
+        "logos",
+        "that",
+        "can",
+        "emerge",
+        "through"
+      ],
+      "public": true,
+      "seedStatus": "candidate",
+      "notes": "Flagged as provisional pending a cleaner direct Vervaeke citation.",
+      "primarySourceIds": [
+        "source_user-requested-seed-addition"
+      ],
+      "updatedFromSeed": true
+    },
+    "doomscrolling": {
+      "slug": "doomscrolling",
+      "term": "Doomscrolling",
+      "normalizedTerm": "doomscrolling",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "doomscrolling",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "compulsive",
+        "form",
+        "digital",
+        "consumption",
+        "organized",
+        "narrow",
+        "super",
+        "salient",
+        "inputs",
+        "and",
+        "immediate",
+        "reward",
+        "exemplifies",
+        "modernity",
+        "tendency",
+        "toward",
+        "control"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "embedded-cognition": {
+      "slug": "embedded-cognition",
+      "term": "Embedded cognition",
+      "normalizedTerm": "embedded cognition",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "embedded cognition",
+        "manual-enrichment",
+        "4e-cogsci-background",
+        "the",
+        "idea",
+        "that",
+        "thinking",
+        "inseparable",
+        "from",
+        "environment",
+        "and",
+        "niche",
+        "which",
+        "organism",
+        "acting",
+        "cognition",
+        "shaped",
+        "worldly",
+        "scaffolds",
+        "not"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added for the 4E cluster; origin background is intentionally broader than a one-paper citation.",
+      "primarySourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "embodied-cognition": {
+      "slug": "embodied-cognition",
+      "term": "Embodied cognition",
+      "normalizedTerm": "embodied cognition",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "embodied cognition",
+        "manual-enrichment",
+        "4e-cogsci-background",
+        "the",
+        "idea",
+        "that",
+        "cognition",
+        "shaped",
+        "body",
+        "sensorimotor",
+        "capacities",
+        "not",
+        "just",
+        "abstract",
+        "computation",
+        "inside",
+        "brain"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added for the 4E cluster.",
+      "primarySourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "enactive-cognition": {
+      "slug": "enactive-cognition",
+      "term": "Enactive cognition",
+      "normalizedTerm": "enactive cognition",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "enactive cognition",
+        "manual-enrichment",
+        "4e-cogsci-background",
+        "the",
+        "view",
+        "that",
+        "cognition",
+        "not",
+        "passive",
+        "mirroring",
+        "but",
+        "active",
+        "sense",
+        "making",
+        "organisms",
+        "bring",
+        "forth",
+        "meaningful",
+        "worlds",
+        "through"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added for the 4E cluster.",
+      "primarySourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "enactment": {
+      "slug": "enactment",
+      "term": "Enactment",
+      "normalizedTerm": "enactment",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "enactment",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "lived",
+        "embodied",
+        "realization",
+        "stance",
+        "pattern",
+        "rather",
+        "than",
+        "merely",
+        "talking",
+        "about",
+        "speakers",
+        "repeatedly",
+        "care",
+        "what",
+        "mode",
+        "speech"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "epistemic": {
+      "slug": "epistemic",
+      "term": "Epistemic",
+      "normalizedTerm": "epistemic",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "epistemic",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "having",
+        "with",
+        "knowledge",
+        "justification",
+        "understanding",
+        "question",
+        "asks",
+        "what",
+        "can",
+        "known",
+        "and",
+        "how",
+        "not",
+        "yet",
+        "ought",
+        "matter"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "extended-cognition": {
+      "slug": "extended-cognition",
+      "term": "Extended cognition",
+      "normalizedTerm": "extended cognition",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "extended cognition",
+        "manual-enrichment",
+        "4e-cogsci-background",
+        "the",
+        "claim",
+        "that",
+        "cognitive",
+        "processes",
+        "can",
+        "sometimes",
+        "extend",
+        "beyond",
+        "skull",
+        "into",
+        "reliable",
+        "external",
+        "supports",
+        "such",
+        "tools",
+        "symbols"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added for the 4E cluster.",
+      "primarySourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "henosis": {
+      "slug": "henosis",
+      "term": "Henosis",
+      "normalizedTerm": "henosis",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "henosis",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "movement",
+        "unification",
+        "gathering",
+        "into",
+        "deeper",
+        "oneness",
+        "this",
+        "discussion",
+        "paired",
+        "with",
+        "timing",
+        "and",
+        "self",
+        "transcendence",
+        "rather",
+        "than",
+        "mere"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "horizontalism": {
+      "slug": "horizontalism",
+      "term": "Horizontalism",
+      "normalizedTerm": "horizontalism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "horizontalism",
+        "transcript-expansion",
+        "john vervaeke and guy sengstock why modernity can't see the sacred anymore - 2026-07-13",
+        "flattened",
+        "worldview",
+        "which",
+        "everything",
+        "becomes",
+        "just",
+        "one",
+        "perspective",
+        "among",
+        "many",
+        "with",
+        "meaningful",
+        "sense",
+        "higher",
+        "deeper",
+        "orientation"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added from the top-of-note clarification, not from the original Anki deck.",
+      "primarySourceIds": [
+        "source_d7dad7bdf88149ac87c053ee0f800530"
+      ],
+      "updatedFromSeed": true
+    },
+    "hyper-salience": {
+      "slug": "hyper-salience",
+      "term": "Hyper-salience",
+      "normalizedTerm": "hyper salience",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "hyper-salience",
+        "hyper salience",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "exaggerated",
+        "form",
+        "attention",
+        "capture",
+        "which",
+        "some",
+        "stimuli",
+        "dominate",
+        "awareness",
+        "the",
+        "expense",
+        "depth",
+        "balance",
+        "doomscrolling",
+        "described",
+        "exploiting"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "hypertrophy": {
+      "slug": "hypertrophy",
+      "term": "Hypertrophy",
+      "normalizedTerm": "hypertrophy",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "hypertrophy",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "overdevelopment",
+        "one",
+        "capacity",
+        "the",
+        "expense",
+        "others",
+        "this",
+        "context",
+        "for",
+        "fast",
+        "narrow",
+        "controllable",
+        "input",
+        "grows",
+        "while",
+        "broader",
+        "embodied"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "instrumentalism": {
+      "slug": "instrumentalism",
+      "term": "Instrumentalism",
+      "normalizedTerm": "instrumentalism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "instrumentalism",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "attitude",
+        "that",
+        "treats",
+        "things",
+        "mainly",
+        "tools",
+        "for",
+        "achieving",
+        "control",
+        "efficiency",
+        "the",
+        "speakers",
+        "criticize",
+        "reducing",
+        "consciousness",
+        "and",
+        "truth"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "intelligibility": {
+      "slug": "intelligibility",
+      "term": "Intelligibility",
+      "normalizedTerm": "intelligibility",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "intelligibility",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "quality",
+        "being",
+        "understandable",
+        "making",
+        "sense",
+        "discussion",
+        "treated",
+        "more",
+        "fundamental",
+        "than",
+        "mere",
+        "data",
+        "because",
+        "concerns",
+        "how",
+        "reality"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "kairos": {
+      "slug": "kairos",
+      "term": "Kairos",
+      "normalizedTerm": "kairos",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "kairos",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "ripe",
+        "opportune",
+        "moment",
+        "rather",
+        "than",
+        "abstract",
+        "clock",
+        "time",
+        "names",
+        "right",
+        "timing",
+        "which",
+        "transformation",
+        "insight",
+        "becomes",
+        "possible"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "kenosis": {
+      "slug": "kenosis",
+      "term": "Kenosis",
+      "normalizedTerm": "kenosis",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "kenosis",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "self",
+        "emptying",
+        "relinquishing",
+        "defensive",
+        "possession",
+        "points",
+        "the",
+        "vulnerability",
+        "needed",
+        "for",
+        "genuine",
+        "transformation",
+        "and",
+        "receptivity"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "liminal": {
+      "slug": "liminal",
+      "term": "Liminal",
+      "normalizedTerm": "liminal",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "liminal",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "pertaining",
+        "threshold",
+        "between",
+        "state",
+        "where",
+        "ordinary",
+        "identity",
+        "and",
+        "structure",
+        "are",
+        "loosened",
+        "spaces",
+        "can",
+        "make",
+        "transformation",
+        "possible",
+        "because"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "logos": {
+      "slug": "logos",
+      "term": "Logos",
+      "normalizedTerm": "logos",
+      "sourceLanguage": "greek",
+      "searchTerms": [
+        "logos",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "rich",
+        "greek",
+        "term",
+        "for",
+        "reason",
+        "order",
+        "meaning",
+        "and",
+        "articulate",
+        "disclosure",
+        "the",
+        "speakers",
+        "use",
+        "name",
+        "shared",
+        "space",
+        "truth"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "metanoia-metanoetic-passage": {
+      "slug": "metanoia-metanoetic-passage",
+      "term": "Metanoia / metanoetic passage",
+      "normalizedTerm": "metanoia metanoetic passage",
+      "sourceLanguage": "greek",
+      "searchTerms": [
+        "metanoia / metanoetic passage",
+        "metanoia metanoetic passage",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "deep",
+        "reorientation",
+        "mind",
+        "identity",
+        "way",
+        "being",
+        "rather",
+        "than",
+        "small",
+        "opinion",
+        "change",
+        "marks",
+        "the",
+        "passage",
+        "into",
+        "perspective"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "modal-modality": {
+      "slug": "modal-modality",
+      "term": "Modal / modality",
+      "normalizedTerm": "modal modality",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "modal / modality",
+        "modal modality",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "mode",
+        "being",
+        "relating",
+        "rather",
+        "than",
+        "just",
+        "content",
+        "belief",
+        "the",
+        "discussion",
+        "contrasts",
+        "distinct",
+        "modalities",
+        "such",
+        "control",
+        "participation"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "nominalize-what-is-meant-to-what-is-spoken": {
+      "slug": "nominalize-what-is-meant-to-what-is-spoken",
+      "term": "Nominalize what is meant to what is spoken",
+      "normalizedTerm": "nominalize what is meant to what is spoken",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "nominalize what is meant to what is spoken",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "collapse",
+        "conveyed",
+        "meaning",
+        "into",
+        "the",
+        "bare",
+        "literal",
+        "wording",
+        "speakers",
+        "see",
+        "this",
+        "hostile",
+        "dialogue",
+        "because",
+        "refuses",
+        "fuller",
+        "intention"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "normativity": {
+      "slug": "normativity",
+      "term": "Normativity",
+      "normalizedTerm": "normativity",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "normativity",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "field",
+        "what",
+        "counts",
+        "appropriate",
+        "fitting",
+        "binding",
+        "thought",
+        "and",
+        "action",
+        "discussion",
+        "names",
+        "orienting",
+        "standards",
+        "that",
+        "shape",
+        "choice"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "orienting-constraints": {
+      "slug": "orienting-constraints",
+      "term": "Orienting constraints",
+      "normalizedTerm": "orienting constraints",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "orienting constraints",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "pressures",
+        "structures",
+        "that",
+        "guide",
+        "attention",
+        "and",
+        "action",
+        "toward",
+        "some",
+        "possibilities",
+        "rather",
+        "than",
+        "others",
+        "they",
+        "are",
+        "constraints"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "participatory-knowing": {
+      "slug": "participatory-knowing",
+      "term": "Participatory knowing",
+      "normalizedTerm": "participatory knowing",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "participatory knowing",
+        "manual-enrichment",
+        "vervaeke core frameworks",
+        "knowing",
+        "being",
+        "involved",
+        "way",
+        "that",
+        "changes",
+        "both",
+        "you",
+        "and",
+        "what",
+        "can",
+        "show",
+        "for",
+        "not",
+        "just",
+        "observing",
+        "from"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Upgrades the earlier seed row with explicit 4P background and usage.",
+      "primarySourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "perennial-questions": {
+      "slug": "perennial-questions",
+      "term": "Perennial questions",
+      "normalizedTerm": "perennial questions",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "perennial questions",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "questions",
+        "that",
+        "recur",
+        "across",
+        "times",
+        "and",
+        "cultures",
+        "because",
+        "they",
+        "arise",
+        "from",
+        "enduring",
+        "features",
+        "human",
+        "existence",
+        "examples",
+        "here"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "performative-contradiction": {
+      "slug": "performative-contradiction",
+      "term": "Performative contradiction",
+      "normalizedTerm": "performative contradiction",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "performative contradiction",
+        "transcript-expansion",
+        "john vervaeke and guy sengstock why modernity can't see the sacred anymore - 2026-07-13",
+        "when",
+        "the",
+        "content",
+        "what",
+        "you",
+        "say",
+        "clashes",
+        "with",
+        "your",
+        "act",
+        "saying",
+        "already",
+        "presupposes"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added from the later transcript note clarification section.",
+      "primarySourceIds": [
+        "source_d7dad7bdf88149ac87c053ee0f800530"
+      ],
+      "updatedFromSeed": true
+    },
+    "perspectival-knowing": {
+      "slug": "perspectival-knowing",
+      "term": "Perspectival knowing",
+      "normalizedTerm": "perspectival knowing",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "perspectival knowing",
+        "manual-enrichment",
+        "vervaeke core frameworks",
+        "knowing",
+        "from",
+        "situated",
+        "point",
+        "view",
+        "felt",
+        "orientation",
+        "which",
+        "some",
+        "things",
+        "show",
+        "salient",
+        "dangerous",
+        "inviting",
+        "relevant",
+        "before",
+        "you"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added to support the 4Ps cluster explicitly; origin background is interpretive rather than a single canonical source label.",
+      "primarySourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "pilgrimage-as-antidote-to-modernity": {
+      "slug": "pilgrimage-as-antidote-to-modernity",
+      "term": "Pilgrimage as antidote to modernity",
+      "normalizedTerm": "pilgrimage as antidote to modernity",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "pilgrimage as antidote to modernity",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "claim",
+        "that",
+        "pilgrim",
+        "disposition",
+        "counters",
+        "modernity",
+        "habits",
+        "control",
+        "superficiality",
+        "and",
+        "self",
+        "protection",
+        "works",
+        "restoring",
+        "vulnerability",
+        "wonder"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "poiesis": {
+      "slug": "poiesis",
+      "term": "Poiesis",
+      "normalizedTerm": "poiesis",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "poiesis",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "bringing",
+        "forth",
+        "which",
+        "something",
+        "comes",
+        "into",
+        "presence",
+        "through",
+        "making",
+        "disclosure",
+        "differs",
+        "from",
+        "mere",
+        "manufacture",
+        "because",
+        "can",
+        "include"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "pragmatics": {
+      "slug": "pragmatics",
+      "term": "Pragmatics",
+      "normalizedTerm": "pragmatics",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "pragmatics",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "study",
+        "what",
+        "language",
+        "conveys",
+        "context",
+        "beyond",
+        "its",
+        "literal",
+        "wording",
+        "matters",
+        "here",
+        "because",
+        "genuine",
+        "dialogue",
+        "depends",
+        "hearing"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "procedural-knowing": {
+      "slug": "procedural-knowing",
+      "term": "Procedural knowing",
+      "normalizedTerm": "procedural knowing",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "procedural knowing",
+        "manual-enrichment",
+        "vervaeke core frameworks",
+        "knowing",
+        "how",
+        "something",
+        "skill",
+        "fluent",
+        "competence",
+        "and",
+        "embodied",
+        "performance",
+        "rather",
+        "than",
+        "merely",
+        "stating",
+        "the",
+        "right",
+        "rules"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added to support the 4Ps cluster explicitly.",
+      "primarySourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "propositional-knowing": {
+      "slug": "propositional-knowing",
+      "term": "Propositional knowing",
+      "normalizedTerm": "propositional knowing",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "propositional knowing",
+        "manual-enrichment",
+        "vervaeke core frameworks",
+        "knowing",
+        "that",
+        "something",
+        "the",
+        "case",
+        "explicit",
+        "beliefs",
+        "claims",
+        "statements",
+        "and",
+        "descriptions",
+        "can",
+        "said",
+        "judged",
+        "true",
+        "false"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added to support the 4Ps cluster explicitly.",
+      "primarySourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "releasement": {
+      "slug": "releasement",
+      "term": "Releasement",
+      "normalizedTerm": "releasement",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "releasement",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "letting",
+        "rather",
+        "than",
+        "grasping",
+        "controlling",
+        "stance",
+        "toward",
+        "reality",
+        "names",
+        "the",
+        "felt",
+        "loosening",
+        "which",
+        "one",
+        "becomes",
+        "available",
+        "what"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "religio": {
+      "slug": "religio",
+      "term": "Religio",
+      "normalizedTerm": "religio",
+      "sourceLanguage": "latin",
+      "searchTerms": [
+        "religio",
+        "transcript-expansion",
+        "human glossary draft",
+        "for",
+        "vervaeke",
+        "name",
+        "the",
+        "meaning",
+        "binding",
+        "dimension",
+        "life",
+        "sense",
+        "being",
+        "bound",
+        "into",
+        "world",
+        "significance",
+        "that",
+        "grounds",
+        "both"
+      ],
+      "public": true,
+      "seedStatus": "candidate",
+      "notes": "Not in the first sacredness deck; pulled from the prior human glossary text because it seems important for the app corpus.",
+      "primarySourceIds": [
+        "source_human-vervaeke-glossary-draft"
+      ],
+      "updatedFromSeed": true
+    },
+    "sacredness": {
+      "slug": "sacredness",
+      "term": "Sacredness",
+      "normalizedTerm": "sacredness",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "sacredness",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "dimension",
+        "reality",
+        "experienced",
+        "intrinsically",
+        "worthy",
+        "reverence",
+        "rather",
+        "than",
+        "mere",
+        "use",
+        "here",
+        "tied",
+        "forms",
+        "meaning",
+        "and",
+        "obligation",
+        "that"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "scola-schole": {
+      "slug": "scola-schole",
+      "term": "Scola / schole",
+      "normalizedTerm": "scola schole",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "scola / schole",
+        "scola schole",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "greek",
+        "notion",
+        "often",
+        "flattened",
+        "into",
+        "leisure",
+        "but",
+        "really",
+        "meaning",
+        "the",
+        "free",
+        "contemplative",
+        "time",
+        "which",
+        "truth",
+        "can"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "shamanic": {
+      "slug": "shamanic",
+      "term": "Shamanic",
+      "normalizedTerm": "shamanic",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "shamanic",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "referring",
+        "traditions",
+        "guided",
+        "passage",
+        "through",
+        "altered",
+        "threshold",
+        "states",
+        "for",
+        "the",
+        "sake",
+        "healing",
+        "insight",
+        "communal",
+        "orientation",
+        "invoked",
+        "here"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "sole-authorship": {
+      "slug": "sole-authorship",
+      "term": "Sole authorship",
+      "normalizedTerm": "sole authorship",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "sole authorship",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "belief",
+        "that",
+        "humans",
+        "can",
+        "fully",
+        "constitute",
+        "meaning",
+        "and",
+        "normativity",
+        "themselves",
+        "panel",
+        "treats",
+        "this",
+        "spiritually",
+        "culturally",
+        "destabilizing"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "the-view-from-nowhere": {
+      "slug": "the-view-from-nowhere",
+      "term": "The view from nowhere",
+      "normalizedTerm": "the view from nowhere",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "the view from nowhere",
+        "transcript-expansion",
+        "john vervaeke and guy sengstock why modernity can't see the sacred anymore - 2026-07-13",
+        "the",
+        "fantasy",
+        "that",
+        "you",
+        "could",
+        "describe",
+        "reality",
+        "from",
+        "completely",
+        "neutral",
+        "perspective",
+        "free",
+        "standpoint",
+        "were",
+        "seeing",
+        "without",
+        "standing"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added from the later transcript note clarification section.",
+      "primarySourceIds": [
+        "source_d7dad7bdf88149ac87c053ee0f800530"
+      ],
+      "updatedFromSeed": true
+    },
+    "theoria": {
+      "slug": "theoria",
+      "term": "Theoria",
+      "normalizedTerm": "theoria",
+      "sourceLanguage": "greek",
+      "searchTerms": [
+        "theoria",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "greek",
+        "ideal",
+        "contemplative",
+        "seeing",
+        "beholding",
+        "suggests",
+        "receptive",
+        "mode",
+        "understanding",
+        "that",
+        "not",
+        "reducible",
+        "technical",
+        "problem",
+        "solving"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "tourist-vs-pilgrim": {
+      "slug": "tourist-vs-pilgrim",
+      "term": "Tourist vs pilgrim",
+      "normalizedTerm": "tourist vs pilgrim",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "tourist vs pilgrim",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "typology",
+        "contrasting",
+        "protected",
+        "consumption",
+        "with",
+        "transformative",
+        "openness",
+        "the",
+        "tourist",
+        "carries",
+        "their",
+        "world",
+        "like",
+        "bubble",
+        "while",
+        "pilgrim",
+        "consents"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "trivializing-redescription": {
+      "slug": "trivializing-redescription",
+      "term": "Trivializing redescription",
+      "normalizedTerm": "trivializing redescription",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "trivializing redescription",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "rhetorical",
+        "move",
+        "that",
+        "reduces",
+        "rich",
+        "claim",
+        "thinner",
+        "more",
+        "dismissible",
+        "version",
+        "itself",
+        "allows",
+        "someone",
+        "avoid",
+        "genuine",
+        "engagement",
+        "while"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "universal-calculus": {
+      "slug": "universal-calculus",
+      "term": "Universal calculus",
+      "normalizedTerm": "universal calculus",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "universal calculus",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "leibniz",
+        "dream",
+        "formal",
+        "symbolic",
+        "system",
+        "that",
+        "could",
+        "resolve",
+        "reasoning",
+        "calculation",
+        "stands",
+        "here",
+        "for",
+        "the",
+        "ambition",
+        "reduce",
+        "understanding"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "verticality": {
+      "slug": "verticality",
+      "term": "Verticality",
+      "normalizedTerm": "verticality",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "verticality",
+        "transcript-expansion",
+        "john vervaeke and guy sengstock why modernity can't see the sacred anymore - 2026-07-13",
+        "the",
+        "idea",
+        "that",
+        "reality",
+        "and",
+        "life",
+        "have",
+        "real",
+        "depth",
+        "some",
+        "ways",
+        "being",
+        "are",
+        "genuinely",
+        "higher",
+        "truer",
+        "wiser"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added from the top-of-note clarification, not from the original Anki deck.",
+      "primarySourceIds": [
+        "source_d7dad7bdf88149ac87c053ee0f800530"
+      ],
+      "updatedFromSeed": true
+    },
+    "via-contemplativa": {
+      "slug": "via-contemplativa",
+      "term": "Via contemplativa",
+      "normalizedTerm": "via contemplativa",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "via contemplativa",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "contemplative",
+        "way",
+        "life",
+        "centered",
+        "attention",
+        "receptivity",
+        "and",
+        "insight",
+        "speakers",
+        "contrast",
+        "with",
+        "culture",
+        "that",
+        "legitimates",
+        "only",
+        "productivity"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "vicos-principle": {
+      "slug": "vicos-principle",
+      "term": "Vico’s principle",
+      "normalizedTerm": "vicos principle",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "vico’s principle",
+        "vicos principle",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "the",
+        "idea",
+        "associated",
+        "with",
+        "giambattista",
+        "vico",
+        "that",
+        "know",
+        "something",
+        "most",
+        "fully",
+        "when",
+        "can",
+        "make",
+        "discussion",
+        "treats"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "wonder": {
+      "slug": "wonder",
+      "term": "Wonder",
+      "normalizedTerm": "wonder",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "wonder",
+        "anki-seed",
+        "glossary – what happens when a culture loses the sacred",
+        "posture",
+        "which",
+        "self",
+        "and",
+        "world",
+        "are",
+        "questioned",
+        "together",
+        "reality",
+        "allowed",
+        "exceed",
+        "one",
+        "frame",
+        "differs",
+        "from",
+        "curiosity",
+        "inviting"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "",
+      "primarySourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    }
+  },
+  "translations": {
+    "4e-cognition__plain-english__seed": {
+      "termSlug": "4e-cognition",
+      "targetLanguage": "plain-english",
+      "translation": "The family of approaches that say mind is not just brain-bound symbol processing, but embodied, embedded, enactive, and extended.",
+      "originBackground": "The 4E umbrella became common as philosophers and cognitive scientists grouped together several anti-brain-bound approaches. Major background sources include Varela, Thompson, and Rosch’s The Embodied Mind (1991) for enactive and embodied themes, and Clark and Chalmers’s The Extended Mind (1998) for the extended-cognition strand.",
+      "vervaekeUsage": "Vervaeke often works inside this broader post-cognitivist space, especially when stressing that cognition is enacted through body, environment, skill, and participatory sense-making rather than only inner representation.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "notes": "Added because the app should expose the wider cognitive-science lineage around Vervaeke’s terminology."
+    },
+    "4ps-of-knowing__plain-english__seed": {
+      "termSlug": "4ps-of-knowing",
+      "targetLanguage": "plain-english",
+      "translation": "Vervaeke’s fourfold map of knowing: propositional, procedural, perspectival, and participatory. The point is that cognition is not exhausted by explicit beliefs or facts.",
+      "originBackground": "This is Vervaeke’s umbrella taxonomy, but it is not made from nothing. Propositional and procedural clearly inherit the older knowing-that / knowing-how distinction, while perspectival and participatory draw on phenomenology, ecological psychology, and embodied or enactive cognitive science. The exact synthesis is distinctively his, but the ingredients are older.",
+      "vervaekeUsage": "He uses the 4Ps to argue that modern people often overvalue propositional knowledge and underappreciate the forms of knowing that actually reorient attention, skill, identity, and world-disclosure.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "notes": "Added to make the core Vervaeke cognition framework directly searchable in the corpus."
+    },
+    "authorship-of-constraints__plain-english__seed": {
+      "termSlug": "authorship-of-constraints",
+      "targetLanguage": "plain-english",
+      "translation": "The assumption that humans are the sole makers of the norms that bind them. The speakers oppose this by arguing that some real constraints are discovered, not invented.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "choice-space__plain-english__seed": {
+      "termSlug": "choice-space",
+      "targetLanguage": "plain-english",
+      "translation": "The field of possible actions available in a situation. Normativity is described as shaping this space by making some moves feel fitting and others off-key.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "culture-shock__plain-english__seed": {
+      "termSlug": "culture-shock",
+      "targetLanguage": "plain-english",
+      "translation": "The disorientation that comes when one’s familiar cues for being known and situated break down. It becomes an existential metaphor here for modernity itself.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "curiosity__plain-english__seed": {
+      "termSlug": "curiosity",
+      "targetLanguage": "plain-english",
+      "translation": "The desire to acquire new bits of information within a stable frame. In the discussion it becomes problematic when it degenerates into consumption without existential openness.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "dialogos__plain-english__seed": {
+      "termSlug": "dialogos",
+      "targetLanguage": "plain-english",
+      "translation": "Dialogue understood not just as two people exchanging remarks, but as a shared movement of meaning or logos that can emerge through participants.",
+      "originBackground": "Comes from the Greek dialogos, commonly parsed via dia meaning through and logos meaning word, reason, or account. This is a provisional seed note: it captures the broad etymological and Bohm or Vervaeke-friendly contrast with a thin mere-discussion reading, but it should be tightened against a primary Vervaeke source later.",
+      "vervaekeUsage": "Useful for the corpus because Vervaeke often distinguishes transformative, participatory dialogue from mere debate or information exchange.",
+      "status": "candidate",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 200,
+      "sourceIds": [
+        "source_user-requested-seed-addition"
+      ],
+      "notes": "Flagged as provisional pending a cleaner direct Vervaeke citation."
+    },
+    "doomscrolling__plain-english__seed": {
+      "termSlug": "doomscrolling",
+      "targetLanguage": "plain-english",
+      "translation": "A compulsive form of digital consumption organized by narrow, super-salient inputs and immediate reward. It exemplifies modernity’s tendency toward control, fragmentation, and denatured attention.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "embedded-cognition__plain-english__seed": {
+      "termSlug": "embedded-cognition",
+      "targetLanguage": "plain-english",
+      "translation": "The idea that thinking is inseparable from the environment and niche in which an organism is acting; cognition is shaped by worldly scaffolds, not just inner states.",
+      "originBackground": "The embedded strand of post-cognitivist cognitive science stresses organism-environment coupling and problem solving in real situations. It is part of the broader 4E family rather than a doctrine with one single canonical founding text.",
+      "vervaekeUsage": "This matters for Vervaeke whenever cognition is treated as world-involving and context-sensitive rather than sealed inside a private inner theater.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "notes": "Added for the 4E cluster; origin background is intentionally broader than a one-paper citation."
+    },
+    "embodied-cognition__plain-english__seed": {
+      "termSlug": "embodied-cognition",
+      "targetLanguage": "plain-english",
+      "translation": "The idea that cognition is shaped by the body’s sensorimotor capacities, not just by abstract computation inside the brain.",
+      "originBackground": "Embodied approaches push back against a purely disembodied view of mind. A major landmark in the later history is Varela, Thompson, and Rosch’s The Embodied Mind (1991), though the broader background also draws from phenomenology and ecological psychology.",
+      "vervaekeUsage": "Vervaeke leans on this when he treats intelligence as inseparable from skill, salience, and situated action rather than as mere manipulation of detached propositions.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "notes": "Added for the 4E cluster."
+    },
+    "enactive-cognition__plain-english__seed": {
+      "termSlug": "enactive-cognition",
+      "targetLanguage": "plain-english",
+      "translation": "The view that cognition is not passive mirroring but active sense-making: organisms bring forth meaningful worlds through embodied interaction.",
+      "originBackground": "The enactive approach is strongly associated with Francisco Varela, Evan Thompson, and Eleanor Rosch, especially The Embodied Mind (1991), where cognition is framed as embodied action and world-enacting sense-making.",
+      "vervaekeUsage": "This is one of the clearest background lineages for Vervaeke’s talk about relevance realization, participatory knowing, and the co-shaping of self and world.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "notes": "Added for the 4E cluster."
+    },
+    "enactment__plain-english__seed": {
+      "termSlug": "enactment",
+      "targetLanguage": "plain-english",
+      "translation": "The lived, embodied realization of a stance or pattern rather than merely talking about it. The speakers repeatedly care about what a mode of speech is doing, not just what it states.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "epistemic__plain-english__seed": {
+      "termSlug": "epistemic",
+      "targetLanguage": "plain-english",
+      "translation": "Having to do with knowledge, justification, or understanding. An epistemic question asks what can be known and how, not yet what ought to matter.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "extended-cognition__plain-english__seed": {
+      "termSlug": "extended-cognition",
+      "targetLanguage": "plain-english",
+      "translation": "The claim that cognitive processes can sometimes extend beyond the skull into reliable external supports such as tools, symbols, notebooks, or other scaffolds.",
+      "originBackground": "This strand is strongly linked to Andy Clark and David Chalmers’s paper The Extended Mind (1998), which argued that under the right conditions external structures can count as part of a cognitive process rather than as mere aids to it.",
+      "vervaekeUsage": "Even when Vervaeke is not explicitly arguing for the strongest extended-mind thesis, the background matters because his framework treats cognition as scaffolded by practices, environments, and cultural machinery rather than just by inner representation.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "notes": "Added for the 4E cluster."
+    },
+    "henosis__plain-english__seed": {
+      "termSlug": "henosis",
+      "targetLanguage": "plain-english",
+      "translation": "A movement of unification or gathering into deeper oneness. In this discussion it is paired with timing and self-transcendence rather than mere conceptual agreement.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "horizontalism__plain-english__seed": {
+      "termSlug": "horizontalism",
+      "targetLanguage": "plain-english",
+      "translation": "A flattened worldview in which everything becomes just one perspective among many, with no meaningful sense of higher or deeper orientation.",
+      "originBackground": "Used here as a contrast term rather than a canonical historical label. It names what Vervaeke thinks happens when postmodern critique rejects fake verticality but leaves only a flat field of perspectives and power struggles.",
+      "vervaekeUsage": "The note uses it for the absurdity of reducing value to private possession, identity, or opinion without explaining why some things still strike us as better or worse.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_d7dad7bdf88149ac87c053ee0f800530"
+      ],
+      "notes": "Added from the top-of-note clarification, not from the original Anki deck."
+    },
+    "hyper-salience__plain-english__seed": {
+      "termSlug": "hyper-salience",
+      "targetLanguage": "plain-english",
+      "translation": "An exaggerated form of attention-capture in which some stimuli dominate awareness at the expense of depth or balance. Doomscrolling is described as exploiting this condition.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "hypertrophy__plain-english__seed": {
+      "termSlug": "hypertrophy",
+      "targetLanguage": "plain-english",
+      "translation": "An overdevelopment of one capacity at the expense of others. In this context, the capacity for fast, narrow, controllable input grows while broader embodied participation withers.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "instrumentalism__plain-english__seed": {
+      "termSlug": "instrumentalism",
+      "targetLanguage": "plain-english",
+      "translation": "An attitude that treats things mainly as tools for achieving control or efficiency. The speakers criticize it for reducing consciousness and truth to manipulable means.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "intelligibility__plain-english__seed": {
+      "termSlug": "intelligibility",
+      "targetLanguage": "plain-english",
+      "translation": "The quality of being understandable or making sense. In the discussion it is treated as more fundamental than mere data because it concerns how reality becomes meaningful to mind.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "kairos__plain-english__seed": {
+      "termSlug": "kairos",
+      "targetLanguage": "plain-english",
+      "translation": "The ripe or opportune moment rather than abstract clock time. It names the right timing in which transformation or insight becomes possible.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "kenosis__plain-english__seed": {
+      "termSlug": "kenosis",
+      "targetLanguage": "plain-english",
+      "translation": "A self-emptying or relinquishing of defensive self-possession. It points to the vulnerability needed for genuine transformation and receptivity.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "liminal__plain-english__seed": {
+      "termSlug": "liminal",
+      "targetLanguage": "plain-english",
+      "translation": "Pertaining to a threshold or in-between state where ordinary identity and structure are loosened. Liminal spaces can make transformation possible because they unsettle what normally feels fixed.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "logos__plain-english__seed": {
+      "termSlug": "logos",
+      "targetLanguage": "plain-english",
+      "translation": "A rich Greek term for reason, order, meaning, and articulate disclosure. The speakers use it to name a shared space of truth-bearing dialogue that is discovered rather than manufactured.",
+      "originBackground": "A densely layered Greek term spanning word, reason, account, pattern, and intelligible order. Philosophical and theological traditions load it with different emphases, which is part of why Vervaeke likes it.",
+      "vervaekeUsage": "He uses it to suggest a shared truth-bearing space of meaning and articulation that is discovered and participated in, not merely manufactured.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "metanoia-metanoetic-passage__plain-english__seed": {
+      "termSlug": "metanoia-metanoetic-passage",
+      "targetLanguage": "plain-english",
+      "translation": "A deep reorientation of mind, identity, or way of being rather than a small opinion change. It marks the passage into a perspective from which one can question the self one previously inhabited.",
+      "originBackground": "From Greek meta plus a mind or understanding family of terms: a change or going-beyond of mind, orientation, or understanding. In religious and philosophical usage it often names deep reorientation rather than a small opinion change.",
+      "vervaekeUsage": "Vervaeke uses it for a lived reconfiguration of identity and salience, not just swapping one belief for another.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "modal-modality__plain-english__seed": {
+      "termSlug": "modal-modality",
+      "targetLanguage": "plain-english",
+      "translation": "A mode of being or relating rather than just a content or belief. The discussion contrasts distinct modalities such as control, participation, curiosity, wonder, tourism, and pilgrimage.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "nominalize-what-is-meant-to-what-is-spoken__plain-english__seed": {
+      "termSlug": "nominalize-what-is-meant-to-what-is-spoken",
+      "targetLanguage": "plain-english",
+      "translation": "To collapse conveyed meaning into the bare literal wording. The speakers see this as hostile to dialogue because it refuses the fuller intention carried by speech.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "normativity__plain-english__seed": {
+      "termSlug": "normativity",
+      "targetLanguage": "plain-english",
+      "translation": "The field of what counts as appropriate, fitting, or binding in thought and action. In the discussion, it names the orienting standards that shape choice rather than just factual description.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "orienting-constraints__plain-english__seed": {
+      "termSlug": "orienting-constraints",
+      "targetLanguage": "plain-english",
+      "translation": "The pressures or structures that guide attention and action toward some possibilities rather than others. They are constraints not merely because they limit, but because they help disclose what is relevant.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "participatory-knowing__plain-english__seed": {
+      "termSlug": "participatory-knowing",
+      "targetLanguage": "plain-english",
+      "translation": "Knowing by being involved in a way that changes both you and what can show up for you. It is not just observing from outside but being transformed through engagement.",
+      "originBackground": "Vervaeke’s usage resonates with embodied, ecological, and enactive approaches to cognition, plus older philosophical themes about transformation in the knower. It is less a single inherited technical term than a synthesis of those traditions.",
+      "vervaekeUsage": "He uses it for the deepest mode of knowing: the form in which identity, attention, and world-disclosure are reshaped together through participation rather than detached spectatorship.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "notes": "Upgrades the earlier seed row with explicit 4P background and usage."
+    },
+    "perennial-questions__plain-english__seed": {
+      "termSlug": "perennial-questions",
+      "targetLanguage": "plain-english",
+      "translation": "Questions that recur across times and cultures because they arise from enduring features of human existence. Examples here include consciousness, being, intelligibility, and meaning.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "performative-contradiction__plain-english__seed": {
+      "termSlug": "performative-contradiction",
+      "targetLanguage": "plain-english",
+      "translation": "When the content of what you say clashes with what your act of saying it already presupposes.",
+      "originBackground": "Commonly discussed in speech-act theory and especially associated with Karl-Otto Apel and Jurgen Habermas. The idea is that some claims pragmatically undermine themselves by relying on norms they verbally deny.",
+      "vervaekeUsage": "Vervaeke uses it against positions that deny truth, objectivity, or trans-perspectival claims while still speaking as if their own claim deserves broader authority.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_d7dad7bdf88149ac87c053ee0f800530"
+      ],
+      "notes": "Added from the later transcript note clarification section."
+    },
+    "perspectival-knowing__plain-english__seed": {
+      "termSlug": "perspectival-knowing",
+      "targetLanguage": "plain-english",
+      "translation": "Knowing from a situated point of view: a felt orientation in which some things show up as salient, dangerous, inviting, or relevant before you explicitly theorize about them.",
+      "originBackground": "This is not a single famous inherited label in the way knowing-that and knowing-how are. It is better understood as a synthesis of themes from phenomenology, ecological psychology, and situated cognition: how the world shows up from within a lived perspective.",
+      "vervaekeUsage": "He uses it for the salience-shaping, orientation-setting dimension of cognition: the way a situation is already framed for you before deliberate reflection begins.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "notes": "Added to support the 4Ps cluster explicitly; origin background is interpretive rather than a single canonical source label."
+    },
+    "pilgrimage-as-antidote-to-modernity__plain-english__seed": {
+      "termSlug": "pilgrimage-as-antidote-to-modernity",
+      "targetLanguage": "plain-english",
+      "translation": "The claim that a pilgrim disposition counters modernity’s habits of control, superficiality, and self-protection. It works by restoring vulnerability, wonder, and transformation as central virtues.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "poiesis__plain-english__seed": {
+      "termSlug": "poiesis",
+      "targetLanguage": "plain-english",
+      "translation": "A bringing-forth in which something comes into presence through making or disclosure. It differs from mere manufacture because it can include receptive participation in emergence.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "pragmatics__plain-english__seed": {
+      "termSlug": "pragmatics",
+      "targetLanguage": "plain-english",
+      "translation": "The study of what language conveys in context beyond its literal wording. It matters here because genuine dialogue depends on hearing implied meaning, not just parsing explicit sentences.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "procedural-knowing__plain-english__seed": {
+      "termSlug": "procedural-knowing",
+      "targetLanguage": "plain-english",
+      "translation": "Knowing how to do something: skill, fluent competence, and embodied performance rather than merely stating the right rules.",
+      "originBackground": "It is closely related to the classic knowing-how distinction, especially foregrounded by Gilbert Ryle against the idea that all intelligence reduces to explicit propositions or inner rule books.",
+      "vervaekeUsage": "Vervaeke uses it for the trained performance dimension of cognition: what you can reliably do or enact even when you cannot fully state all the rules that guide you.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "notes": "Added to support the 4Ps cluster explicitly."
+    },
+    "propositional-knowing__plain-english__seed": {
+      "termSlug": "propositional-knowing",
+      "targetLanguage": "plain-english",
+      "translation": "Knowing that something is the case: explicit beliefs, claims, statements, and descriptions that can be said or judged true or false.",
+      "originBackground": "This is the most familiar philosophical sense of knowledge in analytic epistemology: knowing-that. Vervaeke inherits the label from that broader tradition rather than inventing it from scratch.",
+      "vervaekeUsage": "He treats it as indispensable but insufficient. You can have lots of propositions without having the skill, orientation, or transformation needed to live wisely.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-4p-4e-2026-07-15"
+      ],
+      "notes": "Added to support the 4Ps cluster explicitly."
+    },
+    "releasement__plain-english__seed": {
+      "termSlug": "releasement",
+      "targetLanguage": "plain-english",
+      "translation": "A letting-be rather than a grasping or controlling stance toward reality. It names the felt loosening by which one becomes available to what exceeds one’s plans.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "religio__plain-english__seed": {
+      "termSlug": "religio",
+      "targetLanguage": "plain-english",
+      "translation": "For Vervaeke, a name for the meaning-binding dimension of life: the sense of being bound into a world of significance that grounds both self and world.",
+      "originBackground": "He uses the Latin-rooted term deliberately to evoke religion without simply meaning institutional religion. In prior glossary material, it is linked to relinking or binding and to a phenomenology of meaning-making rather than to dogma alone.",
+      "vervaekeUsage": "It names the generalized relevance-realization or spirituality layer that includes connectedness, caring, self-transcendence, and fundamental framing.",
+      "status": "candidate",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 200,
+      "sourceIds": [
+        "source_human-vervaeke-glossary-draft"
+      ],
+      "notes": "Not in the first sacredness deck; pulled from the prior human glossary text because it seems important for the app corpus."
+    },
+    "sacredness__plain-english__seed": {
+      "termSlug": "sacredness",
+      "targetLanguage": "plain-english",
+      "translation": "A dimension of reality experienced as intrinsically worthy of reverence rather than mere use. Here it is tied to forms of meaning and obligation that are not simply human inventions.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "scola-schole__plain-english__seed": {
+      "termSlug": "scola-schole",
+      "targetLanguage": "plain-english",
+      "translation": "A Greek notion often flattened into “leisure,” but really meaning the free, contemplative time in which truth can appear. It is the root of “school,” implying that learning once depended on non-productive openness.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "shamanic__plain-english__seed": {
+      "termSlug": "shamanic",
+      "targetLanguage": "plain-english",
+      "translation": "Referring to traditions of guided passage through altered or threshold states for the sake of healing, insight, or communal orientation. It is invoked here as something deeper than merely taking psychedelics.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "sole-authorship__plain-english__seed": {
+      "termSlug": "sole-authorship",
+      "targetLanguage": "plain-english",
+      "translation": "The belief that humans can fully constitute meaning and normativity by themselves. The panel treats this as spiritually and culturally destabilizing because it erases any given order to answer to.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "the-view-from-nowhere__plain-english__seed": {
+      "termSlug": "the-view-from-nowhere",
+      "targetLanguage": "plain-english",
+      "translation": "The fantasy that you could describe reality from a completely neutral, perspective-free standpoint — as if you were seeing without standing anywhere.",
+      "originBackground": "Most directly associated with Thomas Nagel, especially The View from Nowhere (1986). The phrase names the aspiration toward objectivity by trying to transcend one's limited point of view.",
+      "vervaekeUsage": "Vervaeke uses it critically: if truth requires a standpoint outside every standpoint, the ideal starts to look impossible or incoherent.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_d7dad7bdf88149ac87c053ee0f800530"
+      ],
+      "notes": "Added from the later transcript note clarification section."
+    },
+    "theoria__plain-english__seed": {
+      "termSlug": "theoria",
+      "targetLanguage": "plain-english",
+      "translation": "The Greek ideal of contemplative seeing or beholding. It suggests a receptive mode of understanding that is not reducible to technical problem-solving.",
+      "originBackground": "Originally a Greek word tied to beholding, contemplative seeing, and in some historical contexts sacred or civic viewing or journeying. Vervaeke leans on the older contemplative sense rather than the modern idea of detached theory.",
+      "vervaekeUsage": "He uses it to recover a receptive, transformative mode of understanding rather than narrow problem-solving or information capture.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "tourist-vs-pilgrim__plain-english__seed": {
+      "termSlug": "tourist-vs-pilgrim",
+      "targetLanguage": "plain-english",
+      "translation": "A typology contrasting protected consumption with transformative openness. The tourist carries their world like a bubble, while the pilgrim consents to being changed by encounter.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "trivializing-redescription__plain-english__seed": {
+      "termSlug": "trivializing-redescription",
+      "targetLanguage": "plain-english",
+      "translation": "A rhetorical move that reduces a rich claim to a thinner, more dismissible version of itself. It allows someone to avoid genuine engagement while pretending to have answered the point.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "universal-calculus__plain-english__seed": {
+      "termSlug": "universal-calculus",
+      "targetLanguage": "plain-english",
+      "translation": "Leibniz’s dream of a formal symbolic system that could resolve reasoning by calculation. It stands here for the ambition to reduce understanding to explicit, computable procedure.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "verticality__plain-english__seed": {
+      "termSlug": "verticality",
+      "targetLanguage": "plain-english",
+      "translation": "The idea that reality and life have real depth: some ways of being are genuinely higher, truer, wiser, or more awakening than others.",
+      "originBackground": "Not a single coined historical term so much as a shorthand for older moral, spiritual, and philosophical pictures in which value is not flat. Vervaeke uses it for an upward orientation toward what is better rather than merely preferred.",
+      "vervaekeUsage": "In the note, it contrasts with a flattened modern or postmodern picture where there are only perspectives and preferences side-by-side.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_d7dad7bdf88149ac87c053ee0f800530"
+      ],
+      "notes": "Added from the top-of-note clarification, not from the original Anki deck."
+    },
+    "via-contemplativa__plain-english__seed": {
+      "termSlug": "via-contemplativa",
+      "targetLanguage": "plain-english",
+      "translation": "The contemplative way of life centered on attention, receptivity, and insight. The speakers contrast it with a culture that legitimates only productivity and output.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "vicos-principle__plain-english__seed": {
+      "termSlug": "vicos-principle",
+      "targetLanguage": "plain-english",
+      "translation": "The idea, associated with Giambattista Vico, that we know something most fully when we can make it. The discussion treats this as a pivotal move toward equating understanding with fabrication.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    },
+    "wonder__plain-english__seed": {
+      "termSlug": "wonder",
+      "targetLanguage": "plain-english",
+      "translation": "A posture in which self and world are questioned together and reality is allowed to exceed one’s frame. It differs from curiosity by inviting transformation rather than mere information capture.",
+      "originBackground": "",
+      "vervaekeUsage": "",
+      "status": "current",
+      "originConfidence": "blank",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "notes": ""
+    }
+  },
+  "sources": {
+    "source_manual-4p-4e-2026-07-15": {
+      "sourceId": "source_manual-4p-4e-2026-07-15",
+      "kind": "manual",
+      "title": "Manual corpus enrichment — Vervaeke core frameworks",
+      "externalRef": "manual-4p-4e-2026-07-15",
+      "link": "",
+      "public": true
+    },
+    "source_0fa95d834e4c4f518adce16fef3fca45": {
+      "sourceId": "source_0fa95d834e4c4f518adce16fef3fca45",
+      "kind": "human-glossary",
+      "title": "Glossary – What Happens When a Culture Loses the Sacred",
+      "externalRef": "0fa95d834e4c4f518adce16fef3fca45",
+      "link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+      "public": true
+    },
+    "source_user-requested-seed-addition": {
+      "sourceId": "source_user-requested-seed-addition",
+      "kind": "transcript",
+      "title": "User-requested seed addition",
+      "externalRef": "",
+      "link": "",
+      "public": true
+    },
+    "source_d7dad7bdf88149ac87c053ee0f800530": {
+      "sourceId": "source_d7dad7bdf88149ac87c053ee0f800530",
+      "kind": "transcript",
+      "title": "John Vervaeke and Guy Sengstock Why Modernity Can't See the Sacred Anymore - 2026-07-13",
+      "externalRef": "d7dad7bdf88149ac87c053ee0f800530",
+      "link": "[:/d7dad7bdf88149ac87c053ee0f800530]",
+      "public": true
+    },
+    "source_human-vervaeke-glossary-draft": {
+      "sourceId": "source_human-vervaeke-glossary-draft",
+      "kind": "transcript",
+      "title": "Human Vervaeke glossary draft",
+      "externalRef": "",
+      "link": "",
+      "public": true
+    }
+  }
+}

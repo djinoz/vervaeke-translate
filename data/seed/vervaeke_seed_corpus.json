@@ -1,129 +1,39 @@
 [
   {
-    "term": "Normativity",
-    "slug": "normativity",
+    "term": "4E cognition",
+    "slug": "4e-cognition",
     "target_language": "plain-english",
-    "translation": "The field of what counts as appropriate, fitting, or binding in thought and action. In the discussion, it names the orienting standards that shape choice rather than just factual description.",
-    "origin_background": "",
-    "vervaeke_usage": "",
+    "translation": "The family of approaches that say mind is not just brain-bound symbol processing, but embodied, embedded, enactive, and extended.",
+    "origin_background": "The 4E umbrella became common as philosophers and cognitive scientists grouped together several anti-brain-bound approaches. Major background sources include Varela, Thompson, and Rosch’s The Embodied Mind (1991) for enactive and embodied themes, and Clark and Chalmers’s The Extended Mind (1998) for the extended-cognition strand.",
+    "vervaeke_usage": "Vervaeke often works inside this broader post-cognitivist space, especially when stressing that cognition is enacted through body, environment, skill, and participatory sense-making rather than only inner representation.",
     "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
+      "manual-enrichment",
+      "4e-cogsci-background"
     ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Sacredness",
-    "slug": "sacredness",
-    "target_language": "plain-english",
-    "translation": "A dimension of reality experienced as intrinsically worthy of reverence rather than mere use. Here it is tied to forms of meaning and obligation that are not simply human inventions.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Instrumentalism",
-    "slug": "instrumentalism",
-    "target_language": "plain-english",
-    "translation": "An attitude that treats things mainly as tools for achieving control or efficiency. The speakers criticize it for reducing consciousness and truth to manipulable means.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Epistemic",
-    "slug": "epistemic",
-    "target_language": "plain-english",
-    "translation": "Having to do with knowledge, justification, or understanding. An epistemic question asks what can be known and how, not yet what ought to matter.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Performative contradiction",
-    "translation": "When the content of what you say clashes with what your act of saying it already presupposes.",
-    "origin_background": "Commonly discussed in speech-act theory and especially associated with Karl-Otto Apel and Jurgen Habermas. The idea is that some claims pragmatically undermine themselves by relying on norms they verbally deny.",
-    "vervaeke_usage": "Vervaeke uses it against positions that deny truth, objectivity, or trans-perspectival claims while still speaking as if their own claim deserves broader authority.",
-    "provenance": [
-      "transcript-expansion",
-      "John Vervaeke and Guy Sengstock Why Modernity Can't See the Sacred Anymore - 2026-07-13"
-    ],
-    "source_note_title": "John Vervaeke and Guy Sengstock Why Modernity Can't See the Sacred Anymore - 2026-07-13",
-    "source_note_id": "d7dad7bdf88149ac87c053ee0f800530",
-    "source_link": "[:/d7dad7bdf88149ac87c053ee0f800530]",
+    "source_note_title": "Manual corpus enrichment — 4E cognitive science background",
+    "source_note_id": "manual-4p-4e-2026-07-15",
+    "source_link": "",
     "status": "seed-current",
     "origin_confidence": "grounded",
-    "notes": "Added from the later transcript note clarification section.",
-    "slug": "performative-contradiction",
-    "target_language": "plain-english"
+    "notes": "Added because the app should expose the wider cognitive-science lineage around Vervaeke’s terminology."
   },
   {
-    "term": "Choice space",
-    "slug": "choice-space",
+    "term": "4Ps of knowing",
+    "slug": "4ps-of-knowing",
     "target_language": "plain-english",
-    "translation": "The field of possible actions available in a situation. Normativity is described as shaping this space by making some moves feel fitting and others off-key.",
-    "origin_background": "",
-    "vervaeke_usage": "",
+    "translation": "Vervaeke’s fourfold map of knowing: propositional, procedural, perspectival, and participatory. The point is that cognition is not exhausted by explicit beliefs or facts.",
+    "origin_background": "This is Vervaeke’s umbrella taxonomy, but it is not made from nothing. Propositional and procedural clearly inherit the older knowing-that / knowing-how distinction, while perspectival and participatory draw on phenomenology, ecological psychology, and embodied or enactive cognitive science. The exact synthesis is distinctively his, but the ingredients are older.",
+    "vervaeke_usage": "He uses the 4Ps to argue that modern people often overvalue propositional knowledge and underappreciate the forms of knowing that actually reorient attention, skill, identity, and world-disclosure.",
     "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
+      "manual-enrichment",
+      "Vervaeke core frameworks"
     ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "source_note_title": "Manual corpus enrichment — Vervaeke core frameworks",
+    "source_note_id": "manual-4p-4e-2026-07-15",
+    "source_link": "",
     "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Orienting constraints",
-    "slug": "orienting-constraints",
-    "target_language": "plain-english",
-    "translation": "The pressures or structures that guide attention and action toward some possibilities rather than others. They are constraints not merely because they limit, but because they help disclose what is relevant.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
+    "origin_confidence": "provisional",
+    "notes": "Added to make the core Vervaeke cognition framework directly searchable in the corpus."
   },
   {
     "term": "Authorship of constraints",
@@ -144,10 +54,10 @@
     "notes": ""
   },
   {
-    "term": "Modal / modality",
-    "slug": "modal-modality",
+    "term": "Choice space",
+    "slug": "choice-space",
     "target_language": "plain-english",
-    "translation": "A mode of being or relating rather than just a content or belief. The discussion contrasts distinct modalities such as control, participation, curiosity, wonder, tourism, and pilgrimage.",
+    "translation": "The field of possible actions available in a situation. Normativity is described as shaping this space by making some moves feel fitting and others off-key.",
     "origin_background": "",
     "vervaeke_usage": "",
     "provenance": [
@@ -162,262 +72,10 @@
     "notes": ""
   },
   {
-    "term": "Liminal",
-    "slug": "liminal",
+    "term": "Culture shock",
+    "slug": "culture-shock",
     "target_language": "plain-english",
-    "translation": "Pertaining to a threshold or in-between state where ordinary identity and structure are loosened. Liminal spaces can make transformation possible because they unsettle what normally feels fixed.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Shamanic",
-    "slug": "shamanic",
-    "target_language": "plain-english",
-    "translation": "Referring to traditions of guided passage through altered or threshold states for the sake of healing, insight, or communal orientation. It is invoked here as something deeper than merely taking psychedelics.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Theoria",
-    "slug": "theoria",
-    "target_language": "plain-english",
-    "translation": "The Greek ideal of contemplative seeing or beholding. It suggests a receptive mode of understanding that is not reducible to technical problem-solving.",
-    "origin_background": "Originally a Greek word tied to beholding, contemplative seeing, and in some historical contexts sacred or civic viewing or journeying. Vervaeke leans on the older contemplative sense rather than the modern idea of detached theory.",
-    "vervaeke_usage": "He uses it to recover a receptive, transformative mode of understanding rather than narrow problem-solving or information capture.",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "grounded",
-    "notes": ""
-  },
-  {
-    "term": "Scola / schole",
-    "slug": "scola-schole",
-    "target_language": "plain-english",
-    "translation": "A Greek notion often flattened into “leisure,” but really meaning the free, contemplative time in which truth can appear. It is the root of “school,” implying that learning once depended on non-productive openness.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Via contemplativa",
-    "slug": "via-contemplativa",
-    "target_language": "plain-english",
-    "translation": "The contemplative way of life centered on attention, receptivity, and insight. The speakers contrast it with a culture that legitimates only productivity and output.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Releasement",
-    "slug": "releasement",
-    "target_language": "plain-english",
-    "translation": "A letting-be rather than a grasping or controlling stance toward reality. It names the felt loosening by which one becomes available to what exceeds one’s plans.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Metanoia / metanoetic passage",
-    "slug": "metanoia-metanoetic-passage",
-    "target_language": "plain-english",
-    "translation": "A deep reorientation of mind, identity, or way of being rather than a small opinion change. It marks the passage into a perspective from which one can question the self one previously inhabited.",
-    "origin_background": "From Greek meta plus a mind or understanding family of terms: a change or going-beyond of mind, orientation, or understanding. In religious and philosophical usage it often names deep reorientation rather than a small opinion change.",
-    "vervaeke_usage": "Vervaeke uses it for a lived reconfiguration of identity and salience, not just swapping one belief for another.",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "provisional",
-    "notes": ""
-  },
-  {
-    "term": "Perennial questions",
-    "slug": "perennial-questions",
-    "target_language": "plain-english",
-    "translation": "Questions that recur across times and cultures because they arise from enduring features of human existence. Examples here include consciousness, being, intelligibility, and meaning.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Intelligibility",
-    "slug": "intelligibility",
-    "target_language": "plain-english",
-    "translation": "The quality of being understandable or making sense. In the discussion it is treated as more fundamental than mere data because it concerns how reality becomes meaningful to mind.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Logos",
-    "slug": "logos",
-    "target_language": "plain-english",
-    "translation": "A rich Greek term for reason, order, meaning, and articulate disclosure. The speakers use it to name a shared space of truth-bearing dialogue that is discovered rather than manufactured.",
-    "origin_background": "A densely layered Greek term spanning word, reason, account, pattern, and intelligible order. Philosophical and theological traditions load it with different emphases, which is part of why Vervaeke likes it.",
-    "vervaeke_usage": "He uses it to suggest a shared truth-bearing space of meaning and articulation that is discovered and participated in, not merely manufactured.",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "provisional",
-    "notes": ""
-  },
-  {
-    "term": "Vico’s principle",
-    "slug": "vicos-principle",
-    "target_language": "plain-english",
-    "translation": "The idea, associated with Giambattista Vico, that we know something most fully when we can make it. The discussion treats this as a pivotal move toward equating understanding with fabrication.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Universal calculus",
-    "slug": "universal-calculus",
-    "target_language": "plain-english",
-    "translation": "Leibniz’s dream of a formal symbolic system that could resolve reasoning by calculation. It stands here for the ambition to reduce understanding to explicit, computable procedure.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Sole authorship",
-    "slug": "sole-authorship",
-    "target_language": "plain-english",
-    "translation": "The belief that humans can fully constitute meaning and normativity by themselves. The panel treats this as spiritually and culturally destabilizing because it erases any given order to answer to.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Participatory knowing",
-    "slug": "participatory-knowing",
-    "target_language": "plain-english",
-    "translation": "Knowing by engaged involvement rather than detached inspection alone. It implies that truth can require transformation in the knower, not just more information.",
-    "origin_background": "",
-    "vervaeke_usage": "",
-    "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
-    ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Wonder",
-    "slug": "wonder",
-    "target_language": "plain-english",
-    "translation": "A posture in which self and world are questioned together and reality is allowed to exceed one’s frame. It differs from curiosity by inviting transformation rather than mere information capture.",
+    "translation": "The disorientation that comes when one’s familiar cues for being known and situated break down. It becomes an existential metaphor here for modernity itself.",
     "origin_background": "",
     "vervaeke_usage": "",
     "provenance": [
@@ -450,10 +108,28 @@
     "notes": ""
   },
   {
-    "term": "Trivializing redescription",
-    "slug": "trivializing-redescription",
+    "term": "Dialogos",
+    "slug": "dialogos",
     "target_language": "plain-english",
-    "translation": "A rhetorical move that reduces a rich claim to a thinner, more dismissible version of itself. It allows someone to avoid genuine engagement while pretending to have answered the point.",
+    "translation": "Dialogue understood not just as two people exchanging remarks, but as a shared movement of meaning or logos that can emerge through participants.",
+    "origin_background": "Comes from the Greek dialogos, commonly parsed via dia meaning through and logos meaning word, reason, or account. This is a provisional seed note: it captures the broad etymological and Bohm or Vervaeke-friendly contrast with a thin mere-discussion reading, but it should be tightened against a primary Vervaeke source later.",
+    "vervaeke_usage": "Useful for the corpus because Vervaeke often distinguishes transformative, participatory dialogue from mere debate or information exchange.",
+    "provenance": [
+      "seeded-from-user-request",
+      "related transcript context"
+    ],
+    "source_note_title": "User-requested seed addition",
+    "source_note_id": "",
+    "source_link": "",
+    "status": "seed-candidate",
+    "origin_confidence": "provisional",
+    "notes": "Flagged as provisional pending a cleaner direct Vervaeke citation."
+  },
+  {
+    "term": "Doomscrolling",
+    "slug": "doomscrolling",
+    "target_language": "plain-english",
+    "translation": "A compulsive form of digital consumption organized by narrow, super-salient inputs and immediate reward. It exemplifies modernity’s tendency toward control, fragmentation, and denatured attention.",
     "origin_background": "",
     "vervaeke_usage": "",
     "provenance": [
@@ -468,10 +144,64 @@
     "notes": ""
   },
   {
-    "term": "Nominalize what is meant to what is spoken",
-    "slug": "nominalize-what-is-meant-to-what-is-spoken",
+    "term": "Embedded cognition",
+    "slug": "embedded-cognition",
     "target_language": "plain-english",
-    "translation": "To collapse conveyed meaning into the bare literal wording. The speakers see this as hostile to dialogue because it refuses the fuller intention carried by speech.",
+    "translation": "The idea that thinking is inseparable from the environment and niche in which an organism is acting; cognition is shaped by worldly scaffolds, not just inner states.",
+    "origin_background": "The embedded strand of post-cognitivist cognitive science stresses organism-environment coupling and problem solving in real situations. It is part of the broader 4E family rather than a doctrine with one single canonical founding text.",
+    "vervaeke_usage": "This matters for Vervaeke whenever cognition is treated as world-involving and context-sensitive rather than sealed inside a private inner theater.",
+    "provenance": [
+      "manual-enrichment",
+      "4e-cogsci-background"
+    ],
+    "source_note_title": "Manual corpus enrichment — 4E cognitive science background",
+    "source_note_id": "manual-4p-4e-2026-07-15",
+    "source_link": "",
+    "status": "seed-current",
+    "origin_confidence": "provisional",
+    "notes": "Added for the 4E cluster; origin background is intentionally broader than a one-paper citation."
+  },
+  {
+    "term": "Embodied cognition",
+    "slug": "embodied-cognition",
+    "target_language": "plain-english",
+    "translation": "The idea that cognition is shaped by the body’s sensorimotor capacities, not just by abstract computation inside the brain.",
+    "origin_background": "Embodied approaches push back against a purely disembodied view of mind. A major landmark in the later history is Varela, Thompson, and Rosch’s The Embodied Mind (1991), though the broader background also draws from phenomenology and ecological psychology.",
+    "vervaeke_usage": "Vervaeke leans on this when he treats intelligence as inseparable from skill, salience, and situated action rather than as mere manipulation of detached propositions.",
+    "provenance": [
+      "manual-enrichment",
+      "4e-cogsci-background"
+    ],
+    "source_note_title": "Manual corpus enrichment — 4E cognitive science background",
+    "source_note_id": "manual-4p-4e-2026-07-15",
+    "source_link": "",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Added for the 4E cluster."
+  },
+  {
+    "term": "Enactive cognition",
+    "slug": "enactive-cognition",
+    "target_language": "plain-english",
+    "translation": "The view that cognition is not passive mirroring but active sense-making: organisms bring forth meaningful worlds through embodied interaction.",
+    "origin_background": "The enactive approach is strongly associated with Francisco Varela, Evan Thompson, and Eleanor Rosch, especially The Embodied Mind (1991), where cognition is framed as embodied action and world-enacting sense-making.",
+    "vervaeke_usage": "This is one of the clearest background lineages for Vervaeke’s talk about relevance realization, participatory knowing, and the co-shaping of self and world.",
+    "provenance": [
+      "manual-enrichment",
+      "4e-cogsci-background"
+    ],
+    "source_note_title": "Manual corpus enrichment — 4E cognitive science background",
+    "source_note_id": "manual-4p-4e-2026-07-15",
+    "source_link": "",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Added for the 4E cluster."
+  },
+  {
+    "term": "Enactment",
+    "slug": "enactment",
+    "target_language": "plain-english",
+    "translation": "The lived, embodied realization of a stance or pattern rather than merely talking about it. The speakers repeatedly care about what a mode of speech is doing, not just what it states.",
     "origin_background": "",
     "vervaeke_usage": "",
     "provenance": [
@@ -486,10 +216,10 @@
     "notes": ""
   },
   {
-    "term": "Pragmatics",
-    "slug": "pragmatics",
+    "term": "Epistemic",
+    "slug": "epistemic",
     "target_language": "plain-english",
-    "translation": "The study of what language conveys in context beyond its literal wording. It matters here because genuine dialogue depends on hearing implied meaning, not just parsing explicit sentences.",
+    "translation": "Having to do with knowledge, justification, or understanding. An epistemic question asks what can be known and how, not yet what ought to matter.",
     "origin_background": "",
     "vervaeke_usage": "",
     "provenance": [
@@ -504,10 +234,28 @@
     "notes": ""
   },
   {
-    "term": "Tourist vs pilgrim",
-    "slug": "tourist-vs-pilgrim",
+    "term": "Extended cognition",
+    "slug": "extended-cognition",
     "target_language": "plain-english",
-    "translation": "A typology contrasting protected consumption with transformative openness. The tourist carries their world like a bubble, while the pilgrim consents to being changed by encounter.",
+    "translation": "The claim that cognitive processes can sometimes extend beyond the skull into reliable external supports such as tools, symbols, notebooks, or other scaffolds.",
+    "origin_background": "This strand is strongly linked to Andy Clark and David Chalmers’s paper The Extended Mind (1998), which argued that under the right conditions external structures can count as part of a cognitive process rather than as mere aids to it.",
+    "vervaeke_usage": "Even when Vervaeke is not explicitly arguing for the strongest extended-mind thesis, the background matters because his framework treats cognition as scaffolded by practices, environments, and cultural machinery rather than just by inner representation.",
+    "provenance": [
+      "manual-enrichment",
+      "4e-cogsci-background"
+    ],
+    "source_note_title": "Manual corpus enrichment — 4E cognitive science background",
+    "source_note_id": "manual-4p-4e-2026-07-15",
+    "source_link": "",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Added for the 4E cluster."
+  },
+  {
+    "term": "Henosis",
+    "slug": "henosis",
+    "target_language": "plain-english",
+    "translation": "A movement of unification or gathering into deeper oneness. In this discussion it is paired with timing and self-transcendence rather than mere conceptual agreement.",
     "origin_background": "",
     "vervaeke_usage": "",
     "provenance": [
@@ -522,22 +270,22 @@
     "notes": ""
   },
   {
-    "term": "Culture shock",
-    "slug": "culture-shock",
+    "term": "Horizontalism",
+    "slug": "horizontalism",
     "target_language": "plain-english",
-    "translation": "The disorientation that comes when one’s familiar cues for being known and situated break down. It becomes an existential metaphor here for modernity itself.",
-    "origin_background": "",
-    "vervaeke_usage": "",
+    "translation": "A flattened worldview in which everything becomes just one perspective among many, with no meaningful sense of higher or deeper orientation.",
+    "origin_background": "Used here as a contrast term rather than a canonical historical label. It names what Vervaeke thinks happens when postmodern critique rejects fake verticality but leaves only a flat field of perspectives and power struggles.",
+    "vervaeke_usage": "The note uses it for the absurdity of reducing value to private possession, identity, or opinion without explaining why some things still strike us as better or worse.",
     "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
+      "transcript-expansion",
+      "John Vervaeke and Guy Sengstock Why Modernity Can't See the Sacred Anymore - 2026-07-13"
     ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "source_note_title": "John Vervaeke and Guy Sengstock Why Modernity Can't See the Sacred Anymore - 2026-07-13",
+    "source_note_id": "d7dad7bdf88149ac87c053ee0f800530",
+    "source_link": "[:/d7dad7bdf88149ac87c053ee0f800530]",
     "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
+    "origin_confidence": "grounded",
+    "notes": "Added from the top-of-note clarification, not from the original Anki deck."
   },
   {
     "term": "Hyper-salience",
@@ -576,10 +324,28 @@
     "notes": ""
   },
   {
-    "term": "Doomscrolling",
-    "slug": "doomscrolling",
+    "term": "Instrumentalism",
+    "slug": "instrumentalism",
     "target_language": "plain-english",
-    "translation": "A compulsive form of digital consumption organized by narrow, super-salient inputs and immediate reward. It exemplifies modernity’s tendency toward control, fragmentation, and denatured attention.",
+    "translation": "An attitude that treats things mainly as tools for achieving control or efficiency. The speakers criticize it for reducing consciousness and truth to manipulable means.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Intelligibility",
+    "slug": "intelligibility",
+    "target_language": "plain-english",
+    "translation": "The quality of being understandable or making sense. In the discussion it is treated as more fundamental than mere data because it concerns how reality becomes meaningful to mind.",
     "origin_background": "",
     "vervaeke_usage": "",
     "provenance": [
@@ -612,10 +378,10 @@
     "notes": ""
   },
   {
-    "term": "Henosis",
-    "slug": "henosis",
+    "term": "Kenosis",
+    "slug": "kenosis",
     "target_language": "plain-english",
-    "translation": "A movement of unification or gathering into deeper oneness. In this discussion it is paired with timing and self-transcendence rather than mere conceptual agreement.",
+    "translation": "A self-emptying or relinquishing of defensive self-possession. It points to the vulnerability needed for genuine transformation and receptivity.",
     "origin_background": "",
     "vervaeke_usage": "",
     "provenance": [
@@ -630,10 +396,208 @@
     "notes": ""
   },
   {
-    "term": "Kenosis",
-    "slug": "kenosis",
+    "term": "Liminal",
+    "slug": "liminal",
     "target_language": "plain-english",
-    "translation": "A self-emptying or relinquishing of defensive self-possession. It points to the vulnerability needed for genuine transformation and receptivity.",
+    "translation": "Pertaining to a threshold or in-between state where ordinary identity and structure are loosened. Liminal spaces can make transformation possible because they unsettle what normally feels fixed.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Logos",
+    "slug": "logos",
+    "target_language": "plain-english",
+    "translation": "A rich Greek term for reason, order, meaning, and articulate disclosure. The speakers use it to name a shared space of truth-bearing dialogue that is discovered rather than manufactured.",
+    "origin_background": "A densely layered Greek term spanning word, reason, account, pattern, and intelligible order. Philosophical and theological traditions load it with different emphases, which is part of why Vervaeke likes it.",
+    "vervaeke_usage": "He uses it to suggest a shared truth-bearing space of meaning and articulation that is discovered and participated in, not merely manufactured.",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "provisional",
+    "notes": ""
+  },
+  {
+    "term": "Metanoia / metanoetic passage",
+    "slug": "metanoia-metanoetic-passage",
+    "target_language": "plain-english",
+    "translation": "A deep reorientation of mind, identity, or way of being rather than a small opinion change. It marks the passage into a perspective from which one can question the self one previously inhabited.",
+    "origin_background": "From Greek meta plus a mind or understanding family of terms: a change or going-beyond of mind, orientation, or understanding. In religious and philosophical usage it often names deep reorientation rather than a small opinion change.",
+    "vervaeke_usage": "Vervaeke uses it for a lived reconfiguration of identity and salience, not just swapping one belief for another.",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "provisional",
+    "notes": ""
+  },
+  {
+    "term": "Modal / modality",
+    "slug": "modal-modality",
+    "target_language": "plain-english",
+    "translation": "A mode of being or relating rather than just a content or belief. The discussion contrasts distinct modalities such as control, participation, curiosity, wonder, tourism, and pilgrimage.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Nominalize what is meant to what is spoken",
+    "slug": "nominalize-what-is-meant-to-what-is-spoken",
+    "target_language": "plain-english",
+    "translation": "To collapse conveyed meaning into the bare literal wording. The speakers see this as hostile to dialogue because it refuses the fuller intention carried by speech.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Normativity",
+    "slug": "normativity",
+    "target_language": "plain-english",
+    "translation": "The field of what counts as appropriate, fitting, or binding in thought and action. In the discussion, it names the orienting standards that shape choice rather than just factual description.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Orienting constraints",
+    "slug": "orienting-constraints",
+    "target_language": "plain-english",
+    "translation": "The pressures or structures that guide attention and action toward some possibilities rather than others. They are constraints not merely because they limit, but because they help disclose what is relevant.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Participatory knowing",
+    "slug": "participatory-knowing",
+    "target_language": "plain-english",
+    "translation": "Knowing by being involved in a way that changes both you and what can show up for you. It is not just observing from outside but being transformed through engagement.",
+    "origin_background": "Vervaeke’s usage resonates with embodied, ecological, and enactive approaches to cognition, plus older philosophical themes about transformation in the knower. It is less a single inherited technical term than a synthesis of those traditions.",
+    "vervaeke_usage": "He uses it for the deepest mode of knowing: the form in which identity, attention, and world-disclosure are reshaped together through participation rather than detached spectatorship.",
+    "provenance": [
+      "manual-enrichment",
+      "Vervaeke core frameworks"
+    ],
+    "source_note_title": "Manual corpus enrichment — Vervaeke core frameworks",
+    "source_note_id": "manual-4p-4e-2026-07-15",
+    "source_link": "",
+    "status": "seed-current",
+    "origin_confidence": "provisional",
+    "notes": "Upgrades the earlier seed row with explicit 4P background and usage."
+  },
+  {
+    "term": "Perennial questions",
+    "slug": "perennial-questions",
+    "target_language": "plain-english",
+    "translation": "Questions that recur across times and cultures because they arise from enduring features of human existence. Examples here include consciousness, being, intelligibility, and meaning.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Performative contradiction",
+    "slug": "performative-contradiction",
+    "target_language": "plain-english",
+    "translation": "When the content of what you say clashes with what your act of saying it already presupposes.",
+    "origin_background": "Commonly discussed in speech-act theory and especially associated with Karl-Otto Apel and Jurgen Habermas. The idea is that some claims pragmatically undermine themselves by relying on norms they verbally deny.",
+    "vervaeke_usage": "Vervaeke uses it against positions that deny truth, objectivity, or trans-perspectival claims while still speaking as if their own claim deserves broader authority.",
+    "provenance": [
+      "transcript-expansion",
+      "John Vervaeke and Guy Sengstock Why Modernity Can't See the Sacred Anymore - 2026-07-13"
+    ],
+    "source_note_title": "John Vervaeke and Guy Sengstock Why Modernity Can't See the Sacred Anymore - 2026-07-13",
+    "source_note_id": "d7dad7bdf88149ac87c053ee0f800530",
+    "source_link": "[:/d7dad7bdf88149ac87c053ee0f800530]",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Added from the later transcript note clarification section."
+  },
+  {
+    "term": "Perspectival knowing",
+    "slug": "perspectival-knowing",
+    "target_language": "plain-english",
+    "translation": "Knowing from a situated point of view: a felt orientation in which some things show up as salient, dangerous, inviting, or relevant before you explicitly theorize about them.",
+    "origin_background": "This is not a single famous inherited label in the way knowing-that and knowing-how are. It is better understood as a synthesis of themes from phenomenology, ecological psychology, and situated cognition: how the world shows up from within a lived perspective.",
+    "vervaeke_usage": "He uses it for the salience-shaping, orientation-setting dimension of cognition: the way a situation is already framed for you before deliberate reflection begins.",
+    "provenance": [
+      "manual-enrichment",
+      "Vervaeke core frameworks"
+    ],
+    "source_note_title": "Manual corpus enrichment — Vervaeke core frameworks",
+    "source_note_id": "manual-4p-4e-2026-07-15",
+    "source_link": "",
+    "status": "seed-current",
+    "origin_confidence": "provisional",
+    "notes": "Added to support the 4Ps cluster explicitly; origin background is interpretive rather than a single canonical source label."
+  },
+  {
+    "term": "Pilgrimage as antidote to modernity",
+    "slug": "pilgrimage-as-antidote-to-modernity",
+    "target_language": "plain-english",
+    "translation": "The claim that a pilgrim disposition counters modernity’s habits of control, superficiality, and self-protection. It works by restoring vulnerability, wonder, and transformation as central virtues.",
     "origin_background": "",
     "vervaeke_usage": "",
     "provenance": [
@@ -666,10 +630,10 @@
     "notes": ""
   },
   {
-    "term": "Enactment",
-    "slug": "enactment",
+    "term": "Pragmatics",
+    "slug": "pragmatics",
     "target_language": "plain-english",
-    "translation": "The lived, embodied realization of a stance or pattern rather than merely talking about it. The speakers repeatedly care about what a mode of speech is doing, not just what it states.",
+    "translation": "The study of what language conveys in context beyond its literal wording. It matters here because genuine dialogue depends on hearing implied meaning, not just parsing explicit sentences.",
     "origin_background": "",
     "vervaeke_usage": "",
     "provenance": [
@@ -684,61 +648,63 @@
     "notes": ""
   },
   {
-    "term": "Pilgrimage as antidote to modernity",
-    "slug": "pilgrimage-as-antidote-to-modernity",
+    "term": "Procedural knowing",
+    "slug": "procedural-knowing",
     "target_language": "plain-english",
-    "translation": "The claim that a pilgrim disposition counters modernity’s habits of control, superficiality, and self-protection. It works by restoring vulnerability, wonder, and transformation as central virtues.",
-    "origin_background": "",
-    "vervaeke_usage": "",
+    "translation": "Knowing how to do something: skill, fluent competence, and embodied performance rather than merely stating the right rules.",
+    "origin_background": "It is closely related to the classic knowing-how distinction, especially foregrounded by Gilbert Ryle against the idea that all intelligence reduces to explicit propositions or inner rule books.",
+    "vervaeke_usage": "Vervaeke uses it for the trained performance dimension of cognition: what you can reliably do or enact even when you cannot fully state all the rules that guide you.",
     "provenance": [
-      "anki-seed",
-      "Glossary – What Happens When a Culture Loses the Sacred"
+      "manual-enrichment",
+      "Vervaeke core frameworks"
     ],
-    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
-    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
-    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
-    "status": "seed-current",
-    "origin_confidence": "blank",
-    "notes": ""
-  },
-  {
-    "term": "Dialogos",
-    "translation": "Dialogue understood not just as two people exchanging remarks, but as a shared movement of meaning or logos that can emerge through participants.",
-    "origin_background": "Comes from the Greek dialogos, commonly parsed via dia meaning through and logos meaning word, reason, or account. This is a provisional seed note: it captures the broad etymological and Bohm or Vervaeke-friendly contrast with a thin mere-discussion reading, but it should be tightened against a primary Vervaeke source later.",
-    "vervaeke_usage": "Useful for the corpus because Vervaeke often distinguishes transformative, participatory dialogue from mere debate or information exchange.",
-    "provenance": [
-      "seeded-from-user-request",
-      "related transcript context"
-    ],
-    "source_note_title": "User-requested seed addition",
-    "source_note_id": "",
+    "source_note_title": "Manual corpus enrichment — Vervaeke core frameworks",
+    "source_note_id": "manual-4p-4e-2026-07-15",
     "source_link": "",
-    "status": "seed-candidate",
-    "origin_confidence": "provisional",
-    "notes": "Flagged as provisional pending a cleaner direct Vervaeke citation.",
-    "slug": "dialogos",
-    "target_language": "plain-english"
-  },
-  {
-    "term": "Horizontalism",
-    "translation": "A flattened worldview in which everything becomes just one perspective among many, with no meaningful sense of higher or deeper orientation.",
-    "origin_background": "Used here as a contrast term rather than a canonical historical label. It names what Vervaeke thinks happens when postmodern critique rejects fake verticality but leaves only a flat field of perspectives and power struggles.",
-    "vervaeke_usage": "The note uses it for the absurdity of reducing value to private possession, identity, or opinion without explaining why some things still strike us as better or worse.",
-    "provenance": [
-      "transcript-expansion",
-      "John Vervaeke and Guy Sengstock Why Modernity Can't See the Sacred Anymore - 2026-07-13"
-    ],
-    "source_note_title": "John Vervaeke and Guy Sengstock Why Modernity Can't See the Sacred Anymore - 2026-07-13",
-    "source_note_id": "d7dad7bdf88149ac87c053ee0f800530",
-    "source_link": "[:/d7dad7bdf88149ac87c053ee0f800530]",
     "status": "seed-current",
     "origin_confidence": "grounded",
-    "notes": "Added from the top-of-note clarification, not from the original Anki deck.",
-    "slug": "horizontalism",
-    "target_language": "plain-english"
+    "notes": "Added to support the 4Ps cluster explicitly."
+  },
+  {
+    "term": "Propositional knowing",
+    "slug": "propositional-knowing",
+    "target_language": "plain-english",
+    "translation": "Knowing that something is the case: explicit beliefs, claims, statements, and descriptions that can be said or judged true or false.",
+    "origin_background": "This is the most familiar philosophical sense of knowledge in analytic epistemology: knowing-that. Vervaeke inherits the label from that broader tradition rather than inventing it from scratch.",
+    "vervaeke_usage": "He treats it as indispensable but insufficient. You can have lots of propositions without having the skill, orientation, or transformation needed to live wisely.",
+    "provenance": [
+      "manual-enrichment",
+      "Vervaeke core frameworks"
+    ],
+    "source_note_title": "Manual corpus enrichment — Vervaeke core frameworks",
+    "source_note_id": "manual-4p-4e-2026-07-15",
+    "source_link": "",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Added to support the 4Ps cluster explicitly."
+  },
+  {
+    "term": "Releasement",
+    "slug": "releasement",
+    "target_language": "plain-english",
+    "translation": "A letting-be rather than a grasping or controlling stance toward reality. It names the felt loosening by which one becomes available to what exceeds one’s plans.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
   },
   {
     "term": "Religio",
+    "slug": "religio",
+    "target_language": "plain-english",
     "translation": "For Vervaeke, a name for the meaning-binding dimension of life: the sense of being bound into a world of significance that grounds both self and world.",
     "origin_background": "He uses the Latin-rooted term deliberately to evoke religion without simply meaning institutional religion. In prior glossary material, it is linked to relinking or binding and to a phenomenology of meaning-making rather than to dogma alone.",
     "vervaeke_usage": "It names the generalized relevance-realization or spirituality layer that includes connectedness, caring, self-transcendence, and fundamental framing.",
@@ -751,12 +717,84 @@
     "source_link": "",
     "status": "seed-candidate",
     "origin_confidence": "grounded",
-    "notes": "Not in the first sacredness deck; pulled from the prior human glossary text because it seems important for the app corpus.",
-    "slug": "religio",
-    "target_language": "plain-english"
+    "notes": "Not in the first sacredness deck; pulled from the prior human glossary text because it seems important for the app corpus."
+  },
+  {
+    "term": "Sacredness",
+    "slug": "sacredness",
+    "target_language": "plain-english",
+    "translation": "A dimension of reality experienced as intrinsically worthy of reverence rather than mere use. Here it is tied to forms of meaning and obligation that are not simply human inventions.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Scola / schole",
+    "slug": "scola-schole",
+    "target_language": "plain-english",
+    "translation": "A Greek notion often flattened into “leisure,” but really meaning the free, contemplative time in which truth can appear. It is the root of “school,” implying that learning once depended on non-productive openness.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Shamanic",
+    "slug": "shamanic",
+    "target_language": "plain-english",
+    "translation": "Referring to traditions of guided passage through altered or threshold states for the sake of healing, insight, or communal orientation. It is invoked here as something deeper than merely taking psychedelics.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Sole authorship",
+    "slug": "sole-authorship",
+    "target_language": "plain-english",
+    "translation": "The belief that humans can fully constitute meaning and normativity by themselves. The panel treats this as spiritually and culturally destabilizing because it erases any given order to answer to.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
   },
   {
     "term": "The view from nowhere",
+    "slug": "the-view-from-nowhere",
+    "target_language": "plain-english",
     "translation": "The fantasy that you could describe reality from a completely neutral, perspective-free standpoint — as if you were seeing without standing anywhere.",
     "origin_background": "Most directly associated with Thomas Nagel, especially The View from Nowhere (1986). The phrase names the aspiration toward objectivity by trying to transcend one's limited point of view.",
     "vervaeke_usage": "Vervaeke uses it critically: if truth requires a standpoint outside every standpoint, the ideal starts to look impossible or incoherent.",
@@ -769,12 +807,84 @@
     "source_link": "[:/d7dad7bdf88149ac87c053ee0f800530]",
     "status": "seed-current",
     "origin_confidence": "grounded",
-    "notes": "Added from the later transcript note clarification section.",
-    "slug": "the-view-from-nowhere",
-    "target_language": "plain-english"
+    "notes": "Added from the later transcript note clarification section."
+  },
+  {
+    "term": "Theoria",
+    "slug": "theoria",
+    "target_language": "plain-english",
+    "translation": "The Greek ideal of contemplative seeing or beholding. It suggests a receptive mode of understanding that is not reducible to technical problem-solving.",
+    "origin_background": "Originally a Greek word tied to beholding, contemplative seeing, and in some historical contexts sacred or civic viewing or journeying. Vervaeke leans on the older contemplative sense rather than the modern idea of detached theory.",
+    "vervaeke_usage": "He uses it to recover a receptive, transformative mode of understanding rather than narrow problem-solving or information capture.",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": ""
+  },
+  {
+    "term": "Tourist vs pilgrim",
+    "slug": "tourist-vs-pilgrim",
+    "target_language": "plain-english",
+    "translation": "A typology contrasting protected consumption with transformative openness. The tourist carries their world like a bubble, while the pilgrim consents to being changed by encounter.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Trivializing redescription",
+    "slug": "trivializing-redescription",
+    "target_language": "plain-english",
+    "translation": "A rhetorical move that reduces a rich claim to a thinner, more dismissible version of itself. It allows someone to avoid genuine engagement while pretending to have answered the point.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Universal calculus",
+    "slug": "universal-calculus",
+    "target_language": "plain-english",
+    "translation": "Leibniz’s dream of a formal symbolic system that could resolve reasoning by calculation. It stands here for the ambition to reduce understanding to explicit, computable procedure.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
   },
   {
     "term": "Verticality",
+    "slug": "verticality",
+    "target_language": "plain-english",
     "translation": "The idea that reality and life have real depth: some ways of being are genuinely higher, truer, wiser, or more awakening than others.",
     "origin_background": "Not a single coined historical term so much as a shorthand for older moral, spiritual, and philosophical pictures in which value is not flat. Vervaeke uses it for an upward orientation toward what is better rather than merely preferred.",
     "vervaeke_usage": "In the note, it contrasts with a flattened modern or postmodern picture where there are only perspectives and preferences side-by-side.",
@@ -787,8 +897,60 @@
     "source_link": "[:/d7dad7bdf88149ac87c053ee0f800530]",
     "status": "seed-current",
     "origin_confidence": "grounded",
-    "notes": "Added from the top-of-note clarification, not from the original Anki deck.",
-    "slug": "verticality",
-    "target_language": "plain-english"
+    "notes": "Added from the top-of-note clarification, not from the original Anki deck."
+  },
+  {
+    "term": "Via contemplativa",
+    "slug": "via-contemplativa",
+    "target_language": "plain-english",
+    "translation": "The contemplative way of life centered on attention, receptivity, and insight. The speakers contrast it with a culture that legitimates only productivity and output.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Vico’s principle",
+    "slug": "vicos-principle",
+    "target_language": "plain-english",
+    "translation": "The idea, associated with Giambattista Vico, that we know something most fully when we can make it. The discussion treats this as a pivotal move toward equating understanding with fabrication.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
+  },
+  {
+    "term": "Wonder",
+    "slug": "wonder",
+    "target_language": "plain-english",
+    "translation": "A posture in which self and world are questioned together and reality is allowed to exceed one’s frame. It differs from curiosity by inviting transformation rather than mere information capture.",
+    "origin_background": "",
+    "vervaeke_usage": "",
+    "provenance": [
+      "anki-seed",
+      "Glossary – What Happens When a Culture Loses the Sacred"
+    ],
+    "source_note_title": "Glossary – What Happens When a Culture Loses the Sacred",
+    "source_note_id": "0fa95d834e4c4f518adce16fef3fca45",
+    "source_link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
+    "status": "seed-current",
+    "origin_confidence": "blank",
+    "notes": ""
   }
 ]

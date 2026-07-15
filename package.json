@@ -9,11 +9,17 @@
     "lint": "oxlint",
     "test": "vitest run",
     "preview": "vite preview",
+    "corpus:add": "node scripts/corpus-tools.mjs add",
+    "corpus:bundle": "node scripts/corpus-tools.mjs bundle",
+    "corpus:diff": "node scripts/corpus-tools.mjs diff-live",
+    "corpus:push": "node scripts/corpus-tools.mjs push-live",
+    "corpus:pull": "node scripts/corpus-tools.mjs pull-live",
     "deploy": "npm run build && firebase deploy",
     "deploy:hosting": "npm run build && firebase deploy --only hosting"
   },
   "dependencies": {
     "firebase": "^12.16.0",
+    "firebase-admin": "^14.1.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },

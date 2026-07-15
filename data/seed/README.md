@@ -1,15 +1,46 @@
 # Vervaeke seed corpus
 
-This folder contains an initial import-ready corpus for the Vervaeke Translate app.
+This folder contains an import-ready corpus for the Vervaeke Translate app.
 
 ## Files
 - `vervaeke_seed_corpus.json` — canonical structured seed file
 - `vervaeke_seed_corpus.csv` — spreadsheet-friendly export of the same data
+- `additions/4p-4e-core-frameworks.json` — reusable enrichment pack for the 4Ps / 4E terms
+- `firestore_bundle.json` — generated `terms` / `translations` / `sources` payload derived from the seed
+
+## Corpus workflow
+Add or update local corpus entries:
+
+```bash
+npm run corpus:add -- --input data/seed/additions/4p-4e-core-frameworks.json
+npm run corpus:bundle
+```
+
+Compare local seed against live Firestore:
+
+```bash
+npm run corpus:diff
+```
+
+Push local seed to live Firestore (requires admin credentials):
+
+```bash
+GOOGLE_APPLICATION_CREDENTIALS=/absolute/path/service-account.json npm run corpus:push
+```
+
+Pull live Firestore back to a seed snapshot:
+
+```bash
+GOOGLE_APPLICATION_CREDENTIALS=/absolute/path/service-account.json npm run corpus:pull -- --output data/seed/vervaeke_seed_corpus.from-firestore.json
+```
+
+The live sync commands currently require admin credentials via `GOOGLE_APPLICATION_CREDENTIALS` or a repo-local `firebase-service-account.json`.
 
 ## What is in it
 - **39** entries recovered from the earlier Anki deck or sacredness glossary seed
-- **6** extra entries added from later transcript or glossary work and user-requested expansion
-- total rows: **44**
+- **6** extra entries added from later transcript or glossary work and earlier user-requested expansion
+- **9** core-framework entries added for the 4Ps of knowing / 4E cognitive-science lineage
+- total rows: **53**
 
 ## Sources used
 1. Prior sacredness glossary or Anki deck seed
@@ -20,6 +51,8 @@ This folder contains an initial import-ready corpus for the Vervaeke Translate a
    - note link: `[:/d7dad7bdf88149ac87c053ee0f800530]`
 3. Prior human glossary text export for terms like `Religio`
 4. One explicitly marked provisional user-requested seed term: `Dialogos`
+5. Manual enrichment pack for Vervaeke’s 4Ps of knowing and the 4E cognitive-science lineage
+   - stored at `data/seed/additions/4p-4e-core-frameworks.json`
 
 ## Schema notes
 Each row currently represents a **Plain English** translation seed for one source term.
