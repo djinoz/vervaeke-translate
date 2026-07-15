@@ -70,172 +70,6 @@
       ],
       "updatedFromSeed": true
     },
-    "absurdity": {
-      "slug": "absurdity",
-      "term": "Absurdity",
-      "normalizedTerm": "absurdity",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "absurdity",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "felt",
-        "breakdown",
-        "which",
-        "action",
-        "value",
-        "and",
-        "intelligibility",
-        "longer",
-        "hang",
-        "together",
-        "satisfying",
-        "reality",
-        "responsive",
-        "way"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: machinery that makes adaptively intelligent makes susceptible to foolishness. * Absurdity, alienation, futility, horror * Horror: grip on reality being undermined * Meaninglessness",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "actual-and-potential": {
-      "slug": "actual-and-potential",
-      "term": "Actual and Potential",
-      "normalizedTerm": "actual and potential",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "actual and potential",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "distinction",
-        "between",
-        "what",
-        "something",
-        "already",
-        "operation",
-        "and",
-        "capable",
-        "becoming",
-        "realizing"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: akes a bird what it is (John seems to be using logos and eidos as synonyms) Actual and Potential * Aristotle wanted to talk in terms of development * Analogy of artifacts (human ma",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "altered-state-of-consciousness": {
-      "slug": "altered-state-of-consciousness",
-      "term": "Altered State of Consciousness",
-      "normalizedTerm": "altered state of consciousness",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "altered state of consciousness",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "condition",
-        "which",
-        "attention",
-        "perception",
-        "self",
-        "experience",
-        "salience",
-        "are",
-        "reorganized",
-        "relative",
-        "ordinary",
-        "waking",
-        "consciousness"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: o alter their consciousness? * Why does intelligence need to be conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychede",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "alterred-states-of-consciousness": {
-      "slug": "alterred-states-of-consciousness",
-      "term": "Alterred States of Consciousness",
-      "normalizedTerm": "alterred states of consciousness",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "alterred states of consciousness",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "duplicate",
-        "variant",
-        "spelling",
-        "altered",
-        "states",
-        "consciousness",
-        "referring",
-        "shifts",
-        "awareness",
-        "that",
-        "can",
-        "reconfigure",
-        "perception",
-        "salience",
-        "and",
-        "self"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ehensive flowing relationship with reality (but still have to double check) Alterred States of Consciousness - 36:50: altered states of consciousness have potential to create insig",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "analogy-theory-of-evolution": {
-      "slug": "analogy-theory-of-evolution",
-      "term": "Analogy: Theory of Evolution",
-      "normalizedTerm": "analogy theory of evolution",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "analogy: theory of evolution",
-        "analogy theory of evolution",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "using",
-        "evolution",
-        "analogy",
-        "for",
-        "how",
-        "relevance",
-        "can",
-        "emerge",
-        "through",
-        "selective",
-        "fit",
-        "and",
-        "adaptive",
-        "dynamics",
-        "rather"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: an’t be a theory of relevance detection. Don’t detect relevance in the object Analogy: Theory of Evolution * Before Darwin, people thought if studied the natural world could discov",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "analytical-philosophy": {
       "slug": "analytical-philosophy",
       "term": "Analytical Philosophy",
@@ -267,76 +101,6 @@
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet.",
       "primarySourceIds": [
         "source_manual-pod-k1-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "ancient-greece-literacy-democracy-and-rational-argumentation": {
-      "slug": "ancient-greece-literacy-democracy-and-rational-argumentation",
-      "term": "Ancient Greece: Literacy, Democracy and Rational Argumentation",
-      "normalizedTerm": "ancient greece literacy democracy and rational argumentation",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "ancient greece: literacy, democracy and rational argumentation",
-        "ancient greece literacy democracy and rational argumentation",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "greek",
-        "transformation",
-        "which",
-        "literacy",
-        "public",
-        "debate",
-        "and",
-        "rational",
-        "contestation",
-        "reshaped",
-        "thought",
-        "memory",
-        "collective",
-        "intelligence"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ts processing for sense of how much in touch with reality * Ex: flow state Ancient Greece: Literacy, Democracy and Rational Argumentation * Greeks add vowels to the alphabet: incre",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "aristotles-world-view": {
-      "slug": "aristotles-world-view",
-      "term": "Aristotle’s World-view",
-      "normalizedTerm": "aristotles world view",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "aristotle’s world-view",
-        "aristotles world view",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "purposive",
-        "developmental",
-        "picture",
-        "reality",
-        "which",
-        "form",
-        "function",
-        "growth",
-        "and",
-        "flourishing",
-        "are",
-        "basic",
-        "understanding",
-        "the",
-        "world"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ng plausible and practical. That’s how we make sure we’re in touch with things. Aristotle’s World-view * What is the structural functional pattern of the world when I’m making sens",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -372,38 +136,6 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
-      ],
-      "updatedFromSeed": true
-    },
-    "avens": {
-      "slug": "avens",
-      "term": "Avens",
-      "normalizedTerm": "avens",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "avens",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "thinker",
-        "david",
-        "relevant",
-        "for",
-        "imaginal",
-        "symbolic",
-        "and",
-        "depth",
-        "psychological",
-        "approaches",
-        "meaning",
-        "transformation"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: isis 295 Husserl 296 Heidegger 297 Episode 47 - Heidegger 299 Avens 304 Forgetfulness 305 Episode 48 - Corbin and the Divine Double 307 Heidegger and Physis 307 Narrative and Tele",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -680,76 +412,6 @@
       ],
       "updatedFromSeed": true
     },
-    "cognitive-science-of-change-and-kant": {
-      "slug": "cognitive-science-of-change-and-kant",
-      "term": "Cognitive Science of Change and Kant",
-      "normalizedTerm": "cognitive science of change and kant",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "cognitive science of change and kant",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "attempt",
-        "understand",
-        "transformation",
-        "development",
-        "and",
-        "self",
-        "organization",
-        "using",
-        "both",
-        "cognitive",
-        "scientific",
-        "models",
-        "kant",
-        "influenced",
-        "philosophical",
-        "framing"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: is making itself * Unfolds across time - see it as change and development Cognitive Science of Change and Kant * Alicia Arara: Dynamics in Action, inspired by Aristotlean framework",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "cognitive-scientific-analysis-of-the-machinery-of-meaning-making": {
-      "slug": "cognitive-scientific-analysis-of-the-machinery-of-meaning-making",
-      "term": "Cognitive Scientific Analysis of the Machinery of Meaning Making",
-      "normalizedTerm": "cognitive scientific analysis of the machinery of meaning making",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "cognitive scientific analysis of the machinery of meaning making",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "attempt",
-        "explain",
-        "meaning",
-        "salience",
-        "and",
-        "intelligence",
-        "studying",
-        "processes",
-        "that",
-        "generate",
-        "significance",
-        "rather",
-        "than",
-        "assuming",
-        "self"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: or this * Zombie mythology could be an articulation of this Cognitive Scientific Analysis of the Machinery of Meaning Making * Time to move onto a cognitive scientific analysis of",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "combinatorial-explosion": {
       "slug": "combinatorial-explosion",
       "term": "Combinatorial Explosion",
@@ -780,38 +442,6 @@
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ___________ Episode 27 - Problem Formulation https://youtu.be/9j5O-tnaFzE Combinatorial Explosion * Diagram is misleading because by God’s eye view, but in life we’re not out there",
       "primarySourceIds": [
         "source_manual-pod-k1-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "computational-level": {
-      "slug": "computational-level",
-      "term": "Computational level",
-      "normalizedTerm": "computational level",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "computational level",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "level",
-        "which",
-        "cognition",
-        "described",
-        "terms",
-        "formal",
-        "operations",
-        "transformations",
-        "and",
-        "information",
-        "processing",
-        "procedures"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ly identify with the way in which we are running represntations in our mind. Computational level * Syntactic level * Syntax about how terms coordinated together",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -990,40 +620,6 @@
       ],
       "updatedFromSeed": true
     },
-    "data-compression-application": {
-      "slug": "data-compression-application",
-      "term": "Data Compression (Application)",
-      "normalizedTerm": "data compression application",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "data compression (application)",
-        "data compression application",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "reducing",
-        "complexity",
-        "finding",
-        "simpler",
-        "more",
-        "efficient",
-        "structures",
-        "that",
-        "preserve",
-        "what",
-        "matters",
-        "across",
-        "many",
-        "cases"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: * People who are trying to make AI already implementing these strategies Data Compression (Application) * In science, take two variables, scatterplot w line of best fit",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "dialogos": {
       "slug": "dialogos",
       "term": "Dialogos",
@@ -1161,111 +757,6 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
-      ],
-      "updatedFromSeed": true
-    },
-    "drawing-it-all-together": {
-      "slug": "drawing-it-all-together",
-      "term": "Drawing it all Together",
-      "normalizedTerm": "drawing it all together",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "drawing it all together",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "integrative",
-        "move",
-        "bringing",
-        "multiple",
-        "cognitive",
-        "levels",
-        "and",
-        "mechanisms",
-        "into",
-        "one",
-        "coordinated",
-        "account",
-        "intelligence",
-        "relevance",
-        "meaning"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: hion * RR happens at multiple levels of cognition Drawing it all Together * Account of RR has to be completely internal * Has to work in",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "efficiency-resiliency-tradeoffs": {
-      "slug": "efficiency-resiliency-tradeoffs",
-      "term": "Efficiency-Resiliency Tradeoffs",
-      "normalizedTerm": "efficiency resiliency tradeoffs",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "efficiency-resiliency tradeoffs",
-        "efficiency resiliency tradeoffs",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "tension",
-        "between",
-        "systems",
-        "optimized",
-        "for",
-        "speed",
-        "efficiency",
-        "and",
-        "robust",
-        "enough",
-        "handle",
-        "surprise",
-        "change",
-        "disruption"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: nctional sense of connectedness that affords wisdom, self-transcendence, etc. Efficiency-Resiliency Tradeoffs * Initially the machinery of RR has to be internal to an embodied embe",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "eidos-and-logos": {
-      "slug": "eidos-and-logos",
-      "term": "Eidos and Logos",
-      "normalizedTerm": "eidos and logos",
-      "sourceLanguage": "greek",
-      "searchTerms": [
-        "eidos and logos",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "pairing",
-        "intelligible",
-        "form",
-        "and",
-        "meaning",
-        "bearing",
-        "articulation",
-        "what",
-        "something",
-        "its",
-        "deep",
-        "pattern",
-        "how",
-        "that",
-        "can",
-        "disclosed"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: sing above yourself * This myth going to be a constant refrain in the West Eidos and Logos * Eidos: * translated in the word “form” which brings to mind shape, or “concept” brings",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -1541,41 +1032,6 @@
       ],
       "updatedFromSeed": true
     },
-    "exploiting-vs-exploration": {
-      "slug": "exploiting-vs-exploration",
-      "term": "Exploiting vs. Exploration",
-      "normalizedTerm": "exploiting vs exploration",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "exploiting vs. exploration",
-        "exploiting vs exploration",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "tradeoff",
-        "between",
-        "using",
-        "known",
-        "successful",
-        "strategies",
-        "and",
-        "venturing",
-        "into",
-        "uncertain",
-        "possibilities",
-        "that",
-        "may",
-        "yield"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: will fit you well to pattern of change/stability in the environment Exploiting vs. Exploration * Deals with timing. Should stay here get as much as can (exploiting) or move and try",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "extended-cognition": {
       "slug": "extended-cognition",
       "term": "Extended cognition",
@@ -1643,41 +1099,6 @@
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: Csíkszentmihályi - conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychedelic experiences. * Mystical experiences that",
       "primarySourceIds": [
         "source_manual-pod-k1-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "forgetfulness": {
-      "slug": "forgetfulness",
-      "term": "Forgetfulness",
-      "normalizedTerm": "forgetfulness",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "forgetfulness",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "condition",
-        "which",
-        "what",
-        "matters",
-        "most",
-        "recedes",
-        "from",
-        "living",
-        "awareness",
-        "leaving",
-        "people",
-        "trapped",
-        "superficial",
-        "distorted",
-        "modes",
-        "being"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: usserl 296 Heidegger 297 Episode 47 - Heidegger 299 Avens 304 Forgetfulness 305 Episode 48 - Corbin and the Divine Double 307 Heidegger and Physis 307 Narrative and Teleology 308 C",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -1848,108 +1269,6 @@
       ],
       "updatedFromSeed": true
     },
-    "heuristic": {
-      "slug": "heuristic",
-      "term": "Heuristic",
-      "normalizedTerm": "heuristic",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "heuristic",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "practical",
-        "rule",
-        "thumb",
-        "that",
-        "guides",
-        "decision",
-        "and",
-        "search",
-        "efficiently",
-        "without",
-        "guaranteeing",
-        "perfect",
-        "correctness"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: l or just building suspense?) * part of evolutionary heritage - fluency heuristic good strategy, in real world situations if pressing fluently picking up on the real patterns * flo",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "historical-factors": {
-      "slug": "historical-factors",
-      "term": "Historical Factors",
-      "normalizedTerm": "historical factors",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "historical factors",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "concrete",
-        "historical",
-        "forces",
-        "and",
-        "developments",
-        "that",
-        "shape",
-        "conditions",
-        "under",
-        "which",
-        "meaning",
-        "crises",
-        "arise",
-        "are",
-        "experienced"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: istorical understanding is a degree to which we are going to be ignorant of the historical factors that are driving the meaning crisis Foreshadowing the Meaning Crisis * Foreshadow",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "hitler": {
-      "slug": "hitler",
-      "term": "Hitler",
-      "normalizedTerm": "hitler",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "hitler",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "historical",
-        "figure",
-        "who",
-        "concentrated",
-        "multiple",
-        "modern",
-        "pathologies",
-        "ideology",
-        "ressentiment",
-        "pseudo",
-        "religion",
-        "propaganda",
-        "and",
-        "catastrophic",
-        "violence"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: gel’s idealistic interpretation of history, or Marx’s economic interpretation Hitler * All come together in Hitler’s auto-didactic mind * Dangers of auto-didactic appro",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "horizontalism": {
       "slug": "horizontalism",
       "term": "Horizontalism",
@@ -2089,101 +1408,6 @@
       ],
       "updatedFromSeed": true
     },
-    "indispensable-mythos": {
-      "slug": "indispensable-mythos",
-      "term": "Indispensable Mythos",
-      "normalizedTerm": "indispensable mythos",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "indispensable mythos",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "mythic",
-        "and",
-        "narrative",
-        "machinery",
-        "humans",
-        "seem",
-        "unable",
-        "without",
-        "they",
-        "are",
-        "orient",
-        "themselves",
-        "meaningfully",
-        "world"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: and again to the world. There is the real potential in the world of sacredness Indispensable Mythos * Why is it that we might get this way? * Pa",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "information-processing": {
-      "slug": "information-processing",
-      "term": "Information Processing",
-      "normalizedTerm": "information processing",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "information processing",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "treatment",
-        "cognition",
-        "transformation",
-        "transmission",
-        "storage",
-        "and",
-        "use",
-        "information"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: Start to invent new things, new psycho-technologies - standardized way of doing information processing that improves and enhances your cognition by linking brains together - your b",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "initiation-rituals": {
-      "slug": "initiation-rituals",
-      "term": "Initiation rituals",
-      "normalizedTerm": "initiation rituals",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "initiation rituals",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "structured",
-        "practices",
-        "that",
-        "transform",
-        "identity",
-        "loyalty",
-        "perception",
-        "and",
-        "belonging",
-        "taking",
-        "person",
-        "through",
-        "symbolic",
-        "thresholds"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: l Siegal): ability to pick up on other people’s mental states * Meta-cognition * Initiation rituals: * Commitment and loyalty to my own group now more questionable. There’s temptat",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "insight": {
       "slug": "insight",
       "term": "Insight",
@@ -2251,36 +1475,6 @@
       ],
       "updatedFromSeed": true
     },
-    "integrated-information-theory": {
-      "slug": "integrated-information-theory",
-      "term": "Integrated Information Theory",
-      "normalizedTerm": "integrated information theory",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "integrated information theory",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "theory",
-        "that",
-        "consciousness",
-        "corresponds",
-        "degree",
-        "and",
-        "structure",
-        "integrated",
-        "information",
-        "system"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: involved when people chunk information or insight * Boren-Seth model Integrated Information Theory * Tononi, about the nature of C * C is how powerfully integrated pieces of inform",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "intelligibility": {
       "slug": "intelligibility",
       "term": "Intelligibility",
@@ -2313,39 +1507,6 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
-      ],
-      "updatedFromSeed": true
-    },
-    "jung-and-individuation": {
-      "slug": "jung-and-individuation",
-      "term": "Jung and Individuation",
-      "normalizedTerm": "jung and individuation",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "jung and individuation",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "jung",
-        "account",
-        "becoming",
-        "more",
-        "whole",
-        "through",
-        "integrating",
-        "neglected",
-        "symbolic",
-        "and",
-        "unconscious",
-        "dimensions",
-        "the",
-        "psyche"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: y 316 The mythos of the divine double 318 The Sacred Second Self 320 Jung and Individuation 320 Episode 50 - Tillich and Barfield 322 Tillich 322 Non-theism 325 xBarfield 325 _____",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -2486,39 +1647,6 @@
       ],
       "updatedFromSeed": true
     },
-    "machinery-of-insight": {
-      "slug": "machinery-of-insight",
-      "term": "Machinery of Insight",
-      "normalizedTerm": "machinery of insight",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "machinery of insight",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "set",
-        "cognitive",
-        "and",
-        "affective",
-        "processes",
-        "which",
-        "restructuring",
-        "occurs",
-        "new",
-        "pattern",
-        "suddenly",
-        "becomes",
-        "salient"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: * C seems to be associated with degree to which brain wiring as SWN Machinery of Insight * Stephen and Dickson: found way to measure how much entropy in processing while trying",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "meta-crisis": {
       "slug": "meta-crisis",
       "term": "Meta Crisis",
@@ -2651,40 +1779,6 @@
       ],
       "updatedFromSeed": true
     },
-    "mindsight": {
-      "slug": "mindsight",
-      "term": "Mindsight",
-      "normalizedTerm": "mindsight",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "mindsight",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "capacity",
-        "perceive",
-        "mental",
-        "states",
-        "oneself",
-        "and",
-        "others",
-        "with",
-        "enough",
-        "clarity",
-        "regulate",
-        "relate",
-        "respond",
-        "wisely"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: d. Move from first person perspective to a third person perspective really well. * Mindsight: (Daniel Siegal): ability to pick up on other people’s mental states * Meta-cognition *",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "modal-modality": {
       "slug": "modal-modality",
       "term": "Modal / modality",
@@ -2751,170 +1845,6 @@
       ],
       "updatedFromSeed": true
     },
-    "modularity": {
-      "slug": "modularity",
-      "term": "Modularity",
-      "normalizedTerm": "modularity",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "modularity",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "idea",
-        "that",
-        "cognition",
-        "partly",
-        "organized",
-        "into",
-        "specialized",
-        "subsystems",
-        "dedicated",
-        "particular",
-        "kinds",
-        "processing"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ome way. * Computations * Modularity: specific area of the brain dedicated to processing relevance * Each of those inadequate",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "mutilated-chessboard-problems": {
-      "slug": "mutilated-chessboard-problems",
-      "term": "Mutilated Chessboard Problems",
-      "normalizedTerm": "mutilated chessboard problems",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "mutilated chessboard problems",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "puzzle",
-        "cases",
-        "used",
-        "reveal",
-        "how",
-        "intelligent",
-        "problem",
-        "solving",
-        "often",
-        "depends",
-        "insight",
-        "into",
-        "structure",
-        "rather",
-        "than",
-        "brute"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: eed to be able to deal with ill-defined problems to be considered intelligent Mutilated Chessboard Problems * If have dominos, covers 2 squares, need 32 * Now mutilate chessboar",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "mystery-and-symbols": {
-      "slug": "mystery-and-symbols",
-      "term": "Mystery and Symbols",
-      "normalizedTerm": "mystery and symbols",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "mystery and symbols",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "relation",
-        "which",
-        "symbols",
-        "bring",
-        "into",
-        "contact",
-        "with",
-        "what",
-        "exceeds",
-        "direct",
-        "conceptual",
-        "capture",
-        "while",
-        "still",
-        "disclosing"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: c disclosed to you, which changes how can understand and experience the music Mystery and Symbols * Symbols put in confrontation with what is mysterious",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "narrative-and-teleology": {
-      "slug": "narrative-and-teleology",
-      "term": "Narrative and Teleology",
-      "normalizedTerm": "narrative and teleology",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "narrative and teleology",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "relation",
-        "between",
-        "story",
-        "structure",
-        "and",
-        "directedness",
-        "toward",
-        "ends",
-        "purposes",
-        "fulfillment"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: 305 Episode 48 - Corbin and the Divine Double 307 Heidegger and Physis 307 Narrative and Teleology 308 Corbin and Persian Sufism 310 Corbin, Gnosis and the Imaginal 310 The Symbol",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "nationalism": {
-      "slug": "nationalism",
-      "term": "Nationalism",
-      "normalizedTerm": "nationalism",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "nationalism",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "elevation",
-        "nation",
-        "into",
-        "primary",
-        "source",
-        "belonging",
-        "identity",
-        "and",
-        "often",
-        "quasi",
-        "sacred",
-        "meaning"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: olent political change * Powerful pseudo-religious ideology Nationalism * Nationalism: nation-state can take the role that God has taken in the past: * P",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "natural-philosophers-thales": {
       "slug": "natural-philosophers-thales",
       "term": "Natural Philosophers - Thales",
@@ -2950,41 +1880,6 @@
       ],
       "updatedFromSeed": true
     },
-    "natural-born-cyborgs": {
-      "slug": "natural-born-cyborgs",
-      "term": "Natural-Born Cyborgs",
-      "normalizedTerm": "natural born cyborgs",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "natural-born cyborgs",
-        "natural born cyborgs",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "idea",
-        "that",
-        "humans",
-        "naturally",
-        "extend",
-        "their",
-        "minds",
-        "through",
-        "tools",
-        "symbols",
-        "and",
-        "technologies",
-        "rather",
-        "than"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: rtists, and Meditation Teachers on the Power of Mindfulness in Daily Life * Andy Clark - Natural-Born Cyborgs: Minds, Technologies, and the Future of Human Intelligence * Michel Fe",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "neo-shamanism": {
       "slug": "neo-shamanism",
       "term": "Neo-shamanism",
@@ -3014,108 +1909,6 @@
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: psycho technologies for altering state of consciousness and enhancing cognition * Rise in neo-shamanism. * Shaman does a lot interesting things to get into a particular state. * Sl",
       "primarySourceIds": [
         "source_manual-pod-k1-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "neolithic-revolution": {
-      "slug": "neolithic-revolution",
-      "term": "Neolithic Revolution",
-      "normalizedTerm": "neolithic revolution",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "neolithic revolution",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "shift",
-        "agriculture",
-        "settlement",
-        "storage",
-        "and",
-        "social",
-        "complexity",
-        "that",
-        "fundamentally",
-        "changed",
-        "how",
-        "humans",
-        "lived",
-        "made",
-        "meaning"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: or supervision of them * Metaphors * Little whispers of shamanic flight Neolithic Revolution * 10,000 BCE - Neolithic revolution - agriculture * For the first time people start to",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "neuroscientific-account": {
-      "slug": "neuroscientific-account",
-      "term": "Neuroscientific account",
-      "normalizedTerm": "neuroscientific account",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "neuroscientific account",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "explanation",
-        "framed",
-        "terms",
-        "brain",
-        "activity",
-        "neural",
-        "dynamics",
-        "and",
-        "the",
-        "biological",
-        "mechanisms",
-        "correlated",
-        "with",
-        "cognition",
-        "consciousness"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: * Help realize, actualize relevant information * Will come back to this Neuroscientific account * correlation with brain activity * Activity seems to be involved when people chunk",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "newell-and-simon": {
-      "slug": "newell-and-simon",
-      "term": "Newell and Simon",
-      "normalizedTerm": "newell and simon",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "newell and simon",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "foundational",
-        "and",
-        "cognitive",
-        "science",
-        "researchers",
-        "who",
-        "modeled",
-        "problem",
-        "solving",
-        "search",
-        "through",
-        "representations",
-        "procedures"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ing a wide variety of problems in a wide variety of ways * Newell and Simon: general problem solver * Intelligence =/ rational * We should care not about",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -3364,71 +2157,6 @@
       ],
       "updatedFromSeed": true
     },
-    "particularization-scope": {
-      "slug": "particularization-scope",
-      "term": "Particularization (Scope)",
-      "normalizedTerm": "particularization scope",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "particularization (scope)",
-        "particularization scope",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "narrowing",
-        "general",
-        "pattern",
-        "rule",
-        "that",
-        "fits",
-        "specific",
-        "context",
-        "task",
-        "local",
-        "set",
-        "constraints"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ry-motor loop, protecting and promoting auto-poeitic goals will be reinforced Particularization (Scope) * Trying to create a function that overfits with the data *",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "perennial-problems": {
-      "slug": "perennial-problems",
-      "term": "Perennial Problems",
-      "normalizedTerm": "perennial problems",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "perennial problems",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "recurring",
-        "human",
-        "problems",
-        "suffering",
-        "self",
-        "deception",
-        "foolishness",
-        "mortality",
-        "alienation",
-        "and",
-        "search",
-        "for",
-        "wisdom"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: deeply profoundly participatory fashion. ________________ Episode 36 - Religio/Perennial Problems/Reverse Engineering Enlightenment https://youtu.be/48Ch2x3DrfM * Symbols are a pa",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "perennial-questions": {
       "slug": "perennial-questions",
       "term": "Perennial questions",
@@ -3600,41 +2328,6 @@
       ],
       "updatedFromSeed": true
     },
-    "platos-psychology-man-monster-and-lion": {
-      "slug": "platos-psychology-man-monster-and-lion",
-      "term": "Plato’s Psychology - Man, Monster and Lion",
-      "normalizedTerm": "platos psychology man monster and lion",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "plato’s psychology - man, monster and lion",
-        "platos psychology man monster and lion",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "plato",
-        "image",
-        "the",
-        "psyche",
-        "conflict",
-        "among",
-        "rational",
-        "appetitive",
-        "and",
-        "aggressive",
-        "forces",
-        "that",
-        "must",
-        "rightly",
-        "ordered"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: sing towards the future, from the world of illusion to the world of reality Plato’s Psychology - Man, Monster and Lion * Plato: first psychological theory in history. Still relevan",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "poiesis": {
       "slug": "poiesis",
       "term": "Poiesis",
@@ -3739,76 +2432,6 @@
       ],
       "updatedFromSeed": true
     },
-    "prophetic-tradition": {
-      "slug": "prophetic-tradition",
-      "term": "Prophetic tradition",
-      "normalizedTerm": "prophetic tradition",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "prophetic tradition",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "mode",
-        "religious",
-        "critique",
-        "that",
-        "calls",
-        "people",
-        "back",
-        "from",
-        "self",
-        "deception",
-        "injustice",
-        "and",
-        "idolatry",
-        "toward",
-        "deeper",
-        "reality"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: has to intervene periodically * God has to do something to wake people up Prophetic tradition * Prophetic tradition * Prophet not someone who tells the future. * Prophesy not about",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "prophets-of-the-meaning-crisis": {
-      "slug": "prophets-of-the-meaning-crisis",
-      "term": "Prophets of the Meaning Crisis",
-      "normalizedTerm": "prophets of the meaning crisis",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "prophets of the meaning crisis",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "thinkers",
-        "who",
-        "diagnosed",
-        "modern",
-        "meaning",
-        "breakdown",
-        "before",
-        "was",
-        "widely",
-        "recognized",
-        "and",
-        "pointed",
-        "toward",
-        "its",
-        "deeper"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: 290 Episode 46 - Conclusion 293 Wise cultivation of enlightenment 294 Prophets of the Meaning Crisis 295 Husserl 296 Heidegger 297 Episode 47 - Heidegger 299 Avens 304 Forgetfulnes",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "propositional-knowing": {
       "slug": "propositional-knowing",
       "term": "Propositional knowing",
@@ -3871,38 +2494,6 @@
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: gnificantly. Much more likely its a software change in how people are using the brain. * Psychotechnology: * Technology means systematic use of a tool * Natural born cyborg: brain",
       "primarySourceIds": [
         "source_manual-pod-k1-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "rationality-and-being-in-contact-with-reality": {
-      "slug": "rationality-and-being-in-contact-with-reality",
-      "term": "Rationality and Being in Contact with Reality",
-      "normalizedTerm": "rationality and being in contact with reality",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "rationality and being in contact with reality",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "rationality",
-        "understood",
-        "not",
-        "just",
-        "formal",
-        "correctness",
-        "but",
-        "improved",
-        "capacity",
-        "appropriately",
-        "responsive",
-        "what",
-        "real"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: even though I want to. And I feel guilty or ashamed or weak when I give in.) Rationality and Being in Contact with Reality * living up to potential, ascending the hierarchy * Arist",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -4081,73 +2672,6 @@
       ],
       "updatedFromSeed": true
     },
-    "representational-level": {
-      "slug": "representational-level",
-      "term": "Representational Level",
-      "normalizedTerm": "representational level",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "representational level",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "level",
-        "which",
-        "cognitive",
-        "states",
-        "stand",
-        "for",
-        "depict",
-        "direct",
-        "agent",
-        "toward",
-        "objects",
-        "situations",
-        "possibilities"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: . we should garner lessons about how we should think about human spirituality Representational Level * Mental entity that stands for, directs us towards an object in the world",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "response-to-hegel": {
-      "slug": "response-to-hegel",
-      "term": "Response to Hegel",
-      "normalizedTerm": "response to hegel",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "response to hegel",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "broad",
-        "set",
-        "philosophical",
-        "and",
-        "cultural",
-        "reactions",
-        "hegel",
-        "totalizing",
-        "historical",
-        "vision",
-        "including",
-        "both",
-        "adoption",
-        "critique"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: eads across Europe * But many consider it to have collapsed Response to Hegel * Pattern of secularizing religion into systems of ideas that attempt to give total explanation and",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "sacredness": {
       "slug": "sacredness",
       "term": "Sacredness",
@@ -4247,41 +2771,6 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
-      ],
-      "updatedFromSeed": true
-    },
-    "self-organizing-criticality": {
-      "slug": "self-organizing-criticality",
-      "term": "Self-Organizing Criticality",
-      "normalizedTerm": "self organizing criticality",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "self-organizing criticality",
-        "self organizing criticality",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "regime",
-        "which",
-        "complex",
-        "systems",
-        "spontaneously",
-        "organize",
-        "near",
-        "critical",
-        "threshold",
-        "where",
-        "they",
-        "are",
-        "poised",
-        "for",
-        "flexible"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: y, then asynchronous, rapidly oscillating manner: self organizing criticality Self-Organizing Criticality * Particular kind of self-organizing * Ex: grains of sand",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -4390,75 +2879,6 @@
       ],
       "updatedFromSeed": true
     },
-    "siddartha-leaves-the-palace": {
-      "slug": "siddartha-leaves-the-palace",
-      "term": "Siddartha leaves the palace",
-      "normalizedTerm": "siddartha leaves the palace",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "siddartha leaves the palace",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "scene",
-        "which",
-        "siddhartha",
-        "encounters",
-        "suffering",
-        "beyond",
-        "protected",
-        "world",
-        "privilege",
-        "and",
-        "begins",
-        "path",
-        "toward",
-        "awakening"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: tation of this * By inducing modal confusion, possible to sell you more Siddartha leaves the palace * Siddartha leaves palace in chariot, sees a sick person. He’s distressed. What",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "siddhartha-and-the-mindfulness-revolution": {
-      "slug": "siddhartha-and-the-mindfulness-revolution",
-      "term": "Siddhartha and the Mindfulness Revolution",
-      "normalizedTerm": "siddhartha and the mindfulness revolution",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "siddhartha and the mindfulness revolution",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "axial",
-        "buddhist",
-        "turn",
-        "which",
-        "siddhartha",
-        "awakening",
-        "becomes",
-        "template",
-        "for",
-        "disciplined",
-        "attention",
-        "liberation",
-        "and",
-        "transformative",
-        "self"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ing existential modes that are consonant with our best scientific understanding Siddhartha and the Mindfulness Revolution * mindfulness revolution * Meditation and contemplation: I",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "situational-awareness": {
       "slug": "situational-awareness",
       "term": "Situational Awareness",
@@ -4525,76 +2945,6 @@
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: can transcend and see the world as beautiful * Huge influence on Plato * Socrates: epitomizes the Greek form of the axial revolution. Socratic revolution. * We are no longer in the",
       "primarySourceIds": [
         "source_manual-pod-k1-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "socrates-quest": {
-      "slug": "socrates-quest",
-      "term": "Socrates’ Quest",
-      "normalizedTerm": "socrates quest",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "socrates’ quest",
-        "socrates quest",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "socrates",
-        "effort",
-        "understand",
-        "how",
-        "could",
-        "called",
-        "wise",
-        "precisely",
-        "when",
-        "knew",
-        "was",
-        "not",
-        "the",
-        "ordinary",
-        "possessive"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: Personal dilemma: how can he be the wisest being when he knows he’s not wise Socrates’ Quest * Starts on a quest to determine how both of those things could be true at the same tim",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "socrates-trial": {
-      "slug": "socrates-trial",
-      "term": "Socrates’ Trial",
-      "normalizedTerm": "socrates trial",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "socrates’ trial",
-        "socrates trial",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "prosecution",
-        "and",
-        "execution",
-        "socrates",
-        "often",
-        "taken",
-        "defining",
-        "clash",
-        "between",
-        "truth",
-        "oriented",
-        "questioning",
-        "social",
-        "political"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: determine the truth, which helped them train their attention to find salience Socrates’ Trial * Socrates would go up to someone and ask questions, kept asking why, oh so you must k",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -4668,41 +3018,6 @@
       ],
       "updatedFromSeed": true
     },
-    "symbols-and-sacredness": {
-      "slug": "symbols-and-sacredness",
-      "term": "Symbols and Sacredness",
-      "normalizedTerm": "symbols and sacredness",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "symbols and sacredness",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "idea",
-        "that",
-        "symbols",
-        "not",
-        "merely",
-        "stand",
-        "for",
-        "sacred",
-        "realities",
-        "but",
-        "can",
-        "open",
-        "participation",
-        "them",
-        "and"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: * Religions, rich in symbolic machinery Symbols and Sacredness * Symbol original meant: to put two things together.",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "the-agent-arena-relationship": {
       "slug": "the-agent-arena-relationship",
       "term": "The Agent-Arena Relationship",
@@ -4773,143 +3088,6 @@
       ],
       "updatedFromSeed": true
     },
-    "the-great-disembedding": {
-      "slug": "the-great-disembedding",
-      "term": "The Great Disembedding",
-      "normalizedTerm": "the great disembedding",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "the great disembedding",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "process",
-        "which",
-        "people",
-        "are",
-        "pulled",
-        "out",
-        "thick",
-        "participatory",
-        "worlds",
-        "and",
-        "situated",
-        "more",
-        "detached",
-        "buffered",
-        "disembedded"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: hings is shattered * Totally different worldview gets layered on top of this The Great Disembedding * Charles Taylor: the great disembedding * Mythological neither scientific nor j",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "the-imaginal": {
-      "slug": "the-imaginal",
-      "term": "The Imaginal",
-      "normalizedTerm": "the imaginal",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "the imaginal",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "mode",
-        "reality",
-        "disclosure",
-        "which",
-        "image",
-        "symbol",
-        "and",
-        "vision",
-        "are",
-        "not",
-        "mere",
-        "fantasy",
-        "but",
-        "serious",
-        "way",
-        "depth"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: Physis 307 Narrative and Teleology 308 Corbin and Persian Sufism 310 Corbin, Gnosis and the Imaginal 310 The Symbol of the Angel and the Divine Double 313 Episode 49 - The Sacred S",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "the-mystery-of-religio": {
-      "slug": "the-mystery-of-religio",
-      "term": "The Mystery of Religio",
-      "normalizedTerm": "the mystery of religio",
-      "sourceLanguage": "latin",
-      "searchTerms": [
-        "the mystery of religio",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "depth",
-        "dimension",
-        "religio",
-        "existentially",
-        "charged",
-        "mystery",
-        "that",
-        "cannot",
-        "reduced",
-        "mere",
-        "explanation",
-        "doctrine"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: y meaningful to a point, though if pushed too far in a negative sense: horror The Mystery of Religio * Difference between something being a phenomenological mystery and it being so",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "the-mythos-of-the-divine-double": {
-      "slug": "the-mythos-of-the-divine-double",
-      "term": "The mythos of the divine double",
-      "normalizedTerm": "the mythos of the divine double",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "the mythos of the divine double",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "mythic",
-        "pattern",
-        "which",
-        "person",
-        "encounters",
-        "higher",
-        "counterpart",
-        "true",
-        "self",
-        "guiding",
-        "double",
-        "that",
-        "calls",
-        "them",
-        "beyond"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: d Second Self - Corbin and Jung 316 The Problem of Non-Logical Identity 316 The mythos of the divine double 318 The Sacred Second Self 320 Jung and Individuation 320 Episode 50 - T",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "the-numinous": {
       "slug": "the-numinous",
       "term": "The Numinous",
@@ -4939,39 +3117,6 @@
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: - the fundamental experience * The experience of the numinous is to experience the transgressive side of the sacredness, how it opens us up in wonder and awe, and takes us to the h",
       "primarySourceIds": [
         "source_manual-pod-k1-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "the-problem-of-non-logical-identity": {
-      "slug": "the-problem-of-non-logical-identity",
-      "term": "The Problem of Non-Logical Identity",
-      "normalizedTerm": "the problem of non logical identity",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "the problem of non-logical identity",
-        "the problem of non logical identity",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "difficulty",
-        "understanding",
-        "forms",
-        "sameness",
-        "participation",
-        "that",
-        "are",
-        "not",
-        "reducible",
-        "strict",
-        "logical",
-        "identity"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: Divine Double 313 Episode 49 - The Sacred Second Self - Corbin and Jung 316 The Problem of Non-Logical Identity 316 The mythos of the divine double 318 The Sacred Second Self 320 J",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -5008,108 +3153,6 @@
       ],
       "updatedFromSeed": true
     },
-    "the-sacred-second-self": {
-      "slug": "the-sacred-second-self",
-      "term": "The Sacred Second Self",
-      "normalizedTerm": "the sacred second self",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "the sacred second self",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "transformed",
-        "higher",
-        "selfhood",
-        "disclosed",
-        "through",
-        "sacred",
-        "symbolic",
-        "imaginal",
-        "encounter",
-        "rather",
-        "than",
-        "manufactured",
-        "ego",
-        "alone"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: Imaginal 310 The Symbol of the Angel and the Divine Double 313 Episode 49 - The Sacred Second Self - Corbin and Jung 316 The Problem of Non-Logical Identity 316 The mythos of the d",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "the-sacred-vs-sacredness": {
-      "slug": "the-sacred-vs-sacredness",
-      "term": "The Sacred vs. Sacredness",
-      "normalizedTerm": "the sacred vs sacredness",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "the sacred vs. sacredness",
-        "the sacred vs sacredness",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "distinction",
-        "between",
-        "the",
-        "sacred",
-        "orienting",
-        "depth",
-        "reality",
-        "and",
-        "sacredness",
-        "felt",
-        "quality",
-        "disclosure",
-        "that",
-        "dimension"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: it. * What else could be more valuable to us? The Sacred vs. Sacredness * What’s missing in religio but found in religion is to confront the sacred",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "the-science-of-cognition-intelligence": {
-      "slug": "the-science-of-cognition-intelligence",
-      "term": "The Science of Cognition: Intelligence",
-      "normalizedTerm": "the science of cognition intelligence",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "the science of cognition: intelligence",
-        "the science of cognition intelligence",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "study",
-        "intelligence",
-        "capacity",
-        "make",
-        "adaptive",
-        "relevant",
-        "reality",
-        "tracking",
-        "responses",
-        "under",
-        "conditions",
-        "complexity",
-        "and",
-        "limitation"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: een the disciplines that addresses equivocation, fragmentation, and ignorance The Science of Cognition: Intelligence * Faculty in us for core meaning capacity = intelligence, makes",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "the-sophists": {
       "slug": "the-sophists",
       "term": "The Sophists",
@@ -5142,41 +3185,6 @@
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ut * Two groups of people accredited as being wise were the philosophers and the sophists * Pythagoras invented the word philosophy: * Philea - friendship love * Sophia - wisdom *",
       "primarySourceIds": [
         "source_manual-pod-k1-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "the-symbol-of-the-angel-and-the-divine-double": {
-      "slug": "the-symbol-of-the-angel-and-the-divine-double",
-      "term": "The Symbol of the Angel and the Divine Double",
-      "normalizedTerm": "the symbol of the angel and the divine double",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "the symbol of the angel and the divine double",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "symbolic",
-        "pattern",
-        "which",
-        "higher",
-        "guidance",
-        "and",
-        "transformed",
-        "self",
-        "are",
-        "encountered",
-        "through",
-        "imaginal",
-        "figures",
-        "such",
-        "the",
-        "angelic"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: 308 Corbin and Persian Sufism 310 Corbin, Gnosis and the Imaginal 310 The Symbol of the Angel and the Divine Double 313 Episode 49 - The Sacred Second Self - Corbin and Jung 316 Th",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -5246,170 +3254,6 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
-      ],
-      "updatedFromSeed": true
-    },
-    "theories-of-relevance": {
-      "slug": "theories-of-relevance",
-      "term": "Theories of Relevance",
-      "normalizedTerm": "theories of relevance",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "theories of relevance",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "competing",
-        "attempts",
-        "explain",
-        "how",
-        "agents",
-        "determine",
-        "what",
-        "matters",
-        "ignore",
-        "and",
-        "action",
-        "fitting",
-        "given",
-        "situation"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ep connection between relevance and agency and meaning/agent arena relationship Theories of Relevance * Mistakes for theory of relevance is when we argue in a circle: whatever proc",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "theory-of-evolution": {
-      "slug": "theory-of-evolution",
-      "term": "Theory of Evolution",
-      "normalizedTerm": "theory of evolution",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "theory of evolution",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "explanatory",
-        "framework",
-        "which",
-        "complex",
-        "forms",
-        "arise",
-        "through",
-        "variation",
-        "selection",
-        "retention",
-        "and",
-        "adaptation",
-        "across",
-        "time"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: nstraints: reduce the possibilities/reduce the options * Natural Selection Theory of Evolution * Natural selection probably first dynamical Systems theory * Accounts for growth and",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "theory-of-understanding": {
-      "slug": "theory-of-understanding",
-      "term": "Theory of understanding",
-      "normalizedTerm": "theory of understanding",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "theory of understanding",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "account",
-        "what",
-        "means",
-        "not",
-        "merely",
-        "know",
-        "facts",
-        "but",
-        "grasp",
-        "how",
-        "things",
-        "fit",
-        "together",
-        "way",
-        "that",
-        "reorganizes"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: isdom 282 Episode 45 - The Nature of Wisdom 288 Theory of Wisdom 288 Theory of understanding 290 Episode 46 - Conclusion 293 Wise cultivation of enlightenment 294 Prophets of the M",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "theory-of-wisdom": {
-      "slug": "theory-of-wisdom",
-      "term": "Theory of Wisdom",
-      "normalizedTerm": "theory of wisdom",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "theory of wisdom",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "account",
-        "what",
-        "wisdom",
-        "how",
-        "differs",
-        "from",
-        "intelligence",
-        "knowledge",
-        "and",
-        "can",
-        "cultivated"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: 9 Episode 44 - Theories of Wisdom 282 Episode 45 - The Nature of Wisdom 288 Theory of Wisdom 288 Theory of understanding 290 Episode 46 - Conclusion 293 Wise cultivation of enlight",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "thesis-antithesis-synthesis": {
-      "slug": "thesis-antithesis-synthesis",
-      "term": "Thesis / antithesis / Synthesis",
-      "normalizedTerm": "thesis antithesis synthesis",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "thesis / antithesis / synthesis",
-        "thesis antithesis synthesis",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "shorthand",
-        "for",
-        "developmental",
-        "conflict",
-        "and",
-        "reintegration",
-        "where",
-        "tensions",
-        "generate",
-        "higher",
-        "order",
-        "reorganization"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: gs that were confused together get differentiated apart and get reintegrated. Thesis / antithesis / Synthesis * Hegel thought saw internal development of Geist like a living thing",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -5726,75 +3570,6 @@
       ],
       "updatedFromSeed": true
     },
-    "well-defined-vs-ill-defined-problems": {
-      "slug": "well-defined-vs-ill-defined-problems",
-      "term": "Well defined vs. ill defined problems",
-      "normalizedTerm": "well defined vs ill defined problems",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "well defined vs. ill defined problems",
-        "well defined vs ill defined problems",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "distinction",
-        "between",
-        "problems",
-        "with",
-        "clear",
-        "states",
-        "goals",
-        "and",
-        "rules",
-        "whose",
-        "framing",
-        "constraints",
-        "are",
-        "themselves"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: we need it * Fundamentally different kinds of problems: Well defined vs. ill defined problems * Well-defined problem: good meaning and effective guiding representation of the initi",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
-    "wise-cultivation-of-enlightenment": {
-      "slug": "wise-cultivation-of-enlightenment",
-      "term": "Wise cultivation of enlightenment",
-      "normalizedTerm": "wise cultivation of enlightenment",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "wise cultivation of enlightenment",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "the",
-        "disciplined",
-        "skillful",
-        "development",
-        "practices",
-        "that",
-        "foster",
-        "awakening",
-        "without",
-        "collapsing",
-        "into",
-        "fantasy",
-        "domination",
-        "self",
-        "deception"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: f Wisdom 288 Theory of understanding 290 Episode 46 - Conclusion 293 Wise cultivation of enlightenment 294 Prophets of the Meaning Crisis 295 Husserl 296 Heidegger 297 Episode 47 -",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "updatedFromSeed": true
-    },
     "wonder": {
       "slug": "wonder",
       "term": "Wonder",
@@ -5827,41 +3602,6 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
-      ],
-      "updatedFromSeed": true
-    },
-    "world-war-ii-battle-of-kursk": {
-      "slug": "world-war-ii-battle-of-kursk",
-      "term": "World War II: Battle of Kursk",
-      "normalizedTerm": "world war ii battle of kursk",
-      "sourceLanguage": "mixed",
-      "searchTerms": [
-        "world war ii: battle of kursk",
-        "world war ii battle of kursk",
-        "manual-enrichment",
-        "pod notes doc",
-        "user-curated k sheet",
-        "decisive",
-        "eastern",
-        "front",
-        "battle",
-        "often",
-        "used",
-        "symbol",
-        "industrial",
-        "scale",
-        "ideological",
-        "conflict",
-        "and",
-        "historical",
-        "turning",
-        "points"
-      ],
-      "public": true,
-      "seedStatus": "current",
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: omic collapse of the great depression. Seems to vindicate gnostic nightmare. World War II: Battle of Kursk * Nazism vs. Maxism meet in titanic struggle on Eastern front in WWII * B",
-      "primarySourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -5934,86 +3674,6 @@
       ],
       "notes": "Added to make the core Vervaeke cognition framework directly searchable in the corpus."
     },
-    "absurdity__plain-english__seed": {
-      "termSlug": "absurdity",
-      "targetLanguage": "plain-english",
-      "translation": "The felt breakdown in which action, value, and intelligibility no longer hang together in a satisfying or reality-responsive way.",
-      "originBackground": "Absurdity is a major theme in existential thought, especially in modern reflections on meaninglessness, futility, and alienation.",
-      "vervaekeUsage": "Vervaeke treats absurdity as one face of the meaning crisis: adaptive intelligence can turn against itself and generate existential collapse.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: machinery that makes adaptively intelligent makes susceptible to foolishness. * Absurdity, alienation, futility, horror * Horror: grip on reality being undermined * Meaninglessness"
-    },
-    "actual-and-potential__plain-english__seed": {
-      "termSlug": "actual-and-potential",
-      "targetLanguage": "plain-english",
-      "translation": "The distinction between what something already is in operation and what it is capable of becoming or realizing.",
-      "originBackground": "The classic source is Aristotle’s account of potentiality and actuality as a way of thinking about development, form, and realization.",
-      "vervaekeUsage": "Vervaeke uses it to explain growth, virtue, rationality, and wisdom as processes of actualizing latent capacities rather than merely adding possessions.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: akes a bird what it is (John seems to be using logos and eidos as synonyms) Actual and Potential * Aristotle wanted to talk in terms of development * Analogy of artifacts (human ma"
-    },
-    "altered-state-of-consciousness__plain-english__seed": {
-      "termSlug": "altered-state-of-consciousness",
-      "targetLanguage": "plain-english",
-      "translation": "A condition in which attention, perception, self-experience, or salience are reorganized relative to ordinary waking consciousness.",
-      "originBackground": "The term spans psychology, neuroscience, ritual studies, and religious studies, covering trance, meditation, psychedelics, flow, and more.",
-      "vervaekeUsage": "Vervaeke investigates altered states because they can both reveal and distort salience, making them central to wisdom, ritual, and self-transformation.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: o alter their consciousness? * Why does intelligence need to be conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychede"
-    },
-    "alterred-states-of-consciousness__plain-english__seed": {
-      "termSlug": "alterred-states-of-consciousness",
-      "targetLanguage": "plain-english",
-      "translation": "A duplicate/variant spelling of altered states of consciousness, referring to shifts in awareness that can reconfigure perception, salience, and self-experience.",
-      "originBackground": "This is the same conceptual family as altered states of consciousness in psychology, ritual, and contemplative practice.",
-      "vervaekeUsage": "Vervaeke treats such states as double-edged: they can enable insight and transformation, but they can also destabilize orientation if not integrated wisely.",
-      "status": "current",
-      "originConfidence": "provisional",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ehensive flowing relationship with reality (but still have to double check) Alterred States of Consciousness - 36:50: altered states of consciousness have potential to create insig"
-    },
-    "analogy-theory-of-evolution__plain-english__seed": {
-      "termSlug": "analogy-theory-of-evolution",
-      "targetLanguage": "plain-english",
-      "translation": "Using evolution as an analogy for how relevance can emerge through selective fit and adaptive dynamics rather than direct detection of fixed essences.",
-      "originBackground": "The analogy relies on evolutionary thinking as a model for distributed, non-centralized problem solving and adaptation.",
-      "vervaekeUsage": "Vervaeke uses evolutionary analogy to argue that relevance is enacted and selected through interaction, not simply read off from objects.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: an’t be a theory of relevance detection. Don’t detect relevance in the object Analogy: Theory of Evolution * Before Darwin, people thought if studied the natural world could discov"
-    },
     "analytical-philosophy__plain-english__seed": {
       "termSlug": "analytical-philosophy",
       "targetLanguage": "plain-english",
@@ -6030,38 +3690,6 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet."
     },
-    "ancient-greece-literacy-democracy-and-rational-argumentation__plain-english__seed": {
-      "termSlug": "ancient-greece-literacy-democracy-and-rational-argumentation",
-      "targetLanguage": "plain-english",
-      "translation": "The Greek transformation in which literacy, public debate, and rational contestation reshaped thought, memory, and collective intelligence.",
-      "originBackground": "This bundles well-known features of classical Greece: alphabetic literacy, democratic participation, rhetoric, and philosophy.",
-      "vervaekeUsage": "Vervaeke treats this nexus as one engine of the Greek axial revolution because it trained attention, criticism, abstraction, and shared reasoning.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ts processing for sense of how much in touch with reality * Ex: flow state Ancient Greece: Literacy, Democracy and Rational Argumentation * Greeks add vowels to the alphabet: incre"
-    },
-    "aristotles-world-view__plain-english__seed": {
-      "termSlug": "aristotles-world-view",
-      "targetLanguage": "plain-english",
-      "translation": "A purposive, developmental picture of reality in which form, function, growth, and flourishing are basic to understanding the world.",
-      "originBackground": "This refers to Aristotle’s broader metaphysical and biological orientation, especially teleology, virtue, and the intelligibility of living systems.",
-      "vervaekeUsage": "Vervaeke uses Aristotle’s worldview to recover a more ecological and developmental understanding of mind, action, and intelligibility.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ng plausible and practical. That’s how we make sure we’re in touch with things. Aristotle’s World-view * What is the structural functional pattern of the world when I’m making sens"
-    },
     "authorship-of-constraints__plain-english__seed": {
       "termSlug": "authorship-of-constraints",
       "targetLanguage": "plain-english",
@@ -6077,22 +3705,6 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
-    },
-    "avens__plain-english__seed": {
-      "termSlug": "avens",
-      "targetLanguage": "plain-english",
-      "translation": "The thinker David Avens, relevant for imaginal, symbolic, and depth-psychological approaches to meaning and transformation.",
-      "originBackground": "David Avens is associated with archetypal and imaginal thought, especially in relation to Henry Corbin and depth psychology.",
-      "vervaekeUsage": "Vervaeke invokes Avens in the orbit of Corbin, Jung, and imaginal symbolism as part of recovering a richer account of world-disclosure.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: isis 295 Husserl 296 Heidegger 297 Episode 47 - Heidegger 299 Avens 304 Forgetfulness 305 Episode 48 - Corbin and the Divine Double 307 Heidegger and Physis 307 Narrative and Tele"
     },
     "axial-age__plain-english__seed": {
       "termSlug": "axial-age",
@@ -6222,38 +3834,6 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ews * Christianity made claim this kairos found in a particular person Cognitive Fluency * When increase the ease at which people can process information, they come to believe it i"
     },
-    "cognitive-science-of-change-and-kant__plain-english__seed": {
-      "termSlug": "cognitive-science-of-change-and-kant",
-      "targetLanguage": "plain-english",
-      "translation": "An attempt to understand transformation, development, and self-organization using both cognitive-scientific models and Kant-influenced philosophical framing.",
-      "originBackground": "This heading bridges modern cognitive science with post-Kantian concerns about how mind structures experience, action, and world-disclosure.",
-      "vervaekeUsage": "Vervaeke uses this bridge to move from classical philosophy into a modern account of transformation that is dynamic rather than merely static or mechanistic.",
-      "status": "current",
-      "originConfidence": "provisional",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: is making itself * Unfolds across time - see it as change and development Cognitive Science of Change and Kant * Alicia Arara: Dynamics in Action, inspired by Aristotlean framework"
-    },
-    "cognitive-scientific-analysis-of-the-machinery-of-meaning-making__plain-english__seed": {
-      "termSlug": "cognitive-scientific-analysis-of-the-machinery-of-meaning-making",
-      "targetLanguage": "plain-english",
-      "translation": "The attempt to explain meaning, salience, and intelligence by studying the processes that generate significance rather than assuming meaning is self-evident.",
-      "originBackground": "This framing belongs to cognitive science broadly construed, especially work on attention, relevance, embodiment, and adaptive intelligence.",
-      "vervaekeUsage": "It is central to Vervaeke’s project: the meaning crisis can only be addressed if we understand the machinery that makes meaning possible in the first place.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: or this * Zombie mythology could be an articulation of this Cognitive Scientific Analysis of the Machinery of Meaning Making * Time to move onto a cognitive scientific analysis of"
-    },
     "combinatorial-explosion__plain-english__seed": {
       "termSlug": "combinatorial-explosion",
       "targetLanguage": "plain-english",
@@ -6269,22 +3849,6 @@
         "source_manual-pod-k1-2026-07-15"
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ___________ Episode 27 - Problem Formulation https://youtu.be/9j5O-tnaFzE Combinatorial Explosion * Diagram is misleading because by God’s eye view, but in life we’re not out there"
-    },
-    "computational-level__plain-english__seed": {
-      "termSlug": "computational-level",
-      "targetLanguage": "plain-english",
-      "translation": "The level at which cognition is described in terms of formal operations, transformations, and information-processing procedures.",
-      "originBackground": "This echoes Marr-style explanatory levels and broader computational theories of mind.",
-      "vervaekeUsage": "Vervaeke uses the computational level to show why syntax and processing alone cannot explain salience, caring, or wisdom.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ly identify with the way in which we are running represntations in our mind. Computational level * Syntactic level * Syntax about how terms coordinated together"
     },
     "continental-philosophy__plain-english__seed": {
       "termSlug": "continental-philosophy",
@@ -6366,22 +3930,6 @@
       ],
       "notes": ""
     },
-    "data-compression-application__plain-english__seed": {
-      "termSlug": "data-compression-application",
-      "targetLanguage": "plain-english",
-      "translation": "Reducing complexity by finding simpler, more efficient structures that preserve what matters across many cases.",
-      "originBackground": "Data compression is a technical idea from information theory and computing, but it also functions as a metaphor for abstraction and generalization.",
-      "vervaekeUsage": "Vervaeke treats compression-like processes as part of intelligence: cognition must simplify the world without collapsing what is relevant.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: * People who are trying to make AI already implementing these strategies Data Compression (Application) * In science, take two variables, scatterplot w line of best fit"
-    },
     "dialogos__plain-english__seed": {
       "termSlug": "dialogos",
       "targetLanguage": "plain-english",
@@ -6445,54 +3993,6 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
-    },
-    "drawing-it-all-together__plain-english__seed": {
-      "termSlug": "drawing-it-all-together",
-      "targetLanguage": "plain-english",
-      "translation": "The integrative move of bringing multiple cognitive levels and mechanisms into one coordinated account of intelligence, relevance, and meaning.",
-      "originBackground": "This is more a synthetic framing than a historical term, but it names the need for theoretical integration across fragmented disciplines.",
-      "vervaekeUsage": "Vervaeke often draws threads together to show that relevance realization must operate across neural, embodied, social, and existential scales at once.",
-      "status": "current",
-      "originConfidence": "provisional",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: hion * RR happens at multiple levels of cognition Drawing it all Together * Account of RR has to be completely internal * Has to work in"
-    },
-    "efficiency-resiliency-tradeoffs__plain-english__seed": {
-      "termSlug": "efficiency-resiliency-tradeoffs",
-      "targetLanguage": "plain-english",
-      "translation": "The tension between systems optimized for speed or efficiency and systems robust enough to handle surprise, change, and disruption.",
-      "originBackground": "Tradeoff thinking is common in systems theory, ecology, engineering, and adaptive cognition.",
-      "vervaekeUsage": "Vervaeke uses the tradeoff to explain why wisdom cannot mean maximal optimization alone; it also requires resilience, flexibility, and self-correction.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: nctional sense of connectedness that affords wisdom, self-transcendence, etc. Efficiency-Resiliency Tradeoffs * Initially the machinery of RR has to be internal to an embodied embe"
-    },
-    "eidos-and-logos__plain-english__seed": {
-      "termSlug": "eidos-and-logos",
-      "targetLanguage": "plain-english",
-      "translation": "A pairing of intelligible form and meaning-bearing articulation: what something is in its deep pattern and how that pattern can be disclosed or spoken.",
-      "originBackground": "Eidos and logos are central Greek philosophical terms with overlapping but distinct histories in Plato, Aristotle, and later traditions.",
-      "vervaekeUsage": "Vervaeke uses them to show how the West linked reality, intelligibility, speech, and transformation into a shared grammar of wisdom.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: sing above yourself * This myth going to be a constant refrain in the West Eidos and Logos * Eidos: * translated in the word “form” which brings to mind shape, or “concept” brings"
     },
     "embedded-cognition__plain-english__seed": {
       "termSlug": "embedded-cognition",
@@ -6622,22 +4122,6 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: of power and prosperity. Never saw anything distressing. Everything he wanted. Existential Modes: Having and Being * Myths: attempts to engage with perennial ongoing patterns: * Pa"
     },
-    "exploiting-vs-exploration__plain-english__seed": {
-      "termSlug": "exploiting-vs-exploration",
-      "targetLanguage": "plain-english",
-      "translation": "The tradeoff between using known successful strategies and venturing into uncertain possibilities that may yield something better.",
-      "originBackground": "The exploration-exploitation dilemma is a standard problem in decision theory, reinforcement learning, and adaptive behavior.",
-      "vervaekeUsage": "Vervaeke uses it to explain how intelligent agents must balance stability and discovery if they are to remain adaptive and wise.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: will fit you well to pattern of change/stability in the environment Exploiting vs. Exploration * Deals with timing. Should stay here get as much as can (exploiting) or move and try"
-    },
     "extended-cognition__plain-english__seed": {
       "termSlug": "extended-cognition",
       "targetLanguage": "plain-english",
@@ -6669,22 +4153,6 @@
         "source_manual-pod-k1-2026-07-15"
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: Csíkszentmihályi - conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychedelic experiences. * Mystical experiences that"
-    },
-    "forgetfulness__plain-english__seed": {
-      "termSlug": "forgetfulness",
-      "targetLanguage": "plain-english",
-      "translation": "A condition in which what matters most recedes from living awareness, leaving people trapped in superficial or distorted modes of being.",
-      "originBackground": "The term has broad existential and phenomenological resonance, especially in Heideggerian themes of forgetfulness of Being.",
-      "vervaekeUsage": "Vervaeke uses forgetfulness to diagnose how individuals and cultures lose contact with the deep patterns, practices, and realities that orient wisdom.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: usserl 296 Heidegger 297 Episode 47 - Heidegger 299 Avens 304 Forgetfulness 305 Episode 48 - Corbin and the Divine Double 307 Heidegger and Physis 307 Narrative and Teleology 308 C"
     },
     "global-workspace-theory__plain-english__seed": {
       "termSlug": "global-workspace-theory",
@@ -6766,54 +4234,6 @@
       ],
       "notes": ""
     },
-    "heuristic__plain-english__seed": {
-      "termSlug": "heuristic",
-      "targetLanguage": "plain-english",
-      "translation": "A practical rule of thumb that guides decision and search efficiently without guaranteeing perfect correctness.",
-      "originBackground": "Heuristics are standard in psychology, AI, and decision theory, especially where brute-force optimization is impossible.",
-      "vervaekeUsage": "Vervaeke uses heuristics to show that adaptive intelligence often depends on strategically biased shortcuts that track reality well enough in context.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: l or just building suspense?) * part of evolutionary heritage - fluency heuristic good strategy, in real world situations if pressing fluently picking up on the real patterns * flo"
-    },
-    "historical-factors__plain-english__seed": {
-      "termSlug": "historical-factors",
-      "targetLanguage": "plain-english",
-      "translation": "The concrete historical forces and developments that shape the conditions under which meaning crises arise and are experienced.",
-      "originBackground": "This is a general historiographical notion, but here it refers to the layered social, religious, intellectual, and political causes of modern disorientation.",
-      "vervaekeUsage": "Vervaeke insists that the meaning crisis is not just psychological; it is historically built and must be understood genealogically.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: istorical understanding is a degree to which we are going to be ignorant of the historical factors that are driving the meaning crisis Foreshadowing the Meaning Crisis * Foreshadow"
-    },
-    "hitler__plain-english__seed": {
-      "termSlug": "hitler",
-      "targetLanguage": "plain-english",
-      "translation": "The historical figure who concentrated multiple modern pathologies—ideology, ressentiment, pseudo-religion, propaganda, and catastrophic violence—into a devastating political form.",
-      "originBackground": "Adolf Hitler led National Socialism in Germany and is central to 20th-century analyses of totalitarianism, mass manipulation, and civilizational breakdown.",
-      "vervaekeUsage": "Vervaeke invokes Hitler not as a standalone topic but as an extreme manifestation of how shattered meaning can be reorganized into demonic pseudo-sacred structures.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: gel’s idealistic interpretation of history, or Marx’s economic interpretation Hitler * All come together in Hitler’s auto-didactic mind * Dangers of auto-didactic appro"
-    },
     "horizontalism__plain-english__seed": {
       "termSlug": "horizontalism",
       "targetLanguage": "plain-english",
@@ -6878,54 +4298,6 @@
       ],
       "notes": ""
     },
-    "indispensable-mythos__plain-english__seed": {
-      "termSlug": "indispensable-mythos",
-      "targetLanguage": "plain-english",
-      "translation": "The mythic and narrative machinery humans seem unable to do without if they are to orient themselves meaningfully in the world.",
-      "originBackground": "Mythos here has classical roots but also modern resonance in philosophy, anthropology, and psychology as a mode of world-shaping meaning.",
-      "vervaekeUsage": "Vervaeke uses indispensable mythos to argue that modernity cannot simply discard myth without losing existential orientation and symbolic depth.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: and again to the world. There is the real potential in the world of sacredness Indispensable Mythos * Why is it that we might get this way? * Pa"
-    },
-    "information-processing__plain-english__seed": {
-      "termSlug": "information-processing",
-      "targetLanguage": "plain-english",
-      "translation": "The treatment of cognition as the transformation, transmission, storage, and use of information.",
-      "originBackground": "Information processing became a dominant framework in cognitive science and computer science during the modern cognitive revolution.",
-      "vervaekeUsage": "Vervaeke uses it as an important but incomplete model: information processing explains much, but not the full machinery of relevance, meaning, and wisdom.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: Start to invent new things, new psycho-technologies - standardized way of doing information processing that improves and enhances your cognition by linking brains together - your b"
-    },
-    "initiation-rituals__plain-english__seed": {
-      "termSlug": "initiation-rituals",
-      "targetLanguage": "plain-english",
-      "translation": "Structured practices that transform identity, loyalty, perception, and belonging by taking a person through symbolic thresholds.",
-      "originBackground": "Initiation rituals are widespread in anthropology and religious studies as rites of passage into new roles, responsibilities, or modes of being.",
-      "vervaekeUsage": "Vervaeke treats them as psychotechnologies that reshape cognition, group identity, and meaning through embodied participation.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: l Siegal): ability to pick up on other people’s mental states * Meta-cognition * Initiation rituals: * Commitment and loyalty to my own group now more questionable. There’s temptat"
-    },
     "insight__plain-english__seed": {
       "termSlug": "insight",
       "targetLanguage": "plain-english",
@@ -6958,22 +4330,6 @@
       ],
       "notes": ""
     },
-    "integrated-information-theory__plain-english__seed": {
-      "termSlug": "integrated-information-theory",
-      "targetLanguage": "plain-english",
-      "translation": "The theory that consciousness corresponds to the degree and structure of integrated information in a system.",
-      "originBackground": "Integrated Information Theory is associated especially with Giulio Tononi and later collaborators in philosophy and neuroscience of consciousness.",
-      "vervaekeUsage": "Vervaeke discusses IIT as one attempt to explain consciousness while situating it inside a broader conversation about relevance and meaning.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: involved when people chunk information or insight * Boren-Seth model Integrated Information Theory * Tononi, about the nature of C * C is how powerfully integrated pieces of inform"
-    },
     "intelligibility__plain-english__seed": {
       "termSlug": "intelligibility",
       "targetLanguage": "plain-english",
@@ -6989,22 +4345,6 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
-    },
-    "jung-and-individuation__plain-english__seed": {
-      "termSlug": "jung-and-individuation",
-      "targetLanguage": "plain-english",
-      "translation": "Jung’s account of becoming more whole through integrating neglected, symbolic, and unconscious dimensions of the psyche.",
-      "originBackground": "Individuation is a central Jungian idea describing psychic integration and the unfolding of the self beyond persona and fragmentation.",
-      "vervaekeUsage": "Vervaeke uses Jung and individuation to connect symbolic life, the imaginal, and self-transformation to the recovery of meaning.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: y 316 The mythos of the divine double 318 The Sacred Second Self 320 Jung and Individuation 320 Episode 50 - Tillich and Barfield 322 Tillich 322 Non-theism 325 xBarfield 325 _____"
     },
     "kairos__plain-english__seed": {
       "termSlug": "kairos",
@@ -7070,22 +4410,6 @@
       ],
       "notes": ""
     },
-    "machinery-of-insight__plain-english__seed": {
-      "termSlug": "machinery-of-insight",
-      "targetLanguage": "plain-english",
-      "translation": "The set of cognitive and affective processes by which restructuring occurs and a new pattern suddenly becomes salient.",
-      "originBackground": "Insight research spans Gestalt psychology, neuroscience, psychotherapy, and contemplative studies.",
-      "vervaekeUsage": "Vervaeke treats insight as a privileged window into the machinery of relevance realization because it reveals how salience can be reorganized at depth.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: * C seems to be associated with degree to which brain wiring as SWN Machinery of Insight * Stephen and Dickson: found way to measure how much entropy in processing while trying"
-    },
     "meta-crisis__plain-english__seed": {
       "termSlug": "meta-crisis",
       "targetLanguage": "plain-english",
@@ -7150,22 +4474,6 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: rowing confluence between people interested in buddhism and cognitive science * Mindfulness revolution: mindfulness being mentioned everywhere. * Why is this happening? What do we"
     },
-    "mindsight__plain-english__seed": {
-      "termSlug": "mindsight",
-      "targetLanguage": "plain-english",
-      "translation": "The capacity to perceive mental states in oneself and others with enough clarity to regulate, relate, and respond wisely.",
-      "originBackground": "The term is associated especially with Daniel Siegel and related interpersonal-neurobiology work.",
-      "vervaekeUsage": "Vervaeke uses mindsight as a bridge between self-awareness, social cognition, and participatory intelligence.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: d. Move from first person perspective to a third person perspective really well. * Mindsight: (Daniel Siegal): ability to pick up on other people’s mental states * Meta-cognition *"
-    },
     "modal-modality__plain-english__seed": {
       "termSlug": "modal-modality",
       "targetLanguage": "plain-english",
@@ -7198,86 +4506,6 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * to live in the palace is to try and live everything in the having mode. * Modal confusion: try to serve being needs from the having mode * serve a lot of market interests: if can"
     },
-    "modularity__plain-english__seed": {
-      "termSlug": "modularity",
-      "targetLanguage": "plain-english",
-      "translation": "The idea that cognition is partly organized into specialized subsystems dedicated to particular kinds of processing.",
-      "originBackground": "Modularity is a major concept in cognitive science and evolutionary psychology, often associated with domain-specific mental architecture.",
-      "vervaekeUsage": "Vervaeke evaluates modularity as one partial strategy for explaining relevance, while arguing it cannot by itself solve the coordination problem.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ome way. * Computations * Modularity: specific area of the brain dedicated to processing relevance * Each of those inadequate"
-    },
-    "mutilated-chessboard-problems__plain-english__seed": {
-      "termSlug": "mutilated-chessboard-problems",
-      "targetLanguage": "plain-english",
-      "translation": "Puzzle cases used to reveal how intelligent problem solving often depends on insight into structure rather than brute-force enumeration.",
-      "originBackground": "The mutilated chessboard problem is a classic mathematical and cognitive-science example showing that many seemingly combinatorial tasks hinge on reframing.",
-      "vervaekeUsage": "Vervaeke uses such examples to illustrate insight, constraint recognition, and the limits of exhaustive search.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: eed to be able to deal with ill-defined problems to be considered intelligent Mutilated Chessboard Problems * If have dominos, covers 2 squares, need 32 * Now mutilate chessboar"
-    },
-    "mystery-and-symbols__plain-english__seed": {
-      "termSlug": "mystery-and-symbols",
-      "targetLanguage": "plain-english",
-      "translation": "The relation in which symbols bring us into contact with what exceeds direct conceptual capture while still disclosing it meaningfully.",
-      "originBackground": "This fits symbolist, phenomenological, and theological traditions in which mystery is encountered through symbolic mediation.",
-      "vervaekeUsage": "Vervaeke uses this pairing to show how humans can be confronted by depth and transformation without reducing everything to literal propositions.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: c disclosed to you, which changes how can understand and experience the music Mystery and Symbols * Symbols put in confrontation with what is mysterious"
-    },
-    "narrative-and-teleology__plain-english__seed": {
-      "termSlug": "narrative-and-teleology",
-      "targetLanguage": "plain-english",
-      "translation": "The relation between story-structure and directedness toward ends, purposes, or fulfillment.",
-      "originBackground": "Narrative and teleology meet in philosophy, theology, psychology, and literary theory whenever lives or histories are interpreted as oriented patterns.",
-      "vervaekeUsage": "Vervaeke uses them together to explore how meaning emerges when events are not merely sequenced but purposively integrated.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: 305 Episode 48 - Corbin and the Divine Double 307 Heidegger and Physis 307 Narrative and Teleology 308 Corbin and Persian Sufism 310 Corbin, Gnosis and the Imaginal 310 The Symbol"
-    },
-    "nationalism__plain-english__seed": {
-      "termSlug": "nationalism",
-      "targetLanguage": "plain-english",
-      "translation": "The elevation of the nation into a primary source of belonging, identity, and often quasi-sacred meaning.",
-      "originBackground": "Nationalism is a modern political formation in which people treat the nation-state as a central object of loyalty, destiny, and sacrifice.",
-      "vervaekeUsage": "Vervaeke treats nationalism as one way sacred energies and existential needs get secularized into powerful but dangerous pseudo-religious forms.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: olent political change * Powerful pseudo-religious ideology Nationalism * Nationalism: nation-state can take the role that God has taken in the past: * P"
-    },
     "natural-philosophers-thales__plain-english__seed": {
       "termSlug": "natural-philosophers-thales",
       "targetLanguage": "plain-english",
@@ -7294,22 +4522,6 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: doing the Socratic method with the Sophists - also people who claim knowledge Natural Philosophers - Thales * Natural philosophers: first example of it: Thales * A lot of what we h"
     },
-    "natural-born-cyborgs__plain-english__seed": {
-      "termSlug": "natural-born-cyborgs",
-      "targetLanguage": "plain-english",
-      "translation": "The idea that humans naturally extend their minds through tools, symbols, and technologies rather than thinking only inside the skull.",
-      "originBackground": "The phrase is strongly associated with Andy Clark’s Natural-Born Cyborgs and extended-mind thinking.",
-      "vervaekeUsage": "Vervaeke uses it to show how psychotechnologies and cultural tools become part of cognition itself, not just external aids.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: rtists, and Meditation Teachers on the Power of Mindfulness in Daily Life * Andy Clark - Natural-Born Cyborgs: Minds, Technologies, and the Future of Human Intelligence * Michel Fe"
-    },
     "neo-shamanism__plain-english__seed": {
       "termSlug": "neo-shamanism",
       "targetLanguage": "plain-english",
@@ -7325,54 +4537,6 @@
         "source_manual-pod-k1-2026-07-15"
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: psycho technologies for altering state of consciousness and enhancing cognition * Rise in neo-shamanism. * Shaman does a lot interesting things to get into a particular state. * Sl"
-    },
-    "neolithic-revolution__plain-english__seed": {
-      "termSlug": "neolithic-revolution",
-      "targetLanguage": "plain-english",
-      "translation": "The shift to agriculture, settlement, storage, and social complexity that fundamentally changed how humans lived and made meaning.",
-      "originBackground": "The standard historical label for the transition from foraging to farming societies beginning around 10,000 BCE in multiple regions.",
-      "vervaekeUsage": "Vervaeke treats it as a civilizational turning point that reorganized cognition, social structure, ritual life, and the pressures that later fed into axial transformations.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: or supervision of them * Metaphors * Little whispers of shamanic flight Neolithic Revolution * 10,000 BCE - Neolithic revolution - agriculture * For the first time people start to"
-    },
-    "neuroscientific-account__plain-english__seed": {
-      "termSlug": "neuroscientific-account",
-      "targetLanguage": "plain-english",
-      "translation": "An explanation framed in terms of brain activity, neural dynamics, and the biological mechanisms correlated with cognition and consciousness.",
-      "originBackground": "The phrase is generic, but it points to the modern neuroscientific approach to mind and experience.",
-      "vervaekeUsage": "Vervaeke uses neuroscientific accounts as one explanatory layer while resisting the reduction of meaning and wisdom to brain processes alone.",
-      "status": "current",
-      "originConfidence": "provisional",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: * Help realize, actualize relevant information * Will come back to this Neuroscientific account * correlation with brain activity * Activity seems to be involved when people chunk"
-    },
-    "newell-and-simon__plain-english__seed": {
-      "termSlug": "newell-and-simon",
-      "targetLanguage": "plain-english",
-      "translation": "The foundational AI and cognitive science researchers who modeled problem solving as search through representations and procedures.",
-      "originBackground": "Allen Newell and Herbert Simon were central figures in early cognitive science and AI, especially the General Problem Solver tradition.",
-      "vervaekeUsage": "Vervaeke discusses them to clarify both the power and limits of early computational theories of intelligence.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ing a wide variety of problems in a wide variety of ways * Newell and Simon: general problem solver * Intelligence =/ rational * We should care not about"
     },
     "nietzsche__plain-english__seed": {
       "termSlug": "nietzsche",
@@ -7486,38 +4650,6 @@
       ],
       "notes": "Upgrades the earlier seed row with explicit 4P background and usage."
     },
-    "particularization-scope__plain-english__seed": {
-      "termSlug": "particularization-scope",
-      "targetLanguage": "plain-english",
-      "translation": "Narrowing a general pattern or rule so that it fits a specific context, task, or local set of constraints.",
-      "originBackground": "The term is not a standard canonical label here, but it fits the broader cognitive-scientific problem of balancing generalization with local fit.",
-      "vervaekeUsage": "Vervaeke uses this kind of scope adjustment to show that intelligence is not just abstraction; it is also precise context-sensitive fitting.",
-      "status": "current",
-      "originConfidence": "provisional",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ry-motor loop, protecting and promoting auto-poeitic goals will be reinforced Particularization (Scope) * Trying to create a function that overfits with the data *"
-    },
-    "perennial-problems__plain-english__seed": {
-      "termSlug": "perennial-problems",
-      "targetLanguage": "plain-english",
-      "translation": "The recurring human problems of suffering, self-deception, foolishness, mortality, alienation, and the search for wisdom.",
-      "originBackground": "The phrase evokes the perennial dimension of human existence—problems that persist across eras even when cultural forms change.",
-      "vervaekeUsage": "Vervaeke uses perennial problems to connect ancient spiritual practices with contemporary cognitive and existential needs.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: deeply profoundly participatory fashion. ________________ Episode 36 - Religio/Perennial Problems/Reverse Engineering Enlightenment https://youtu.be/48Ch2x3DrfM * Symbols are a pa"
-    },
     "perennial-questions__plain-english__seed": {
       "termSlug": "perennial-questions",
       "targetLanguage": "plain-english",
@@ -7598,22 +4730,6 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: dern people do not find them relevant, they are not widely read. * In contrast, Plato, Bible, Confucius probably have read feel are relevant in way people from the bronze age aren’"
     },
-    "platos-psychology-man-monster-and-lion__plain-english__seed": {
-      "termSlug": "platos-psychology-man-monster-and-lion",
-      "targetLanguage": "plain-english",
-      "translation": "Plato’s image of the psyche as a conflict among rational, appetitive, and aggressive forces that must be rightly ordered.",
-      "originBackground": "This comes from Platonic moral psychology, especially the Republic, where psychic conflict is rendered through symbolic inner figures.",
-      "vervaekeUsage": "Vervaeke uses it to explain self-deception, akrasia, character formation, and why wisdom requires inner integration rather than mere information.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: sing towards the future, from the world of illusion to the world of reality Plato’s Psychology - Man, Monster and Lion * Plato: first psychological theory in history. Still relevan"
-    },
     "poiesis__plain-english__seed": {
       "termSlug": "poiesis",
       "targetLanguage": "plain-english",
@@ -7662,38 +4778,6 @@
       ],
       "notes": "Added to support the 4Ps cluster explicitly."
     },
-    "prophetic-tradition__plain-english__seed": {
-      "termSlug": "prophetic-tradition",
-      "targetLanguage": "plain-english",
-      "translation": "A mode of religious critique that calls people back from self-deception, injustice, and idolatry toward deeper reality and moral transformation.",
-      "originBackground": "The prophetic tradition is rooted in ancient Israel, where prophets are not mere fortune-tellers but figures who diagnose cultural disorder and demand reorientation.",
-      "vervaekeUsage": "Vervaeke uses it as part of the axial revolution: a recurring wake-up mechanism that exposes collective foolishness and renews meaning.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: has to intervene periodically * God has to do something to wake people up Prophetic tradition * Prophetic tradition * Prophet not someone who tells the future. * Prophesy not about"
-    },
-    "prophets-of-the-meaning-crisis__plain-english__seed": {
-      "termSlug": "prophets-of-the-meaning-crisis",
-      "targetLanguage": "plain-english",
-      "translation": "The thinkers who diagnosed modern meaning breakdown before it was widely recognized and who pointed toward its deeper causes.",
-      "originBackground": "This is a Vervaeke-style grouping of major modern diagnosticians such as Nietzsche, Heidegger, Tillich, and others.",
-      "vervaekeUsage": "Vervaeke treats such figures as prophetic because they reveal structural pathologies in modernity rather than merely expressing private pessimism.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: 290 Episode 46 - Conclusion 293 Wise cultivation of enlightenment 294 Prophets of the Meaning Crisis 295 Husserl 296 Heidegger 297 Episode 47 - Heidegger 299 Avens 304 Forgetfulnes"
-    },
     "propositional-knowing__plain-english__seed": {
       "termSlug": "propositional-knowing",
       "targetLanguage": "plain-english",
@@ -7725,22 +4809,6 @@
         "source_manual-pod-k1-2026-07-15"
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: gnificantly. Much more likely its a software change in how people are using the brain. * Psychotechnology: * Technology means systematic use of a tool * Natural born cyborg: brain"
-    },
-    "rationality-and-being-in-contact-with-reality__plain-english__seed": {
-      "termSlug": "rationality-and-being-in-contact-with-reality",
-      "targetLanguage": "plain-english",
-      "translation": "Rationality understood not just as formal correctness but as an improved capacity to be appropriately responsive to what is real.",
-      "originBackground": "This reframing pushes beyond narrow modern accounts of rationality toward older philosophical and virtue-based models tied to wisdom and fit.",
-      "vervaekeUsage": "Vervaeke regularly argues that rationality should be judged by contact with reality, self-correction, and orientation, not only by rule-following.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: even though I want to. And I feel guilty or ashamed or weak when I give in.) Rationality and Being in Contact with Reality * living up to potential, ascending the hierarchy * Arist"
     },
     "reciprocal-narrowing-parasitic-processing__plain-english__seed": {
       "termSlug": "reciprocal-narrowing-parasitic-processing",
@@ -7822,38 +4890,6 @@
       ],
       "notes": "Not in the first sacredness deck; pulled from the prior human glossary text because it seems important for the app corpus."
     },
-    "representational-level__plain-english__seed": {
-      "termSlug": "representational-level",
-      "targetLanguage": "plain-english",
-      "translation": "The level at which cognitive states stand for, depict, or direct an agent toward objects, situations, or possibilities.",
-      "originBackground": "Representation is a central concept in philosophy of mind and cognitive science, especially in theories that treat mental content as world-directed.",
-      "vervaekeUsage": "Vervaeke discusses the representational level as necessary but insufficient for explaining relevance and participatory knowing.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: . we should garner lessons about how we should think about human spirituality Representational Level * Mental entity that stands for, directs us towards an object in the world"
-    },
-    "response-to-hegel__plain-english__seed": {
-      "termSlug": "response-to-hegel",
-      "targetLanguage": "plain-english",
-      "translation": "The broad set of philosophical and cultural reactions to Hegel’s totalizing historical vision, including both adoption and critique.",
-      "originBackground": "Post-Hegelian thought includes divergent responses from Marxists, Kierkegaardians, existentialists, phenomenologists, and others.",
-      "vervaekeUsage": "Vervaeke uses the responses to Hegel to track how modernity secularizes spiritual aspiration into ideology, critique, and new attempts at meaning.",
-      "status": "current",
-      "originConfidence": "provisional",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: eads across Europe * But many consider it to have collapsed Response to Hegel * Pattern of secularizing religion into systems of ideas that attempt to give total explanation and"
-    },
     "sacredness__plain-english__seed": {
       "termSlug": "sacredness",
       "targetLanguage": "plain-english",
@@ -7901,22 +4937,6 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
-    },
-    "self-organizing-criticality__plain-english__seed": {
-      "termSlug": "self-organizing-criticality",
-      "targetLanguage": "plain-english",
-      "translation": "A regime in which complex systems spontaneously organize near a critical threshold where they are poised for flexible, large-scale reconfiguration.",
-      "originBackground": "The concept comes from complexity science and the study of dynamical systems, avalanches, phase transitions, and emergent order.",
-      "vervaekeUsage": "Vervaeke uses it to illuminate how cognition may balance order and chaos in ways that support insight, salience, and adaptive transformation.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: y, then asynchronous, rapidly oscillating manner: self organizing criticality Self-Organizing Criticality * Particular kind of self-organizing * Ex: grains of sand"
     },
     "self-transcendence__plain-english__seed": {
       "termSlug": "self-transcendence",
@@ -7966,38 +4986,6 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ness? * Why does intelligence need to be conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychedelic experiences. * Myst"
     },
-    "siddartha-leaves-the-palace__plain-english__seed": {
-      "termSlug": "siddartha-leaves-the-palace",
-      "targetLanguage": "plain-english",
-      "translation": "The scene in which Siddhartha encounters suffering beyond the protected world of privilege and begins the path toward awakening.",
-      "originBackground": "The departure from the palace is a classic episode in the Buddha narrative, symbolizing confrontation with sickness, aging, and death.",
-      "vervaekeUsage": "Vervaeke treats it as a paradigm of breaking modal confusion: leaving insulated comfort so reality can re-order attention and identity.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: tation of this * By inducing modal confusion, possible to sell you more Siddartha leaves the palace * Siddartha leaves palace in chariot, sees a sick person. He’s distressed. What"
-    },
-    "siddhartha-and-the-mindfulness-revolution__plain-english__seed": {
-      "termSlug": "siddhartha-and-the-mindfulness-revolution",
-      "targetLanguage": "plain-english",
-      "translation": "The axial-Buddhist turn in which Siddhartha’s awakening becomes a template for disciplined attention, liberation, and transformative self-knowledge.",
-      "originBackground": "This draws on the story of Siddhartha Gautama and the later Buddhist traditions of meditation, insight, and liberation.",
-      "vervaekeUsage": "Vervaeke uses the mindfulness revolution as part of the Indian axial response to suffering, self-deception, and existential entrapment.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ing existential modes that are consonant with our best scientific understanding Siddhartha and the Mindfulness Revolution * mindfulness revolution * Meditation and contemplation: I"
-    },
     "situational-awareness__plain-english__seed": {
       "termSlug": "situational-awareness",
       "targetLanguage": "plain-english",
@@ -8029,38 +5017,6 @@
         "source_manual-pod-k1-2026-07-15"
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: can transcend and see the world as beautiful * Huge influence on Plato * Socrates: epitomizes the Greek form of the axial revolution. Socratic revolution. * We are no longer in the"
-    },
-    "socrates-quest__plain-english__seed": {
-      "termSlug": "socrates-quest",
-      "targetLanguage": "plain-english",
-      "translation": "Socrates’ effort to understand how he could be called wise precisely when he knew he was not wise in the ordinary possessive sense.",
-      "originBackground": "This refers to the Socratic narrative, especially in Plato’s Apology, of testing reputedly wise people after the Delphic oracle’s pronouncement.",
-      "vervaekeUsage": "Vervaeke uses it to show that wisdom begins in transformative questioning, humility, and the exposure of false certainty.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: Personal dilemma: how can he be the wisest being when he knows he’s not wise Socrates’ Quest * Starts on a quest to determine how both of those things could be true at the same tim"
-    },
-    "socrates-trial__plain-english__seed": {
-      "termSlug": "socrates-trial",
-      "targetLanguage": "plain-english",
-      "translation": "The prosecution and execution of Socrates, often taken as a defining clash between truth-oriented questioning and social-political self-protection.",
-      "originBackground": "Socrates was tried in Athens on charges of impiety and corrupting the youth; the event is central in Platonic memory and the identity of philosophy.",
-      "vervaekeUsage": "Vervaeke returns to the trial as a symbol of how societies resist the very questioning that could make them wiser.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: determine the truth, which helped them train their attention to find salience Socrates’ Trial * Socrates would go up to someone and ask questions, kept asking why, oh so you must k"
     },
     "sole-authorship__plain-english__seed": {
       "termSlug": "sole-authorship",
@@ -8094,22 +5050,6 @@
       ],
       "notes": "Added because the exact phrase 'super salient' appears in Vervaeke’s discussion of flow and higher states."
     },
-    "symbols-and-sacredness__plain-english__seed": {
-      "termSlug": "symbols-and-sacredness",
-      "targetLanguage": "plain-english",
-      "translation": "The idea that symbols do not merely stand for sacred realities but can open participation in them and reorganize salience through them.",
-      "originBackground": "This draws on phenomenology, religious studies, and symbolic theory where symbols are world-disclosive rather than arbitrary signs.",
-      "vervaekeUsage": "Vervaeke uses symbols to explain how sacred meaning is enacted, felt, and transmitted rather than merely stated.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: * Religions, rich in symbolic machinery Symbols and Sacredness * Symbol original meant: to put two things together."
-    },
     "the-agent-arena-relationship__plain-english__seed": {
       "termSlug": "the-agent-arena-relationship",
       "targetLanguage": "plain-english",
@@ -8142,70 +5082,6 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: knowing: not just changing my mind, knowing with the very machinery of my self Myth of the Cave * People in cave chained to a wall, with a fire, just see the shadows * Take the sha"
     },
-    "the-great-disembedding__plain-english__seed": {
-      "termSlug": "the-great-disembedding",
-      "targetLanguage": "plain-english",
-      "translation": "The process by which people are pulled out of thick participatory worlds and re-situated in more detached, buffered, disembedded forms of life.",
-      "originBackground": "The phrase strongly echoes Charles Taylor’s account of modernity, where persons, institutions, and meanings are increasingly loosened from older cosmic and communal embeddings.",
-      "vervaekeUsage": "Vervaeke uses it to describe how modern people lose lived contact with sacred, symbolic, and communal structures that once oriented meaning.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: hings is shattered * Totally different worldview gets layered on top of this The Great Disembedding * Charles Taylor: the great disembedding * Mythological neither scientific nor j"
-    },
-    "the-imaginal__plain-english__seed": {
-      "termSlug": "the-imaginal",
-      "targetLanguage": "plain-english",
-      "translation": "A mode of reality-disclosure in which image, symbol, and vision are not mere fantasy but a serious way in which depth can appear.",
-      "originBackground": "The imaginal is strongly associated with Henry Corbin and related traditions that distinguish it from both literal materiality and arbitrary imagination.",
-      "vervaekeUsage": "Vervaeke uses the imaginal to recover symbolic and visionary participation without collapsing it into either superstition or private fiction.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: Physis 307 Narrative and Teleology 308 Corbin and Persian Sufism 310 Corbin, Gnosis and the Imaginal 310 The Symbol of the Angel and the Divine Double 313 Episode 49 - The Sacred S"
-    },
-    "the-mystery-of-religio__plain-english__seed": {
-      "termSlug": "the-mystery-of-religio",
-      "targetLanguage": "plain-english",
-      "translation": "The depth-dimension of religio as an existentially charged mystery that cannot be reduced to mere explanation or doctrine.",
-      "originBackground": "Religio has Latin roots, but here the emphasis is phenomenological: mystery as what transforms and confronts rather than what is merely unsolved.",
-      "vervaekeUsage": "Vervaeke uses the mystery of religio to distinguish a lived participatory bond with reality from thin institutional or propositional religion.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: y meaningful to a point, though if pushed too far in a negative sense: horror The Mystery of Religio * Difference between something being a phenomenological mystery and it being so"
-    },
-    "the-mythos-of-the-divine-double__plain-english__seed": {
-      "termSlug": "the-mythos-of-the-divine-double",
-      "targetLanguage": "plain-english",
-      "translation": "The mythic pattern in which a person encounters a higher counterpart, true self, or guiding double that calls them beyond ordinary identity.",
-      "originBackground": "Variations of the divine double appear across mythic, mystical, and imaginal traditions, especially in Corbin-related symbolism.",
-      "vervaekeUsage": "Vervaeke uses this motif to discuss transformation, symbolic identity, and the imaginal restructuring of selfhood.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: d Second Self - Corbin and Jung 316 The Problem of Non-Logical Identity 316 The mythos of the divine double 318 The Sacred Second Self 320 Jung and Individuation 320 Episode 50 - T"
-    },
     "the-numinous__plain-english__seed": {
       "termSlug": "the-numinous",
       "targetLanguage": "plain-english",
@@ -8221,22 +5097,6 @@
         "source_manual-pod-k1-2026-07-15"
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: - the fundamental experience * The experience of the numinous is to experience the transgressive side of the sacredness, how it opens us up in wonder and awe, and takes us to the h"
-    },
-    "the-problem-of-non-logical-identity__plain-english__seed": {
-      "termSlug": "the-problem-of-non-logical-identity",
-      "targetLanguage": "plain-english",
-      "translation": "The difficulty of understanding forms of sameness or participation that are not reducible to strict logical identity.",
-      "originBackground": "This problem appears in mystical, symbolic, and philosophical contexts where analogy, participation, and transformation blur rigid categories.",
-      "vervaekeUsage": "Vervaeke uses it in the Corbin/Jung orbit to explain how symbolic participation can be real without collapsing distinctions into literal sameness.",
-      "status": "current",
-      "originConfidence": "provisional",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: Divine Double 313 Episode 49 - The Sacred Second Self - Corbin and Jung 316 The Problem of Non-Logical Identity 316 The mythos of the divine double 318 The Sacred Second Self 320 J"
     },
     "the-sacred__plain-english__seed": {
       "termSlug": "the-sacred",
@@ -8254,54 +5114,6 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: his definition related to experience not doctrine Reference snippet: * Serious playing: put themselves in a liminal play: normal world and the sacred world they want to dwell in. See how if they want to go through the change that religion is demandi"
     },
-    "the-sacred-second-self__plain-english__seed": {
-      "termSlug": "the-sacred-second-self",
-      "targetLanguage": "plain-english",
-      "translation": "A transformed or higher selfhood disclosed through sacred, symbolic, or imaginal encounter rather than manufactured by ego alone.",
-      "originBackground": "The phrase fits Corbinian, Jungian, and mystical patterns in which a deeper self is encountered as vocation, image, or partner in transformation.",
-      "vervaekeUsage": "Vervaeke uses it to explore how sacred transformation can involve becoming answerable to a deeper mode of identity.",
-      "status": "current",
-      "originConfidence": "provisional",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: Imaginal 310 The Symbol of the Angel and the Divine Double 313 Episode 49 - The Sacred Second Self - Corbin and Jung 316 The Problem of Non-Logical Identity 316 The mythos of the d"
-    },
-    "the-sacred-vs-sacredness__plain-english__seed": {
-      "termSlug": "the-sacred-vs-sacredness",
-      "targetLanguage": "plain-english",
-      "translation": "A distinction between the sacred as an orienting depth-reality and sacredness as the felt quality or disclosure of that dimension.",
-      "originBackground": "The distinction is not a standard textbook binary, but it fits phenomenological and religious analyses of ultimacy, value, and numinous disclosure.",
-      "vervaekeUsage": "Vervaeke uses it to clarify that sacredness is not just a label; it is a mode of disclosed significance that may point toward the sacred proper.",
-      "status": "current",
-      "originConfidence": "provisional",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: it. * What else could be more valuable to us? The Sacred vs. Sacredness * What’s missing in religio but found in religion is to confront the sacred"
-    },
-    "the-science-of-cognition-intelligence__plain-english__seed": {
-      "termSlug": "the-science-of-cognition-intelligence",
-      "targetLanguage": "plain-english",
-      "translation": "The study of intelligence as the capacity to make adaptive, relevant, reality-tracking responses under conditions of complexity and limitation.",
-      "originBackground": "This belongs to cognitive science, AI, psychology, and philosophy of mind, but Vervaeke pushes the term beyond narrow IQ or computation models.",
-      "vervaekeUsage": "Vervaeke uses intelligence as a doorway into relevance realization: what matters is not raw calculation but fitted responsiveness.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: een the disciplines that addresses equivocation, fragmentation, and ignorance The Science of Cognition: Intelligence * Faculty in us for core meaning capacity = intelligence, makes"
-    },
     "the-sophists__plain-english__seed": {
       "termSlug": "the-sophists",
       "targetLanguage": "plain-english",
@@ -8317,22 +5129,6 @@
         "source_manual-pod-k1-2026-07-15"
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ut * Two groups of people accredited as being wise were the philosophers and the sophists * Pythagoras invented the word philosophy: * Philea - friendship love * Sophia - wisdom *"
-    },
-    "the-symbol-of-the-angel-and-the-divine-double__plain-english__seed": {
-      "termSlug": "the-symbol-of-the-angel-and-the-divine-double",
-      "targetLanguage": "plain-english",
-      "translation": "A symbolic pattern in which higher guidance and a transformed self are encountered through imaginal figures such as the angelic double.",
-      "originBackground": "This theme comes especially from Corbin’s work on angelology, the imaginal, and the divine or higher double in Persian and mystical traditions.",
-      "vervaekeUsage": "Vervaeke uses it to show how imaginal symbolism can mediate transformation, vocation, and contact with trans-egoic dimensions of selfhood.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: 308 Corbin and Persian Sufism 310 Corbin, Gnosis and the Imaginal 310 The Symbol of the Angel and the Divine Double 313 Episode 49 - The Sacred Second Self - Corbin and Jung 316 Th"
     },
     "the-view-from-nowhere__plain-english__seed": {
       "termSlug": "the-view-from-nowhere",
@@ -8365,86 +5161,6 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
-    },
-    "theories-of-relevance__plain-english__seed": {
-      "termSlug": "theories-of-relevance",
-      "targetLanguage": "plain-english",
-      "translation": "Competing attempts to explain how agents determine what matters, what to ignore, and what action is fitting in a given situation.",
-      "originBackground": "Relevance theory spans philosophy, linguistics, AI, psychology, and cognitive science, but no simple account solves the issue cleanly.",
-      "vervaekeUsage": "Vervaeke uses the failure of simple theories of relevance to motivate relevance realization as the core problem of cognition.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: ep connection between relevance and agency and meaning/agent arena relationship Theories of Relevance * Mistakes for theory of relevance is when we argue in a circle: whatever proc"
-    },
-    "theory-of-evolution__plain-english__seed": {
-      "termSlug": "theory-of-evolution",
-      "targetLanguage": "plain-english",
-      "translation": "The explanatory framework in which complex forms arise through variation, selection, retention, and adaptation across time.",
-      "originBackground": "The modern theory is associated above all with Darwin and later evolutionary biology, though it has since expanded in scope and sophistication.",
-      "vervaekeUsage": "Vervaeke uses evolution as a model for non-brute-force intelligence and for how relevance can emerge through dynamical fit rather than top-down design.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: nstraints: reduce the possibilities/reduce the options * Natural Selection Theory of Evolution * Natural selection probably first dynamical Systems theory * Accounts for growth and"
-    },
-    "theory-of-understanding__plain-english__seed": {
-      "termSlug": "theory-of-understanding",
-      "targetLanguage": "plain-english",
-      "translation": "An account of what it means not merely to know facts but to grasp how things fit together in a way that reorganizes thought and action.",
-      "originBackground": "Understanding is a longstanding philosophical and cognitive topic distinct from bare belief or information possession.",
-      "vervaekeUsage": "Vervaeke links understanding to insight, relevance, and wisdom rather than treating it as static propositional storage.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: isdom 282 Episode 45 - The Nature of Wisdom 288 Theory of Wisdom 288 Theory of understanding 290 Episode 46 - Conclusion 293 Wise cultivation of enlightenment 294 Prophets of the M"
-    },
-    "theory-of-wisdom__plain-english__seed": {
-      "termSlug": "theory-of-wisdom",
-      "targetLanguage": "plain-english",
-      "translation": "An account of what wisdom is, how it differs from intelligence or knowledge, and how it can be cultivated.",
-      "originBackground": "Wisdom theory spans philosophy, psychology, religion, and practical ethics, with no single uncontested model.",
-      "vervaekeUsage": "Vervaeke develops a theory of wisdom centered on self-transcendence, overcoming self-deception, and increasing contact with reality.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: 9 Episode 44 - Theories of Wisdom 282 Episode 45 - The Nature of Wisdom 288 Theory of Wisdom 288 Theory of understanding 290 Episode 46 - Conclusion 293 Wise cultivation of enlight"
-    },
-    "thesis-antithesis-synthesis__plain-english__seed": {
-      "termSlug": "thesis-antithesis-synthesis",
-      "targetLanguage": "plain-english",
-      "translation": "A shorthand for developmental conflict and reintegration, where tensions generate higher-order reorganization.",
-      "originBackground": "Though often simplistically attributed to Hegel, the phrase functions as a popular handle on dialectical development in German idealism.",
-      "vervaekeUsage": "Vervaeke uses dialectical development to explain historical and cognitive transformation without reducing reality to static categories.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: gs that were confused together get differentiated apart and get reintegrated. Thesis / antithesis / Synthesis * Hegel thought saw internal development of Geist like a living thing"
     },
     "tillich__plain-english__seed": {
       "termSlug": "tillich",
@@ -8590,38 +5306,6 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: aristotle etc"
     },
-    "well-defined-vs-ill-defined-problems__plain-english__seed": {
-      "termSlug": "well-defined-vs-ill-defined-problems",
-      "targetLanguage": "plain-english",
-      "translation": "The distinction between problems with clear states, goals, and rules, and problems whose framing and constraints are themselves part of the difficulty.",
-      "originBackground": "This is a standard distinction in problem-solving theory, design, AI, and cognitive psychology.",
-      "vervaekeUsage": "Vervaeke uses it to argue that human wisdom is crucial because real life is dominated by ill-defined problems, not neat textbook puzzles.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: we need it * Fundamentally different kinds of problems: Well defined vs. ill defined problems * Well-defined problem: good meaning and effective guiding representation of the initi"
-    },
-    "wise-cultivation-of-enlightenment__plain-english__seed": {
-      "termSlug": "wise-cultivation-of-enlightenment",
-      "targetLanguage": "plain-english",
-      "translation": "The disciplined, skillful development of practices that foster awakening without collapsing into fantasy, domination, or self-deception.",
-      "originBackground": "The phrase is synthetic, but it draws from contemplative traditions, virtue ethics, and modern attempts to operationalize awakening.",
-      "vervaekeUsage": "Vervaeke treats enlightenment as something that must be cultivated wisely through psychotechnologies, communities, and ongoing transformation.",
-      "status": "current",
-      "originConfidence": "provisional",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: f Wisdom 288 Theory of understanding 290 Episode 46 - Conclusion 293 Wise cultivation of enlightenment 294 Prophets of the Meaning Crisis 295 Husserl 296 Heidegger 297 Episode 47 -"
-    },
     "wonder__plain-english__seed": {
       "termSlug": "wonder",
       "targetLanguage": "plain-english",
@@ -8637,22 +5321,6 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
-    },
-    "world-war-ii-battle-of-kursk__plain-english__seed": {
-      "termSlug": "world-war-ii-battle-of-kursk",
-      "targetLanguage": "plain-english",
-      "translation": "A decisive Eastern Front battle often used as a symbol of industrial-scale ideological conflict and historical turning points.",
-      "originBackground": "The Battle of Kursk in 1943 was one of the largest tank battles in history and a major moment in the defeat of Nazi Germany.",
-      "vervaekeUsage": "Vervaeke uses such moments to show how political pseudo-religions can collide catastrophically when secularized total systems are weaponized.",
-      "status": "current",
-      "originConfidence": "grounded",
-      "isPublic": true,
-      "isSeed": true,
-      "sortKey": 100,
-      "sourceIds": [
-        "source_manual-pod-k-topup-2026-07-15"
-      ],
-      "notes": "Promoted from user-curated k row in the POD extraction sheet. Reference snippet: omic collapse of the great depression. Seems to vindicate gnostic nightmare. World War II: Battle of Kursk * Nazism vs. Maxism meet in titanic struggle on Eastern front in WWII * B"
     },
     "zombies__plain-english__seed": {
       "termSlug": "zombies",
@@ -8678,14 +5346,6 @@
       "title": "Manual corpus enrichment — Vervaeke core frameworks",
       "externalRef": "manual-4p-4e-2026-07-15",
       "link": "",
-      "public": true
-    },
-    "source_manual-pod-k-topup-2026-07-15": {
-      "sourceId": "source_manual-pod-k-topup-2026-07-15",
-      "kind": "manual",
-      "title": "POD's Awakening from the Meaning Crisis Notes",
-      "externalRef": "manual-pod-k-topup-2026-07-15",
-      "link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
       "public": true
     },
     "source_manual-pod-k1-2026-07-15": {

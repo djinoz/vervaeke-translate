@@ -40,15 +40,7 @@ describe('seed corpus', () => {
     expect(bySlug.has('psychotechnology')).toBe(true)
   })
 
-  it('includes the second POD top-up additions', () => {
-    expect(bySlug.has('neolithic-revolution')).toBe(true)
-    expect(bySlug.has('the-great-disembedding')).toBe(true)
-    expect(bySlug.has('the-imaginal')).toBe(true)
-    expect(bySlug.has('natural-born-cyborgs')).toBe(true)
-    expect(bySlug.has('theory-of-wisdom')).toBe(true)
-  })
-
   it('reports the new corpus size accurately', () => {
-    expect(seedCorpusStats.totalEntries).toBe(173)
+    expect(seedCorpusStats.totalEntries).toBe(106)
   })
 })
