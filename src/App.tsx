@@ -5,14 +5,6 @@ import { seedCorpusEntries, seedCorpusStats, targetLanguageOptions } from './lib
 import { searchCorpus } from './lib/search'
 import type { SeedCorpusEntry } from './types/corpus'
 
-const collectionPlan = [
-  'terms',
-  'translations',
-  'sources',
-  'suggestions',
-  'moderation_events',
-] as const
-
 function pickInitialEntry(entries: SeedCorpusEntry[]): SeedCorpusEntry {
   return entries.find((entry) => entry.slug === 'logos') ?? entries[0]!
 }
@@ -29,47 +21,32 @@ function App() {
 
   return (
     <main className="app-shell">
-      <section className="hero-card">
+      <header className="app-header">
         <div>
-          <p className="eyebrow">Real seed corpus loaded</p>
           <h1>Vervaeke Translate</h1>
-          <p className="lede">
-            The app is now grounded in the recovered glossary corpus rather than a fake shell. It
-            can already search real terms, distinguish current vs candidate entries, and preserve
-            the difference between short translation, origin/background, and Vervaeke-specific
-            usage.
-          </p>
+          <p className="header-subtitle">Translate Vervaeke into something a normal human can parse.</p>
         </div>
 
-        <div className="hero-metrics">
-          <article>
-            <strong>{seedCorpusStats.totalEntries}</strong>
-            <span>seed entries</span>
-          </article>
-          <article>
-            <strong>{seedCorpusStats.entriesWithOrigin}</strong>
-            <span>with origin/background</span>
-          </article>
-          <article>
-            <strong>{seedCorpusStats.candidateEntries}</strong>
-            <span>candidate/provisional terms</span>
-          </article>
+        <div className="header-stats" aria-label="Corpus summary">
+          <span>{seedCorpusStats.totalEntries} terms</span>
+          <span>{seedCorpusStats.entriesWithOrigin} with origin/background</span>
+          <span>{seedCorpusStats.candidateEntries} candidate terms</span>
         </div>
-      </section>
+      </header>
 
-      <section className="translator-shell card">
-        <div className="translator-toolbar">
-          <label className="toolbar-field">
-            <span>Find a Vervaeke term</span>
+      <section className="translate-card">
+        <div className="translate-toolbar">
+          <label className="toolbar-field toolbar-search">
+            <span>Search terms</span>
             <input
               type="search"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Try logos, religio, verticality, pilgrimage…"
+              placeholder="Try logos, relevance realization, religio, supersalient…"
             />
           </label>
 
-          <label className="toolbar-field compact">
+          <label className="toolbar-field toolbar-target">
             <span>Translate to</span>
             <select
               value={selectedTargetLanguage}
@@ -84,18 +61,22 @@ function App() {
           </label>
         </div>
 
-        <div className="translator-grid">
-          <aside className="term-list">
-            <div className="list-meta">
-              <strong>{filteredEntries.length}</strong>
-              <span>matching entries</span>
+        <div className="translate-windows">
+          <section className="translate-window source-window" aria-label="Source terms">
+            <div className="window-header">
+              <span className="window-label">Vervaeke</span>
+              <span className="window-meta">{filteredEntries.length} matches</span>
+            </div>
+
+            <div className="selected-source-term">
+              {selectedEntry ? selectedEntry.term : 'No matching term'}
             </div>
 
             <div className="term-buttons">
               {filteredEntries.map((entry) => (
                 <button
                   key={entry.slug}
-                  className={entry.slug === selectedEntry.slug ? 'term-button active' : 'term-button'}
+                  className={entry.slug === selectedEntry?.slug ? 'term-button active' : 'term-button'}
                   onClick={() => setSelectedSlug(entry.slug)}
                   type="button"
                 >
@@ -109,105 +90,80 @@ function App() {
                 </button>
               ))}
             </div>
-          </aside>
+          </section>
 
-          <section className="translation-panel">
+          <section className="translate-window result-window" aria-label="Translation result">
+            <div className="window-header">
+              <span className="window-label">
+                {targetLanguageOptions.find((option) => option.value === selectedTargetLanguage)?.label ??
+                  'Plain English'}
+              </span>
+              {selectedEntry ? (
+                <div className="badge-stack">
+                  <span className={selectedEntry.status === 'seed-current' ? 'badge current' : 'badge candidate'}>
+                    {selectedEntry.status === 'seed-current' ? 'current' : 'candidate'}
+                  </span>
+                  <span
+                    className={
+                      selectedEntry.origin_confidence === 'grounded'
+                        ? 'badge grounded'
+                        : selectedEntry.origin_confidence === 'provisional'
+                          ? 'badge provisional'
+                          : 'badge blank'
+                    }
+                  >
+                    {selectedEntry.origin_confidence}
+                  </span>
+                </div>
+              ) : null}
+            </div>
+
             {selectedEntry ? (
               <>
-                <header className="translation-header">
-                  <div>
-                    <p className="panel-label">Source term</p>
-                    <h2>{selectedEntry.term}</h2>
-                  </div>
-                  <div className="badge-stack">
-                    <span className={selectedEntry.status === 'seed-current' ? 'badge current' : 'badge candidate'}>
-                      {selectedEntry.status}
-                    </span>
-                    <span className="badge neutral">{selectedTargetLanguage}</span>
-                    <span className={selectedEntry.origin_confidence === 'grounded' ? 'badge grounded' : selectedEntry.origin_confidence === 'provisional' ? 'badge provisional' : 'badge blank'}>
-                      {selectedEntry.origin_confidence}
-                    </span>
-                  </div>
-                </header>
-
-                <article className="translation-card accent">
-                  <p className="panel-label">Plain-language translation</p>
+                <article className="translation-surface primary-surface">
                   <p className="translation-copy">{selectedEntry.translation}</p>
                 </article>
 
                 <div className="detail-grid">
-                  <article className="translation-card">
-                    <p className="panel-label">Origin / background</p>
+                  <article className="translation-surface detail-surface">
+                    <div className="detail-heading-row">
+                      <p className="panel-label">Origin / background</p>
+                      <span
+                        className="info-dot"
+                        title="This explains where the term comes from historically or philosophically, so Vervaeke’s wording doesn’t look like it came out of nowhere."
+                        aria-label="Why origin/background matters"
+                      >
+                        ?
+                      </span>
+                    </div>
                     <p>
                       {selectedEntry.origin_background ||
-                        'Still blank for this seed row. The schema supports it; the content just needs to be tightened later.'}
+                        'Not filled yet for this term. The schema supports it; the explanation just still needs tightening.'}
                     </p>
                   </article>
 
-                  <article className="translation-card">
+                  <article className="translation-surface detail-surface">
                     <p className="panel-label">Vervaeke usage</p>
                     <p>
                       {selectedEntry.vervaeke_usage ||
-                        'Still blank for this row. The app can already preserve the distinction when we have the explanation.'}
+                        'Not filled yet for this term. This space is for how Vervaeke bends, revives, or specializes the term.'}
                     </p>
                   </article>
                 </div>
 
-                <article className="translation-card metadata">
-                  <p className="panel-label">Provenance</p>
-                  <ul>
-                    {selectedEntry.provenance.map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
-                  {selectedEntry.notes ? <p className="notes-callout">Note: {selectedEntry.notes}</p> : null}
-                </article>
+                {selectedEntry.notes ? <p className="notes-callout">Note: {selectedEntry.notes}</p> : null}
               </>
             ) : (
-              <article className="translation-card empty-state">
+              <article className="translation-surface empty-state">
                 <p className="panel-label">No matches</p>
                 <p>
                   Nothing matched that search yet. Try a broader term like <code>logos</code>,{' '}
-                  <code>religio</code>, <code>dialogos</code>, or <code>verticality</code>.
+                  <code>religio</code>, <code>participatory</code>, or <code>meaning crisis</code>.
                 </p>
               </article>
             )}
           </section>
         </div>
-      </section>
-
-      <section className="grid two-up">
-        <article className="card">
-          <h2>Firestore collection plan</h2>
-          <p>
-            The app should stop pretending a single document can do everything. The seed corpus now
-            maps cleanly onto explicit collections with public reads and server-only mutation paths.
-          </p>
-          <div className="status-list">
-            {collectionPlan.map((collection) => (
-              <code key={collection}>{collection}</code>
-            ))}
-          </div>
-        </article>
-
-        <article className="card">
-          <h2>Why origin/background matters</h2>
-          <p>
-            Many of these terms are retrievals or reinterpretations from Greek, Latin,
-            phenomenology, theology, and cognitive science. Without an origin layer, the app makes
-            Vervaeke look like he simply invented all of them, which is the wrong shape.
-          </p>
-        </article>
-      </section>
-
-      <section className="card checklist-card">
-        <h2>What is real now</h2>
-        <ol>
-          <li>The frontend reads the actual seed corpus from the repo.</li>
-          <li>The translator shell can search and inspect real entries.</li>
-          <li>The Firestore schema has a concrete collection/doc plan.</li>
-          <li>Public vs trusted-write boundaries are documented and encoded in rules.</li>
-        </ol>
       </section>
     </main>
   )
