@@ -164,8 +164,6 @@ function App() {
                   </p>
                 </article>
               </div>
-
-              {selectedEntry.notes ? <p className="notes-callout">Note: {selectedEntry.notes}</p> : null}
             </>
           ) : (
             <article className="translation-surface empty-state">
