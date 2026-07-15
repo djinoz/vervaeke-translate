@@ -1,0 +1,103 @@
+.app-shell {
+  width: min(960px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.hero-card,
+.card {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid #ded6f1;
+  border-radius: 24px;
+  padding: 1.5rem;
+  box-shadow: 0 18px 40px rgba(41, 18, 78, 0.08);
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  color: #6c3fb4;
+  font-weight: 700;
+}
+
+.hero-card h1,
+.card h2 {
+  margin: 0 0 0.75rem;
+}
+
+.lede {
+  margin: 0;
+  max-width: 54rem;
+  font-size: 1.1rem;
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.pill-row span,
+.status-list code {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid #d7c9f7;
+  background: #f6f0ff;
+  color: #3f2668;
+}
+
+.grid.two-up {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.card ul,
+.card ol {
+  margin: 0.75rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.card li + li {
+  margin-top: 0.55rem;
+}
+
+.status-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.footnote {
+  margin-top: 1rem;
+  color: #54456f;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@media (max-width: 760px) {
+  .app-shell {
+    width: min(100%, calc(100% - 1rem));
+    padding-top: 1rem;
+  }
+
+  .grid.two-up {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-card,
+  .card {
+    padding: 1.1rem;
+    border-radius: 18px;
+  }
+}
