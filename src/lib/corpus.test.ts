@@ -40,7 +40,15 @@ describe('seed corpus', () => {
     expect(bySlug.has('psychotechnology')).toBe(true)
   })
 
+  it('includes the user-curated POD k2 additions', () => {
+    expect(bySlug.has('teleology')).toBe(true)
+    expect(bySlug.has('meaning-crisis')).toBe(true)
+    expect(bySlug.has('hegelian-dialectic')).toBe(true)
+    expect(bySlug.has('consciousness')).toBe(true)
+    expect(bySlug.has('spirituality')).toBe(true)
+  })
+
   it('reports the new corpus size accurately', () => {
-    expect(seedCorpusStats.totalEntries).toBe(106)
+    expect(seedCorpusStats.totalEntries).toBe(123)
   })
 })

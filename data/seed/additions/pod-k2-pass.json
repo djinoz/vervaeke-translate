@@ -1,0 +1,308 @@
+[
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Teleology",
+    "translation": "An orientation toward ends, purposes, or fulfillment rather than a view of things as only pushed around by blind causes.",
+    "origin_background": "The term comes from Greek telos, meaning end or goal, and became central in Aristotle and later philosophy for explaining directedness and development.",
+    "vervaeke_usage": "Vervaeke uses teleology to recover why living systems, practices, and persons often make more sense when understood in terms of realization, orientation, and purpose rather than mere mechanism.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet."
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Weltanschauung (worldview)",
+    "translation": "A comprehensive way of seeing and inhabiting reality: the background picture of what the world is like and how one fits into it.",
+    "origin_background": "The German Weltanschauung literally means world-view and became a standard term for civilizational or philosophical outlooks.",
+    "vervaeke_usage": "Vervaeke uses worldview language to show that meaning crises are not just about isolated beliefs but about whole frameworks of salience, value, and identity.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet."
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Perennialism",
+    "translation": "The view that major wisdom traditions share recurring insights into human transformation, reality, and the path beyond self-deception.",
+    "origin_background": "Perennialism is associated with the “perennial philosophy” tradition, especially in comparative religion, though it is debated and can flatten real differences between traditions.",
+    "vervaeke_usage": "Vervaeke is sympathetic to recurring wisdom patterns across traditions, but he does not simply collapse them into sameness; he treats perennial themes as needing careful cognitive and historical interpretation.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: include Vervaeke's view"
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "vitalism",
+    "translation": "The idea that life cannot be fully explained by mechanical processes alone and involves some irreducible principle of living organization.",
+    "origin_background": "Vitalism is a family of historical views in biology and philosophy that opposed purely mechanistic explanations of life, though many strong forms are no longer scientifically accepted.",
+    "vervaeke_usage": "Vervaeke does not endorse crude vitalism, but he often argues that living, cognitive, and meaning-making systems require richer accounts than flat mechanism can provide.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: include Vervaeke's view"
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Mythos",
+    "translation": "The narrative, symbolic, and participatory mode through which people inhabit meaning rather than merely stating propositions about it.",
+    "origin_background": "Mythos is a Greek term linked to story, telling, and world-shaping narrative, often contrasted with logos in later thought.",
+    "vervaeke_usage": "Vervaeke uses mythos not as “false story” but as a deep mode of orientation that can train cognition, identity, ritual participation, and contact with perennial patterns.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet."
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Meaning Crisis",
+    "translation": "The modern breakdown in our ability to experience life as coherent, significant, reality-connected, and worth participating in.",
+    "origin_background": "The phrase names a broad modern condition rather than a single historical doctrine, gathering themes of alienation, absurdity, fragmentation, and loss of orientation.",
+    "vervaeke_usage": "For Vervaeke, the meaning crisis is the central civilizational problem his whole project addresses: a collapse in the machinery that once connected truth, wisdom, selfhood, and the sacred.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: to be ignorant of the historical factors that are driving the meaning crisis Foreshadowing the Meaning Crisis * Foreshadow meaning crisis: mythological way of thinking that allows "
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Altered States of Consciousness",
+    "translation": "States in which awareness, attention, self-experience, or salience are reorganized relative to ordinary waking consciousness.",
+    "origin_background": "The term spans psychology, ritual studies, contemplative traditions, and neuroscience, covering trance, meditation, psychedelics, dream states, and more.",
+    "vervaeke_usage": "Vervaeke explores altered states because they can intensify insight and transformation, but they can also distort salience unless integrated into wiser practices.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: o alter their consciousness? * Why does intelligence need to be conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychede"
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Hegelian dialectic",
+    "translation": "A developmental pattern in which tensions and contradictions drive transformation toward more integrated forms of thought, selfhood, or history.",
+    "origin_background": "Though the slogan “thesis-antithesis-synthesis” oversimplifies Hegel, dialectic in Hegel does name a dynamic of negation, development, and reintegration.",
+    "vervaeke_usage": "Vervaeke uses Hegelian dialectic to think about historical and cognitive development while also warning how grand totalizing systems can turn pseudo-religious and dangerous.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: Thesis / antithesis / Synthesis Reference snippet: gs that were confused together get differentiated apart and get reintegrated. Thesis / antithesis / Synthesis * Hegel thought saw internal development of Geist like a living thing "
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Nationalism",
+    "translation": "The sacralizing of the nation as a supreme object of loyalty, identity, and destiny.",
+    "origin_background": "Nationalism is a modern political formation in which people treat the nation-state as the deepest ground of belonging and collective meaning.",
+    "vervaeke_usage": "Vervaeke uses nationalism as an example of how sacred and existential needs can be redirected into pseudo-religious political structures.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: vervaekes term Reference snippet: olent political change * Powerful pseudo-religious ideology Nationalism * Nationalism: nation-state can take the role that God has taken in the past: * P"
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Cognitive Science",
+    "translation": "The interdisciplinary study of mind, intelligence, meaning-making, and behavior across psychology, neuroscience, AI, linguistics, philosophy, and related fields.",
+    "origin_background": "Cognitive science emerged in the late 20th century as a cross-disciplinary effort to understand cognition using multiple explanatory tools.",
+    "vervaeke_usage": "Vervaeke uses cognitive science as the modern explanatory framework through which he re-reads wisdom traditions, relevance realization, and the meaning crisis.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: ogies, bring back sapiential (relating to wisdom) pursuit of self-transcendence What is Cognitive Science? * Recent discipline, late 70s * Idea: we have multiple disciplines studyi"
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Intelligence",
+    "translation": "The capacity to respond adaptively, relevantly, and insightfully to complex situations rather than merely follow fixed procedures.",
+    "origin_background": "Standard accounts of intelligence range from psychometrics to AI and cognitive science, but many reduce it to abstract problem-solving or computational power.",
+    "vervaeke_usage": "Vervaeke treats intelligence as inseparable from relevance realization: to be intelligent is to zero in on what matters under real-world constraints.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: from a The Science of Cognition perspective Reference snippet: een the disciplines that addresses equivocation, fragmentation, and ignorance The Science of Cognition: Intelligence * Faculty in us for core meaning capacity = intelligence, makes"
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Efficiency-Resiliency Tradeoffs",
+    "translation": "The tension between systems optimized for speed and efficiency and systems robust enough to survive surprise, breakdown, and change.",
+    "origin_background": "This tradeoff appears widely in systems theory, ecology, engineering, and adaptive cognition, where optimization can create brittleness.",
+    "vervaeke_usage": "Vervaeke uses this especially in relevance-realization contexts to show why wisdom cannot be equated with narrow optimization; it also needs flexibility and resilience.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: specifically RR related Reference snippet: nctional sense of connectedness that affords wisdom, self-transcendence, etc. Efficiency-Resiliency Tradeoffs * Initially the machinery of RR has to be internal to an embodied embe"
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Information Processing",
+    "translation": "The treatment of cognition as the handling, transformation, storage, and transmission of information.",
+    "origin_background": "Information processing became a dominant paradigm in cognitive science and computer science during the cognitive revolution.",
+    "vervaeke_usage": "Vervaeke uses the framework seriously but critically, arguing that information processing alone cannot explain salience, caring, participation, or wisdom.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: Start to invent new things, new psycho-technologies - standardized way of doing information processing that improves and enhances your cognition by linking brains together - your b"
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Particularization (Scope)",
+    "translation": "The narrowing of a general pattern, rule, or model so that it fits the concrete demands of a specific situation.",
+    "origin_background": "While not a single canonical textbook term, it belongs to the broader cognitive problem of balancing generalization with local context sensitivity.",
+    "vervaeke_usage": "Vervaeke uses this kind of scope-fitting to show that intelligence is not just abstraction; it must also grip the particulars that matter here and now.",
+    "origin_confidence": "provisional",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: ry-motor loop, protecting and promoting auto-poeitic goals will be reinforced Particularization (Scope) * Trying to create a function that overfits with the data *"
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Consciousness",
+    "translation": "The field of lived awareness in which selected aspects of experience become present, salient, and available for coordinated response.",
+    "origin_background": "Consciousness is a central topic in philosophy, psychology, and neuroscience, with competing models ranging from phenomenology to global workspace and integrated information theories.",
+    "vervaeke_usage": "Vervaeke treats consciousness as deeply tied to relevance, salience, insight, and self-transcendence rather than as a detached inner spotlight alone.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: eaning, wisdom and self-transcendence * Why do human beings seek to alter their consciousness? * Why does intelligence need to be conjoined to an altered state of consciousness * S"
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Machinery of Insight",
+    "translation": "The cognitive, affective, and sometimes altered-state processes by which a person suddenly reconfigures a problem or world and sees what matters differently.",
+    "origin_background": "Insight research spans Gestalt psychology, neuroscience, psychotherapy, and contemplative studies.",
+    "vervaeke_usage": "Vervaeke uses the machinery of insight as a privileged window into relevance realization because insight shows salience being restructured in real time.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: * C seems to be associated with degree to which brain wiring as SWN Machinery of Insight * Stephen and Dickson: found way to measure how much entropy in processing while trying"
+  },
+  {
+    "target_language": "plain-english",
+    "provenance": [
+      "manual-enrichment",
+      "POD notes doc",
+      "user-curated k2 sheet"
+    ],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-pod-k2-2026-07-16",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "term": "Spirituality",
+    "translation": "The dimension of life concerned with transformation, ultimacy, depth, and a wiser relationship to self, reality, and the sacred.",
+    "origin_background": "Spirituality is broader than formal religion and can refer to practices, orientations, or experiences aimed at deep transformation and meaningful participation.",
+    "vervaeke_usage": "Vervaeke treats spirituality as something that should be reclaimed from both reductionism and superstition: a serious domain of psychotechnology, wisdom, and self-transcendence.",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: * Many in the ancient world read him. Platonis/neoplatonism bedrock of western spirituality * Plato traumatised by the death of Socrates - keeps coming back to it. How could his be"
+  }
+]

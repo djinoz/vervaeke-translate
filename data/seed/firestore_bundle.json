@@ -70,6 +70,38 @@
       ],
       "updatedFromSeed": true
     },
+    "altered-states-of-consciousness": {
+      "slug": "altered-states-of-consciousness",
+      "term": "Altered States of Consciousness",
+      "normalizedTerm": "altered states of consciousness",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "altered states of consciousness",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "states",
+        "which",
+        "awareness",
+        "attention",
+        "self",
+        "experience",
+        "salience",
+        "are",
+        "reorganized",
+        "relative",
+        "ordinary",
+        "waking",
+        "consciousness"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: o alter their consciousness? * Why does intelligence need to be conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychede",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "updatedFromSeed": true
+    },
     "analytical-philosophy": {
       "slug": "analytical-philosophy",
       "term": "Analytical Philosophy",
@@ -412,6 +444,41 @@
       ],
       "updatedFromSeed": true
     },
+    "cognitive-science": {
+      "slug": "cognitive-science",
+      "term": "Cognitive Science",
+      "normalizedTerm": "cognitive science",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "cognitive science",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "interdisciplinary",
+        "study",
+        "mind",
+        "intelligence",
+        "meaning",
+        "making",
+        "and",
+        "behavior",
+        "across",
+        "psychology",
+        "neuroscience",
+        "linguistics",
+        "philosophy",
+        "related",
+        "fields"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: ogies, bring back sapiential (relating to wisdom) pursuit of self-transcendence What is Cognitive Science? * Recent discipline, late 70s * Idea: we have multiple disciplines studyi",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "updatedFromSeed": true
+    },
     "combinatorial-explosion": {
       "slug": "combinatorial-explosion",
       "term": "Combinatorial Explosion",
@@ -442,6 +509,41 @@
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ___________ Episode 27 - Problem Formulation https://youtu.be/9j5O-tnaFzE Combinatorial Explosion * Diagram is misleading because by God’s eye view, but in life we’re not out there",
       "primarySourceIds": [
         "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "consciousness": {
+      "slug": "consciousness",
+      "term": "Consciousness",
+      "normalizedTerm": "consciousness",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "consciousness",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "field",
+        "lived",
+        "awareness",
+        "which",
+        "selected",
+        "aspects",
+        "experience",
+        "become",
+        "present",
+        "salient",
+        "and",
+        "available",
+        "for",
+        "coordinated",
+        "response"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: eaning, wisdom and self-transcendence * Why do human beings seek to alter their consciousness? * Why does intelligence need to be conjoined to an altered state of consciousness * S",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
       ],
       "updatedFromSeed": true
     },
@@ -757,6 +859,41 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "efficiency-resiliency-tradeoffs": {
+      "slug": "efficiency-resiliency-tradeoffs",
+      "term": "Efficiency-Resiliency Tradeoffs",
+      "normalizedTerm": "efficiency resiliency tradeoffs",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "efficiency-resiliency tradeoffs",
+        "efficiency resiliency tradeoffs",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "tension",
+        "between",
+        "systems",
+        "optimized",
+        "for",
+        "speed",
+        "and",
+        "efficiency",
+        "robust",
+        "enough",
+        "survive",
+        "surprise",
+        "breakdown",
+        "change"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: specifically RR related Reference snippet: nctional sense of connectedness that affords wisdom, self-transcendence, etc. Efficiency-Resiliency Tradeoffs * Initially the machinery of RR has to be internal to an embodied embe",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
       ],
       "updatedFromSeed": true
     },
@@ -1201,6 +1338,40 @@
       ],
       "updatedFromSeed": true
     },
+    "hegelian-dialectic": {
+      "slug": "hegelian-dialectic",
+      "term": "Hegelian dialectic",
+      "normalizedTerm": "hegelian dialectic",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "hegelian dialectic",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "developmental",
+        "pattern",
+        "which",
+        "tensions",
+        "and",
+        "contradictions",
+        "drive",
+        "transformation",
+        "toward",
+        "more",
+        "integrated",
+        "forms",
+        "thought",
+        "selfhood",
+        "history"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: Thesis / antithesis / Synthesis Reference snippet: gs that were confused together get differentiated apart and get reintegrated. Thesis / antithesis / Synthesis * Hegel thought saw internal development of Geist like a living thing",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "updatedFromSeed": true
+    },
     "heidegger": {
       "slug": "heidegger",
       "term": "Heidegger",
@@ -1408,6 +1579,34 @@
       ],
       "updatedFromSeed": true
     },
+    "information-processing": {
+      "slug": "information-processing",
+      "term": "Information Processing",
+      "normalizedTerm": "information processing",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "information processing",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "treatment",
+        "cognition",
+        "handling",
+        "transformation",
+        "storage",
+        "and",
+        "transmission",
+        "information"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: Start to invent new things, new psycho-technologies - standardized way of doing information processing that improves and enhances your cognition by linking brains together - your b",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "updatedFromSeed": true
+    },
     "insight": {
       "slug": "insight",
       "term": "Insight",
@@ -1472,6 +1671,40 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "intelligence": {
+      "slug": "intelligence",
+      "term": "Intelligence",
+      "normalizedTerm": "intelligence",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "intelligence",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "capacity",
+        "respond",
+        "adaptively",
+        "relevantly",
+        "and",
+        "insightfully",
+        "complex",
+        "situations",
+        "rather",
+        "than",
+        "merely",
+        "follow",
+        "fixed",
+        "procedures"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: from a The Science of Cognition perspective Reference snippet: een the disciplines that addresses equivocation, fragmentation, and ignorance The Science of Cognition: Intelligence * Faculty in us for core meaning capacity = intelligence, makes",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
       ],
       "updatedFromSeed": true
     },
@@ -1644,6 +1877,74 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "machinery-of-insight": {
+      "slug": "machinery-of-insight",
+      "term": "Machinery of Insight",
+      "normalizedTerm": "machinery of insight",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "machinery of insight",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "cognitive",
+        "affective",
+        "and",
+        "sometimes",
+        "altered",
+        "state",
+        "processes",
+        "which",
+        "person",
+        "suddenly",
+        "reconfigures",
+        "problem",
+        "world",
+        "sees",
+        "what"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: * C seems to be associated with degree to which brain wiring as SWN Machinery of Insight * Stephen and Dickson: found way to measure how much entropy in processing while trying",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "updatedFromSeed": true
+    },
+    "meaning-crisis": {
+      "slug": "meaning-crisis",
+      "term": "Meaning Crisis",
+      "normalizedTerm": "meaning crisis",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "meaning crisis",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "modern",
+        "breakdown",
+        "our",
+        "ability",
+        "experience",
+        "life",
+        "coherent",
+        "significant",
+        "reality",
+        "connected",
+        "and",
+        "worth",
+        "participating"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: to be ignorant of the historical factors that are driving the meaning crisis Foreshadowing the Meaning Crisis * Foreshadow meaning crisis: mythological way of thinking that allows",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
       ],
       "updatedFromSeed": true
     },
@@ -1842,6 +2143,69 @@
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * to live in the palace is to try and live everything in the having mode. * Modal confusion: try to serve being needs from the having mode * serve a lot of market interests: if can",
       "primarySourceIds": [
         "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "mythos": {
+      "slug": "mythos",
+      "term": "Mythos",
+      "normalizedTerm": "mythos",
+      "sourceLanguage": "greek",
+      "searchTerms": [
+        "mythos",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "narrative",
+        "symbolic",
+        "and",
+        "participatory",
+        "mode",
+        "through",
+        "which",
+        "people",
+        "inhabit",
+        "meaning",
+        "rather",
+        "than",
+        "merely",
+        "stating",
+        "propositions"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet.",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "updatedFromSeed": true
+    },
+    "nationalism": {
+      "slug": "nationalism",
+      "term": "Nationalism",
+      "normalizedTerm": "nationalism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "nationalism",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "sacralizing",
+        "nation",
+        "supreme",
+        "object",
+        "loyalty",
+        "identity",
+        "and",
+        "destiny"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: vervaekes term Reference snippet: olent political change * Powerful pseudo-religious ideology Nationalism * Nationalism: nation-state can take the role that God has taken in the past: * P",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
       ],
       "updatedFromSeed": true
     },
@@ -2157,6 +2521,38 @@
       ],
       "updatedFromSeed": true
     },
+    "particularization-scope": {
+      "slug": "particularization-scope",
+      "term": "Particularization (Scope)",
+      "normalizedTerm": "particularization scope",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "particularization (scope)",
+        "particularization scope",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "narrowing",
+        "general",
+        "pattern",
+        "rule",
+        "model",
+        "that",
+        "fits",
+        "concrete",
+        "demands",
+        "specific",
+        "situation"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: ry-motor loop, protecting and promoting auto-poeitic goals will be reinforced Particularization (Scope) * Trying to create a function that overfits with the data *",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "updatedFromSeed": true
+    },
     "perennial-questions": {
       "slug": "perennial-questions",
       "term": "Perennial questions",
@@ -2189,6 +2585,41 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "perennialism": {
+      "slug": "perennialism",
+      "term": "Perennialism",
+      "normalizedTerm": "perennialism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "perennialism",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "view",
+        "that",
+        "major",
+        "wisdom",
+        "traditions",
+        "share",
+        "recurring",
+        "insights",
+        "into",
+        "human",
+        "transformation",
+        "reality",
+        "and",
+        "path",
+        "beyond"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: include Vervaeke's view",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
       ],
       "updatedFromSeed": true
     },
@@ -2983,6 +3414,39 @@
       ],
       "updatedFromSeed": true
     },
+    "spirituality": {
+      "slug": "spirituality",
+      "term": "Spirituality",
+      "normalizedTerm": "spirituality",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "spirituality",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "dimension",
+        "life",
+        "concerned",
+        "with",
+        "transformation",
+        "ultimacy",
+        "depth",
+        "and",
+        "wiser",
+        "relationship",
+        "self",
+        "reality",
+        "sacred"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: * Many in the ancient world read him. Platonis/neoplatonism bedrock of western spirituality * Plato traumatised by the death of Socrates - keeps coming back to it. How could his be",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "updatedFromSeed": true
+    },
     "super-salience": {
       "slug": "super-salience",
       "term": "Super-salience (supersalient)",
@@ -3015,6 +3479,39 @@
       "notes": "Added because the exact phrase 'super salient' appears in Vervaeke’s discussion of flow and higher states.",
       "primarySourceIds": [
         "source_manual-supersalience-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "teleology": {
+      "slug": "teleology",
+      "term": "Teleology",
+      "normalizedTerm": "teleology",
+      "sourceLanguage": "greek",
+      "searchTerms": [
+        "teleology",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "orientation",
+        "toward",
+        "ends",
+        "purposes",
+        "fulfillment",
+        "rather",
+        "than",
+        "view",
+        "things",
+        "only",
+        "pushed",
+        "around",
+        "blind",
+        "causes"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet.",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
       ],
       "updatedFromSeed": true
     },
@@ -3570,6 +4067,76 @@
       ],
       "updatedFromSeed": true
     },
+    "vitalism": {
+      "slug": "vitalism",
+      "term": "vitalism",
+      "normalizedTerm": "vitalism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "vitalism",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "the",
+        "idea",
+        "that",
+        "life",
+        "cannot",
+        "fully",
+        "explained",
+        "mechanical",
+        "processes",
+        "alone",
+        "and",
+        "involves",
+        "some",
+        "irreducible",
+        "principle",
+        "living"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: include Vervaeke's view",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "updatedFromSeed": true
+    },
+    "weltanschauung-worldview": {
+      "slug": "weltanschauung-worldview",
+      "term": "Weltanschauung (worldview)",
+      "normalizedTerm": "weltanschauung worldview",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "weltanschauung (worldview)",
+        "weltanschauung worldview",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k2 sheet",
+        "comprehensive",
+        "way",
+        "seeing",
+        "and",
+        "inhabiting",
+        "reality",
+        "the",
+        "background",
+        "picture",
+        "what",
+        "world",
+        "like",
+        "how",
+        "one",
+        "fits"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet.",
+      "primarySourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "updatedFromSeed": true
+    },
     "wonder": {
       "slug": "wonder",
       "term": "Wonder",
@@ -3673,6 +4240,22 @@
         "source_manual-4p-4e-2026-07-15"
       ],
       "notes": "Added to make the core Vervaeke cognition framework directly searchable in the corpus."
+    },
+    "altered-states-of-consciousness__plain-english__seed": {
+      "termSlug": "altered-states-of-consciousness",
+      "targetLanguage": "plain-english",
+      "translation": "States in which awareness, attention, self-experience, or salience are reorganized relative to ordinary waking consciousness.",
+      "originBackground": "The term spans psychology, ritual studies, contemplative traditions, and neuroscience, covering trance, meditation, psychedelics, dream states, and more.",
+      "vervaekeUsage": "Vervaeke explores altered states because they can intensify insight and transformation, but they can also distort salience unless integrated into wiser practices.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: o alter their consciousness? * Why does intelligence need to be conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychede"
     },
     "analytical-philosophy__plain-english__seed": {
       "termSlug": "analytical-philosophy",
@@ -3834,6 +4417,22 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ews * Christianity made claim this kairos found in a particular person Cognitive Fluency * When increase the ease at which people can process information, they come to believe it i"
     },
+    "cognitive-science__plain-english__seed": {
+      "termSlug": "cognitive-science",
+      "targetLanguage": "plain-english",
+      "translation": "The interdisciplinary study of mind, intelligence, meaning-making, and behavior across psychology, neuroscience, AI, linguistics, philosophy, and related fields.",
+      "originBackground": "Cognitive science emerged in the late 20th century as a cross-disciplinary effort to understand cognition using multiple explanatory tools.",
+      "vervaekeUsage": "Vervaeke uses cognitive science as the modern explanatory framework through which he re-reads wisdom traditions, relevance realization, and the meaning crisis.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: ogies, bring back sapiential (relating to wisdom) pursuit of self-transcendence What is Cognitive Science? * Recent discipline, late 70s * Idea: we have multiple disciplines studyi"
+    },
     "combinatorial-explosion__plain-english__seed": {
       "termSlug": "combinatorial-explosion",
       "targetLanguage": "plain-english",
@@ -3849,6 +4448,22 @@
         "source_manual-pod-k1-2026-07-15"
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ___________ Episode 27 - Problem Formulation https://youtu.be/9j5O-tnaFzE Combinatorial Explosion * Diagram is misleading because by God’s eye view, but in life we’re not out there"
+    },
+    "consciousness__plain-english__seed": {
+      "termSlug": "consciousness",
+      "targetLanguage": "plain-english",
+      "translation": "The field of lived awareness in which selected aspects of experience become present, salient, and available for coordinated response.",
+      "originBackground": "Consciousness is a central topic in philosophy, psychology, and neuroscience, with competing models ranging from phenomenology to global workspace and integrated information theories.",
+      "vervaekeUsage": "Vervaeke treats consciousness as deeply tied to relevance, salience, insight, and self-transcendence rather than as a detached inner spotlight alone.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: eaning, wisdom and self-transcendence * Why do human beings seek to alter their consciousness? * Why does intelligence need to be conjoined to an altered state of consciousness * S"
     },
     "continental-philosophy__plain-english__seed": {
       "termSlug": "continental-philosophy",
@@ -3993,6 +4608,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "efficiency-resiliency-tradeoffs__plain-english__seed": {
+      "termSlug": "efficiency-resiliency-tradeoffs",
+      "targetLanguage": "plain-english",
+      "translation": "The tension between systems optimized for speed and efficiency and systems robust enough to survive surprise, breakdown, and change.",
+      "originBackground": "This tradeoff appears widely in systems theory, ecology, engineering, and adaptive cognition, where optimization can create brittleness.",
+      "vervaekeUsage": "Vervaeke uses this especially in relevance-realization contexts to show why wisdom cannot be equated with narrow optimization; it also needs flexibility and resilience.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: specifically RR related Reference snippet: nctional sense of connectedness that affords wisdom, self-transcendence, etc. Efficiency-Resiliency Tradeoffs * Initially the machinery of RR has to be internal to an embodied embe"
     },
     "embedded-cognition__plain-english__seed": {
       "termSlug": "embedded-cognition",
@@ -4202,6 +4833,22 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ndence emeshed in a will to power - dangerous ________________ Episode 24 - Hegel https://youtu.be/6pwBgL0BbJ0 * Line from Kant to Hegel * Kant: reality was the"
     },
+    "hegelian-dialectic__plain-english__seed": {
+      "termSlug": "hegelian-dialectic",
+      "targetLanguage": "plain-english",
+      "translation": "A developmental pattern in which tensions and contradictions drive transformation toward more integrated forms of thought, selfhood, or history.",
+      "originBackground": "Though the slogan “thesis-antithesis-synthesis” oversimplifies Hegel, dialectic in Hegel does name a dynamic of negation, development, and reintegration.",
+      "vervaekeUsage": "Vervaeke uses Hegelian dialectic to think about historical and cognitive development while also warning how grand totalizing systems can turn pseudo-religious and dangerous.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: Thesis / antithesis / Synthesis Reference snippet: gs that were confused together get differentiated apart and get reintegrated. Thesis / antithesis / Synthesis * Hegel thought saw internal development of Geist like a living thing"
+    },
     "heidegger__plain-english__seed": {
       "termSlug": "heidegger",
       "targetLanguage": "plain-english",
@@ -4298,6 +4945,22 @@
       ],
       "notes": ""
     },
+    "information-processing__plain-english__seed": {
+      "termSlug": "information-processing",
+      "targetLanguage": "plain-english",
+      "translation": "The treatment of cognition as the handling, transformation, storage, and transmission of information.",
+      "originBackground": "Information processing became a dominant paradigm in cognitive science and computer science during the cognitive revolution.",
+      "vervaekeUsage": "Vervaeke uses the framework seriously but critically, arguing that information processing alone cannot explain salience, caring, participation, or wisdom.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: Start to invent new things, new psycho-technologies - standardized way of doing information processing that improves and enhances your cognition by linking brains together - your b"
+    },
     "insight__plain-english__seed": {
       "termSlug": "insight",
       "targetLanguage": "plain-english",
@@ -4329,6 +4992,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "intelligence__plain-english__seed": {
+      "termSlug": "intelligence",
+      "targetLanguage": "plain-english",
+      "translation": "The capacity to respond adaptively, relevantly, and insightfully to complex situations rather than merely follow fixed procedures.",
+      "originBackground": "Standard accounts of intelligence range from psychometrics to AI and cognitive science, but many reduce it to abstract problem-solving or computational power.",
+      "vervaekeUsage": "Vervaeke treats intelligence as inseparable from relevance realization: to be intelligent is to zero in on what matters under real-world constraints.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: from a The Science of Cognition perspective Reference snippet: een the disciplines that addresses equivocation, fragmentation, and ignorance The Science of Cognition: Intelligence * Faculty in us for core meaning capacity = intelligence, makes"
     },
     "intelligibility__plain-english__seed": {
       "termSlug": "intelligibility",
@@ -4409,6 +5088,38 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "machinery-of-insight__plain-english__seed": {
+      "termSlug": "machinery-of-insight",
+      "targetLanguage": "plain-english",
+      "translation": "The cognitive, affective, and sometimes altered-state processes by which a person suddenly reconfigures a problem or world and sees what matters differently.",
+      "originBackground": "Insight research spans Gestalt psychology, neuroscience, psychotherapy, and contemplative studies.",
+      "vervaekeUsage": "Vervaeke uses the machinery of insight as a privileged window into relevance realization because insight shows salience being restructured in real time.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: * C seems to be associated with degree to which brain wiring as SWN Machinery of Insight * Stephen and Dickson: found way to measure how much entropy in processing while trying"
+    },
+    "meaning-crisis__plain-english__seed": {
+      "termSlug": "meaning-crisis",
+      "targetLanguage": "plain-english",
+      "translation": "The modern breakdown in our ability to experience life as coherent, significant, reality-connected, and worth participating in.",
+      "originBackground": "The phrase names a broad modern condition rather than a single historical doctrine, gathering themes of alienation, absurdity, fragmentation, and loss of orientation.",
+      "vervaekeUsage": "For Vervaeke, the meaning crisis is the central civilizational problem his whole project addresses: a collapse in the machinery that once connected truth, wisdom, selfhood, and the sacred.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: to be ignorant of the historical factors that are driving the meaning crisis Foreshadowing the Meaning Crisis * Foreshadow meaning crisis: mythological way of thinking that allows"
     },
     "meta-crisis__plain-english__seed": {
       "termSlug": "meta-crisis",
@@ -4505,6 +5216,38 @@
         "source_manual-pod-k1-2026-07-15"
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * to live in the palace is to try and live everything in the having mode. * Modal confusion: try to serve being needs from the having mode * serve a lot of market interests: if can"
+    },
+    "mythos__plain-english__seed": {
+      "termSlug": "mythos",
+      "targetLanguage": "plain-english",
+      "translation": "The narrative, symbolic, and participatory mode through which people inhabit meaning rather than merely stating propositions about it.",
+      "originBackground": "Mythos is a Greek term linked to story, telling, and world-shaping narrative, often contrasted with logos in later thought.",
+      "vervaekeUsage": "Vervaeke uses mythos not as “false story” but as a deep mode of orientation that can train cognition, identity, ritual participation, and contact with perennial patterns.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet."
+    },
+    "nationalism__plain-english__seed": {
+      "termSlug": "nationalism",
+      "targetLanguage": "plain-english",
+      "translation": "The sacralizing of the nation as a supreme object of loyalty, identity, and destiny.",
+      "originBackground": "Nationalism is a modern political formation in which people treat the nation-state as the deepest ground of belonging and collective meaning.",
+      "vervaekeUsage": "Vervaeke uses nationalism as an example of how sacred and existential needs can be redirected into pseudo-religious political structures.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: vervaekes term Reference snippet: olent political change * Powerful pseudo-religious ideology Nationalism * Nationalism: nation-state can take the role that God has taken in the past: * P"
     },
     "natural-philosophers-thales__plain-english__seed": {
       "termSlug": "natural-philosophers-thales",
@@ -4650,6 +5393,22 @@
       ],
       "notes": "Upgrades the earlier seed row with explicit 4P background and usage."
     },
+    "particularization-scope__plain-english__seed": {
+      "termSlug": "particularization-scope",
+      "targetLanguage": "plain-english",
+      "translation": "The narrowing of a general pattern, rule, or model so that it fits the concrete demands of a specific situation.",
+      "originBackground": "While not a single canonical textbook term, it belongs to the broader cognitive problem of balancing generalization with local context sensitivity.",
+      "vervaekeUsage": "Vervaeke uses this kind of scope-fitting to show that intelligence is not just abstraction; it must also grip the particulars that matter here and now.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: ry-motor loop, protecting and promoting auto-poeitic goals will be reinforced Particularization (Scope) * Trying to create a function that overfits with the data *"
+    },
     "perennial-questions__plain-english__seed": {
       "termSlug": "perennial-questions",
       "targetLanguage": "plain-english",
@@ -4665,6 +5424,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "perennialism__plain-english__seed": {
+      "termSlug": "perennialism",
+      "targetLanguage": "plain-english",
+      "translation": "The view that major wisdom traditions share recurring insights into human transformation, reality, and the path beyond self-deception.",
+      "originBackground": "Perennialism is associated with the “perennial philosophy” tradition, especially in comparative religion, though it is debated and can flatten real differences between traditions.",
+      "vervaekeUsage": "Vervaeke is sympathetic to recurring wisdom patterns across traditions, but he does not simply collapse them into sameness; he treats perennial themes as needing careful cognitive and historical interpretation.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: include Vervaeke's view"
     },
     "performative-contradiction__plain-english__seed": {
       "termSlug": "performative-contradiction",
@@ -5034,6 +5809,22 @@
       ],
       "notes": ""
     },
+    "spirituality__plain-english__seed": {
+      "termSlug": "spirituality",
+      "targetLanguage": "plain-english",
+      "translation": "The dimension of life concerned with transformation, ultimacy, depth, and a wiser relationship to self, reality, and the sacred.",
+      "originBackground": "Spirituality is broader than formal religion and can refer to practices, orientations, or experiences aimed at deep transformation and meaningful participation.",
+      "vervaekeUsage": "Vervaeke treats spirituality as something that should be reclaimed from both reductionism and superstition: a serious domain of psychotechnology, wisdom, and self-transcendence.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: * Many in the ancient world read him. Platonis/neoplatonism bedrock of western spirituality * Plato traumatised by the death of Socrates - keeps coming back to it. How could his be"
+    },
     "super-salience__plain-english__seed": {
       "termSlug": "super-salience",
       "targetLanguage": "plain-english",
@@ -5049,6 +5840,22 @@
         "source_manual-supersalience-2026-07-15"
       ],
       "notes": "Added because the exact phrase 'super salient' appears in Vervaeke’s discussion of flow and higher states."
+    },
+    "teleology__plain-english__seed": {
+      "termSlug": "teleology",
+      "targetLanguage": "plain-english",
+      "translation": "An orientation toward ends, purposes, or fulfillment rather than a view of things as only pushed around by blind causes.",
+      "originBackground": "The term comes from Greek telos, meaning end or goal, and became central in Aristotle and later philosophy for explaining directedness and development.",
+      "vervaekeUsage": "Vervaeke uses teleology to recover why living systems, practices, and persons often make more sense when understood in terms of realization, orientation, and purpose rather than mere mechanism.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet."
     },
     "the-agent-arena-relationship__plain-english__seed": {
       "termSlug": "the-agent-arena-relationship",
@@ -5306,6 +6113,38 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: aristotle etc"
     },
+    "vitalism__plain-english__seed": {
+      "termSlug": "vitalism",
+      "targetLanguage": "plain-english",
+      "translation": "The idea that life cannot be fully explained by mechanical processes alone and involves some irreducible principle of living organization.",
+      "originBackground": "Vitalism is a family of historical views in biology and philosophy that opposed purely mechanistic explanations of life, though many strong forms are no longer scientifically accepted.",
+      "vervaekeUsage": "Vervaeke does not endorse crude vitalism, but he often argues that living, cognitive, and meaning-making systems require richer accounts than flat mechanism can provide.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Translation seed hint: include Vervaeke's view"
+    },
+    "weltanschauung-worldview__plain-english__seed": {
+      "termSlug": "weltanschauung-worldview",
+      "targetLanguage": "plain-english",
+      "translation": "A comprehensive way of seeing and inhabiting reality: the background picture of what the world is like and how one fits into it.",
+      "originBackground": "The German Weltanschauung literally means world-view and became a standard term for civilizational or philosophical outlooks.",
+      "vervaekeUsage": "Vervaeke uses worldview language to show that meaning crises are not just about isolated beliefs but about whole frameworks of salience, value, and identity.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k2-2026-07-16"
+      ],
+      "notes": "Promoted from user-curated k2 row in the POD extraction sheet."
+    },
     "wonder__plain-english__seed": {
       "termSlug": "wonder",
       "targetLanguage": "plain-english",
@@ -5346,6 +6185,14 @@
       "title": "Manual corpus enrichment — Vervaeke core frameworks",
       "externalRef": "manual-4p-4e-2026-07-15",
       "link": "",
+      "public": true
+    },
+    "source_manual-pod-k2-2026-07-16": {
+      "sourceId": "source_manual-pod-k2-2026-07-16",
+      "kind": "manual",
+      "title": "POD's Awakening from the Meaning Crisis Notes",
+      "externalRef": "manual-pod-k2-2026-07-16",
+      "link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
       "public": true
     },
     "source_manual-pod-k1-2026-07-15": {
