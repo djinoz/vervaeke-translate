@@ -9,12 +9,16 @@ function pickInitialEntry(entries: SeedCorpusEntry[]): SeedCorpusEntry {
   return entries.find((entry) => entry.slug === 'logos') ?? entries[0]!
 }
 
+const TYPEAHEAD_LIMIT = 8
+
 function App() {
   const [query, setQuery] = useState('')
   const [selectedTargetLanguage, setSelectedTargetLanguage] = useState('plain-english')
   const [selectedSlug, setSelectedSlug] = useState(() => pickInitialEntry(seedCorpusEntries).slug)
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
   const filteredEntries = useMemo(() => searchCorpus(seedCorpusEntries, query), [query])
+  const dropdownEntries = filteredEntries.slice(0, TYPEAHEAD_LIMIT)
 
   const selectedEntry =
     filteredEntries.find((entry) => entry.slug === selectedSlug) ?? filteredEntries[0] ?? null
@@ -22,6 +26,7 @@ function App() {
   const handleEntrySelect = (entry: SeedCorpusEntry) => {
     setSelectedSlug(entry.slug)
     setQuery(entry.term)
+    setIsDropdownOpen(false)
   }
 
   return (
@@ -43,12 +48,48 @@ function App() {
         <div className="translate-toolbar">
           <label className="toolbar-field toolbar-search">
             <span>Search terms</span>
-            <input
-              type="search"
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="Try logos, relevance realization, religio, supersalient…"
-            />
+            <div className="typeahead-shell">
+              <input
+                type="search"
+                value={query}
+                onChange={(event) => {
+                  setQuery(event.target.value)
+                  setIsDropdownOpen(true)
+                }}
+                onFocus={() => setIsDropdownOpen(true)}
+                onBlur={() => {
+                  window.setTimeout(() => setIsDropdownOpen(false), 120)
+                }}
+                placeholder="Try logos, relevance realization, religio, supersalient…"
+              />
+
+              {isDropdownOpen && dropdownEntries.length > 0 ? (
+                <div className="typeahead-dropdown" role="listbox" aria-label="Matching Vervaeke terms">
+                  {dropdownEntries.map((entry) => (
+                    <button
+                      key={entry.slug}
+                      className={entry.slug === selectedEntry?.slug ? 'typeahead-option active' : 'typeahead-option'}
+                      onMouseDown={(event) => {
+                        event.preventDefault()
+                        handleEntrySelect(entry)
+                      }}
+                      type="button"
+                    >
+                      <span className="typeahead-option-head">
+                        <strong>{entry.term}</strong>
+                        <span className={entry.status === 'seed-current' ? 'badge current' : 'badge candidate'}>
+                          {entry.status === 'seed-current' ? 'current' : 'candidate'}
+                        </span>
+                      </span>
+                      <span className="typeahead-option-copy">{entry.translation}</span>
+                    </button>
+                  ))}
+                  {filteredEntries.length > TYPEAHEAD_LIMIT ? (
+                    <p className="typeahead-footer">Showing {TYPEAHEAD_LIMIT} of {filteredEntries.length} matches</p>
+                  ) : null}
+                </div>
+              ) : null}
+            </div>
           </label>
 
           <label className="toolbar-field toolbar-target">
@@ -66,131 +107,77 @@ function App() {
           </label>
         </div>
 
-        <div className="translate-windows">
-          <section className="translate-window source-window desktop-source-window" aria-label="Source terms">
-            <div className="window-header">
-              <span className="window-label">Vervaeke</span>
-              <span className="window-meta">{filteredEntries.length} matches</span>
-            </div>
-
-            <div className="term-buttons compact-list">
-              {filteredEntries.map((entry) => (
-                <button
-                  key={entry.slug}
-                  className={entry.slug === selectedEntry?.slug ? 'term-button active' : 'term-button'}
-                  onClick={() => handleEntrySelect(entry)}
-                  type="button"
-                >
-                  <span className="term-button-head">
-                    <strong>{entry.term}</strong>
-                    <span className={entry.status === 'seed-current' ? 'badge current' : 'badge candidate'}>
-                      {entry.status === 'seed-current' ? 'current' : 'candidate'}
-                    </span>
-                  </span>
-                  <span className="term-button-copy">{entry.translation}</span>
-                </button>
-              ))}
-            </div>
-          </section>
-
-          <section className="translate-window result-window" aria-label="Translation result">
-            <div className="window-header">
-              <span className="window-label">
-                {targetLanguageOptions.find((option) => option.value === selectedTargetLanguage)?.label ??
-                  'Plain English'}
-              </span>
-              {selectedEntry ? (
-                <div className="badge-stack">
-                  <span className={selectedEntry.status === 'seed-current' ? 'badge current' : 'badge candidate'}>
-                    {selectedEntry.status === 'seed-current' ? 'current' : 'candidate'}
-                  </span>
-                  <span
-                    className={
-                      selectedEntry.origin_confidence === 'grounded'
-                        ? 'badge grounded'
-                        : selectedEntry.origin_confidence === 'provisional'
-                          ? 'badge provisional'
-                          : 'badge blank'
-                    }
-                  >
-                    {selectedEntry.origin_confidence}
-                  </span>
-                </div>
-              ) : null}
-            </div>
-
+        <section className="translate-window result-window" aria-label="Translation result">
+          <div className="window-header">
+            <span className="window-label">
+              {targetLanguageOptions.find((option) => option.value === selectedTargetLanguage)?.label ??
+                'Plain English'}
+            </span>
             {selectedEntry ? (
-              <>
-                <article className="translation-surface primary-surface">
-                  <p className="translation-copy">{selectedEntry.translation}</p>
+              <div className="badge-stack">
+                <span className={selectedEntry.status === 'seed-current' ? 'badge current' : 'badge candidate'}>
+                  {selectedEntry.status === 'seed-current' ? 'current' : 'candidate'}
+                </span>
+                <span
+                  className={
+                    selectedEntry.origin_confidence === 'grounded'
+                      ? 'badge grounded'
+                      : selectedEntry.origin_confidence === 'provisional'
+                        ? 'badge provisional'
+                        : 'badge blank'
+                  }
+                >
+                  {selectedEntry.origin_confidence}
+                </span>
+              </div>
+            ) : null}
+          </div>
+
+          {selectedEntry ? (
+            <>
+              <article className="translation-surface primary-surface">
+                <p className="translation-copy">{selectedEntry.translation}</p>
+              </article>
+
+              <div className="detail-grid">
+                <article className="translation-surface detail-surface">
+                  <div className="detail-heading-row">
+                    <p className="panel-label">Origin / background</p>
+                    <span
+                      className="info-dot"
+                      title="This explains where the term comes from historically or philosophically, so Vervaeke’s wording doesn’t look like it came out of nowhere."
+                      aria-label="Why origin/background matters"
+                    >
+                      ?
+                    </span>
+                  </div>
+                  <p>
+                    {selectedEntry.origin_background ||
+                      'Not filled yet for this term. The schema supports it; the explanation just still needs tightening.'}
+                  </p>
                 </article>
 
-                <div className="detail-grid">
-                  <article className="translation-surface detail-surface">
-                    <div className="detail-heading-row">
-                      <p className="panel-label">Origin / background</p>
-                      <span
-                        className="info-dot"
-                        title="This explains where the term comes from historically or philosophically, so Vervaeke’s wording doesn’t look like it came out of nowhere."
-                        aria-label="Why origin/background matters"
-                      >
-                        ?
-                      </span>
-                    </div>
-                    <p>
-                      {selectedEntry.origin_background ||
-                        'Not filled yet for this term. The schema supports it; the explanation just still needs tightening.'}
-                    </p>
-                  </article>
+                <article className="translation-surface detail-surface">
+                  <p className="panel-label">Vervaeke usage</p>
+                  <p>
+                    {selectedEntry.vervaeke_usage ||
+                      'Not filled yet for this term. This space is for how Vervaeke bends, revives, or specializes the term.'}
+                  </p>
+                </article>
+              </div>
 
-                  <article className="translation-surface detail-surface">
-                    <p className="panel-label">Vervaeke usage</p>
-                    <p>
-                      {selectedEntry.vervaeke_usage ||
-                        'Not filled yet for this term. This space is for how Vervaeke bends, revives, or specializes the term.'}
-                    </p>
-                  </article>
-                </div>
-
-                {selectedEntry.notes ? <p className="notes-callout">Note: {selectedEntry.notes}</p> : null}
-              </>
-            ) : (
-              <article className="translation-surface empty-state">
-                <p className="panel-label">No matches</p>
-                <p>
-                  Nothing matched that search yet. Try a broader term like <code>logos</code>,{' '}
-                  <code>religio</code>, <code>participatory</code>, or <code>meaning crisis</code>.
-                </p>
-              </article>
-            )}
-          </section>
-        </div>
-
-        <details className="mobile-term-drawer">
-          <summary>
-            <span>Browse Vervaeke terms</span>
-            <span className="window-meta">{filteredEntries.length} matches</span>
-          </summary>
-
-          <div className="term-buttons compact-list">
-            {filteredEntries.map((entry) => (
-              <button
-                key={`mobile-${entry.slug}`}
-                className={entry.slug === selectedEntry?.slug ? 'term-button active' : 'term-button'}
-                onClick={() => handleEntrySelect(entry)}
-                type="button"
-              >
-                <span className="term-button-head">
-                  <strong>{entry.term}</strong>
-                  <span className={entry.status === 'seed-current' ? 'badge current' : 'badge candidate'}>
-                    {entry.status === 'seed-current' ? 'current' : 'candidate'}
-                  </span>
-                </span>
-                <span className="term-button-copy">{entry.translation}</span>
-              </button>
-            ))}
-          </div>
-        </details>
+              {selectedEntry.notes ? <p className="notes-callout">Note: {selectedEntry.notes}</p> : null}
+            </>
+          ) : (
+            <article className="translation-surface empty-state">
+              <p className="panel-label">No matches</p>
+              <p>
+                Nothing matched that search yet. Try a broader term like <code>logos</code>,{' '}
+                <code>religio</code>, <code>participatory</code>, or <code>meaning crisis</code>.
+              </p>
+            </article>
+          )}
+        </section>
       </section>
     </main>
   )
