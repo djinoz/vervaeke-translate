@@ -32,7 +32,15 @@ describe('seed corpus', () => {
     expect(entry?.vervaeke_usage.length).toBeGreaterThan(20)
   })
 
+  it('includes the first user-curated POD k1 additions', () => {
+    expect(bySlug.has('flow-state')).toBe(true)
+    expect(bySlug.has('socrates')).toBe(true)
+    expect(bySlug.has('mindfulness')).toBe(true)
+    expect(bySlug.has('heidegger')).toBe(true)
+    expect(bySlug.has('psychotechnology')).toBe(true)
+  })
+
   it('reports the new corpus size accurately', () => {
-    expect(seedCorpusStats.totalEntries).toBe(58)
+    expect(seedCorpusStats.totalEntries).toBe(106)
   })
 })

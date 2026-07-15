@@ -70,6 +70,40 @@
       ],
       "updatedFromSeed": true
     },
+    "analytical-philosophy": {
+      "slug": "analytical-philosophy",
+      "term": "Analytical Philosophy",
+      "normalizedTerm": "analytical philosophy",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "analytical philosophy",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "broad",
+        "philosophical",
+        "stream",
+        "that",
+        "emphasizes",
+        "conceptual",
+        "clarity",
+        "logic",
+        "argument",
+        "analysis",
+        "and",
+        "explicit",
+        "problem",
+        "formulation"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet.",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "authorship-of-constraints": {
       "slug": "authorship-of-constraints",
       "term": "Authorship of constraints",
@@ -102,6 +136,76 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "axial-age": {
+      "slug": "axial-age",
+      "term": "Axial Age",
+      "normalizedTerm": "axial age",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "axial age",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "historical",
+        "period",
+        "which",
+        "multiple",
+        "civilizations",
+        "generated",
+        "new",
+        "religious",
+        "philosophical",
+        "and",
+        "ethical",
+        "breakthroughs",
+        "that",
+        "still",
+        "shape"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: l are relevant in way people from the bronze age aren’t * Another great change: Axial age Axial Age * 800 BCE - 300 BCE great change * We will find relevant authors from that time",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "barfield": {
+      "slug": "barfield",
+      "term": "Barfield",
+      "normalizedTerm": "barfield",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "barfield",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "thinker",
+        "who",
+        "argued",
+        "that",
+        "changes",
+        "language",
+        "and",
+        "consciousness",
+        "reveal",
+        "deep",
+        "shifts",
+        "how",
+        "reality",
+        "experienced",
+        "participated"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: Sacred Second Self 320 Jung and Individuation 320 Episode 50 - Tillich and Barfield 322 Tillich 322 Non-theism 325 xBarfield 325 ________________ Episode 1 - Introduction https://y",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -140,6 +244,104 @@
       ],
       "updatedFromSeed": true
     },
+    "bullshit-and-lying": {
+      "slug": "bullshit-and-lying",
+      "term": "Bullshit and lying",
+      "normalizedTerm": "bullshit and lying",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "bullshit and lying",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "contrast",
+        "between",
+        "deception",
+        "that",
+        "still",
+        "tracks",
+        "truth",
+        "enough",
+        "hide",
+        "and",
+        "more",
+        "dangerous",
+        "indifference",
+        "altogether"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: avior - independent of if true * Beliefs aren’t the only thing driving you Bullshit and lying * Bullshit: Harry Frankfurt On Bullshit * Frankfurt talking about difference lying and",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "caring": {
+      "slug": "caring",
+      "term": "Caring",
+      "normalizedTerm": "caring",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "caring",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "not",
+        "just",
+        "feeling",
+        "emotion",
+        "but",
+        "being",
+        "normatively",
+        "invested",
+        "truth",
+        "significance",
+        "value",
+        "and",
+        "what",
+        "matters",
+        "enough",
+        "guide"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: his definition related to relevance realization Reference snippet: logical manipulation of propositions * Descartes: rationality is caring about the truth on purpose according to normative standards and values and none of that machinery can be fou",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "category-error": {
+      "slug": "category-error",
+      "term": "category error",
+      "normalizedTerm": "category error",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "category error",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "mistake",
+        "where",
+        "something",
+        "treated",
+        "belongs",
+        "the",
+        "wrong",
+        "kind",
+        "thing",
+        "explanatory",
+        "level"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet.",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "choice-space": {
       "slug": "choice-space",
       "term": "Choice space",
@@ -172,6 +374,179 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "cognitive-fluency": {
+      "slug": "cognitive-fluency",
+      "term": "Cognitive Fluency",
+      "normalizedTerm": "cognitive fluency",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "cognitive fluency",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "ease",
+        "with",
+        "which",
+        "something",
+        "processed",
+        "mind",
+        "what",
+        "feels",
+        "easier",
+        "process",
+        "often",
+        "truer",
+        "more",
+        "familiar",
+        "persuasive"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ews * Christianity made claim this kairos found in a particular person Cognitive Fluency * When increase the ease at which people can process information, they come to believe it i",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "combinatorial-explosion": {
+      "slug": "combinatorial-explosion",
+      "term": "Combinatorial Explosion",
+      "normalizedTerm": "combinatorial explosion",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "combinatorial explosion",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "problem",
+        "that",
+        "number",
+        "possible",
+        "options",
+        "can",
+        "grow",
+        "fast",
+        "brute",
+        "force",
+        "search",
+        "becomes",
+        "impossible"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ___________ Episode 27 - Problem Formulation https://youtu.be/9j5O-tnaFzE Combinatorial Explosion * Diagram is misleading because by God’s eye view, but in life we’re not out there",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "continental-philosophy": {
+      "slug": "continental-philosophy",
+      "term": "Continental Philosophy",
+      "normalizedTerm": "continental philosophy",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "continental philosophy",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "broad",
+        "modern",
+        "european",
+        "philosophical",
+        "stream",
+        "that",
+        "emphasizes",
+        "history",
+        "interpretation",
+        "embodiment",
+        "existence",
+        "culture",
+        "and",
+        "lived",
+        "experience"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet.",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "corbin-and-persian-sufism": {
+      "slug": "corbin-and-persian-sufism",
+      "term": "Corbin and Persian Sufism",
+      "normalizedTerm": "corbin and persian sufism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "corbin and persian sufism",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "line",
+        "thought",
+        "associated",
+        "with",
+        "henry",
+        "corbin",
+        "reading",
+        "persian",
+        "sufism",
+        "that",
+        "treats",
+        "spiritual",
+        "imagination",
+        "real",
+        "mode"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: vine Double 307 Heidegger and Physis 307 Narrative and Teleology 308 Corbin and Persian Sufism 310 Corbin, Gnosis and the Imaginal 310 The Symbol of the Angel and the Divine Double",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "cultivating-character": {
+      "slug": "cultivating-character",
+      "term": "Cultivating character",
+      "normalizedTerm": "cultivating character",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "cultivating character",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "disciplined",
+        "shaping",
+        "habit",
+        "perception",
+        "desire",
+        "and",
+        "action",
+        "person",
+        "becomes",
+        "better",
+        "fitted",
+        "for",
+        "wisdom",
+        "good",
+        "judgment"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: re: Aristotle Reference snippet: le -> virtual engine * Dynamical system theory lays out the virtual engine Aristotle and cultivating character * Interested in our development * How does wisdom and meaning develop",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -280,6 +655,76 @@
       ],
       "updatedFromSeed": true
     },
+    "distributed-cognition": {
+      "slug": "distributed-cognition",
+      "term": "Distributed cognition",
+      "normalizedTerm": "distributed cognition",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "distributed cognition",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "cognition",
+        "that",
+        "spread",
+        "across",
+        "people",
+        "tools",
+        "symbols",
+        "and",
+        "environments",
+        "rather",
+        "than",
+        "located",
+        "only",
+        "inside",
+        "one",
+        "individual"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: hanced social network for dealing with it. * Cognition is participatory - participate in distributed cognition. Large networks of cognition. * Culture networked brains together. *",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "domicide": {
+      "slug": "domicide",
+      "term": "Domicide",
+      "normalizedTerm": "domicide",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "domicide",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "destruction",
+        "home",
+        "deep",
+        "sense",
+        "not",
+        "just",
+        "house",
+        "lost",
+        "but",
+        "world",
+        "belonging",
+        "familiarity",
+        "and",
+        "existential",
+        "orientation"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet.",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "doomscrolling": {
       "slug": "doomscrolling",
       "term": "Doomscrolling",
@@ -379,6 +824,41 @@
       "notes": "Added for the 4E cluster.",
       "primarySourceIds": [
         "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "embodied-embedded": {
+      "slug": "embodied-embedded",
+      "term": "Embodied/Embedded",
+      "normalizedTerm": "embodied embedded",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "embodied/embedded",
+        "embodied embedded",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "way",
+        "thinking",
+        "that",
+        "treats",
+        "cognition",
+        "inseparable",
+        "from",
+        "body",
+        "environment",
+        "and",
+        "ongoing",
+        "interaction",
+        "rather",
+        "than",
+        "disembodied"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ly logistically shapes the sensory motor loop. ________________ Episode 31 - Embodied/Embedded Relevance Realization as Dynamical-Development General Intelligence https://youtu.be/",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -486,6 +966,72 @@
       ],
       "updatedFromSeed": true
     },
+    "exaptation": {
+      "slug": "exaptation",
+      "term": "Exaptation",
+      "normalizedTerm": "exaptation",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "exaptation",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "using",
+        "ability",
+        "structure",
+        "that",
+        "evolved",
+        "for",
+        "one",
+        "role",
+        "serve",
+        "new",
+        "was",
+        "not",
+        "originally",
+        "built"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ourself be in the hands of other people * Having tremendous impact on cognition. * Exaptation: * Originally from biology Micahel Anderson: brain operates * Exaptation: using tongue",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "existential-modes-having-and-being": {
+      "slug": "existential-modes-having-and-being",
+      "term": "Existential Modes: Having and Being",
+      "normalizedTerm": "existential modes having and being",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "existential modes: having and being",
+        "existential modes having and being",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "two",
+        "ways",
+        "existing",
+        "one",
+        "centered",
+        "possession",
+        "and",
+        "control",
+        "the",
+        "other",
+        "presence",
+        "participation",
+        "transformation"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: of power and prosperity. Never saw anything distressing. Everything he wanted. Existential Modes: Having and Being * Myths: attempts to engage with perennial ongoing patterns: * Pa",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "extended-cognition": {
       "slug": "extended-cognition",
       "term": "Extended cognition",
@@ -518,6 +1064,173 @@
       "notes": "Added for the 4E cluster.",
       "primarySourceIds": [
         "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "flow-state": {
+      "slug": "flow-state",
+      "term": "Flow state",
+      "normalizedTerm": "flow state",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "flow state",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "state",
+        "absorbed",
+        "highly",
+        "skilled",
+        "engagement",
+        "which",
+        "attention",
+        "action",
+        "and",
+        "feedback",
+        "lock",
+        "together",
+        "tightly",
+        "that",
+        "performance",
+        "feels"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: Csíkszentmihályi - conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychedelic experiences. * Mystical experiences that",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "global-workspace-theory": {
+      "slug": "global-workspace-theory",
+      "term": "Global Workspace Theory",
+      "normalizedTerm": "global workspace theory",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "global workspace theory",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "theory",
+        "that",
+        "consciousness",
+        "functions",
+        "like",
+        "limited",
+        "workspace",
+        "where",
+        "selected",
+        "information",
+        "becomes",
+        "globally",
+        "available",
+        "many",
+        "mental"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ng is the goal here * Work on consciousness points to why C is valuable Global Workspace Theory * C functions like the desktop of a computer * Have desktop and files, can activate",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "gnosis": {
+      "slug": "gnosis",
+      "term": "Gnosis",
+      "normalizedTerm": "gnosis",
+      "sourceLanguage": "greek",
+      "searchTerms": [
+        "gnosis",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "transformative",
+        "knowing",
+        "deep",
+        "realization",
+        "awakening",
+        "not",
+        "just",
+        "holding",
+        "correct",
+        "propositions"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet.",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "hegel": {
+      "slug": "hegel",
+      "term": "Hegel",
+      "normalizedTerm": "hegel",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "hegel",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "philosopher",
+        "who",
+        "saw",
+        "mind",
+        "history",
+        "and",
+        "culture",
+        "unfolding",
+        "through",
+        "dynamic",
+        "developmental",
+        "patterns",
+        "rather",
+        "than",
+        "static"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ndence emeshed in a will to power - dangerous ________________ Episode 24 - Hegel https://youtu.be/6pwBgL0BbJ0 * Line from Kant to Hegel * Kant: reality was the",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "heidegger": {
+      "slug": "heidegger",
+      "term": "Heidegger",
+      "normalizedTerm": "heidegger",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "heidegger",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "philosopher",
+        "who",
+        "analyzed",
+        "human",
+        "beings",
+        "already",
+        "involved",
+        "meaningful",
+        "world",
+        "before",
+        "detached",
+        "theory",
+        "shows"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: of enlightenment 294 Prophets of the Meaning Crisis 295 Husserl 296 Heidegger 297 Episode 47 - Heidegger 299 Avens 304 Forgetfulness 305 Episode 48 - Corbin and the Divine Double 3",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -590,6 +1303,41 @@
       ],
       "updatedFromSeed": true
     },
+    "husserl": {
+      "slug": "husserl",
+      "term": "Husserl",
+      "normalizedTerm": "husserl",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "husserl",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "philosopher",
+        "who",
+        "tried",
+        "recover",
+        "careful",
+        "attention",
+        "how",
+        "things",
+        "are",
+        "given",
+        "experience",
+        "before",
+        "theoretical",
+        "abstractions",
+        "distort"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: 93 Wise cultivation of enlightenment 294 Prophets of the Meaning Crisis 295 Husserl 296 Heidegger 297 Episode 47 - Heidegger 299 Avens 304 Forgetfulness 305 Episode 48 - Corbin and",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "hyper-salience": {
       "slug": "hyper-salience",
       "term": "Hyper-salience",
@@ -657,6 +1405,38 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "insight": {
+      "slug": "insight",
+      "term": "Insight",
+      "normalizedTerm": "insight",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "insight",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "restructuring",
+        "how",
+        "problem",
+        "situation",
+        "self",
+        "seen",
+        "that",
+        "previously",
+        "blocked",
+        "possibility",
+        "becomes",
+        "suddenly",
+        "intelligible"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: relationship * Therapy: trying to recover these lost kinds of knowing. Kind of insight needed. Transformation not of your beliefs but how you see things, your sense of self, sense",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -867,6 +1647,69 @@
       ],
       "updatedFromSeed": true
     },
+    "meta-crisis": {
+      "slug": "meta-crisis",
+      "term": "Meta Crisis",
+      "normalizedTerm": "meta crisis",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "meta crisis",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "crisis",
+        "made",
+        "many",
+        "crises",
+        "that",
+        "interact",
+        "with",
+        "and",
+        "intensify",
+        "one",
+        "another",
+        "instead",
+        "staying",
+        "isolated"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: d to political identification * Titanic struggle of wills Meta Crisis * Legacy: soviet union also collapses * Secularized political process of pseudo rel",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "meta-cognition": {
+      "slug": "meta-cognition",
+      "term": "Meta-cognition",
+      "normalizedTerm": "meta cognition",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "meta-cognition",
+        "meta cognition",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "thinking",
+        "about",
+        "noticing",
+        "regulating",
+        "and",
+        "evaluating",
+        "one",
+        "own",
+        "mental",
+        "processes"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * Mindsight: (Daniel Siegal): ability to pick up on other people’s mental states * Meta-cognition * Initiation rituals: * Commitment and loyalty to my own group now more questionab",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "metanoia-metanoetic-passage": {
       "slug": "metanoia-metanoetic-passage",
       "term": "Metanoia / metanoetic passage",
@@ -899,6 +1742,40 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "mindfulness": {
+      "slug": "mindfulness",
+      "term": "Mindfulness",
+      "normalizedTerm": "mindfulness",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "mindfulness",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "disciplined",
+        "form",
+        "attention",
+        "that",
+        "lets",
+        "experience",
+        "noticed",
+        "clearly",
+        "and",
+        "responsively",
+        "rather",
+        "than",
+        "automatically",
+        "compulsively",
+        "narrowly"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: rowing confluence between people interested in buddhism and cognitive science * Mindfulness revolution: mindfulness being mentioned everywhere. * Why is this happening? What do we",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -937,6 +1814,139 @@
       ],
       "updatedFromSeed": true
     },
+    "modal-confusion": {
+      "slug": "modal-confusion",
+      "term": "Modal Confusion",
+      "normalizedTerm": "modal confusion",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "modal confusion",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "mistake",
+        "trying",
+        "meet",
+        "one",
+        "kind",
+        "need",
+        "through",
+        "wrong",
+        "mode",
+        "being",
+        "engagement"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * to live in the palace is to try and live everything in the having mode. * Modal confusion: try to serve being needs from the having mode * serve a lot of market interests: if can",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "natural-philosophers-thales": {
+      "slug": "natural-philosophers-thales",
+      "term": "Natural Philosophers - Thales",
+      "normalizedTerm": "natural philosophers thales",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "natural philosophers - thales",
+        "natural philosophers thales",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "early",
+        "greek",
+        "move",
+        "explain",
+        "world",
+        "through",
+        "rational",
+        "inquiry",
+        "into",
+        "nature",
+        "with",
+        "thales",
+        "classic",
+        "starting"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: doing the Socratic method with the Sophists - also people who claim knowledge Natural Philosophers - Thales * Natural philosophers: first example of it: Thales * A lot of what we h",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "neo-shamanism": {
+      "slug": "neo-shamanism",
+      "term": "Neo-shamanism",
+      "normalizedTerm": "neo shamanism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "neo-shamanism",
+        "neo shamanism",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "modern",
+        "attempts",
+        "recover",
+        "imitate",
+        "remix",
+        "shamanic",
+        "practices",
+        "outside",
+        "their",
+        "original",
+        "traditional",
+        "settings"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: psycho technologies for altering state of consciousness and enhancing cognition * Rise in neo-shamanism. * Shaman does a lot interesting things to get into a particular state. * Sl",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "nietzsche": {
+      "slug": "nietzsche",
+      "term": "Nietzsche",
+      "normalizedTerm": "nietzsche",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "nietzsche",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "philosopher",
+        "who",
+        "diagnosed",
+        "collapse",
+        "inherited",
+        "meaning",
+        "frameworks",
+        "and",
+        "pushed",
+        "question",
+        "whether",
+        "new",
+        "value",
+        "orientation",
+        "could"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ng about what you say - but how you think * Doesn’t matter if atheist. * Nietzsche: I fear we are not getting rid of God because we still believe in grammar * We still talk this wa",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "nominalize-what-is-meant-to-what-is-spoken": {
       "slug": "nominalize-what-is-meant-to-what-is-spoken",
       "term": "Nominalize what is meant to what is spoken",
@@ -969,6 +1979,41 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "non-theism": {
+      "slug": "non-theism",
+      "term": "Non-theism",
+      "normalizedTerm": "non theism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "non-theism",
+        "non theism",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "religious",
+        "spiritual",
+        "orientation",
+        "that",
+        "does",
+        "not",
+        "center",
+        "personal",
+        "creator",
+        "god",
+        "while",
+        "still",
+        "taking",
+        "transformation",
+        "ultimacy"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: Individuation 320 Episode 50 - Tillich and Barfield 322 Tillich 322 Non-theism 325 xBarfield 325 ________________ Episode 1 - Introduction https://youtu.be/54l8_ewcOlY * Going to d",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -1039,6 +2084,41 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "p-zombies-philosophical-zombies": {
+      "slug": "p-zombies-philosophical-zombies",
+      "term": "p-zombies / philosophical zombies",
+      "normalizedTerm": "p zombies philosophical zombies",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "p-zombies / philosophical zombies",
+        "p zombies philosophical zombies",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "hypothetical",
+        "beings",
+        "that",
+        "behave",
+        "exactly",
+        "like",
+        "conscious",
+        "humans",
+        "while",
+        "lacking",
+        "any",
+        "inner",
+        "experience",
+        "they",
+        "are"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: re:David Chalmers",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -1213,6 +2293,41 @@
       ],
       "updatedFromSeed": true
     },
+    "plato": {
+      "slug": "plato",
+      "term": "Plato",
+      "normalizedTerm": "plato",
+      "sourceLanguage": "greek",
+      "searchTerms": [
+        "plato",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "philosopher",
+        "who",
+        "framed",
+        "reality",
+        "self",
+        "transformation",
+        "and",
+        "wisdom",
+        "terms",
+        "ascent",
+        "from",
+        "appearance",
+        "toward",
+        "deeper",
+        "intelligibility"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: dern people do not find them relevant, they are not widely read. * In contrast, Plato, Bible, Confucius probably have read feel are relevant in way people from the bronze age aren’",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "poiesis": {
       "slug": "poiesis",
       "term": "Poiesis",
@@ -1348,6 +2463,37 @@
       "notes": "Added to support the 4Ps cluster explicitly.",
       "primarySourceIds": [
         "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "psychotechnology": {
+      "slug": "psychotechnology",
+      "term": "Psychotechnology",
+      "normalizedTerm": "psychotechnology",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "psychotechnology",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "tool",
+        "practice",
+        "that",
+        "systematically",
+        "alters",
+        "trains",
+        "extends",
+        "reorganizes",
+        "the",
+        "way",
+        "mind",
+        "works"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: gnificantly. Much more likely its a software change in how people are using the brain. * Psychotechnology: * Technology means systematic use of a tool * Natural born cyborg: brain",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -1561,6 +2707,38 @@
       ],
       "updatedFromSeed": true
     },
+    "schopenhauer": {
+      "slug": "schopenhauer",
+      "term": "Schopenhauer",
+      "normalizedTerm": "schopenhauer",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "schopenhauer",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "philosopher",
+        "who",
+        "emphasized",
+        "primacy",
+        "will",
+        "suffering",
+        "and",
+        "irrational",
+        "depths",
+        "beneath",
+        "surface",
+        "rationality"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: the psyche and world-making capacity * Priority of the will Schopenhauer * godfather of nihilism * Up-down model. Rational part and irrational part.",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "scola-schole": {
       "slug": "scola-schole",
       "term": "Scola / schole",
@@ -1596,6 +2774,41 @@
       ],
       "updatedFromSeed": true
     },
+    "self-transcendence": {
+      "slug": "self-transcendence",
+      "term": "Self-transcendence",
+      "normalizedTerm": "self transcendence",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "self-transcendence",
+        "self transcendence",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "moving",
+        "beyond",
+        "narrow",
+        "ego",
+        "centered",
+        "fixation",
+        "into",
+        "wider",
+        "deeper",
+        "and",
+        "more",
+        "reality",
+        "responsive",
+        "mode",
+        "being"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * Get into a historical account of meaning. * Talk about connection meaning, wisdom and self-transcendence * Why do human beings seek to alter their consciousness? * Why does intel",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "shamanic": {
       "slug": "shamanic",
       "term": "Shamanic",
@@ -1628,6 +2841,110 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "shamanism": {
+      "slug": "shamanism",
+      "term": "Shamanism",
+      "normalizedTerm": "shamanism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "shamanism",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "family",
+        "ritual",
+        "and",
+        "altered",
+        "state",
+        "practices",
+        "which",
+        "specialists",
+        "reshape",
+        "attention",
+        "identity",
+        "meaning",
+        "order",
+        "heal",
+        "guide",
+        "disclose"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ness? * Why does intelligence need to be conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychedelic experiences. * Myst",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "situational-awareness": {
+      "slug": "situational-awareness",
+      "term": "Situational Awareness",
+      "normalizedTerm": "situational awareness",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "situational awareness",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "intelligent",
+        "grasp",
+        "what",
+        "going",
+        "here",
+        "and",
+        "now",
+        "including",
+        "matters",
+        "can",
+        "happen",
+        "next",
+        "action",
+        "would",
+        "fit"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * Skill of RR -> so computational level not going to do it Situational Awareness * Wittgenstein: propositional depends on the procedural. * Eve",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "socrates": {
+      "slug": "socrates",
+      "term": "Socrates",
+      "normalizedTerm": "socrates",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "socrates",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "philosopher",
+        "who",
+        "made",
+        "wisdom",
+        "practice",
+        "questioning",
+        "self",
+        "examination",
+        "and",
+        "transformation",
+        "rather",
+        "than",
+        "possession",
+        "ready",
+        "answers"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: can transcend and see the world as beautiful * Huge influence on Plato * Socrates: epitomizes the Greek form of the axial revolution. Socratic revolution. * We are no longer in the",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -1701,6 +3018,176 @@
       ],
       "updatedFromSeed": true
     },
+    "the-agent-arena-relationship": {
+      "slug": "the-agent-arena-relationship",
+      "term": "The Agent-Arena Relationship",
+      "normalizedTerm": "the agent arena relationship",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "the agent-arena relationship",
+        "the agent arena relationship",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "dynamic",
+        "fit",
+        "between",
+        "being",
+        "trying",
+        "act",
+        "and",
+        "meaningful",
+        "world",
+        "which",
+        "action",
+        "becomes",
+        "possible",
+        "relevant"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: and understanding of the world * World of purpose, things moving on purpose The Agent-Arena Relationship * His view makes sense of what he sees around him. This view external world",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "the-cave": {
+      "slug": "the-cave",
+      "term": "The Cave",
+      "normalizedTerm": "the cave",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "the cave",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "plato",
+        "image",
+        "humans",
+        "mistaking",
+        "shadows",
+        "for",
+        "reality",
+        "and",
+        "resisting",
+        "the",
+        "painful",
+        "transformation",
+        "required",
+        "see",
+        "more",
+        "truly"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: knowing: not just changing my mind, knowing with the very machinery of my self Myth of the Cave * People in cave chained to a wall, with a fire, just see the shadows * Take the sha",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "the-numinous": {
+      "slug": "the-numinous",
+      "term": "The Numinous",
+      "normalizedTerm": "the numinous",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "the numinous",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "felt",
+        "encounter",
+        "with",
+        "the",
+        "mysteriously",
+        "powerful",
+        "awe",
+        "inducing",
+        "and",
+        "reality",
+        "disclosing",
+        "dimension",
+        "sacred"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: - the fundamental experience * The experience of the numinous is to experience the transgressive side of the sacredness, how it opens us up in wonder and awe, and takes us to the h",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "the-sacred": {
+      "slug": "the-sacred",
+      "term": "The Sacred",
+      "normalizedTerm": "the sacred",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "the sacred",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "dimension",
+        "reality",
+        "experienced",
+        "ultimately",
+        "worthy",
+        "devotion",
+        "transformation",
+        "and",
+        "reorientation",
+        "not",
+        "just",
+        "doctrine",
+        "affirm"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: his definition related to experience not doctrine Reference snippet: * Serious playing: put themselves in a liminal play: normal world and the sacred world they want to dwell in. See how if they want to go through the change that religion is demandi",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "the-sophists": {
+      "slug": "the-sophists",
+      "term": "The Sophists",
+      "normalizedTerm": "the sophists",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "the sophists",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "teachers",
+        "rhetoric",
+        "and",
+        "success",
+        "oriented",
+        "argument",
+        "who",
+        "could",
+        "make",
+        "case",
+        "skillfully",
+        "without",
+        "necessarily",
+        "being",
+        "ordered",
+        "toward"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ut * Two groups of people accredited as being wise were the philosophers and the sophists * Pythagoras invented the word philosophy: * Philea - friendship love * Sophia - wisdom *",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "the-view-from-nowhere": {
       "slug": "the-view-from-nowhere",
       "term": "The view from nowhere",
@@ -1770,6 +3257,40 @@
       ],
       "updatedFromSeed": true
     },
+    "tillich": {
+      "slug": "tillich",
+      "term": "Tillich",
+      "normalizedTerm": "tillich",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "tillich",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "the",
+        "theologian",
+        "philosopher",
+        "who",
+        "interpreted",
+        "religion",
+        "terms",
+        "ultimate",
+        "concern",
+        "rather",
+        "than",
+        "narrow",
+        "supernatural",
+        "belief",
+        "alone"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: 318 The Sacred Second Self 320 Jung and Individuation 320 Episode 50 - Tillich and Barfield 322 Tillich 322 Non-theism 325 xBarfield 325 ________________ Episode 1 - Introduction h",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "tourist-vs-pilgrim": {
       "slug": "tourist-vs-pilgrim",
       "term": "Tourist vs pilgrim",
@@ -1802,6 +3323,41 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "transformative-experience": {
+      "slug": "transformative-experience",
+      "term": "Transformative Experience",
+      "normalizedTerm": "transformative experience",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "transformative experience",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "experience",
+        "that",
+        "does",
+        "not",
+        "just",
+        "add",
+        "information",
+        "but",
+        "changes",
+        "the",
+        "person",
+        "way",
+        "they",
+        "could",
+        "fully",
+        "evaluate"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: experience that was somehow more real than this. Have to change the world and myself. * Transformative experience. Good research shows they are right. Their lives get better * Prop",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -1980,6 +3536,40 @@
       ],
       "updatedFromSeed": true
     },
+    "virtues": {
+      "slug": "virtues",
+      "term": "virtues",
+      "normalizedTerm": "virtues",
+      "sourceLanguage": "greek",
+      "searchTerms": [
+        "virtues",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "stable",
+        "excellences",
+        "character",
+        "and",
+        "perception",
+        "that",
+        "make",
+        "person",
+        "reliably",
+        "better",
+        "living",
+        "well",
+        "responding",
+        "fittingly",
+        "reality"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: aristotle etc",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "wonder": {
       "slug": "wonder",
       "term": "Wonder",
@@ -2012,6 +3602,41 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "zombies": {
+      "slug": "zombies",
+      "term": "zombies",
+      "normalizedTerm": "zombies",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "zombies",
+        "manual-enrichment",
+        "pod notes doc",
+        "user-curated k1 sheet",
+        "modern",
+        "mythic",
+        "image",
+        "living",
+        "people",
+        "stripped",
+        "higher",
+        "agency",
+        "and",
+        "meaning",
+        "moving",
+        "through",
+        "reality",
+        "compulsive",
+        "deadened",
+        "way"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: cultural fascination with zombies - work with mastropiestro?",
+      "primarySourceIds": [
+        "source_manual-pod-k1-2026-07-15"
       ],
       "updatedFromSeed": true
     }
@@ -2049,6 +3674,22 @@
       ],
       "notes": "Added to make the core Vervaeke cognition framework directly searchable in the corpus."
     },
+    "analytical-philosophy__plain-english__seed": {
+      "termSlug": "analytical-philosophy",
+      "targetLanguage": "plain-english",
+      "translation": "The broad philosophical stream that emphasizes conceptual clarity, logic, argument analysis, and explicit problem formulation.",
+      "originBackground": "The label usually covers the Anglo-American tradition shaped by logic, language analysis, and formal argument, often contrasted with continental philosophy.",
+      "vervaekeUsage": "Vervaeke often works across the analytic-continental divide, using analytic precision while arguing that existential and phenomenological matters cannot be reduced to formal analysis alone.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet."
+    },
     "authorship-of-constraints__plain-english__seed": {
       "termSlug": "authorship-of-constraints",
       "targetLanguage": "plain-english",
@@ -2064,6 +3705,38 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "axial-age__plain-english__seed": {
+      "termSlug": "axial-age",
+      "targetLanguage": "plain-english",
+      "translation": "The historical period in which multiple civilizations generated new religious, philosophical, and ethical breakthroughs that still shape us.",
+      "originBackground": "The phrase is associated with Karl Jaspers, who used it for the period roughly 800–300 BCE when Greece, Israel, India, and China produced durable revolutions in human self-understanding.",
+      "vervaekeUsage": "For Vervaeke, the Axial Age is a major source of the practices and worldviews later destabilized in the meaning crisis.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: l are relevant in way people from the bronze age aren’t * Another great change: Axial age Axial Age * 800 BCE - 300 BCE great change * We will find relevant authors from that time"
+    },
+    "barfield__plain-english__seed": {
+      "termSlug": "barfield",
+      "targetLanguage": "plain-english",
+      "translation": "The thinker who argued that changes in language and consciousness reveal deep shifts in how reality is experienced and participated in.",
+      "originBackground": "Owen Barfield is known for work on participation, the evolution of consciousness, and the history of meaning in language and culture.",
+      "vervaekeUsage": "Vervaeke uses Barfield as part of the attempt to recover participatory knowing and to understand how consciousness and meaning mutate historically.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: Sacred Second Self 320 Jung and Individuation 320 Episode 50 - Tillich and Barfield 322 Tillich 322 Non-theism 325 xBarfield 325 ________________ Episode 1 - Introduction https://y"
     },
     "being-vs-having-mode__plain-english__seed": {
       "termSlug": "being-vs-having-mode",
@@ -2081,6 +3754,54 @@
       ],
       "notes": "Added as a major framing contrast in Vervaeke’s account of wisdom, awakening, and modal confusion."
     },
+    "bullshit-and-lying__plain-english__seed": {
+      "termSlug": "bullshit-and-lying",
+      "targetLanguage": "plain-english",
+      "translation": "A contrast between deception that still tracks truth enough to hide it and a more dangerous indifference to truth altogether.",
+      "originBackground": "The key modern reference is Harry Frankfurt’s On Bullshit, which argues that bullshit is not identical to lying because it does not care whether things are true or false.",
+      "vervaekeUsage": "Vervaeke uses this distinction to explain why a culture flooded with performative, manipulative, or reality-indifferent speech loses its grip on meaning.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: avior - independent of if true * Beliefs aren’t the only thing driving you Bullshit and lying * Bullshit: Harry Frankfurt On Bullshit * Frankfurt talking about difference lying and"
+    },
+    "caring__plain-english__seed": {
+      "termSlug": "caring",
+      "targetLanguage": "plain-english",
+      "translation": "Not just feeling emotion, but being normatively invested in truth, significance, value, and what matters enough to guide attention and action.",
+      "originBackground": "The background crosses existential philosophy, phenomenology, and virtue-oriented accounts of rationality, where cognition is inseparable from concern and commitment.",
+      "vervaekeUsage": "Vervaeke uses caring to argue that rationality and relevance realization cannot be reduced to cold symbol manipulation; they require value-laden orientation.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: his definition related to relevance realization Reference snippet: logical manipulation of propositions * Descartes: rationality is caring about the truth on purpose according to normative standards and values and none of that machinery can be fou"
+    },
+    "category-error__plain-english__seed": {
+      "termSlug": "category-error",
+      "targetLanguage": "plain-english",
+      "translation": "A mistake where something is treated as if it belongs to the wrong kind of thing or explanatory level.",
+      "originBackground": "The phrase is closely associated with Gilbert Ryle, who used it to show how confusion arises when we force one kind of reality into the wrong conceptual box.",
+      "vervaekeUsage": "Vervaeke repeatedly argues that many modern confusions come from category mistakes—treating existential needs as if they were merely informational, economic, or propositional problems.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet."
+    },
     "choice-space__plain-english__seed": {
       "termSlug": "choice-space",
       "targetLanguage": "plain-english",
@@ -2096,6 +3817,86 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "cognitive-fluency__plain-english__seed": {
+      "termSlug": "cognitive-fluency",
+      "targetLanguage": "plain-english",
+      "translation": "The ease with which something is processed by the mind; what feels easier to process often feels truer, more familiar, or more persuasive.",
+      "originBackground": "Cognitive fluency is a well-established idea in psychology and cognitive science, especially in work on judgment, familiarity, and bias.",
+      "vervaekeUsage": "Vervaeke uses it to show that salience and felt plausibility can be manipulated, which helps explain self-deception, ideology, and pseudo-relevance.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ews * Christianity made claim this kairos found in a particular person Cognitive Fluency * When increase the ease at which people can process information, they come to believe it i"
+    },
+    "combinatorial-explosion__plain-english__seed": {
+      "termSlug": "combinatorial-explosion",
+      "targetLanguage": "plain-english",
+      "translation": "The problem that the number of possible options can grow so fast that brute-force search becomes impossible.",
+      "originBackground": "This is a standard idea in AI, computer science, and cognitive science, especially in work on search, problem solving, and bounded intelligence.",
+      "vervaekeUsage": "For Vervaeke, combinatorial explosion helps explain why intelligence depends on relevance realization: we survive by ignoring almost everything and zeroing in on what matters.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ___________ Episode 27 - Problem Formulation https://youtu.be/9j5O-tnaFzE Combinatorial Explosion * Diagram is misleading because by God’s eye view, but in life we’re not out there"
+    },
+    "continental-philosophy__plain-english__seed": {
+      "termSlug": "continental-philosophy",
+      "targetLanguage": "plain-english",
+      "translation": "The broad modern European philosophical stream that emphasizes history, interpretation, embodiment, existence, culture, and lived experience.",
+      "originBackground": "The label is retrospective and somewhat messy, usually grouping figures such as Hegel, Nietzsche, Husserl, Heidegger, and their descendants in contrast to analytic philosophy.",
+      "vervaekeUsage": "This stream supplies many of the existential and phenomenological resources Vervaeke draws on when he discusses meaning, selfhood, and world-disclosure.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet."
+    },
+    "corbin-and-persian-sufism__plain-english__seed": {
+      "termSlug": "corbin-and-persian-sufism",
+      "targetLanguage": "plain-english",
+      "translation": "The line of thought, associated with Henry Corbin’s reading of Persian Sufism, that treats spiritual imagination as a real mode of world-disclosure rather than fantasy.",
+      "originBackground": "Henry Corbin’s studies of Persian Islamic mysticism and the imaginal world are the key background here.",
+      "vervaekeUsage": "Vervaeke uses Corbin and Persian Sufism to explore the imaginal, symbolic, and angelic dimensions of transformation without reducing them to mere subjective fiction.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: vine Double 307 Heidegger and Physis 307 Narrative and Teleology 308 Corbin and Persian Sufism 310 Corbin, Gnosis and the Imaginal 310 The Symbol of the Angel and the Divine Double"
+    },
+    "cultivating-character__plain-english__seed": {
+      "termSlug": "cultivating-character",
+      "targetLanguage": "plain-english",
+      "translation": "The disciplined shaping of habit, perception, desire, and action so a person becomes better fitted for wisdom and good judgment.",
+      "originBackground": "The background is Aristotelian virtue ethics, where character is not fixed temperament but something trained through practice, habituation, and exemplars.",
+      "vervaekeUsage": "Vervaeke links character cultivation to cognitive and existential development: wisdom requires transforming how one is, not merely what one knows.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: re: Aristotle Reference snippet: le -> virtual engine * Dynamical system theory lays out the virtual engine Aristotle and cultivating character * Interested in our development * How does wisdom and meaning develop"
     },
     "culture-shock__plain-english__seed": {
       "termSlug": "culture-shock",
@@ -2145,6 +3946,38 @@
       ],
       "notes": "Flagged as provisional pending a cleaner direct Vervaeke citation."
     },
+    "distributed-cognition__plain-english__seed": {
+      "termSlug": "distributed-cognition",
+      "targetLanguage": "plain-english",
+      "translation": "Cognition that is spread across people, tools, symbols, and environments rather than located only inside one individual head.",
+      "originBackground": "Distributed cognition is a recognized framework in cognitive science and anthropology, especially associated with Edwin Hutchins and related work.",
+      "vervaekeUsage": "Vervaeke uses it to explain how culture, ritual, literacy, and psychotechnologies network minds together and amplify intelligence.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: hanced social network for dealing with it. * Cognition is participatory - participate in distributed cognition. Large networks of cognition. * Culture networked brains together. *"
+    },
+    "domicide__plain-english__seed": {
+      "termSlug": "domicide",
+      "targetLanguage": "plain-english",
+      "translation": "The destruction of home in the deep sense: not just a house lost, but a world of belonging, familiarity, and existential orientation being broken.",
+      "originBackground": "The term is used in architecture, conflict studies, and phenomenology-adjacent work to describe the devastation caused when home is destroyed as a lived world, not just as property.",
+      "vervaekeUsage": "In a meaning-crisis frame, domicide names what happens when the structures that let people feel at home in reality are progressively shattered.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet."
+    },
     "doomscrolling__plain-english__seed": {
       "termSlug": "doomscrolling",
       "targetLanguage": "plain-english",
@@ -2192,6 +4025,22 @@
         "source_manual-4p-4e-2026-07-15"
       ],
       "notes": "Added for the 4E cluster."
+    },
+    "embodied-embedded__plain-english__seed": {
+      "termSlug": "embodied-embedded",
+      "targetLanguage": "plain-english",
+      "translation": "A way of thinking that treats cognition as inseparable from body, environment, and ongoing interaction rather than as disembodied symbol manipulation.",
+      "originBackground": "The phrase belongs to the broader 4E family in cognitive science, especially embodied and embedded approaches that reject purely brain-bound accounts of mind.",
+      "vervaekeUsage": "Vervaeke uses embodied/embedded framing to explain how relevance realization emerges from active coupling between organism and world.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ly logistically shapes the sensory motor loop. ________________ Episode 31 - Embodied/Embedded Relevance Realization as Dynamical-Development General Intelligence https://youtu.be/"
     },
     "enactive-cognition__plain-english__seed": {
       "termSlug": "enactive-cognition",
@@ -2241,6 +4090,38 @@
       ],
       "notes": ""
     },
+    "exaptation__plain-english__seed": {
+      "termSlug": "exaptation",
+      "targetLanguage": "plain-english",
+      "translation": "Using an ability or structure that evolved for one role to serve a new role it was not originally built for.",
+      "originBackground": "The term comes from evolutionary biology, especially Stephen Jay Gould and Elisabeth Vrba, as an alternative to overly adaptationist explanations.",
+      "vervaekeUsage": "Vervaeke uses exaptation to explain how human cognitive capacities can be repurposed into ritual, shamanic, symbolic, and psychotechnological developments.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ourself be in the hands of other people * Having tremendous impact on cognition. * Exaptation: * Originally from biology Micahel Anderson: brain operates * Exaptation: using tongue"
+    },
+    "existential-modes-having-and-being__plain-english__seed": {
+      "termSlug": "existential-modes-having-and-being",
+      "targetLanguage": "plain-english",
+      "translation": "Two ways of existing: one centered on possession and control, the other on presence, participation, and transformation.",
+      "originBackground": "The modern background is strongly associated with Erich Fromm’s distinction between having and being, though Vervaeke integrates it into a broader awakening and wisdom framework.",
+      "vervaekeUsage": "Vervaeke uses this contrast to show how modern people mis-handle existential problems by trying to solve them in the having mode rather than entering the being mode.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: of power and prosperity. Never saw anything distressing. Everything he wanted. Existential Modes: Having and Being * Myths: attempts to engage with perennial ongoing patterns: * Pa"
+    },
     "extended-cognition__plain-english__seed": {
       "termSlug": "extended-cognition",
       "targetLanguage": "plain-english",
@@ -2256,6 +4137,86 @@
         "source_manual-4p-4e-2026-07-15"
       ],
       "notes": "Added for the 4E cluster."
+    },
+    "flow-state__plain-english__seed": {
+      "termSlug": "flow-state",
+      "targetLanguage": "plain-english",
+      "translation": "A state of absorbed, highly skilled engagement in which attention, action, and feedback lock together so tightly that performance feels fluid and self-forgetting.",
+      "originBackground": "The term is most associated with Mihaly Csikszentmihalyi and modern psychology of optimal experience.",
+      "vervaekeUsage": "Vervaeke treats flow as evidence that intelligence is not just detached calculation; it involves a dynamically tuned fit between agent and arena.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: Csíkszentmihályi - conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychedelic experiences. * Mystical experiences that"
+    },
+    "global-workspace-theory__plain-english__seed": {
+      "termSlug": "global-workspace-theory",
+      "targetLanguage": "plain-english",
+      "translation": "The theory that consciousness functions like a limited workspace where selected information becomes globally available to many mental processes at once.",
+      "originBackground": "Global Workspace Theory is associated especially with Bernard Baars and later neuroscientific developments by Stanislas Dehaene and others.",
+      "vervaekeUsage": "Vervaeke uses it as one explanatory layer for consciousness while arguing that consciousness must also be connected to salience, insight, and relevance realization.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ng is the goal here * Work on consciousness points to why C is valuable Global Workspace Theory * C functions like the desktop of a computer * Have desktop and files, can activate"
+    },
+    "gnosis__plain-english__seed": {
+      "termSlug": "gnosis",
+      "targetLanguage": "plain-english",
+      "translation": "Transformative knowing by deep realization or awakening, not just by holding correct propositions.",
+      "originBackground": "The Greek gnosis means knowledge, but in late antique religious and philosophical contexts it came to mean salvific or spiritually transformative knowing.",
+      "vervaekeUsage": "Vervaeke uses gnosis to contrast existentially transformative insight with mere belief, information, or doctrinal possession.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet."
+    },
+    "hegel__plain-english__seed": {
+      "termSlug": "hegel",
+      "targetLanguage": "plain-english",
+      "translation": "The philosopher who saw mind, history, and culture as unfolding through dynamic developmental patterns rather than static essences.",
+      "originBackground": "G. W. F. Hegel is the great system-builder of German Idealism, known for dialectical development, Geist, and historical self-unfolding.",
+      "vervaekeUsage": "Vervaeke uses Hegel both as a powerful developmental thinker and as part of the story of how religious patterns can be secularized into totalizing ideological systems.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ndence emeshed in a will to power - dangerous ________________ Episode 24 - Hegel https://youtu.be/6pwBgL0BbJ0 * Line from Kant to Hegel * Kant: reality was the"
+    },
+    "heidegger__plain-english__seed": {
+      "termSlug": "heidegger",
+      "targetLanguage": "plain-english",
+      "translation": "The philosopher who analyzed human beings as already involved in a meaningful world before detached theory shows up.",
+      "originBackground": "Martin Heidegger reworked phenomenology around being-in-the-world, world-disclosure, care, and the critique of forgetfulness of Being.",
+      "vervaekeUsage": "Vervaeke draws on Heidegger for the idea that meaning is first lived and enacted, not merely represented, and that modernity risks profound forgetfulness of being.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: of enlightenment 294 Prophets of the Meaning Crisis 295 Husserl 296 Heidegger 297 Episode 47 - Heidegger 299 Avens 304 Forgetfulness 305 Episode 48 - Corbin and the Divine Double 3"
     },
     "henosis__plain-english__seed": {
       "termSlug": "henosis",
@@ -2289,6 +4250,22 @@
       ],
       "notes": "Added from the top-of-note clarification, not from the original Anki deck."
     },
+    "husserl__plain-english__seed": {
+      "termSlug": "husserl",
+      "targetLanguage": "plain-english",
+      "translation": "The philosopher who tried to recover careful attention to how things are given in experience before theoretical abstractions distort them.",
+      "originBackground": "Edmund Husserl founded phenomenology and deeply influenced Heidegger and later continental philosophy through his analyses of intentionality, evidence, and lived experience.",
+      "vervaekeUsage": "Vervaeke uses Husserl as part of the line of thinkers trying to recover direct contact with meaning, world, and consciousness beyond reductive objectivism.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: 93 Wise cultivation of enlightenment 294 Prophets of the Meaning Crisis 295 Husserl 296 Heidegger 297 Episode 47 - Heidegger 299 Avens 304 Forgetfulness 305 Episode 48 - Corbin and"
+    },
     "hyper-salience__plain-english__seed": {
       "termSlug": "hyper-salience",
       "targetLanguage": "plain-english",
@@ -2320,6 +4297,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "insight__plain-english__seed": {
+      "termSlug": "insight",
+      "targetLanguage": "plain-english",
+      "translation": "A restructuring of how a problem, situation, or self is seen, so that a previously blocked possibility becomes suddenly intelligible.",
+      "originBackground": "Insight has roots in Gestalt psychology, problem-solving research, contemplative traditions, and therapeutic transformation.",
+      "vervaekeUsage": "Vervaeke treats insight as a paradigm case of relevance realization because it changes salience, self-understanding, and the space of possible action all at once.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: relationship * Therapy: trying to recover these lost kinds of knowing. Kind of insight needed. Transformation not of your beliefs but how you see things, your sense of self, sense"
     },
     "instrumentalism__plain-english__seed": {
       "termSlug": "instrumentalism",
@@ -2417,6 +4410,38 @@
       ],
       "notes": ""
     },
+    "meta-crisis__plain-english__seed": {
+      "termSlug": "meta-crisis",
+      "targetLanguage": "plain-english",
+      "translation": "A crisis made of many crises that interact with and intensify one another instead of staying isolated.",
+      "originBackground": "The term is contemporary and increasingly used for interlocking ecological, social, political, technological, and existential breakdowns rather than a single failure point.",
+      "vervaekeUsage": "Vervaeke uses metacrisis to show that the meaning crisis is braided together with other structural crises and cannot be solved in one narrow domain alone.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: d to political identification * Titanic struggle of wills Meta Crisis * Legacy: soviet union also collapses * Secularized political process of pseudo rel"
+    },
+    "meta-cognition__plain-english__seed": {
+      "termSlug": "meta-cognition",
+      "targetLanguage": "plain-english",
+      "translation": "Thinking about thinking: noticing, regulating, and evaluating one’s own mental processes.",
+      "originBackground": "Metacognition is a standard term in cognitive science, education, and developmental psychology for higher-order monitoring and control of cognition.",
+      "vervaekeUsage": "Vervaeke treats metacognition as crucial for insight, self-correction, and the cultivation of wisdom rather than mere reactive habit.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * Mindsight: (Daniel Siegal): ability to pick up on other people’s mental states * Meta-cognition * Initiation rituals: * Commitment and loyalty to my own group now more questionab"
+    },
     "metanoia-metanoetic-passage__plain-english__seed": {
       "termSlug": "metanoia-metanoetic-passage",
       "targetLanguage": "plain-english",
@@ -2432,6 +4457,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "mindfulness__plain-english__seed": {
+      "termSlug": "mindfulness",
+      "targetLanguage": "plain-english",
+      "translation": "A disciplined form of attention that lets experience be noticed clearly and responsively rather than automatically, compulsively, or narrowly.",
+      "originBackground": "The term is rooted in Buddhist traditions but has been heavily adapted in modern psychology, therapy, and secular contemplative culture.",
+      "vervaekeUsage": "Vervaeke treats mindfulness as important but incomplete on its own: it can become a gateway into broader transformations of cognition, selfhood, and wisdom.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: rowing confluence between people interested in buddhism and cognitive science * Mindfulness revolution: mindfulness being mentioned everywhere. * Why is this happening? What do we"
     },
     "modal-modality__plain-english__seed": {
       "termSlug": "modal-modality",
@@ -2449,6 +4490,70 @@
       ],
       "notes": ""
     },
+    "modal-confusion__plain-english__seed": {
+      "termSlug": "modal-confusion",
+      "targetLanguage": "plain-english",
+      "translation": "The mistake of trying to meet one kind of need through the wrong mode of being or engagement.",
+      "originBackground": "In Vervaeke’s discussions this is tied to the having/being contrast and to broader phenomenological-existential distinctions about how humans inhabit the world.",
+      "vervaekeUsage": "Vervaeke uses modal confusion to diagnose why modern systems keep offering possession, control, and consumption as fake solutions to existential hunger.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * to live in the palace is to try and live everything in the having mode. * Modal confusion: try to serve being needs from the having mode * serve a lot of market interests: if can"
+    },
+    "natural-philosophers-thales__plain-english__seed": {
+      "termSlug": "natural-philosophers-thales",
+      "targetLanguage": "plain-english",
+      "translation": "The early Greek move to explain the world through rational inquiry into nature, with Thales as a classic starting figure.",
+      "originBackground": "The pre-Socratics or natural philosophers sought intelligible accounts of the cosmos without relying only on mythic narration; Thales is often treated as a symbolic beginning of that shift.",
+      "vervaekeUsage": "This matters in Vervaeke’s story because it marks part of the Greek transformation toward argument, explanation, and rational inquiry.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: doing the Socratic method with the Sophists - also people who claim knowledge Natural Philosophers - Thales * Natural philosophers: first example of it: Thales * A lot of what we h"
+    },
+    "neo-shamanism__plain-english__seed": {
+      "termSlug": "neo-shamanism",
+      "targetLanguage": "plain-english",
+      "translation": "Modern attempts to recover, imitate, or remix shamanic practices outside their original traditional settings.",
+      "originBackground": "Neo-shamanism is a modern spiritual and cultural movement that reworks indigenous and shamanic motifs, often controversially and with mixed depth.",
+      "vervaekeUsage": "Vervaeke mentions the return of neo-shamanic interest as evidence that contemporary people are searching for altered-state and meaning-making practices missing from modern life.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: psycho technologies for altering state of consciousness and enhancing cognition * Rise in neo-shamanism. * Shaman does a lot interesting things to get into a particular state. * Sl"
+    },
+    "nietzsche__plain-english__seed": {
+      "termSlug": "nietzsche",
+      "targetLanguage": "plain-english",
+      "translation": "The philosopher who diagnosed the collapse of inherited meaning frameworks and pushed the question of whether new value and orientation could be created without self-deception.",
+      "originBackground": "Friedrich Nietzsche is central to modern critiques of morality, truth, nihilism, ressentiment, and the death of God.",
+      "vervaekeUsage": "Vervaeke treats Nietzsche as a crucial prophet of the meaning crisis and of the dangers that arise when old sacred structures collapse without wise replacement.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ng about what you say - but how you think * Doesn’t matter if atheist. * Nietzsche: I fear we are not getting rid of God because we still believe in grammar * We still talk this wa"
+    },
     "nominalize-what-is-meant-to-what-is-spoken__plain-english__seed": {
       "termSlug": "nominalize-what-is-meant-to-what-is-spoken",
       "targetLanguage": "plain-english",
@@ -2464,6 +4569,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "non-theism__plain-english__seed": {
+      "termSlug": "non-theism",
+      "targetLanguage": "plain-english",
+      "translation": "A religious or spiritual orientation that does not center on a personal creator God while still taking transformation, ultimacy, or sacred depth seriously.",
+      "originBackground": "Non-theism appears in multiple traditions, especially some Buddhist and modern philosophical-religious contexts, as distinct from both classical theism and flat secularism.",
+      "vervaekeUsage": "Vervaeke uses non-theistic space to show that serious spiritual practice and sacred orientation do not always require conventional theistic commitments.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: Individuation 320 Episode 50 - Tillich and Barfield 322 Tillich 322 Non-theism 325 xBarfield 325 ________________ Episode 1 - Introduction https://youtu.be/54l8_ewcOlY * Going to d"
     },
     "normativity__plain-english__seed": {
       "termSlug": "normativity",
@@ -2496,6 +4617,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "p-zombies-philosophical-zombies__plain-english__seed": {
+      "termSlug": "p-zombies-philosophical-zombies",
+      "targetLanguage": "plain-english",
+      "translation": "Hypothetical beings that behave exactly like conscious humans while lacking any inner experience. They are used to test theories of consciousness.",
+      "originBackground": "Philosophical zombies are most associated with David Chalmers and late-20th-century philosophy of mind debates about whether physical explanation can fully account for consciousness.",
+      "vervaekeUsage": "This matters wherever Vervaeke distinguishes intelligent information processing from lived consciousness, salience, and meaningful experience.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: re:David Chalmers"
     },
     "participatory-knowing__plain-english__seed": {
       "termSlug": "participatory-knowing",
@@ -2577,6 +4714,22 @@
       ],
       "notes": ""
     },
+    "plato__plain-english__seed": {
+      "termSlug": "plato",
+      "targetLanguage": "plain-english",
+      "translation": "The philosopher who framed reality, self-transformation, and wisdom in terms of ascent from appearance toward deeper intelligibility and the Good.",
+      "originBackground": "Plato is a foundational Greek philosopher whose dialogues shaped metaphysics, epistemology, psychology, and philosophy as a transformational path.",
+      "vervaekeUsage": "Vervaeke repeatedly returns to Plato because Platonic themes help him discuss forms, participation, psyche, the cave, and the relationship between truth and transformation.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: dern people do not find them relevant, they are not widely read. * In contrast, Plato, Bible, Confucius probably have read feel are relevant in way people from the bronze age aren’"
+    },
     "poiesis__plain-english__seed": {
       "termSlug": "poiesis",
       "targetLanguage": "plain-english",
@@ -2640,6 +4793,22 @@
         "source_manual-4p-4e-2026-07-15"
       ],
       "notes": "Added to support the 4Ps cluster explicitly."
+    },
+    "psychotechnology__plain-english__seed": {
+      "termSlug": "psychotechnology",
+      "targetLanguage": "plain-english",
+      "translation": "A tool or practice that systematically alters, trains, extends, or reorganizes the way the mind works.",
+      "originBackground": "The term is used for techniques such as literacy, meditation, ritual, dialogue, and other structured practices that reshape cognition.",
+      "vervaekeUsage": "Psychotechnologies are central for Vervaeke because cultures survive and transform by inventing practices that rewire attention, memory, selfhood, and participation.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: gnificantly. Much more likely its a software change in how people are using the brain. * Psychotechnology: * Technology means systematic use of a tool * Natural born cyborg: brain"
     },
     "reciprocal-narrowing-parasitic-processing__plain-english__seed": {
       "termSlug": "reciprocal-narrowing-parasitic-processing",
@@ -2737,6 +4906,22 @@
       ],
       "notes": ""
     },
+    "schopenhauer__plain-english__seed": {
+      "termSlug": "schopenhauer",
+      "targetLanguage": "plain-english",
+      "translation": "The philosopher who emphasized the primacy of will, suffering, and the irrational depths beneath surface rationality.",
+      "originBackground": "Arthur Schopenhauer is a major 19th-century philosopher whose work shaped later pessimism, existential thought, psychoanalytic sensibilities, and Nietzsche.",
+      "vervaekeUsage": "Vervaeke uses Schopenhauer as part of the genealogy of modernity’s struggle with meaning, irrationality, and the limits of purely rational self-understanding.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: the psyche and world-making capacity * Priority of the will Schopenhauer * godfather of nihilism * Up-down model. Rational part and irrational part."
+    },
     "scola-schole__plain-english__seed": {
       "termSlug": "scola-schole",
       "targetLanguage": "plain-english",
@@ -2753,6 +4938,22 @@
       ],
       "notes": ""
     },
+    "self-transcendence__plain-english__seed": {
+      "termSlug": "self-transcendence",
+      "targetLanguage": "plain-english",
+      "translation": "Moving beyond narrow ego-centered fixation into a wider, deeper, and more reality-responsive mode of being.",
+      "originBackground": "The phrase has roots across religious, existential, and psychological traditions, including Frankl, Maslow, phenomenology, and contemplative practice.",
+      "vervaekeUsage": "Self-transcendence is central for Vervaeke because wisdom requires decentering, transformation, and participation in something more than self-protective looping.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * Get into a historical account of meaning. * Talk about connection meaning, wisdom and self-transcendence * Why do human beings seek to alter their consciousness? * Why does intel"
+    },
     "shamanic__plain-english__seed": {
       "termSlug": "shamanic",
       "targetLanguage": "plain-english",
@@ -2768,6 +4969,54 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "shamanism__plain-english__seed": {
+      "termSlug": "shamanism",
+      "targetLanguage": "plain-english",
+      "translation": "A family of ritual and altered-state practices in which specialists reshape attention, identity, and meaning in order to heal, guide, or disclose reality differently.",
+      "originBackground": "Shamanism is an umbrella label applied across many cultures for ritual specialists who use trance, symbol, dance, ordeal, and altered consciousness.",
+      "vervaekeUsage": "Vervaeke treats shamanism as an early psychotechnology that helped expand cognition, distributed meaning-making, and the human capacity for transformation.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ness? * Why does intelligence need to be conjoined to an altered state of consciousness * Shamanism, and ritual, and the flow state (in the zone). * Psychedelic experiences. * Myst"
+    },
+    "situational-awareness__plain-english__seed": {
+      "termSlug": "situational-awareness",
+      "targetLanguage": "plain-english",
+      "translation": "An intelligent grasp of what is going on here and now, including what matters, what can happen next, and what action would fit.",
+      "originBackground": "The term is widely used in military, aviation, and cognitive science contexts for real-time environmental understanding.",
+      "vervaekeUsage": "Vervaeke uses it to show that relevance is not just internal computation; it is a skilled attunement to the live situation.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * Skill of RR -> so computational level not going to do it Situational Awareness * Wittgenstein: propositional depends on the procedural. * Eve"
+    },
+    "socrates__plain-english__seed": {
+      "termSlug": "socrates",
+      "targetLanguage": "plain-english",
+      "translation": "The philosopher who made wisdom a practice of questioning, self-examination, and transformation rather than the possession of ready-made answers.",
+      "originBackground": "Socrates is the classical Athenian philosopher known mainly through Plato and Xenophon, and he became a foundational figure for philosophy as a way of life.",
+      "vervaekeUsage": "Vervaeke treats Socrates as a pivotal exemplar of dialectic, humility, and the restructuring of attention around the search for wisdom.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: can transcend and see the world as beautiful * Huge influence on Plato * Socrates: epitomizes the Greek form of the axial revolution. Socratic revolution. * We are no longer in the"
     },
     "sole-authorship__plain-english__seed": {
       "termSlug": "sole-authorship",
@@ -2801,6 +5050,86 @@
       ],
       "notes": "Added because the exact phrase 'super salient' appears in Vervaeke’s discussion of flow and higher states."
     },
+    "the-agent-arena-relationship__plain-english__seed": {
+      "termSlug": "the-agent-arena-relationship",
+      "targetLanguage": "plain-english",
+      "translation": "The dynamic fit between a being trying to act and the meaningful world in which action becomes possible, relevant, and intelligible.",
+      "originBackground": "This vocabulary belongs to ecological, enactive, and relevance-realization ways of thinking that treat cognition as world-involving rather than sealed inside the head.",
+      "vervaekeUsage": "It is one of Vervaeke’s core framing devices for explaining intelligence, salience, and wisdom as adaptive coupling between person and world.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: and understanding of the world * World of purpose, things moving on purpose The Agent-Arena Relationship * His view makes sense of what he sees around him. This view external world"
+    },
+    "the-cave__plain-english__seed": {
+      "termSlug": "the-cave",
+      "targetLanguage": "plain-english",
+      "translation": "Plato’s image of humans mistaking shadows for reality and resisting the painful transformation required to see more truly.",
+      "originBackground": "This is shorthand for Plato’s Allegory or Myth of the Cave from the Republic, a foundational image for ignorance, awakening, and education.",
+      "vervaekeUsage": "Vervaeke uses the cave as a model of how insight changes not just beliefs but the whole machinery by which self and world are experienced.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: knowing: not just changing my mind, knowing with the very machinery of my self Myth of the Cave * People in cave chained to a wall, with a fire, just see the shadows * Take the sha"
+    },
+    "the-numinous__plain-english__seed": {
+      "termSlug": "the-numinous",
+      "targetLanguage": "plain-english",
+      "translation": "A felt encounter with the mysteriously powerful, awe-inducing, and reality-disclosing dimension of the sacred.",
+      "originBackground": "The classic modern background is Rudolf Otto, who used the numinous for the uncanny, fascinating, overwhelming character of sacred encounter.",
+      "vervaekeUsage": "Vervaeke uses the numinous to explain how sacredness can be experienced as more than doctrine: as a transformative disclosure that seizes and reorients the person.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: - the fundamental experience * The experience of the numinous is to experience the transgressive side of the sacredness, how it opens us up in wonder and awe, and takes us to the h"
+    },
+    "the-sacred__plain-english__seed": {
+      "termSlug": "the-sacred",
+      "targetLanguage": "plain-english",
+      "translation": "The dimension of reality experienced as ultimately worthy of devotion, transformation, and reorientation—not just as a doctrine to affirm.",
+      "originBackground": "The sacred has a broad religious and anthropological background, but modern thinkers often distinguish it from institutional religion or merely moral respectability.",
+      "vervaekeUsage": "Vervaeke distinguishes the sacred from thin religiosity: the sacred names what most deeply calls, reorders, and transforms one’s way of being.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: his definition related to experience not doctrine Reference snippet: * Serious playing: put themselves in a liminal play: normal world and the sacred world they want to dwell in. See how if they want to go through the change that religion is demandi"
+    },
+    "the-sophists__plain-english__seed": {
+      "termSlug": "the-sophists",
+      "targetLanguage": "plain-english",
+      "translation": "Teachers of rhetoric and success-oriented argument who could make a case skillfully without necessarily being ordered toward truth.",
+      "originBackground": "The Sophists were influential educators in classical Greece, often presented by Plato as valuing persuasion and social advantage over wisdom.",
+      "vervaekeUsage": "Vervaeke uses the contrast between Socrates and the Sophists to highlight the difference between manipulative cleverness and truth-oriented rationality.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ut * Two groups of people accredited as being wise were the philosophers and the sophists * Pythagoras invented the word philosophy: * Philea - friendship love * Sophia - wisdom *"
+    },
     "the-view-from-nowhere__plain-english__seed": {
       "termSlug": "the-view-from-nowhere",
       "targetLanguage": "plain-english",
@@ -2833,6 +5162,22 @@
       ],
       "notes": ""
     },
+    "tillich__plain-english__seed": {
+      "termSlug": "tillich",
+      "targetLanguage": "plain-english",
+      "translation": "The theologian-philosopher who interpreted religion in terms of ultimate concern rather than narrow supernatural belief alone.",
+      "originBackground": "Paul Tillich is a major 20th-century Protestant thinker known for existential theology, ultimate concern, and the courage to be.",
+      "vervaekeUsage": "Vervaeke uses Tillich as a resource for talking about depth, ultimacy, and the sacred in a way that can survive the collapse of naïve supernaturalism.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: 318 The Sacred Second Self 320 Jung and Individuation 320 Episode 50 - Tillich and Barfield 322 Tillich 322 Non-theism 325 xBarfield 325 ________________ Episode 1 - Introduction h"
+    },
     "tourist-vs-pilgrim__plain-english__seed": {
       "termSlug": "tourist-vs-pilgrim",
       "targetLanguage": "plain-english",
@@ -2848,6 +5193,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "transformative-experience__plain-english__seed": {
+      "termSlug": "transformative-experience",
+      "targetLanguage": "plain-english",
+      "translation": "An experience that does not just add information but changes the person in a way they could not fully evaluate beforehand.",
+      "originBackground": "A clear modern reference is L. A. Paul’s Transformative Experience, though the broader idea also resonates with religious conversion, awakening, and deep therapy.",
+      "vervaekeUsage": "Vervaeke uses transformative experience to explain why some kinds of knowing and healing involve becoming different, not just learning facts.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: experience that was somehow more real than this. Have to change the world and myself. * Transformative experience. Good research shows they are right. Their lives get better * Prop"
     },
     "trivializing-redescription__plain-english__seed": {
       "termSlug": "trivializing-redescription",
@@ -2929,6 +5290,22 @@
       ],
       "notes": ""
     },
+    "virtues__plain-english__seed": {
+      "termSlug": "virtues",
+      "targetLanguage": "plain-english",
+      "translation": "Stable excellences of character and perception that make a person reliably better at living well and responding fittingly to reality.",
+      "originBackground": "The classic background is Greek virtue ethics, especially Aristotle, where virtues are cultivated habits that align character, judgment, and action.",
+      "vervaekeUsage": "Vervaeke treats virtues less as moral decoration and more as cognitive-existential capacities that improve wisdom, self-transcendence, and contact with what is real.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: aristotle etc"
+    },
     "wonder__plain-english__seed": {
       "termSlug": "wonder",
       "targetLanguage": "plain-english",
@@ -2944,6 +5321,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "zombies__plain-english__seed": {
+      "termSlug": "zombies",
+      "targetLanguage": "plain-english",
+      "translation": "A modern mythic image of living people stripped of higher agency and meaning, moving through reality in a compulsive, deadened way.",
+      "originBackground": "The zombie comes from Afro-Caribbean and especially Haitian religious and folklore traditions before becoming a staple modern horror figure. In contemporary culture it often symbolizes dehumanization, contagion, mass conformity, and social collapse.",
+      "vervaekeUsage": "Vervaeke treats zombie imagery as a cultural symptom: it expresses the fear that people can remain biologically alive while existentially, socially, or spiritually hollowed out.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-pod-k1-2026-07-15"
+      ],
+      "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: cultural fascination with zombies - work with mastropiestro?"
     }
   },
   "sources": {
@@ -2953,6 +5346,14 @@
       "title": "Manual corpus enrichment — Vervaeke core frameworks",
       "externalRef": "manual-4p-4e-2026-07-15",
       "link": "",
+      "public": true
+    },
+    "source_manual-pod-k1-2026-07-15": {
+      "sourceId": "source_manual-pod-k1-2026-07-15",
+      "kind": "manual",
+      "title": "POD's Awakening from the Meaning Crisis Notes",
+      "externalRef": "manual-pod-k1-2026-07-15",
+      "link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
       "public": true
     },
     "source_0fa95d834e4c4f518adce16fef3fca45": {
