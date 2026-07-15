@@ -118,29 +118,29 @@
   top: calc(100% + 0.45rem);
   left: 0;
   right: 0;
-  padding: 0.5rem;
-  max-height: 24rem;
+  padding: 0.4rem;
+  max-height: 18rem;
   overflow: auto;
 }
 
 .typeahead-option {
   width: 100%;
-  padding: 0.75rem 0.85rem;
-  border-radius: 16px;
+  padding: 0.6rem 0.75rem;
+  border-radius: 14px;
   text-align: left;
   cursor: pointer;
   transition: transform 120ms ease, border-color 120ms ease, box-shadow 120ms ease;
 }
 
 .typeahead-option + .typeahead-option {
-  margin-top: 0.45rem;
+  margin-top: 0.35rem;
 }
 
 .typeahead-option:hover,
 .typeahead-option.active {
   transform: translateY(-1px);
   border-color: #adc2ea;
-  box-shadow: 0 12px 24px rgba(38, 72, 133, 0.12);
+  box-shadow: 0 10px 18px rgba(38, 72, 133, 0.12);
 }
 
 .typeahead-option-head,
@@ -157,29 +157,15 @@
 }
 
 .typeahead-option-head strong {
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   color: #18233c;
 }
 
-.typeahead-option-copy {
-  display: -webkit-box;
-  margin-top: 0.35rem;
-  color: #556684;
-  font-size: 0.84rem;
-  line-height: 1.35;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  max-height: 2.7em;
-}
-
 .typeahead-footer {
-  margin: 0.65rem 0 0;
+  margin: 0.55rem 0 0;
   padding: 0 0.25rem;
   color: #70809d;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
 }
 
 .translate-window {
@@ -357,6 +343,8 @@ code {
   }
 
   .typeahead-dropdown {
-    max-height: 18rem;
+    position: static;
+    margin-top: 0.45rem;
+    max-height: 14rem;
   }
 }

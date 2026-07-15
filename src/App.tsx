@@ -81,7 +81,6 @@ function App() {
                           {entry.status === 'seed-current' ? 'current' : 'candidate'}
                         </span>
                       </span>
-                      <span className="typeahead-option-copy">{entry.translation}</span>
                     </button>
                   ))}
                   {filteredEntries.length > TYPEAHEAD_LIMIT ? (
