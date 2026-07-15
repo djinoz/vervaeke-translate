@@ -1,12 +1,43 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Conservative starter posture for the scaffold.
-    // Tighten this once the concrete collections and trusted mutation paths exist.
+    function isPublicTerm() {
+      return resource.data.public == true;
+    }
+
+    function isPublicTranslation() {
+      return resource.data.isPublic == true;
+    }
+
+    function isPublicSource() {
+      return resource.data.public == true;
+    }
+
+    match /terms/{termSlug} {
+      allow read: if isPublicTerm();
+      allow write: if false;
+    }
+
+    match /translations/{translationId} {
+      allow read: if isPublicTranslation();
+      allow write: if false;
+    }
+
+    match /sources/{sourceId} {
+      allow read: if isPublicSource();
+      allow write: if false;
+    }
+
+    match /suggestions/{suggestionId} {
+      allow read, write: if false;
+    }
+
+    match /moderation_events/{eventId} {
+      allow read, write: if false;
+    }
 
     match /{document=**} {
-      allow read: if true;
-      allow write: if false;
+      allow read, write: if false;
     }
   }
 }

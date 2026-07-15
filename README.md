@@ -2,13 +2,15 @@
 
 A playful but useful web app for translating Vervaeke-isms into something a normal human can parse — or into spoof philosopher voices.
 
-Current state: **starter scaffold only**. This repo now contains:
+Current state: **real seed-backed prototype**. This repo now contains:
 - a Vite + React + TypeScript app scaffold
+- a translator-shell UI backed by the recovered seed corpus
 - Firebase Hosting / Firestore starter config files
 - a project-specific `FIREBASE_SETUP.md` adapted from sibling projects in `~/projects`
-- placeholder Firestore rules and indexes
+- a concrete `FIRESTORE_SCHEMA.md` for terms/translations/sources/suggestions
+- Firestore rules and indexes aligned to public-read / trusted-write boundaries
 
-It does **not** yet contain the real product logic, moderation flow, or submission pipeline.
+It still does **not** yet contain the real submission pipeline, moderation tooling, or trusted backend endpoints.
 
 ## Product intent
 The app should feel like a "Google Translate" lookalike where the user can:
@@ -57,10 +59,12 @@ cp .env.example .env.local
 
 ## Important files
 - `FIREBASE_SETUP.md` — step-by-step Firebase project setup for this app
+- `FIRESTORE_SCHEMA.md` — concrete Firestore collection/document plan for v1
 - `firebase.json` — Hosting + SPA rewrites + Firestore config
-- `firestore.rules` — starter Firestore rules placeholder
-- `firestore.indexes.json` — starter index placeholder
+- `firestore.rules` — public-read / trusted-write rules posture for the planned collections
+- `firestore.indexes.json` — starter indexes for `terms` and `translations`
 - `src/lib/firebase.ts` — frontend Firebase bootstrap via Vite env vars
+- `src/lib/firestoreSchema.ts` — TypeScript collection names + document interfaces
 - `data/seed/vervaeke_seed_corpus.json` — initial term corpus recovered from the prior deck plus transcript expansions
 - `data/seed/vervaeke_seed_corpus.csv` — spreadsheet-friendly export of the seed corpus
 - `data/seed/README.md` — provenance + schema notes for loading the corpus
@@ -70,9 +74,9 @@ An initial corpus is now prepared from the earlier Vervaeke deck plus later tran
 It includes optional `origin_background` and `vervaeke_usage` fields because many terms are reactivated from older philosophical or religious traditions rather than simply invented from scratch.
 
 ## Next implementation step
-The strongest next slice is:
-1. freeze the route/data model
-2. wire Firebase config locally
-3. add phrase/language/translation collections
-4. build the translator shell UI
+The strongest next slice is now:
+1. seed Firestore from `data/seed/vervaeke_seed_corpus.json`
+2. swap the frontend from bundled seed import to live Firestore reads
+3. add trusted server endpoints for suggestions/new-term proposals
+4. add moderation/admin tooling
 5. keep all submission status changes server-side

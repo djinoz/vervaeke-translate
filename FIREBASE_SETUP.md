@@ -1,9 +1,5 @@
 # Firebase setup for Vervaeke Translate
 
-This guide is adapted from the Firebase setup patterns already used in sibling projects, especially:
-- `~/projects/geodesic/FIREBASE_SETUP.md`
-- `~/projects/openclaw-explorer/README.md`
-
 It is tailored to **Vervaeke Translate**, which has different constraints:
 - public read-heavy UI
 - no end-user login required in v1
@@ -108,11 +104,13 @@ This repo already includes:
 - `firebase.json`
 - `firestore.rules`
 - `firestore.indexes.json`
+- `FIRESTORE_SCHEMA.md`
 
 What they do:
 - `firebase.json` points Hosting at `dist/`
 - sets SPA rewrites so all routes go to `index.html`
 - wires Firestore rules + indexes into deploys
+- `FIRESTORE_SCHEMA.md` defines the concrete `terms`, `translations`, `sources`, `suggestions`, and `moderation_events` model for v1
 
 ## 7. First local run
 ```bash
@@ -186,17 +184,17 @@ The long-term model should be:
   happen via trusted backend code only
 
 ## 13. Suggested collection model
-A reasonable first pass is:
-- `phrases`
-- `languages`
+The repo now defines a concrete first pass in `FIRESTORE_SCHEMA.md`:
+- `terms`
 - `translations`
-- `submissions`
-- `activityFeed`
+- `sources`
+- `suggestions`
+- `moderation_events`
 
-Potential later additions:
-- `moderationEvents`
-- `rateLimitEvents`
-- `emailTokens`
+Important split:
+- `translation` = short user-facing decoding
+- `originBackground` = historical / etymological / philosophical origin
+- `vervaekeUsage` = how he bends or revives the term
 
 ## 14. Security / abuse checklist
 Before enabling public submission flows, add:
