@@ -18,6 +18,14 @@ describe('seed corpus', () => {
     expect(bySlug.has('extended-cognition')).toBe(true)
   })
 
+  it('includes the high-centrality meaning-crisis additions', () => {
+    expect(bySlug.has('relevance-realization')).toBe(true)
+    expect(bySlug.has('reciprocal-narrowing-parasitic-processing')).toBe(true)
+    expect(bySlug.has('reciprocal-opening')).toBe(true)
+    expect(bySlug.has('being-vs-having-mode')).toBe(true)
+    expect(bySlug.has('super-salience')).toBe(true)
+  })
+
   it('upgrades participatory knowing with background and usage', () => {
     const entry = bySlug.get('participatory-knowing')
     expect(entry?.origin_background.length).toBeGreaterThan(20)
@@ -25,6 +33,6 @@ describe('seed corpus', () => {
   })
 
   it('reports the new corpus size accurately', () => {
-    expect(seedCorpusStats.totalEntries).toBe(53)
+    expect(seedCorpusStats.totalEntries).toBe(58)
   })
 })

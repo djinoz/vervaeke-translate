@@ -1,0 +1,17 @@
+[
+  {
+    "term": "Super-salience (supersalient)",
+    "slug": "super-salience",
+    "target_language": "plain-english",
+    "translation": "An intensified form of salience in which something stands out with exceptional vividness, presence, and attention-grabbing force. In positive forms it can accompany flow or awakening; in distorted forms it can be exploited by compulsive or addictive attention loops.",
+    "origin_background": "The Tim Ferriss interview transcript has Vervaeke explicitly say that in flow 'everything is super salient' and 'super present.' Related higher-states material in Awakening from the Meaning Crisis Episode 11 describes a dramatic increase in clarity, vividness, brightness, and sense-making, which fits the same salience intensification family.",
+    "vervaeke_usage": "Vervaeke uses the idea to point at how relevance realization can become especially vivid and powerful: more of the world lights up as meaningful, actionable, and real. It helps explain why flow, insight, and transformed states can feel hyper-real rather than merely intense.",
+    "provenance": ["manual-enrichment", "Tim Ferriss transcript", "Awakening from the Meaning Crisis Ep. 11"],
+    "source_note_title": "Tim Ferriss interview transcript / Episode 11: Higher States of Consciousness, Part 1",
+    "source_note_id": "manual-supersalience-2026-07-15",
+    "source_link": "https://tim.blog/2023/02/25/john-vervaeke-transcript/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Added because the exact phrase 'super salient' appears in Vervaeke’s discussion of flow and higher states."
+  }
+]

@@ -6,6 +6,8 @@ This folder contains an import-ready corpus for the Vervaeke Translate app.
 - `vervaeke_seed_corpus.json` — canonical structured seed file
 - `vervaeke_seed_corpus.csv` — spreadsheet-friendly export of the same data
 - `additions/4p-4e-core-frameworks.json` — reusable enrichment pack for the 4Ps / 4E terms
+- `additions/relevance-being-parasitic.json` — reusable enrichment pack for relevance realization, reciprocal narrowing/opening, and being-vs-having mode
+- `additions/supersalience.json` — reusable enrichment pack for super-salience / supersalient
 - `firestore_bundle.json` — generated `terms` / `translations` / `sources` payload derived from the seed
 
 ## Corpus workflow
@@ -13,6 +15,8 @@ Add or update local corpus entries:
 
 ```bash
 npm run corpus:add -- --input data/seed/additions/4p-4e-core-frameworks.json
+npm run corpus:add -- --input data/seed/additions/relevance-being-parasitic.json
+npm run corpus:add -- --input data/seed/additions/supersalience.json
 npm run corpus:bundle
 ```
 
@@ -40,7 +44,9 @@ The live sync commands currently require admin credentials via `GOOGLE_APPLICATI
 - **39** entries recovered from the earlier Anki deck or sacredness glossary seed
 - **6** extra entries added from later transcript or glossary work and earlier user-requested expansion
 - **9** core-framework entries added for the 4Ps of knowing / 4E cognitive-science lineage
-- total rows: **53**
+- **4** major cognition/meaning-crisis entries added for relevance realization, reciprocal narrowing/opening, and being-vs-having mode
+- **1** salience-intensification entry added for super-salience / supersalient
+- total rows: **58**
 
 ## Sources used
 1. Prior sacredness glossary or Anki deck seed
@@ -49,10 +55,17 @@ The live sync commands currently require admin credentials via `GOOGLE_APPLICATI
 2. Later transcript note with clarification sections
    - Joplin note: `John Vervaeke and Guy Sengstock Why Modernity Can't See the Sacred Anymore - 2026-07-13`
    - note link: `[:/d7dad7bdf88149ac87c053ee0f800530]`
-3. Prior human glossary text export for terms like `Religio`
-4. One explicitly marked provisional user-requested seed term: `Dialogos`
-5. Manual enrichment pack for Vervaeke’s 4Ps of knowing and the 4E cognitive-science lineage
+3. Prior human glossary text export for terms like `Religio`, `Relevance Realization`, and reciprocal narrowing
+4. Public POD notes doc
+   - `POD's Awakening from the Meaning Crisis Notes`
+   - `https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0`
+5. One explicitly marked provisional user-requested seed term: `Dialogos`
+6. Manual enrichment pack for Vervaeke’s 4Ps of knowing and the 4E cognitive-science lineage
    - stored at `data/seed/additions/4p-4e-core-frameworks.json`
+7. Manual enrichment pack for relevance realization, reciprocal narrowing/opening, and being-vs-having mode
+   - stored at `data/seed/additions/relevance-being-parasitic.json`
+8. Manual enrichment pack for super-salience / supersalient
+   - stored at `data/seed/additions/supersalience.json`
 
 ## Schema notes
 Each row currently represents a **Plain English** translation seed for one source term.

@@ -105,6 +105,41 @@
       ],
       "updatedFromSeed": true
     },
+    "being-vs-having-mode": {
+      "slug": "being-vs-having-mode",
+      "term": "Being vs having mode",
+      "normalizedTerm": "being vs having mode",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "being vs having mode",
+        "manual-enrichment",
+        "pod notes doc",
+        "human glossary sheet summary",
+        "contrast",
+        "between",
+        "two",
+        "existential",
+        "stances",
+        "the",
+        "having",
+        "mode",
+        "approaches",
+        "reality",
+        "something",
+        "possess",
+        "control",
+        "accumulate",
+        "while",
+        "being"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added as a major framing contrast in Vervaeke’s account of wisdom, awakening, and modal confusion.",
+      "primarySourceIds": [
+        "source_manual-bh-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "choice-space": {
       "slug": "choice-space",
       "term": "Choice space",
@@ -1316,6 +1351,76 @@
       ],
       "updatedFromSeed": true
     },
+    "reciprocal-narrowing-parasitic-processing": {
+      "slug": "reciprocal-narrowing-parasitic-processing",
+      "term": "Reciprocal narrowing / parasitic processing",
+      "normalizedTerm": "reciprocal narrowing parasitic processing",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "reciprocal narrowing / parasitic processing",
+        "reciprocal narrowing parasitic processing",
+        "manual-enrichment",
+        "human glossary draft",
+        "awakening from the meaning crisis ep. 13",
+        "self",
+        "reinforcing",
+        "process",
+        "which",
+        "attention",
+        "identity",
+        "and",
+        "behavior",
+        "get",
+        "trapped",
+        "ever",
+        "narrower",
+        "loops",
+        "salience",
+        "addiction"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added because this is one of the major negative dynamics in Vervaeke’s framing of the meaning crisis.",
+      "primarySourceIds": [
+        "source_manual-rn-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "reciprocal-opening": {
+      "slug": "reciprocal-opening",
+      "term": "Reciprocal opening",
+      "normalizedTerm": "reciprocal opening",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "reciprocal opening",
+        "manual-enrichment",
+        "awakening from the meaning crisis ep. 38",
+        "transcript search",
+        "the",
+        "mutually",
+        "amplifying",
+        "opening",
+        "which",
+        "self",
+        "and",
+        "world",
+        "other",
+        "disclose",
+        "more",
+        "themselves",
+        "each",
+        "opposite",
+        "dynamic",
+        "reciprocal"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added as the explicit positive counterpart to reciprocal narrowing.",
+      "primarySourceIds": [
+        "source_manual-ro-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
     "releasement": {
       "slug": "releasement",
       "term": "Releasement",
@@ -1348,6 +1453,41 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "relevance-realization": {
+      "slug": "relevance-realization",
+      "term": "Relevance realization",
+      "normalizedTerm": "relevance realization",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "relevance realization",
+        "manual-enrichment",
+        "pod notes doc",
+        "human glossary draft",
+        "the",
+        "core",
+        "cognitive",
+        "ability",
+        "zero",
+        "what",
+        "matters",
+        "while",
+        "ignoring",
+        "vast",
+        "background",
+        "does",
+        "not",
+        "vervaeke",
+        "treats",
+        "fundamental"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added from the public POD notes doc plus the earlier human glossary draft.",
+      "primarySourceIds": [
+        "source_manual-rr-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -1523,6 +1663,41 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "super-salience": {
+      "slug": "super-salience",
+      "term": "Super-salience (supersalient)",
+      "normalizedTerm": "super salience supersalient",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "super-salience (supersalient)",
+        "super salience",
+        "manual-enrichment",
+        "tim ferriss transcript",
+        "awakening from the meaning crisis ep. 11",
+        "intensified",
+        "form",
+        "salience",
+        "which",
+        "something",
+        "stands",
+        "out",
+        "with",
+        "exceptional",
+        "vividness",
+        "presence",
+        "and",
+        "attention",
+        "grabbing",
+        "force"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Added because the exact phrase 'super salient' appears in Vervaeke’s discussion of flow and higher states.",
+      "primarySourceIds": [
+        "source_manual-supersalience-2026-07-15"
       ],
       "updatedFromSeed": true
     },
@@ -1889,6 +2064,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "being-vs-having-mode__plain-english__seed": {
+      "termSlug": "being-vs-having-mode",
+      "targetLanguage": "plain-english",
+      "translation": "A contrast between two existential stances. The having mode approaches reality as something to possess, control, or accumulate, while the being mode approaches reality through participation, presence, transformation, and contact with what is real.",
+      "originBackground": "The POD notes doc has a dedicated heading 'Existential Modes: Having and Being' under Episode 7, and an earlier extracted glossary sheet summarized this cluster using Erich Fromm’s classic distinction between having and being as a major background source for Vervaeke’s usage.",
+      "vervaekeUsage": "Vervaeke uses the contrast to diagnose modal confusion in modern life: we try to solve existential and spiritual problems in the having mode when they require recovery of the being mode.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-bh-2026-07-15"
+      ],
+      "notes": "Added as a major framing contrast in Vervaeke’s account of wisdom, awakening, and modal confusion."
     },
     "choice-space__plain-english__seed": {
       "termSlug": "choice-space",
@@ -2450,6 +2641,38 @@
       ],
       "notes": "Added to support the 4Ps cluster explicitly."
     },
+    "reciprocal-narrowing-parasitic-processing__plain-english__seed": {
+      "termSlug": "reciprocal-narrowing-parasitic-processing",
+      "targetLanguage": "plain-english",
+      "translation": "A self-reinforcing process in which attention, identity, and behavior get trapped in ever-narrower loops of salience. In addiction or parasitic processing, the very machinery of intelligence turns against flourishing and progressively reduces agency.",
+      "originBackground": "The human glossary draft explicitly treats reciprocal narrowing, parasitic processing, and addiction formation as cross-sections of the same process. MeaningCrisis.co’s transcript for Episode 13 frames Buddhism as responding to parasitic processing and the machinery of self-deceptive, self-destructive behavior.",
+      "vervaekeUsage": "Vervaeke uses it to explain how relevance realization can be hijacked: what should help us adapt can instead lock us into compulsive, self-confirming loops that narrow worldview, agency, and self-transcendence.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-rn-2026-07-15"
+      ],
+      "notes": "Added because this is one of the major negative dynamics in Vervaeke’s framing of the meaning crisis."
+    },
+    "reciprocal-opening__plain-english__seed": {
+      "termSlug": "reciprocal-opening",
+      "targetLanguage": "plain-english",
+      "translation": "The mutually amplifying opening in which self and world, or self and other, disclose more of themselves to each other. It is the opposite dynamic to reciprocal narrowing: agency, insight, and connection widen instead of collapsing.",
+      "originBackground": "MeaningCrisis.co’s Episode 38 transcript explicitly describes agape and 4E cognitive science in terms of reciprocal opening, and external transcript/search references describe it as the opposite of reciprocal narrowing and as a key feature of love, dialogos, and transformation.",
+      "vervaekeUsage": "Vervaeke uses it for the positive dynamical spiral in which better attention, better relationship, and better disclosure reinforce each other, allowing salience, wisdom, and transformation to deepen together.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-ro-2026-07-15"
+      ],
+      "notes": "Added as the explicit positive counterpart to reciprocal narrowing."
+    },
     "releasement__plain-english__seed": {
       "termSlug": "releasement",
       "targetLanguage": "plain-english",
@@ -2465,6 +2688,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "relevance-realization__plain-english__seed": {
+      "termSlug": "relevance-realization",
+      "targetLanguage": "plain-english",
+      "translation": "The core cognitive ability to zero in on what matters while ignoring the vast background of what does not. Vervaeke treats it as fundamental to intelligence because without it thought and action would drown in combinatorial explosion.",
+      "originBackground": "The term is central to Vervaeke’s cognitive-science program and is explicitly foregrounded across Awakening from the Meaning Crisis episodes 28–31, where he develops it in dialogue with problem formulation, dynamical systems, embodied and embedded cognition, and general intelligence.",
+      "vervaekeUsage": "He uses it as the engine underneath salience, insight, problem solving, worldview attunement, and even spirituality: the process by which relevance gets discovered, enacted, and refined across mind, body, and world.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-rr-2026-07-15"
+      ],
+      "notes": "Added from the public POD notes doc plus the earlier human glossary draft."
     },
     "religio__plain-english__seed": {
       "termSlug": "religio",
@@ -2545,6 +2784,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "super-salience__plain-english__seed": {
+      "termSlug": "super-salience",
+      "targetLanguage": "plain-english",
+      "translation": "An intensified form of salience in which something stands out with exceptional vividness, presence, and attention-grabbing force. In positive forms it can accompany flow or awakening; in distorted forms it can be exploited by compulsive or addictive attention loops.",
+      "originBackground": "The Tim Ferriss interview transcript has Vervaeke explicitly say that in flow 'everything is super salient' and 'super present.' Related higher-states material in Awakening from the Meaning Crisis Episode 11 describes a dramatic increase in clarity, vividness, brightness, and sense-making, which fits the same salience intensification family.",
+      "vervaekeUsage": "Vervaeke uses the idea to point at how relevance realization can become especially vivid and powerful: more of the world lights up as meaningful, actionable, and real. It helps explain why flow, insight, and transformed states can feel hyper-real rather than merely intense.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_manual-supersalience-2026-07-15"
+      ],
+      "notes": "Added because the exact phrase 'super salient' appears in Vervaeke’s discussion of flow and higher states."
     },
     "the-view-from-nowhere__plain-english__seed": {
       "termSlug": "the-view-from-nowhere",
@@ -2708,6 +2963,14 @@
       "link": "[:/0fa95d834e4c4f518adce16fef3fca45]",
       "public": true
     },
+    "source_manual-bh-2026-07-15": {
+      "sourceId": "source_manual-bh-2026-07-15",
+      "kind": "human-glossary",
+      "title": "POD's Awakening from the Meaning Crisis Notes",
+      "externalRef": "manual-bh-2026-07-15",
+      "link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+      "public": true
+    },
     "source_user-requested-seed-addition": {
       "sourceId": "source_user-requested-seed-addition",
       "kind": "transcript",
@@ -2724,12 +2987,44 @@
       "link": "[:/d7dad7bdf88149ac87c053ee0f800530]",
       "public": true
     },
+    "source_manual-rn-2026-07-15": {
+      "sourceId": "source_manual-rn-2026-07-15",
+      "kind": "human-glossary",
+      "title": "Human glossary draft / Episode 13: Buddhism and Parasitic Processing",
+      "externalRef": "manual-rn-2026-07-15",
+      "link": "https://www.meaningcrisis.co/ep-13-awakening-from-the-meaning-crisis-buddhism-and-parasitic-processing/",
+      "public": true
+    },
+    "source_manual-ro-2026-07-15": {
+      "sourceId": "source_manual-ro-2026-07-15",
+      "kind": "transcript",
+      "title": "Episode 38: Agape and 4E Cognitive Science",
+      "externalRef": "manual-ro-2026-07-15",
+      "link": "https://www.meaningcrisis.co/ep-38-awakening-from-the-meaning-crisis-agape-and-4e-cognitive-science/",
+      "public": true
+    },
+    "source_manual-rr-2026-07-15": {
+      "sourceId": "source_manual-rr-2026-07-15",
+      "kind": "human-glossary",
+      "title": "POD's Awakening from the Meaning Crisis Notes / human glossary draft",
+      "externalRef": "manual-rr-2026-07-15",
+      "link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+      "public": true
+    },
     "source_human-vervaeke-glossary-draft": {
       "sourceId": "source_human-vervaeke-glossary-draft",
       "kind": "transcript",
       "title": "Human Vervaeke glossary draft",
       "externalRef": "",
       "link": "",
+      "public": true
+    },
+    "source_manual-supersalience-2026-07-15": {
+      "sourceId": "source_manual-supersalience-2026-07-15",
+      "kind": "transcript",
+      "title": "Tim Ferriss interview transcript / Episode 11: Higher States of Consciousness, Part 1",
+      "externalRef": "manual-supersalience-2026-07-15",
+      "link": "https://tim.blog/2023/02/25/john-vervaeke-transcript/",
       "public": true
     }
   }

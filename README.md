@@ -72,11 +72,20 @@ cp .env.example .env.local
 ## Corpus note
 An initial corpus is now prepared from the earlier Vervaeke deck plus later transcript additions.
 It includes optional `origin_background` and `vervaeke_usage` fields because many terms are reactivated from older philosophical or religious traditions rather than simply invented from scratch.
-The seed now also includes a dedicated 4Ps-of-knowing / 4E-cognitive-science enrichment pack so core Vervaeke cognition vocabulary is directly searchable.
+The seed now also includes dedicated enrichment packs for:
+- the 4Ps of knowing / 4E cognitive-science lineage
+- relevance realization
+- reciprocal narrowing / reciprocal opening
+- being vs having mode
+- super-salience / supersalient
+
+so core Vervaeke cognition vocabulary is directly searchable.
 
 ## Corpus maintenance workflow
 ```bash
 npm run corpus:add -- --input data/seed/additions/4p-4e-core-frameworks.json
+npm run corpus:add -- --input data/seed/additions/relevance-being-parasitic.json
+npm run corpus:add -- --input data/seed/additions/supersalience.json
 npm run corpus:bundle
 npm run corpus:diff
 ```

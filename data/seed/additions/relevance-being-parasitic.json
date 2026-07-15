@@ -1,0 +1,62 @@
+[
+  {
+    "term": "Relevance realization",
+    "slug": "relevance-realization",
+    "target_language": "plain-english",
+    "translation": "The core cognitive ability to zero in on what matters while ignoring the vast background of what does not. Vervaeke treats it as fundamental to intelligence because without it thought and action would drown in combinatorial explosion.",
+    "origin_background": "The term is central to Vervaeke’s cognitive-science program and is explicitly foregrounded across Awakening from the Meaning Crisis episodes 28–31, where he develops it in dialogue with problem formulation, dynamical systems, embodied and embedded cognition, and general intelligence.",
+    "vervaeke_usage": "He uses it as the engine underneath salience, insight, problem solving, worldview attunement, and even spirituality: the process by which relevance gets discovered, enacted, and refined across mind, body, and world.",
+    "provenance": ["manual-enrichment", "POD notes doc", "human glossary draft"],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes / human glossary draft",
+    "source_note_id": "manual-rr-2026-07-15",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Added from the public POD notes doc plus the earlier human glossary draft."
+  },
+  {
+    "term": "Reciprocal narrowing / parasitic processing",
+    "slug": "reciprocal-narrowing-parasitic-processing",
+    "target_language": "plain-english",
+    "translation": "A self-reinforcing process in which attention, identity, and behavior get trapped in ever-narrower loops of salience. In addiction or parasitic processing, the very machinery of intelligence turns against flourishing and progressively reduces agency.",
+    "origin_background": "The human glossary draft explicitly treats reciprocal narrowing, parasitic processing, and addiction formation as cross-sections of the same process. MeaningCrisis.co’s transcript for Episode 13 frames Buddhism as responding to parasitic processing and the machinery of self-deceptive, self-destructive behavior.",
+    "vervaeke_usage": "Vervaeke uses it to explain how relevance realization can be hijacked: what should help us adapt can instead lock us into compulsive, self-confirming loops that narrow worldview, agency, and self-transcendence.",
+    "provenance": ["manual-enrichment", "human glossary draft", "Awakening from the Meaning Crisis Ep. 13"],
+    "source_note_title": "Human glossary draft / Episode 13: Buddhism and Parasitic Processing",
+    "source_note_id": "manual-rn-2026-07-15",
+    "source_link": "https://www.meaningcrisis.co/ep-13-awakening-from-the-meaning-crisis-buddhism-and-parasitic-processing/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Added because this is one of the major negative dynamics in Vervaeke’s framing of the meaning crisis."
+  },
+  {
+    "term": "Reciprocal opening",
+    "slug": "reciprocal-opening",
+    "target_language": "plain-english",
+    "translation": "The mutually amplifying opening in which self and world, or self and other, disclose more of themselves to each other. It is the opposite dynamic to reciprocal narrowing: agency, insight, and connection widen instead of collapsing.",
+    "origin_background": "MeaningCrisis.co’s Episode 38 transcript explicitly describes agape and 4E cognitive science in terms of reciprocal opening, and external transcript/search references describe it as the opposite of reciprocal narrowing and as a key feature of love, dialogos, and transformation.",
+    "vervaeke_usage": "Vervaeke uses it for the positive dynamical spiral in which better attention, better relationship, and better disclosure reinforce each other, allowing salience, wisdom, and transformation to deepen together.",
+    "provenance": ["manual-enrichment", "Awakening from the Meaning Crisis Ep. 38", "transcript search"],
+    "source_note_title": "Episode 38: Agape and 4E Cognitive Science",
+    "source_note_id": "manual-ro-2026-07-15",
+    "source_link": "https://www.meaningcrisis.co/ep-38-awakening-from-the-meaning-crisis-agape-and-4e-cognitive-science/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Added as the explicit positive counterpart to reciprocal narrowing."
+  },
+  {
+    "term": "Being vs having mode",
+    "slug": "being-vs-having-mode",
+    "target_language": "plain-english",
+    "translation": "A contrast between two existential stances. The having mode approaches reality as something to possess, control, or accumulate, while the being mode approaches reality through participation, presence, transformation, and contact with what is real.",
+    "origin_background": "The POD notes doc has a dedicated heading 'Existential Modes: Having and Being' under Episode 7, and an earlier extracted glossary sheet summarized this cluster using Erich Fromm’s classic distinction between having and being as a major background source for Vervaeke’s usage.",
+    "vervaeke_usage": "Vervaeke uses the contrast to diagnose modal confusion in modern life: we try to solve existential and spiritual problems in the having mode when they require recovery of the being mode.",
+    "provenance": ["manual-enrichment", "POD notes doc", "human glossary sheet summary"],
+    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
+    "source_note_id": "manual-bh-2026-07-15",
+    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Added as a major framing contrast in Vervaeke’s account of wisdom, awakening, and modal confusion."
+  }
+]
