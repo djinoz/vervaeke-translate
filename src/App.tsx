@@ -68,16 +68,15 @@ function App() {
               <span className="window-meta">{filteredEntries.length} matches</span>
             </div>
 
-            <div className="selected-source-term">
-              {selectedEntry ? selectedEntry.term : 'No matching term'}
-            </div>
-
-            <div className="term-buttons">
+            <div className="term-buttons compact-list">
               {filteredEntries.map((entry) => (
                 <button
                   key={entry.slug}
                   className={entry.slug === selectedEntry?.slug ? 'term-button active' : 'term-button'}
-                  onClick={() => setSelectedSlug(entry.slug)}
+                  onClick={() => {
+                    setSelectedSlug(entry.slug)
+                    setQuery(entry.term)
+                  }}
                   type="button"
                 >
                   <span className="term-button-head">
