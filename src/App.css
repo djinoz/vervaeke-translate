@@ -10,7 +10,8 @@
 .translate-card,
 .translate-window,
 .translation-surface,
-.term-button {
+.term-button,
+.mobile-term-drawer {
   background: rgba(255, 255, 255, 0.94);
   border: 1px solid #e2e6ef;
   box-shadow: 0 18px 42px rgba(27, 42, 74, 0.08);
@@ -18,7 +19,8 @@
 
 .app-header,
 .translate-card,
-.translation-surface {
+.translation-surface,
+.mobile-term-drawer {
   border-radius: 24px;
 }
 
@@ -178,14 +180,16 @@
 
 .term-button-head,
 .badge-stack,
-.detail-heading-row {
+.detail-heading-row,
+.mobile-term-drawer summary {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
 }
 
-.term-button-head {
+.term-button-head,
+.mobile-term-drawer summary {
   justify-content: space-between;
 }
 
@@ -284,6 +288,28 @@
   line-height: 1.6;
 }
 
+.mobile-term-drawer {
+  display: none;
+  overflow: hidden;
+}
+
+.mobile-term-drawer summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.95rem 1rem;
+  background: #f8fafc;
+  color: #1e2c49;
+  font-weight: 600;
+}
+
+.mobile-term-drawer summary::-webkit-details-marker {
+  display: none;
+}
+
+.mobile-term-drawer[open] summary {
+  border-bottom: 1px solid #e5e9f2;
+}
+
 .badge.current {
   background: #edf8f1;
   border-color: #c8e7d0;
@@ -341,7 +367,8 @@ code {
   .translate-window,
   .term-button,
   .detail-surface,
-  .empty-state {
+  .empty-state,
+  .mobile-term-drawer {
     border-radius: 18px;
   }
 
@@ -353,6 +380,27 @@ code {
   .translation-surface.primary-surface {
     min-height: 8rem;
     padding: 1rem;
+  }
+
+  .desktop-source-window {
+    display: none;
+  }
+
+  .translate-windows {
+    grid-template-columns: 1fr;
+  }
+
+  .result-window {
+    order: 1;
+  }
+
+  .mobile-term-drawer {
+    display: block;
+    order: 2;
+  }
+
+  .detail-grid {
+    grid-template-columns: 1fr;
   }
 
   .term-buttons,

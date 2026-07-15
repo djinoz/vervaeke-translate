@@ -19,6 +19,11 @@ function App() {
   const selectedEntry =
     filteredEntries.find((entry) => entry.slug === selectedSlug) ?? filteredEntries[0] ?? null
 
+  const handleEntrySelect = (entry: SeedCorpusEntry) => {
+    setSelectedSlug(entry.slug)
+    setQuery(entry.term)
+  }
+
   return (
     <main className="app-shell">
       <header className="app-header">
@@ -62,7 +67,7 @@ function App() {
         </div>
 
         <div className="translate-windows">
-          <section className="translate-window source-window" aria-label="Source terms">
+          <section className="translate-window source-window desktop-source-window" aria-label="Source terms">
             <div className="window-header">
               <span className="window-label">Vervaeke</span>
               <span className="window-meta">{filteredEntries.length} matches</span>
@@ -73,10 +78,7 @@ function App() {
                 <button
                   key={entry.slug}
                   className={entry.slug === selectedEntry?.slug ? 'term-button active' : 'term-button'}
-                  onClick={() => {
-                    setSelectedSlug(entry.slug)
-                    setQuery(entry.term)
-                  }}
+                  onClick={() => handleEntrySelect(entry)}
                   type="button"
                 >
                   <span className="term-button-head">
@@ -163,6 +165,32 @@ function App() {
             )}
           </section>
         </div>
+
+        <details className="mobile-term-drawer">
+          <summary>
+            <span>Browse Vervaeke terms</span>
+            <span className="window-meta">{filteredEntries.length} matches</span>
+          </summary>
+
+          <div className="term-buttons compact-list">
+            {filteredEntries.map((entry) => (
+              <button
+                key={`mobile-${entry.slug}`}
+                className={entry.slug === selectedEntry?.slug ? 'term-button active' : 'term-button'}
+                onClick={() => handleEntrySelect(entry)}
+                type="button"
+              >
+                <span className="term-button-head">
+                  <strong>{entry.term}</strong>
+                  <span className={entry.status === 'seed-current' ? 'badge current' : 'badge candidate'}>
+                    {entry.status === 'seed-current' ? 'current' : 'candidate'}
+                  </span>
+                </span>
+                <span className="term-button-copy">{entry.translation}</span>
+              </button>
+            ))}
+          </div>
+        </details>
       </section>
     </main>
   )
