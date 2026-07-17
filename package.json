@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "backend:dev": "node functions/server.js",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "test": "vitest run",
+    "backend:test": "vitest run functions/submissionsBackend.test.ts",
     "preview": "vite preview",
     "corpus:add": "node scripts/corpus-tools.mjs add",
     "corpus:bundle": "node scripts/corpus-tools.mjs bundle",

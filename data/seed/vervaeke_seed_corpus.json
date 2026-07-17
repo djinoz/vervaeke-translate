@@ -36,6 +36,63 @@
     "notes": "Added to make the core Vervaeke cognition framework directly searchable in the corpus."
   },
   {
+    "term": "6E Cognition",
+    "slug": "6e-cognition",
+    "target_language": "plain-english",
+    "translation": "An expanded embodied view of mind in which cognition is not just in the brain but enacted across body, world, culture, tools, and developmental participation in living systems of meaning.",
+    "origin_background": "The better-known label is 4E cognition—embodied, embedded, enacted, extended. '6E' is a later expanded shorthand used in Vervaeke-adjacent contexts to capture a richer, more participatory and ecological account of mind.",
+    "vervaeke_usage": "Vervaeke uses expanded E-cognition frameworks to resist brain-bound and purely representational pictures of intelligence. The point is that meaning and mind arise through agent-arena coupling, sociality, practice, and transformation, not isolated symbol manipulation.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "Antoine Buteau Vervaeke summary"
+    ],
+    "source_note_title": "Lessons from Dr. John Vervaeke",
+    "source_note_id": "manual-pod-k4-6e-cognition-2026-07-17",
+    "source_link": "https://www.antoinebuteau.com/lessons-from-dr-john-vervaeke/",
+    "status": "seed-current",
+    "origin_confidence": "provisional",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet. Reference hint in sheet pointed to Antoine Buteau summary. Marked provisional because the accessible grounding here is a secondary synthesis source and the exact 6E label is looser than core 4E usage."
+  },
+  {
+    "term": "affordance",
+    "slug": "affordance",
+    "target_language": "plain-english",
+    "translation": "A possibility for action that the world offers to a suitably skilled and situated agent.",
+    "origin_background": "The concept comes from ecological psychology, especially J. J. Gibson, and was later taken up in embodied and enactive cognition to show that perception is already action-oriented rather than a neutral inner picture of the world.",
+    "vervaeke_usage": "Vervaeke uses affordances to explain how relevance realization couples cognition to the world: we do not first build a detached model and then act, but directly pick up what the world affords us as agents.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "Awakening from the Meaning Crisis Ep. 10"
+    ],
+    "source_note_title": "Episode 10: Consciousness",
+    "source_note_id": "manual-pod-k4-affordance-2026-07-17",
+    "source_link": "https://www.meaningcrisis.co/episode-10-consciousness/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet."
+  },
+  {
+    "term": "agapic love",
+    "slug": "agapic-love",
+    "target_language": "plain-english",
+    "translation": "A creative, person-making love that helps another being become more fully a person, rather than merely consuming them, using them, or cooperating with them.",
+    "origin_background": "The term comes from Greek agape. In Christian and late antique contexts it names a distinctive kind of love associated with unconditional giving, transformation, and participation in an open future rather than possession or exchange.",
+    "vervaeke_usage": "Vervaeke treats agapic love as one of the deepest engines of meaning and transformation: the kind of love that brings about metanoia, reorients salience, and helps persons come into being through participatory care and mutual reflection.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k3 sheet",
+      "Awakening from the Meaning Crisis Ep. 16"
+    ],
+    "source_note_title": "Episode 16: Awakening from the Meaning Crisis - Christianity and Agape",
+    "source_note_id": "manual-pod-k3-agapic-love-2026-07-17",
+    "source_link": "https://www.meaningcrisis.co/ep-16-awakening-from-the-meaning-crisis-christianity-and-agape/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k3 row in the POD extraction sheet. Translation seed hint: from plato include Vervaeke's view. Sheet source: https://docs.google.com/spreadsheets/d/1AlLAZYK3BxUjuyxHPT1GeGtp1ujOxWOtOQS6eFPxxws/edit?gid=0#gid=0"
+  },
+  {
     "term": "Altered States of Consciousness",
     "slug": "altered-states-of-consciousness",
     "target_language": "plain-english",
@@ -72,6 +129,26 @@
     "status": "seed-current",
     "origin_confidence": "provisional",
     "notes": "Promoted from user-curated k1 row in the POD extraction sheet."
+  },
+  {
+    "term": "aporia",
+    "slug": "aporia",
+    "target_language": "plain-english",
+    "translation": "A state of puzzled not-knowing in which your usual assumptions stop working, leaving you disoriented but newly open to deeper questioning and transformation.",
+    "origin_background": "The Greek term aporia originally names impasse, perplexity, or a lack of passage. In Socratic and Platonic contexts it is the productive breakdown that occurs when confident certainty collapses and inquiry becomes more honest.",
+    "vervaeke_usage": "Vervaeke treats aporia as a crucial doorway to wisdom rather than a mere failure state. It interrupts self-deceptive certainty, exposes the limits of the current frame, and prepares the ground for insight, self-transcendence, and reorientation.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k3 sheet",
+      "Awakening from the Meaning Crisis Ep. 45",
+      "After Socrates secondary notes"
+    ],
+    "source_note_title": "Episode 45: Awakening from the Meaning Crisis - The Nature of Wisdom",
+    "source_note_id": "manual-pod-k3-aporia-2026-07-17",
+    "source_link": "https://www.meaningcrisis.co/ep-45-awakening-from-the-meaning-crisis-the-nature-of-wisdom/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k3 row in the POD extraction sheet. Reference supplied in sheet: https://www.antoinebuteau.com/lessons-from-dr-john-vervaeke/ . Sheet source: https://docs.google.com/spreadsheets/d/1AlLAZYK3BxUjuyxHPT1GeGtp1ujOxWOtOQS6eFPxxws/edit?gid=0#gid=0"
   },
   {
     "term": "Authorship of constraints",
@@ -222,6 +299,25 @@
     "status": "seed-current",
     "origin_confidence": "blank",
     "notes": ""
+  },
+  {
+    "term": "Circling",
+    "slug": "circling",
+    "target_language": "plain-english",
+    "translation": "An interpersonal practice of deep real-time attention in which people track present-moment experience, relationship, and mutual disclosure to increase contact with what is actually happening between them.",
+    "origin_background": "Circling comes out of the authentic relating world, especially work associated with Guy Sengstock and related communities. It is not originally a Vervaeke coinage, but it intersects strongly with dialogos, participatory knowing, and collective transformation.",
+    "vervaeke_usage": "Vervaeke treats circling as one of the contemporary practices that can cultivate dialogical presence, reciprocal opening, and deeper contact with self, other, and shared intelligibility.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "Guy Sengstock / Circling secondary source"
+    ],
+    "source_note_title": "John Vervaeke, Circling, and Authentic Relating",
+    "source_note_id": "manual-pod-k4-circling-2026-07-17",
+    "source_link": "https://circlingguide.com/john-vervaeke-awakening-from-the-meaning-crisis-circling-and-authentic-relating/",
+    "status": "seed-current",
+    "origin_confidence": "provisional",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet. Translation seed hint: from Guy Senstock. Marked provisional because the accessible grounding used here is a secondary Circling/Vervaeke source rather than a primary transcript page."
   },
   {
     "term": "Cognitive Fluency",
@@ -430,6 +526,25 @@
     "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: hanced social network for dealing with it. * Cognition is participatory - participate in distributed cognition. Large networks of cognition. * Culture networked brains together. *"
   },
   {
+    "term": "Distributed Flow State",
+    "slug": "distributed-flow-state",
+    "target_language": "plain-english",
+    "translation": "A shared flow state that arises between people when their attention, trust, and mutual attunement become coordinated enough for the group to think and discover together better than any member could alone.",
+    "origin_background": "The idea builds on flow theory, distributed cognition, and dialogical philosophy. Instead of flow occurring only within one person acting in an arena, the relevant fit and intelligence emerge across multiple people as a living dynamical system.",
+    "vervaeke_usage": "Vervaeke uses distributed flow state to describe what can happen in genuine dialogos: the logos seems to take on a life of its own, participants access collective intelligence, and the encounter can afford reverence and self-transcendence.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k3 sheet",
+      "Dialogos interview secondary notes"
+    ],
+    "source_note_title": "Dialogos, Wisdom and Science with John Vervaeke",
+    "source_note_id": "manual-pod-k3-distributed-flow-state-2026-07-17",
+    "source_link": "https://tiagovf.com/posts/podcast-dialogos-wisdom-and-science-with-john-vervaeke",
+    "status": "seed-current",
+    "origin_confidence": "provisional",
+    "notes": "Promoted from user-curated k3 row in the POD extraction sheet. Sheet row pointed to Instagram reel https://www.instagram.com/reels/DarQA1wPx2g/ . Marked provisional because the best accessible grounding here is a secondary transcript-style summary of the interview claim rather than a full first-party transcript page. Sheet source: https://docs.google.com/spreadsheets/d/1AlLAZYK3BxUjuyxHPT1GeGtp1ujOxWOtOQS6eFPxxws/edit?gid=0#gid=0"
+  },
+  {
     "term": "Domicide",
     "slug": "domicide",
     "target_language": "plain-english",
@@ -465,6 +580,25 @@
     "status": "seed-current",
     "origin_confidence": "blank",
     "notes": ""
+  },
+  {
+    "term": "ecology of practices",
+    "slug": "ecology-of-practices",
+    "target_language": "plain-english",
+    "translation": "A set of complementary practices that correct, challenge, and strengthen one another so that transformation is sustainable instead of one-sided or self-deceptive.",
+    "origin_background": "The phrase draws on ecological thinking and practice theory: the point is that no single technique is enough. Different practices form a living system of checks, balances, and mutual enhancement.",
+    "vervaeke_usage": "Vervaeke uses an ecology of practices as the practical answer to the meaning crisis: meditation, contemplation, dialogos, movement, reading, and other disciplines should work together so that growth is real rather than performative or lopsided.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "The Lectern"
+    ],
+    "source_note_title": "Why You Need An Ecology of Practices",
+    "source_note_id": "manual-pod-k4-ecology-practices-2026-07-17",
+    "source_link": "https://lectern.johnvervaeke.com/insights/why-you-need-an-ecology-of-practices",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet."
   },
   {
     "term": "Efficiency-Resiliency Tradeoffs",
@@ -593,6 +727,25 @@
     "status": "seed-current",
     "origin_confidence": "blank",
     "notes": ""
+  },
+  {
+    "term": "essentialism",
+    "slug": "essentialism",
+    "target_language": "plain-english",
+    "translation": "The habit of assuming there is a fixed inner essence that fully defines what a thing really is, instead of understanding it through context, function, history, and relation.",
+    "origin_background": "Essentialism is a long-running philosophical habit of explanation, but in cognitive science and analytic philosophy it is often criticized as a misleading shortcut that hides complexity behind an imagined core nature. Vervaeke elsewhere discusses the 'essentialism heuristic' as part of how humans simplify an overwhelmingly complex world.",
+    "vervaeke_usage": "Vervaeke uses essentialism as something to outgrow when it distorts relevance realization. It names the temptation to treat categories and identities as if they had timeless inner cores, when wiser cognition tracks patterns, affordances, and developmental relations instead.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k3 sheet",
+      "Jim Rutt Show Part 4"
+    ],
+    "source_note_title": "Jim Rutt Show EP146: John Vervaeke Part 4",
+    "source_note_id": "manual-pod-k3-essentialism-2026-07-17",
+    "source_link": "https://jimrutt.substack.com/p/ep146-john-vervaeke-part-4-awakening-bb2",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k3 row in the POD extraction sheet. Translation seed hint: include Vervaeke's view. Sheet source: https://docs.google.com/spreadsheets/d/1AlLAZYK3BxUjuyxHPT1GeGtp1ujOxWOtOQS6eFPxxws/edit?gid=0#gid=0"
   },
   {
     "term": "Exaptation",
@@ -985,6 +1138,25 @@
     "notes": ""
   },
   {
+    "term": "Lectio Divina",
+    "slug": "lectio-divina",
+    "target_language": "plain-english",
+    "translation": "A contemplative way of reading in which a text is not mined just for information but engaged so that it can reshape attention, understanding, and being.",
+    "origin_background": "Lectio divina is a traditional Christian monastic practice built around slow, prayerful, transformative reading rather than fast information extraction.",
+    "vervaeke_usage": "Vervaeke uses lectio divina as an example of reading as spiritual-cognitive practice: the point is to let the text 'read you' and participate in transformation, not merely to accumulate propositions.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "John Vervaeke meditation lesson"
+    ],
+    "source_note_title": "Meditating with John Vervaeke - Lesson 11: Lectio Divina",
+    "source_note_id": "manual-pod-k4-lectio-divina-2026-07-17",
+    "source_link": "https://www.youtube.com/watch?v=j_dUgJCja48",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet."
+  },
+  {
     "term": "Liminal",
     "slug": "liminal",
     "target_language": "plain-english",
@@ -1059,25 +1231,6 @@
     "notes": "Promoted from user-curated k2 row in the POD extraction sheet. Reference snippet: to be ignorant of the historical factors that are driving the meaning crisis Foreshadowing the Meaning Crisis * Foreshadow meaning crisis: mythological way of thinking that allows"
   },
   {
-    "term": "Meta Crisis",
-    "slug": "meta-crisis",
-    "target_language": "plain-english",
-    "translation": "A crisis made of many crises that interact with and intensify one another instead of staying isolated.",
-    "origin_background": "The term is contemporary and increasingly used for interlocking ecological, social, political, technological, and existential breakdowns rather than a single failure point.",
-    "vervaeke_usage": "Vervaeke uses metacrisis to show that the meaning crisis is braided together with other structural crises and cannot be solved in one narrow domain alone.",
-    "provenance": [
-      "manual-enrichment",
-      "POD notes doc",
-      "user-curated k1 sheet"
-    ],
-    "source_note_title": "POD's Awakening from the Meaning Crisis Notes",
-    "source_note_id": "manual-pod-k1-2026-07-15",
-    "source_link": "https://docs.google.com/document/d/1VEhfb09YIZLW1a__Ck4uq_618SYP4fwW5b3YimZaux4/edit?tab=t.0",
-    "status": "seed-current",
-    "origin_confidence": "grounded",
-    "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: d to political identification * Titanic struggle of wills Meta Crisis * Legacy: soviet union also collapses * Secularized political process of pseudo rel"
-  },
-  {
     "term": "Meta-cognition",
     "slug": "meta-cognition",
     "target_language": "plain-english",
@@ -1095,6 +1248,44 @@
     "status": "seed-current",
     "origin_confidence": "grounded",
     "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: * Mindsight: (Daniel Siegal): ability to pick up on other people’s mental states * Meta-cognition * Initiation rituals: * Commitment and loyalty to my own group now more questionab"
+  },
+  {
+    "term": "Meta-Crisis",
+    "slug": "meta-crisis",
+    "target_language": "plain-english",
+    "translation": "A crisis made of many crises that interact with and intensify one another instead of staying isolated.",
+    "origin_background": "The term is contemporary and increasingly used for interlocking ecological, social, political, technological, and existential breakdowns rather than a single failure point.",
+    "vervaeke_usage": "Vervaeke uses the meta-crisis frame to show that modern breakdowns are mutually amplifying and cannot be solved piecemeal without a deeper recovery of wisdom and collective transformation.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "k1/k4 sheet continuity"
+    ],
+    "source_note_title": "POD sheet continuity / existing Meta Crisis entry",
+    "source_note_id": "manual-pod-k4-meta-crisis-2026-07-17",
+    "source_link": "https://docs.google.com/spreadsheets/d/1AlLAZYK3BxUjuyxHPT1GeGtp1ujOxWOtOQS6eFPxxws/edit?gid=0#gid=0",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet. Standalone hyphenated form added because existing corpus had 'Meta Crisis' as the unhyphenated variant."
+  },
+  {
+    "term": "Metanoia",
+    "slug": "metanoia",
+    "target_language": "plain-english",
+    "translation": "A fundamental turning of the mind and self in which your whole orientation, attention, and way of being are reconfigured.",
+    "origin_background": "The Greek word metanoia has deep religious and philosophical history, especially in Christian contexts where it is often translated as repentance, but more deeply means a radical transformation of understanding and orientation.",
+    "vervaeke_usage": "Vervaeke uses metanoia for the deep reorientation brought about by transformative insight, agapic love, and awakening: not merely changing an opinion, but changing the salience-structuring machinery of the self.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "Awakening from the Meaning Crisis Ep. 16"
+    ],
+    "source_note_title": "Episode 16: Awakening from the Meaning Crisis - Christianity and Agape",
+    "source_note_id": "manual-pod-k4-metanoia-2026-07-17",
+    "source_link": "https://www.meaningcrisis.co/ep-16-awakening-from-the-meaning-crisis-christianity-and-agape/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet. Standalone form added because existing corpus had only 'Metanoia / metanoetic passage'."
   },
   {
     "term": "Metanoia / metanoetic passage",
@@ -1321,6 +1512,25 @@
     "notes": ""
   },
   {
+    "term": "optimal grip",
+    "slug": "optimal-grip",
+    "target_language": "plain-english",
+    "translation": "The best available fit between you and the situation: a poised, dynamically adjusted way of taking in the world so that attention, action, and understanding are neither too narrow nor too diffuse.",
+    "origin_background": "The phrase comes from phenomenology and embodied cognition, especially work associated with Merleau-Ponty and Hubert Dreyfus, where perception and action are understood as ongoing attempts to achieve a better grip on the world.",
+    "vervaeke_usage": "Vervaeke uses optimal grip to connect mental grip and bodily grip within embodied cognition and relevance realization. It marks the dynamically improved attunement in which salience, skill, and world-contact come into alignment, especially in mindfulness, flow, and insight-rich states.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k3 sheet",
+      "Awakening from the Meaning Crisis Ep. 11"
+    ],
+    "source_note_title": "Episode 11: Higher States of Consciousness, Part 1",
+    "source_note_id": "manual-pod-k3-optimal-grip-2026-07-17",
+    "source_link": "https://www.meaningcrisis.co/higher-states-of-consciousness-part-1/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k3 row in the POD extraction sheet. Translation seed hint: part of RR connecting the concept of mental grip and physical grip in embodied cognition. Sheet source: https://docs.google.com/spreadsheets/d/1AlLAZYK3BxUjuyxHPT1GeGtp1ujOxWOtOQS6eFPxxws/edit?gid=0#gid=0"
+  },
+  {
     "term": "Orienting constraints",
     "slug": "orienting-constraints",
     "target_language": "plain-english",
@@ -1337,6 +1547,25 @@
     "status": "seed-current",
     "origin_confidence": "blank",
     "notes": ""
+  },
+  {
+    "term": "Overfitting",
+    "slug": "overfitting",
+    "target_language": "plain-english",
+    "translation": "Becoming too narrowly adapted to a limited pattern or dataset so that apparent success in one context produces brittleness, bias, and poor general fit in the wider world.",
+    "origin_background": "The term comes from statistics and machine learning, where a model can fit its training data so tightly that it fails to generalize. Vervaeke borrows it as a useful analogy for cognition and adaptive behavior.",
+    "vervaeke_usage": "Vervaeke uses overfitting to show why intelligence needs flexibility, resilience, and relevance realization rather than narrow optimization. Minds can lock into local success patterns that distort broader reality-contact.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "Awakening from the Meaning Crisis Ep. 31"
+    ],
+    "source_note_title": "Episode 31: Embodied-Embedded RR as Dynamical-Developmental GI",
+    "source_note_id": "manual-pod-k4-overfitting-2026-07-17",
+    "source_link": "https://www.meaningcrisis.co/ep-31-awakening-from-the-meaning-crisis-embodied-embedded-rr-as-dynamical-developmental-gi/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet. Translation seed hint: probably RR related."
   },
   {
     "term": "p-zombies / philosophical zombies",
@@ -1356,6 +1585,25 @@
     "status": "seed-current",
     "origin_confidence": "grounded",
     "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: re:David Chalmers"
+  },
+  {
+    "term": "Parasitic Processing",
+    "slug": "parasitic-processing",
+    "target_language": "plain-english",
+    "translation": "A self-undermining pattern in which the mind's problem-solving and salience machinery gets hijacked into loops that feed anxiety, craving, self-deception, and loss of agency.",
+    "origin_background": "The phrase sits at the intersection of Buddhist insight, cognitive science, and psychopathology. It names a process where adaptive intelligence becomes trapped in maladaptive recursive loops.",
+    "vervaeke_usage": "Vervaeke uses parasitic processing to explain how relevance realization can turn against itself, producing compulsive narrowing, addiction-like reinforcement, and existential distortion instead of wisdom.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "Awakening from the Meaning Crisis Ep. 13"
+    ],
+    "source_note_title": "Episode 13: Awakening from the Meaning Crisis - Buddhism and Parasitic Processing",
+    "source_note_id": "manual-pod-k4-parasitic-processing-2026-07-17",
+    "source_link": "https://www.meaningcrisis.co/ep-13-awakening-from-the-meaning-crisis-buddhism-and-parasitic-processing/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet. Existing corpus also has a combined entry 'Reciprocal narrowing / parasitic processing'; this adds the standalone search term."
   },
   {
     "term": "Participatory knowing",
@@ -1466,6 +1714,25 @@
     "status": "seed-current",
     "origin_confidence": "provisional",
     "notes": "Added to support the 4Ps cluster explicitly; origin background is interpretive rather than a single canonical source label."
+  },
+  {
+    "term": "Philosophical Silk Road",
+    "slug": "philosophical-silk-road",
+    "target_language": "plain-english",
+    "translation": "A cross-cultural path of wisdom in which Eastern and Western traditions are brought into living contact so they can illuminate each other instead of remaining sealed off in separate worlds.",
+    "origin_background": "The phrase deliberately echoes the historical Silk Road: not a single place to live in, but a route of exchange, encounter, and transformation across civilizations. In Vervaeke's project it names a pilgrimage through sages, practices, and landscapes linking Neoplatonism, Zen, and related traditions in search of a shared lingua philosophica.",
+    "vervaeke_usage": "Vervaeke uses the Philosophical Silk Road as a response to the meaning crisis: a way of recovering the sacred through dialogos between traditions rather than through flattening them into sameness or retreating into one closed orthodoxy.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k3 sheet",
+      "johnvervaeke.com"
+    ],
+    "source_note_title": "Walking the Philosophical Silk Road",
+    "source_note_id": "manual-pod-k3-philosophical-silk-road-2026-07-17",
+    "source_link": "https://johnvervaeke.com/series/the-philosophical-silk-road/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k3 row in the POD extraction sheet. Translation seed hint: from 2025/2026. Sheet source: https://docs.google.com/spreadsheets/d/1AlLAZYK3BxUjuyxHPT1GeGtp1ujOxWOtOQS6eFPxxws/edit?gid=0#gid=0"
   },
   {
     "term": "Pilgrimage as antidote to modernity",
@@ -1705,6 +1972,25 @@
     "status": "seed-current",
     "origin_confidence": "blank",
     "notes": ""
+  },
+  {
+    "term": "Salience Landscape",
+    "slug": "salience-landscape",
+    "target_language": "plain-english",
+    "translation": "The organized field of what stands out to you as important, relevant, urgent, attractive, dangerous, or worth acting on.",
+    "origin_background": "The metaphor joins ecological and phenomenological ideas about attention, action, and world-disclosure. It treats relevance not as a single spotlight but as a structured landscape of prominence and pull.",
+    "vervaeke_usage": "Vervaeke uses salience landscape to explain how consciousness and relevance realization shape experience before explicit thought. Transformation changes not just beliefs but what shows up as real, pressing, and meaningful in the first place.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "Awakening from the Meaning Crisis Ep. 10"
+    ],
+    "source_note_title": "Episode 10: Consciousness",
+    "source_note_id": "manual-pod-k4-salience-landscape-2026-07-17",
+    "source_link": "https://www.meaningcrisis.co/episode-10-consciousness/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet."
   },
   {
     "term": "Schopenhauer",
@@ -2100,6 +2386,25 @@
     "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: experience that was somehow more real than this. Have to change the world and myself. * Transformative experience. Good research shows they are right. Their lives get better * Prop"
   },
   {
+    "term": "Transjective",
+    "slug": "transjective",
+    "target_language": "plain-english",
+    "translation": "Real in the relation between agent and world rather than existing only inside the subject or only inside the object.",
+    "origin_background": "The term is a Vervaeke-style extension beyond the usual subjective/objective split. It is used to name fitting, meaning, and intelligibility as relational achievements rather than private projections or brute object-properties.",
+    "vervaeke_usage": "Vervaeke uses transjective language to explain why meaning, problem-solving, and wisdom are not merely subjective feelings or objective facts. They emerge in the fit between self and world, where relevance is realized.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "Awakening from the Meaning Crisis Ep. 44"
+    ],
+    "source_note_title": "Episode 44: Awakening from the Meaning Crisis - Theories of Wisdom",
+    "source_note_id": "manual-pod-k4-transjective-2026-07-17",
+    "source_link": "https://www.meaningcrisis.co/ep-44-awakening-from-the-meaning-crisis-theories-of-wisdom/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet."
+  },
+  {
     "term": "Trivializing redescription",
     "slug": "trivializing-redescription",
     "target_language": "plain-english",
@@ -2245,6 +2550,25 @@
     "status": "seed-current",
     "origin_confidence": "grounded",
     "notes": "Promoted from user-curated k2 row in the POD extraction sheet."
+  },
+  {
+    "term": "wisdom",
+    "slug": "wisdom",
+    "target_language": "plain-english",
+    "translation": "The cultivated ability to realize what matters, see through self-deception, and respond well to complex life situations in a way that deepens truth, meaning, and transformation.",
+    "origin_background": "Wisdom is one of the oldest philosophical and religious ideals, but in Vervaeke's work it is also treated as a legitimate target of cognitive science and psychology rather than as mere moral decoration or inspirational vagueness.",
+    "vervaeke_usage": "Vervaeke uses wisdom as the central integrative aim of his project: not just intelligence or knowledge, but the optimization of cognition and character toward reality-contact, reduced self-deception, and meaningful self-transcendence.",
+    "provenance": [
+      "manual-enrichment",
+      "user-curated k4 sheet",
+      "Awakening from the Meaning Crisis Ep. 45"
+    ],
+    "source_note_title": "Episode 45: Awakening from the Meaning Crisis - The Nature of Wisdom",
+    "source_note_id": "manual-pod-k4-wisdom-2026-07-17",
+    "source_link": "https://www.meaningcrisis.co/ep-45-awakening-from-the-meaning-crisis-the-nature-of-wisdom/",
+    "status": "seed-current",
+    "origin_confidence": "grounded",
+    "notes": "Promoted from user-curated k4 row in the POD extraction sheet."
   },
   {
     "term": "Wonder",

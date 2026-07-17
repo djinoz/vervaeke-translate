@@ -18,8 +18,10 @@ tmp-*.md
 .firebaserc
 .runtimeconfig.json
 service_account.json
+firebase-service-account.json
 functions/.env
 functions/.env.*
+functions/.local-data/
 
 # Editor directories and files
 .vscode/*

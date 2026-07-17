@@ -1,20 +1,26 @@
 import { useMemo, useState } from 'react'
 
 import './App.css'
+import ModeratorView from './components/ModeratorView'
+import SubmitSuggestionForm from './components/SubmitSuggestionForm'
 import { seedCorpusEntries, seedCorpusStats, targetLanguageOptions } from './lib/corpus'
 import { searchCorpus } from './lib/search'
 import type { SeedCorpusEntry } from './types/corpus'
+
+type AppTab = 'translate' | 'moderator'
 
 function pickInitialEntry(entries: SeedCorpusEntry[]): SeedCorpusEntry {
   return entries.find((entry) => entry.slug === 'logos') ?? entries[0]!
 }
 
+const INITIAL_ENTRY = pickInitialEntry(seedCorpusEntries)
 const TYPEAHEAD_LIMIT = 8
 
 function App() {
-  const [query, setQuery] = useState('')
+  const [tab, setTab] = useState<AppTab>('translate')
+  const [query, setQuery] = useState(INITIAL_ENTRY.term)
   const [selectedTargetLanguage, setSelectedTargetLanguage] = useState('plain-english')
-  const [selectedSlug, setSelectedSlug] = useState(() => pickInitialEntry(seedCorpusEntries).slug)
+  const [selectedSlug, setSelectedSlug] = useState(INITIAL_ENTRY.slug)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
   const filteredEntries = useMemo(() => searchCorpus(seedCorpusEntries, query), [query])
@@ -34,17 +40,49 @@ function App() {
       <header className="app-header">
         <div>
           <h1>Vervaeke Translate</h1>
-          <p className="header-subtitle">Translate Vervaeke into something a normal human can parse.</p>
+          <div className="header-subtitle-row">
+            <p className="header-subtitle">Translate Vervaeke into words a normal human can parse.</p>
+            <a
+              className="header-why-link"
+              href="https://djinoz.substack.com/p/vervaeke-translate"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Why?
+            </a>
+          </div>
         </div>
 
         <div className="header-stats" aria-label="Corpus summary">
           <span>{seedCorpusStats.totalEntries} terms</span>
           <span>{seedCorpusStats.entriesWithOrigin} with origin/background</span>
-          <span>{seedCorpusStats.candidateEntries} candidate terms</span>
+        </div>
+
+        <div className="app-tabs" role="tablist">
+          <button
+            type="button"
+            role="tab"
+            aria-selected={tab === 'translate'}
+            className={tab === 'translate' ? 'app-tab active' : 'app-tab'}
+            onClick={() => setTab('translate')}
+          >
+            Translate
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={tab === 'moderator'}
+            className={tab === 'moderator' ? 'app-tab active' : 'app-tab'}
+            onClick={() => setTab('moderator')}
+          >
+            Moderator
+          </button>
         </div>
       </header>
 
-      <section className="translate-card">
+      {tab === 'moderator' ? <ModeratorView /> : null}
+
+      <section className="translate-card" style={tab !== 'translate' ? { display: 'none' } : undefined}>
         <div className="translate-toolbar">
           <label className="toolbar-field toolbar-search">
             <span>Search terms</span>
@@ -176,6 +214,13 @@ function App() {
           )}
         </section>
       </section>
+
+      {tab === 'translate' ? (
+        <SubmitSuggestionForm
+          selectedEntry={selectedEntry}
+          selectedTargetLanguage={selectedTargetLanguage}
+        />
+      ) : null}
     </main>
   )
 }

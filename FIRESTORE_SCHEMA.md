@@ -75,16 +75,29 @@ Public user proposals. **Server-write only** from trusted endpoints.
 {
   "kind": "translation-improvement",
   "termSlug": "logos",
+  "sourceLanguage": "",
+  "proposedSourceTerm": "",
+  "normalizedSourceTerm": "",
   "proposedTargetLanguage": "plain-english",
   "proposedTranslation": "...",
   "proposedOriginBackground": "...",
   "proposedVervaekeUsage": "...",
   "submitterEmailHash": "...",
   "captchaScore": 0.91,
-  "status": "await-review",
+  "captchaVerified": true,
+  "status": "wait-click",
+  "approvalClickedAt": "",
+  "lastModerationReason": "",
   "createdAt": "server timestamp"
 }
 ```
+
+For brand-new source term proposals, trusted backend code should instead store:
+- `kind: "new-term"`
+- `proposedSourceTerm`
+- `normalizedSourceTerm`
+- `sourceLanguage`
+- initial `status: "await-review"`
 
 ### `moderation_events/{eventId}`
 Server-authored audit trail for approval/rejection/state transitions.
@@ -130,6 +143,8 @@ Seed rows currently use:
 - `seed-candidate`
 
 Firestore should normalize to product-facing statuses such as:
+- `wait-click`
+- `contender`
 - `current`
 - `candidate`
 - `await-review`

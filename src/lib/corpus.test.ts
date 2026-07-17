@@ -49,6 +49,6 @@ describe('seed corpus', () => {
   })
 
   it('reports the new corpus size accurately', () => {
-    expect(seedCorpusStats.totalEntries).toBe(123)
+    expect(seedCorpusStats.totalEntries).toBe(140)
   })
 })

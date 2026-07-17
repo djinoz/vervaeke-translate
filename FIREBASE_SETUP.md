@@ -52,26 +52,36 @@ firebase login
 ## 3. Register the web app
 1. In **Project settings** → **Your apps**
 2. Add a **Web app**
-3. Copy the Firebase web config values
-4. In this repo:
+## 3. Add frontend/browser env vars
+
+Copy the browser example and fill in the Firebase web app config:
 
 ```bash
 cd ~/projects/vervaeke-translate
 cp .env.example .env.local
 ```
 
-5. Fill in `.env.local` with your real values
+Fill in `.env.local` with your real `VITE_FIREBASE_*` values.
 
-Required env vars:
-- `VITE_FIREBASE_API_KEY`
-- `VITE_FIREBASE_AUTH_DOMAIN`
-- `VITE_FIREBASE_PROJECT_ID`
-- `VITE_FIREBASE_STORAGE_BUCKET`
-- `VITE_FIREBASE_MESSAGING_SENDER_ID`
-- `VITE_FIREBASE_APP_ID`
+## 4. Add backend/server env vars
 
-## 4. Optional but recommended: upgrade plan before trusted backend work
-If you plan to use Cloud Functions / Cloud Run for:
+Copy the backend example and fill in trusted runtime values:
+
+```bash
+cd ~/projects/vervaeke-translate
+cp .env.backend.example .env.backend.local
+```
+
+Put backend-only values here, such as:
+- `LOCAL_SUBMISSIONS_ADMIN_SECRET`
+- `LOCAL_SUBMISSIONS_EMAIL_MODE`
+- `FIRESTORE_PROJECT_ID`
+- `GOOGLE_APPLICATION_CREDENTIALS`
+
+Do **not** put trusted backend secrets in `.env.local`; that file is for Vite/browser config only.
+
+## 5. Optional but recommended: upgrade plan before trusted backend work
+
 - moderation actions
 - email sending
 - server-side publication transitions
@@ -206,15 +216,147 @@ Before enabling public submission flows, add:
 - server-side verification before any public visibility change
 
 ## 15. Email / approval flow note
-For **existing translation suggestions**, the planned behavior is:
-- submit → `wait-click`
-- user clicks approval link → `contender`
+For **existing translation suggestions**, the chosen direction is now:
+- use **Firebase Auth email-link** for the confirmation click
+- treat the click as proof the submitter controls the email address
+- then promote the suggestion from `wait-click` → `contender` in **trusted server code**
 
-For **brand-new source terms**, the planned behavior is:
+For **brand-new source terms**, the planned behavior remains:
 - submit → `await-review`
 - manual moderator/admin decision required before any corpus inclusion
 
 These transitions must be implemented in trusted server code, not delegated to the client.
+
+### Option A (chosen): Firebase Auth email-link confirmation
+This is the preferred path because it uses Firebase/Google's built-in auth email delivery instead of adding SMTP or a third-party transactional provider.
+
+Important constraint:
+- Firebase Auth can send **auth emails** (email-link sign-in, verification, password reset).
+- It does **not** send arbitrary custom product emails.
+- So this flow must be framed as: "confirm your email / continue with email link" rather than a fully custom mailer.
+
+#### What to enable in Firebase Console
+1. Go to **Authentication** → **Sign-in method**
+2. Enable **Email/Password**
+3. Enable **Email link (passwordless sign-in)**
+4. Go to **Authentication** → **Settings** → **Authorized domains**
+5. Add every host that may appear in the email-link continue URL:
+   - `localhost`
+   - your current LAN host, e.g. `192.168.86.11`
+   - Firebase Hosting domain (for example `vervaeke-translate.web.app`)
+   - any custom domain later
+
+Important:
+- the app currently builds the continue URL from `window.location.href`
+- so if you open the app at `http://192.168.86.11:5173/`, Firebase Auth will try to send the user back to host `192.168.86.11`
+- the port does **not** go in Authorized domains; add only the host/domain name
+- if Firebase Console refuses a raw IP host in your project, use an allowlistable hostname instead (for example the Firebase Hosting domain, `localhost`, or a local DNS alias such as a `nip.io`/`sslip.io` name pointed at this machine)
+6. Go to **Authentication** → **Templates**
+7. Customize the **Email link sign-in** template
+
+#### ADC quickstart for the trusted backend
+The browser `VITE_FIREBASE_*` vars are **not enough** for the trusted finalization endpoint. The server also needs **Application Default Credentials (ADC)** so Admin SDK can verify Firebase ID tokens and write the final status change.
+
+Use **one** of these:
+
+**Option 1 — easiest on your dev machine**
+```bash
+gcloud auth application-default login
+gcloud auth application-default set-quota-project vervaeke-translate
+```
+
+**Option 2 — explicit service account file**
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS=/absolute/path/to/service-account.json
+```
+
+Quick verification:
+```bash
+gcloud auth application-default print-access-token >/dev/null && echo ADC_OK
+```
+
+Then start the backend with either `.env.backend.local` populated or explicit shell overrides:
+```bash
+cd ~/projects/vervaeke-translate
+npm run backend:dev
+```
+
+If you prefer shell overrides instead of `.env.backend.local`:
+```bash
+export FIRESTORE_PROJECT_ID=vervaeke-translate
+export LOCAL_SUBMISSIONS_EMAIL_MODE=firebase-auth-email-link
+npm run backend:dev
+```
+
+Expected health result once ADC is working:
+- `repositoryKind: "firestore"`
+- `emailMode: "firebase-auth-email-link"`
+- `emailLive: true`
+- `emailBlocker: null`
+
+If ADC is missing/bad, the backend now falls back honestly to:
+- `emailMode: "stubbed"`
+- `emailLive: false`
+- `emailBlocker: "Firebase Auth init failed: ..."`
+
+#### App / server responsibilities
+Use this split:
+
+**Client:**
+- collect suggestion details plus submitter email
+- create the suggestion record in `wait-click`
+- call `sendSignInLinkToEmail(...)` with an `ActionCodeSettings` continue URL that points back to the app with the suggestion ID encoded in state
+- store the submitter email locally so the browser can complete sign-in after the link round-trip
+
+**Trusted server / Functions:**
+- expose a callable or HTTP endpoint that finalizes the suggestion
+- require a valid Firebase ID token from the just-completed email-link sign-in
+- verify the authenticated email matches the suggestion's submitter email
+- only then transition `wait-click` → `contender`
+- reject mismatches, expired state, reused confirmations, or already-transitioned records
+
+#### Minimal implementation outline
+1. Create suggestion in trusted backend with status `wait-click`
+2. Return `suggestionId` to the client
+3. Client sends Firebase Auth email link to the same email address
+4. Email link returns the user to the app
+5. App completes sign-in with `signInWithEmailLink(...)`
+6. App sends Firebase ID token + `suggestionId` to trusted backend
+7. Trusted backend verifies email ownership and performs `wait-click` → `contender`
+8. Optionally sign the user out immediately after confirmation if you do not want a persistent signed-in UX
+
+#### Moderator/admin transitions
+Trusted moderation transitions use the backend endpoint:
+- `POST /api/suggestions/:id/transition`
+- required header: `x-local-admin-secret`
+
+Current behavior:
+- the backend currently defaults `LOCAL_SUBMISSIONS_ADMIN_SECRET` to `local-dev-secret` if you do not override it
+- the moderator UI should start with an empty secret field; you must paste the active secret before transitions unlock
+- if you leave the backend on the default dev secret, typing `local-dev-secret` will work
+- for any serious/shared environment, set your own `LOCAL_SUBMISSIONS_ADMIN_SECRET` before starting the backend
+
+Example:
+```bash
+export LOCAL_SUBMISSIONS_ADMIN_SECRET='replace-this-with-a-real-secret'
+npm run backend:dev
+```
+
+#### What this replaces
+If you implement Option A fully:
+- you do **not** need a custom confirmation email sender for existing translation suggestions
+- you do **not** need SendGrid just for that confirmation click
+- you may still want a general-purpose mail provider later for moderator notifications, digests, or non-auth emails
+
+#### What stays separate
+- `VITE_FIREBASE_*` = browser Firebase config only
+- Firestore trusted writes = server-side Admin SDK / Functions credentials
+- Firebase Auth email-link sending = configured in Authentication, not in the Firestore env
+
+#### Honest limitation
+Option A is a product-shape decision, not just a transport swap:
+- the confirmation email is now an **auth email flow**
+- the app should present it as "confirm via secure email link" rather than pretending a custom mailer exists
 
 ## 16. Useful commands
 ```bash

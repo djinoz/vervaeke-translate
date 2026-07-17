@@ -10,7 +10,7 @@ Current state: **real seed-backed prototype**. This repo now contains:
 - a concrete `FIRESTORE_SCHEMA.md` for terms/translations/sources/suggestions
 - Firestore rules and indexes aligned to public-read / trusted-write boundaries
 
-It still does **not** yet contain the real submission pipeline, moderation tooling, or trusted backend endpoints.
+It now includes a **local-only trusted submissions backend** for QA under `functions/`, plus a moderator/admin UI wired to it. It does not yet have a production submission pipeline or real email delivery.
 
 ## Product intent
 The app should feel like a "Google Translate" lookalike where the user can:
@@ -37,6 +37,28 @@ npm run dev
 
 Open the local URL printed by Vite.
 
+## Local submissions backend
+```bash
+cp .env.backend.example .env.backend.local
+npm run backend:dev
+```
+
+This starts a local trusted submissions server. It binds to `0.0.0.0` so it is reachable from any device on the same LAN:
+- Local: `http://127.0.0.1:8787`
+- LAN: `http://<machine-ip>:8787/api/health`
+
+By default it uses JSON-file persistence at `functions/.local-data/submissions.json`. It auto-switches to Firestore when `FIRESTORE_PROJECT_ID` and server-side ADC credentials are set. Email confirmation is always stubbed (approval token returned in the API response) unless a transactional email provider is wired into `functions/server.js`.
+
+To expose the Vite frontend to LAN reviewers:
+```bash
+npm run dev -- --host
+# App available at http://<machine-ip>:5173
+```
+
+See [`functions/README.md`](./functions/README.md) for mode details, Firestore prerequisites, and the full QA flow. See [`QA_SUBMISSIONS_LOCAL_BACKEND.md`](./QA_SUBMISSIONS_LOCAL_BACKEND.md) for the tester walkthrough.
+
+For the planned real confirmation flow on existing translation suggestions, see **FIREBASE_SETUP.md → section 15, "Option A (chosen): Firebase Auth email-link confirmation"**.
+
 ## Build
 ```bash
 npm run build
@@ -51,11 +73,20 @@ That guide was adapted from working sibling-project patterns in:
 - `~/projects/openclaw-explorer/README.md`
 
 ## Environment config
-Copy the example file and fill in your Firebase web app config:
+Use separate files for browser config vs trusted backend runtime:
 
 ```bash
+# Browser/Vite config only
 cp .env.example .env.local
+
+# Trusted backend / local Node server config
+cp .env.backend.example .env.backend.local
 ```
+
+- `.env.local` = Vite/browser config (`VITE_*` only)
+- `.env.backend.local` = local trusted backend config (`LOCAL_SUBMISSIONS_*`, `FIRESTORE_PROJECT_ID`, `GOOGLE_APPLICATION_CREDENTIALS`, etc.)
+- `npm run backend:dev` now auto-loads `.env.backend.local`
+- shell-exported env vars still win over values in `.env.backend.local`
 
 ## Important files
 - `FIREBASE_SETUP.md` — step-by-step Firebase project setup for this app
@@ -68,6 +99,9 @@ cp .env.example .env.local
 - `data/seed/vervaeke_seed_corpus.json` — initial term corpus recovered from the prior deck plus transcript expansions
 - `data/seed/vervaeke_seed_corpus.csv` — spreadsheet-friendly export of the seed corpus
 - `data/seed/README.md` — provenance + schema notes for loading the corpus
+- `functions/server.js` — local trusted submissions HTTP surface for QA
+- `functions/statusMachine.js` — deterministic server-side suggestion status rules
+- `functions/repository.js` — repository abstraction: JSON-file store (default) and Firestore-backed store with identical interface
 
 ## Corpus note
 An initial corpus is now prepared from the earlier Vervaeke deck plus later transcript additions.
@@ -102,5 +136,6 @@ The strongest next slice is now:
 1. seed Firestore from `data/seed/vervaeke_seed_corpus.json`
 2. swap the frontend from bundled seed import to live Firestore reads
 3. add trusted server endpoints for suggestions/new-term proposals
-4. add moderation/admin tooling
-5. keep all submission status changes server-side
+4. add real moderator/admin UI on top of the local-only backend slice
+5. swap mock persistence for Firestore-backed trusted writes
+6. keep all submission status changes server-side
