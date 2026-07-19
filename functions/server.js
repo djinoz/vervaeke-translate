@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url'
 import { createFirestoreSuggestionRepository, createJsonFileSuggestionRepository } from './repository.js'
 import {
   assertTransitionAllowed,
+  confirmedStatusForKind,
   getAllowedNextStatuses,
   initialStatusForKind,
   isSuggestionStatus,
@@ -245,6 +246,8 @@ function summarizeSuggestionForQueue(suggestion) {
     kind: suggestion.kind,
     termSlug: suggestion.termSlug,
     proposedSourceTerm: suggestion.proposedSourceTerm,
+    proposedTargetLanguage: suggestion.proposedTargetLanguage || '',
+    previewSnippet: (suggestion.proposedTranslation || '').slice(0, 120),
     submitterNickname: suggestion.submitterNickname,
     status: suggestion.status,
     createdAt: suggestion.createdAt,
@@ -272,6 +275,10 @@ function constantTimeTokenMatch(expectedHash, token) {
   }
 
   return timingSafeEqual(left, right)
+}
+
+function shouldHideSuggestionFromPublic(status) {
+  return status === 'hidden-inappropriate' || status === 'hidden-owner-deleted'
 }
 
 function buildLocalSuggestion(submission, initialStatus, nowIso, approvalToken) {
@@ -330,31 +337,11 @@ async function resolveAuthRuntime(projectId) {
     const app = await resolveFirebaseAdminApp(projectId)
     const { getAuth } = await import('firebase-admin/auth')
     const adminAuth = getAuth(app)
-    await adminAuth.listUsers(1)
 
     return {
       emailMode: 'firebase-auth-email-link',
       emailBlocker: null,
       authService: {
-        async upsertEmailLinkUser({ email, displayName }) {
-          try {
-            const existing = await adminAuth.getUserByEmail(email)
-            if (existing.displayName !== displayName) {
-              await adminAuth.updateUser(existing.uid, { displayName })
-            }
-            return existing.uid
-          } catch (error) {
-            if (error?.code === 'auth/user-not-found') {
-              const created = await adminAuth.createUser({
-                email,
-                displayName,
-                emailVerified: false,
-              })
-              return created.uid
-            }
-            throw error
-          }
-        },
         async verifyEmailLinkIdToken(idToken) {
           const decoded = await adminAuth.verifyIdToken(idToken, true)
           if (!decoded.email) {
@@ -430,11 +417,12 @@ export function createTrustedSuggestionApp({
         }
 
         if (request.method === 'GET' && pathname === '/api/suggestions') {
-          const suggestions = await repository.listSuggestions({
+          const includeHidden = url.searchParams.get('includeHidden') === '1'
+          const suggestions = (await repository.listSuggestions({
             kind: url.searchParams.get('kind') || '',
             status: url.searchParams.get('status') || '',
             termSlug: slugify(url.searchParams.get('termSlug') || ''),
-          })
+          })).filter((suggestion) => includeHidden || !shouldHideSuggestionFromPublic(suggestion.status))
           const pageSize = parsePositiveInt(url.searchParams.get('pageSize'), 12, { min: 1, max: 100 })
           const page = parsePositiveInt(url.searchParams.get('page'), 1, { min: 1, max: 10000 })
           const total = suggestions.length
@@ -473,21 +461,6 @@ export function createTrustedSuggestionApp({
             submission = validateTranslationSubmission(payload)
           } catch (error) {
             return badRequest(error instanceof Error ? error.message : 'Invalid translation submission')
-          }
-
-          if (emailMode === 'firebase-auth-email-link') {
-            if (!authService?.upsertEmailLinkUser) {
-              return serverError(new Error('Firebase Auth email-link mode is enabled but authService.upsertEmailLinkUser is missing'))
-            }
-
-            try {
-              await authService.upsertEmailLinkUser({
-                email: submission.submitterEmail,
-                displayName: submission.submitterNickname,
-              })
-            } catch (error) {
-              return serverError(error)
-            }
           }
 
           const nowIso = new Date().toISOString()
@@ -530,12 +503,19 @@ export function createTrustedSuggestionApp({
           }
 
           const nowIso = new Date().toISOString()
-          const suggestion = buildLocalSuggestion(submission, initialStatusForKind('new-term'), nowIso, '')
+          const approvalToken = randomUUID()
+          const suggestion = buildLocalSuggestion(submission, initialStatusForKind('new-term'), nowIso, approvalToken)
           await repository.createSuggestion(suggestion)
 
           return createJsonResponse(201, {
             suggestion: redactSuggestion(suggestion),
-            localEmailStub: null,
+            localEmailStub: emailMode === 'firebase-auth-email-link'
+              ? null
+              : {
+                  delivery: 'stubbed',
+                  approvalToken,
+                  approvalPath: `/api/suggestions/${suggestion.id}/confirm`,
+                },
             ignoredClientFields: payload.status ? ['status'] : [],
           })
         }
@@ -580,8 +560,9 @@ export function createTrustedSuggestionApp({
             return forbidden('Authenticated email does not match the original submitter email')
           }
 
+          const finalizeTargetStatus = confirmedStatusForKind(suggestion.kind)
           try {
-            assertTransitionAllowed(suggestion.status, 'contender')
+            assertTransitionAllowed(suggestion.status, finalizeTargetStatus)
           } catch (error) {
             return badRequest(error instanceof Error ? error.message : 'Illegal transition')
           }
@@ -589,7 +570,7 @@ export function createTrustedSuggestionApp({
           const nowIso = new Date().toISOString()
           const updated = await repository.updateSuggestion(suggestionId, (current) => ({
             ...current,
-            status: 'contender',
+            status: finalizeTargetStatus,
             submitterAuthUid: verified.uid || current.submitterAuthUid || '',
             approvalClickedAt: nowIso,
             updatedAt: nowIso,
@@ -601,7 +582,7 @@ export function createTrustedSuggestionApp({
             entityType: 'suggestion',
             entityId: suggestionId,
             fromStatus: suggestion.status,
-            toStatus: 'contender',
+            toStatus: finalizeTargetStatus,
             actor: 'submitter-email-link',
             reason: 'submitter-confirmed-email-link',
             createdAt: nowIso,
@@ -636,8 +617,9 @@ export function createTrustedSuggestionApp({
             return forbidden('Invalid approval token')
           }
 
+          const confirmTargetStatus = confirmedStatusForKind(suggestion.kind)
           try {
-            assertTransitionAllowed(suggestion.status, 'contender')
+            assertTransitionAllowed(suggestion.status, confirmTargetStatus)
           } catch (error) {
             return badRequest(error instanceof Error ? error.message : 'Illegal transition')
           }
@@ -645,7 +627,7 @@ export function createTrustedSuggestionApp({
           const nowIso = new Date().toISOString()
           const updated = await repository.updateSuggestion(suggestionId, (current) => ({
             ...current,
-            status: 'contender',
+            status: confirmTargetStatus,
             approvalClickedAt: nowIso,
             updatedAt: nowIso,
             lastModerationReason: 'submitter-confirmed-email',
@@ -656,7 +638,7 @@ export function createTrustedSuggestionApp({
             entityType: 'suggestion',
             entityId: suggestionId,
             fromStatus: suggestion.status,
-            toStatus: 'contender',
+            toStatus: confirmTargetStatus,
             actor: 'submitter-email-link',
             reason: 'submitter-confirmed-email',
             createdAt: nowIso,
@@ -695,6 +677,56 @@ export function createTrustedSuggestionApp({
             suggestion: redactSuggestion(suggestion),
             moderationEvents: events,
           })
+        }
+
+        const deleteMatch = pathname.match(/^\/api\/suggestions\/([^/]+)$/)
+        if (request.method === 'DELETE' && deleteMatch) {
+          if (!isValidAdminSecret(request, adminSecret)) {
+            return forbidden('Valid x-local-admin-secret header required for delete endpoint')
+          }
+
+          let deletePayload
+          try {
+            deletePayload = await parseJson(request)
+          } catch (error) {
+            return badRequest(error instanceof Error ? error.message : 'Invalid JSON body')
+          }
+
+          const deleteScope = normalizeText(deletePayload.scope)
+          const deleteReason = normalizeText(deletePayload.reason)
+          if (deleteScope !== 'test-data-cleanup') {
+            return badRequest('scope must be "test-data-cleanup"')
+          }
+          if (!deleteReason) {
+            return badRequest('reason is required')
+          }
+
+          const suggestionId = deleteMatch[1]
+          const suggestion = await repository.getSuggestion(suggestionId)
+          if (!suggestion) {
+            return notFound()
+          }
+
+          const nowIso = new Date().toISOString()
+          await repository.appendDeletionAudit({
+            id: randomUUID(),
+            action: 'hard-delete-submission',
+            entityType: 'suggestion',
+            entityId: suggestionId,
+            actor: 'local-admin',
+            reason: deleteReason,
+            scope: 'test-data-cleanup',
+            deletedAt: nowIso,
+            kind: suggestion.kind,
+            termSlug: suggestion.termSlug ?? null,
+            status: suggestion.status,
+            submitterEmailHash: suggestion.submitterEmailHash ?? null,
+            createdAt: suggestion.createdAt,
+          })
+
+          await repository.deleteSuggestion(suggestionId)
+
+          return createJsonResponse(200, { ok: true, deleted: suggestionId, scope: 'test-data-cleanup' })
         }
 
         const transitionMatch = pathname.match(/^\/api\/suggestions\/([^/]+)\/transition$/)
@@ -823,11 +855,16 @@ export function createLocalServer(options = {}) {
 
   const server = createServer(async (req, res) => {
     const origin = `http://${req.headers.host || '127.0.0.1'}`
+    const body = req.method === 'GET' || req.method === 'HEAD'
+      ? undefined
+      : (Object.prototype.hasOwnProperty.call(req, 'rawBody') && req.rawBody
+          ? req.rawBody
+          : req)
     const request = new Request(new URL(req.url || '/', origin), {
       method: req.method,
       headers: req.headers,
-      body: req.method === 'GET' || req.method === 'HEAD' ? undefined : req,
-      duplex: 'half',
+      body,
+      duplex: body === req ? 'half' : undefined,
     })
 
     const response = await app.handle(request)

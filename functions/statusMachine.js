@@ -17,7 +17,7 @@ export const terminalSuggestionStatuses = new Set([
 ])
 
 const allowedTransitions = {
-  'wait-click': new Set(['contender', 'hidden-inappropriate', 'hidden-owner-deleted']),
+  'wait-click': new Set(['contender', 'await-review', 'hidden-inappropriate', 'hidden-owner-deleted']),
   contender: new Set(['await-review', 'current', 'replaced', 'rejected-unworthy', 'hidden-inappropriate', 'hidden-owner-deleted']),
   'await-review': new Set(['current', 'replaced', 'rejected-unworthy', 'hidden-inappropriate', 'hidden-owner-deleted']),
   current: new Set(['replaced', 'hidden-inappropriate', 'hidden-owner-deleted']),
@@ -55,13 +55,17 @@ export function assertTransitionAllowed(fromStatus, toStatus) {
 }
 
 export function initialStatusForKind(kind) {
-  if (kind === 'translation-improvement') {
+  if (kind === 'translation-improvement' || kind === 'new-term') {
     return 'wait-click'
   }
 
+  throw new Error(`Unknown suggestion kind: ${kind}`)
+}
+
+export function confirmedStatusForKind(kind) {
   if (kind === 'new-term') {
     return 'await-review'
   }
 
-  throw new Error(`Unknown suggestion kind: ${kind}`)
+  return 'contender'
 }

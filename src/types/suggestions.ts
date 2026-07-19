@@ -38,6 +38,8 @@ export interface SuggestionSummary {
   kind: SuggestionKind
   termSlug: string
   proposedSourceTerm: string
+  proposedTargetLanguage: string
+  previewSnippet: string
   submitterNickname: string
   status: SuggestionStatus
   createdAt: string

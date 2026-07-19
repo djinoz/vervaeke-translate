@@ -25,6 +25,7 @@ export async function listSuggestions(filters: {
   termSlug?: string
   page?: number
   pageSize?: number
+  includeHidden?: boolean
 }): Promise<SuggestionListPage> {
   const params = new URLSearchParams()
   if (filters.kind) params.set('kind', filters.kind)
@@ -32,6 +33,7 @@ export async function listSuggestions(filters: {
   if (filters.termSlug) params.set('termSlug', filters.termSlug)
   if (filters.page) params.set('page', String(filters.page))
   if (filters.pageSize) params.set('pageSize', String(filters.pageSize))
+  if (filters.includeHidden) params.set('includeHidden', '1')
   const qs = params.toString()
   return apiFetch<SuggestionListPage>(`/api/suggestions${qs ? `?${qs}` : ''}`)
 }
@@ -77,6 +79,22 @@ export async function transitionSuggestion(
 export async function getStatusMeta(): Promise<StatusMeta[]> {
   const data = await apiFetch<{ statuses: StatusMeta[] }>('/api/suggestion-statuses')
   return data.statuses
+}
+
+export async function deleteSuggestion(
+  id: string,
+  adminSecret: string,
+  reason: string,
+  scope = 'test-data-cleanup',
+): Promise<void> {
+  await apiFetch(`/api/suggestions/${id}`, {
+    method: 'DELETE',
+    headers: {
+      'x-local-admin-secret': adminSecret,
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify({ scope, reason }),
+  })
 }
 
 export async function checkHealth(): Promise<boolean> {
@@ -163,7 +181,7 @@ export async function submitTranslationSuggestion(
 
 export async function submitNewTerm(
   payload: NewTermPayload,
-): Promise<{ suggestion: Suggestion; localEmailStub: null; ignoredClientFields: string[] }> {
+): Promise<{ suggestion: Suggestion; localEmailStub: LocalEmailStub | null; ignoredClientFields: string[] }> {
   return apiFetch('/api/suggestions/new-term', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },

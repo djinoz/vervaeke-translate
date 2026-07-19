@@ -1,16 +1,17 @@
 import { useMemo, useState } from 'react'
 
 import './App.css'
+import ActivityView from './components/ActivityView'
 import ModeratorView from './components/ModeratorView'
 import SubmitSuggestionForm from './components/SubmitSuggestionForm'
 import { seedCorpusEntries, seedCorpusStats, targetLanguageOptions } from './lib/corpus'
 import { searchCorpus } from './lib/search'
 import type { SeedCorpusEntry } from './types/corpus'
 
-type AppTab = 'translate' | 'moderator'
+type AppTab = 'translate' | 'activity' | 'moderator'
 
 function pickInitialEntry(entries: SeedCorpusEntry[]): SeedCorpusEntry {
-  return entries.find((entry) => entry.slug === 'logos') ?? entries[0]!
+  return entries.find((entry) => entry.slug === 'meaning-crisis') ?? entries[0]!
 }
 
 const INITIAL_ENTRY = pickInitialEntry(seedCorpusEntries)
@@ -71,14 +72,16 @@ function App() {
           <button
             type="button"
             role="tab"
-            aria-selected={tab === 'moderator'}
-            className={tab === 'moderator' ? 'app-tab active' : 'app-tab'}
-            onClick={() => setTab('moderator')}
+            aria-selected={tab === 'activity'}
+            className={tab === 'activity' ? 'app-tab active' : 'app-tab'}
+            onClick={() => setTab('activity')}
           >
-            Moderator
+            Activity
           </button>
         </div>
       </header>
+
+      {tab === 'activity' ? <ActivityView /> : null}
 
       {tab === 'moderator' ? <ModeratorView /> : null}
 
@@ -221,6 +224,12 @@ function App() {
           selectedTargetLanguage={selectedTargetLanguage}
         />
       ) : null}
+
+      <div className="mod-footer">
+        <button type="button" className="mod-link" onClick={() => setTab(tab === 'moderator' ? 'translate' : 'moderator')}>
+          {tab === 'moderator' ? '← back' : 'moderator'}
+        </button>
+      </div>
     </main>
   )
 }

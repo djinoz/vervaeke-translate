@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { sourceLanguageOptions } from '../lib/corpus'
 import {
   confirmSuggestion,
@@ -75,6 +75,8 @@ export default function SubmitSuggestionForm({ selectedEntry, selectedTargetLang
   const [emailLinkFinalizeState, setEmailLinkFinalizeState] = useState<EmailLinkFinalizeState>('idle')
   const [emailLinkFinalizeMessage, setEmailLinkFinalizeMessage] = useState('')
 
+  const unmountedRef = useRef(false)
+
   const firebaseEmailLinkMode = backendInfo?.emailMode === 'firebase-auth-email-link'
 
   useEffect(() => {
@@ -89,10 +91,12 @@ export default function SubmitSuggestionForm({ selectedEntry, selectedTargetLang
   }, [])
 
   useEffect(() => {
-    if (!firebaseEmailLinkMode || !firebaseConfigured || !hasPendingEmailLinkInCurrentUrl()) return
-    if (emailLinkFinalizeState === 'processing' || emailLinkFinalizeState === 'confirmed') return
+    return () => { unmountedRef.current = true }
+  }, [])
 
-    let cancelled = false
+  useEffect(() => {
+    if (!firebaseEmailLinkMode || !firebaseConfigured || !hasPendingEmailLinkInCurrentUrl()) return
+    if (emailLinkFinalizeState === 'processing' || emailLinkFinalizeState === 'confirmed' || emailLinkFinalizeState === 'error') return
 
     async function finalizeEmailLinkRoundTrip() {
       setEmailLinkFinalizeState('processing')
@@ -100,35 +104,48 @@ export default function SubmitSuggestionForm({ selectedEntry, selectedTargetLang
       setError('')
       try {
         const signInResult = await completeSuggestionEmailLinkSignIn()
-        await finalizeSuggestionEmailLink(signInResult.suggestionId, signInResult.idToken)
-        if (cancelled) return
+        const finalizeResult = await finalizeSuggestionEmailLink(signInResult.suggestionId, signInResult.idToken)
+        if (unmountedRef.current) return
+        const confirmedKind: Mode = finalizeResult.suggestion.kind === 'new-term' ? 'new-term' : 'translation-improvement'
+        const confirmedMessage = confirmedKind === 'new-term'
+          ? "Thanks — your new term has been confirmed by email and is now awaiting moderator review."
+          : "Thanks — your translation has been confirmed by email and added to the review queue."
         setPendingEmailLink({
           suggestionId: signInResult.suggestionId,
           email: signInResult.email,
           nickname: signInResult.nickname,
         })
-        setSuccessKind('translation-improvement')
+        setSuccessKind(confirmedKind)
         setStubInfo(null)
         setConfirmState('confirmed')
         setConfirmError('')
         setEmailLinkDeliveryState('sent')
         setEmailLinkFinalizeState('confirmed')
-        setEmailLinkFinalizeMessage("Thanks — your translation has been confirmed by email and added to the review queue.")
+        setEmailLinkFinalizeMessage(confirmedMessage)
         const cleanUrl = new URL(window.location.href)
         cleanUrl.search = ''
         cleanUrl.hash = ''
         window.history.replaceState({}, document.title, cleanUrl.toString())
       } catch (err) {
-        if (cancelled) return
+        if (unmountedRef.current) return
 
         const message = err instanceof Error ? err.message : 'Email-link confirmation failed'
 
+        // Save suggestionId before cleaning the URL
+        const pendingSuggestionId = new URL(window.location.href).searchParams.get('suggestionId')
+
+        // Clean URL so a state reset (mode switch, etc.) cannot re-trigger this flow
+        const cleanUrl = new URL(window.location.href)
+        cleanUrl.search = ''
+        cleanUrl.hash = ''
+        window.history.replaceState({}, document.title, cleanUrl.toString())
+
         if (message.includes('Original submitter email is missing from local browser storage')) {
           try {
-            const suggestionId = new URL(window.location.href).searchParams.get('suggestionId')
-            if (suggestionId) {
-              const existing = await getSuggestionStatus(suggestionId)
-              if (existing.suggestion.status === 'contender') {
+            if (pendingSuggestionId) {
+              const existing = await getSuggestionStatus(pendingSuggestionId)
+              if (existing.suggestion.status === 'contender' || existing.suggestion.status === 'await-review') {
+                if (unmountedRef.current) return
                 setPendingEmailLink(null)
                 setSuccessKind('translation-improvement')
                 setStubInfo(null)
@@ -136,11 +153,7 @@ export default function SubmitSuggestionForm({ selectedEntry, selectedTargetLang
                 setConfirmError('')
                 setEmailLinkDeliveryState('sent')
                 setEmailLinkFinalizeState('confirmed')
-                setEmailLinkFinalizeMessage("This email link was already consumed successfully — your suggestion is already a candidate in the review queue.")
-                const cleanUrl = new URL(window.location.href)
-                cleanUrl.search = ''
-                cleanUrl.hash = ''
-                window.history.replaceState({}, document.title, cleanUrl.toString())
+                setEmailLinkFinalizeMessage("This email link was already consumed successfully — your suggestion is already in the review queue.")
                 return
               }
             }
@@ -149,15 +162,13 @@ export default function SubmitSuggestionForm({ selectedEntry, selectedTargetLang
           }
         }
 
+        if (unmountedRef.current) return
         setEmailLinkFinalizeState('error')
         setEmailLinkFinalizeMessage(message)
       }
     }
 
     void finalizeEmailLinkRoundTrip()
-    return () => {
-      cancelled = true
-    }
   }, [emailLinkFinalizeState, firebaseEmailLinkMode])
 
   function handleTranslationEmailChange(nextEmail: string) {
@@ -238,8 +249,10 @@ export default function SubmitSuggestionForm({ selectedEntry, selectedTargetLang
     event.preventDefault()
     setSubmitting(true)
     setError('')
+    setConfirmError('')
+    setEmailLinkFinalizeMessage('')
     try {
-      await submitNewTerm({
+      const result = await submitNewTerm({
         proposedSourceTerm: ntTerm,
         sourceLanguage: ntLanguage,
         proposedTranslation: ntTranslation,
@@ -248,6 +261,24 @@ export default function SubmitSuggestionForm({ selectedEntry, selectedTargetLang
         submitterEmail: ntEmail,
         submitterNickname: ntNickname,
       })
+
+      if (firebaseEmailLinkMode) {
+        const emailLinkInfo = {
+          suggestionId: result.suggestion.id,
+          email: ntEmail,
+          nickname: ntNickname,
+        }
+        setPendingEmailLink(emailLinkInfo)
+        setStubInfo(null)
+        await deliverFirebaseEmailLink(emailLinkInfo)
+      } else if (result.localEmailStub) {
+        setStubInfo({
+          suggestionId: result.suggestion.id,
+          approvalToken: result.localEmailStub.approvalToken,
+          approvalPath: result.localEmailStub.approvalPath,
+        })
+      }
+
       setSuccessKind('new-term')
       setNtTerm('')
       setNtLanguage('')
@@ -259,6 +290,7 @@ export default function SubmitSuggestionForm({ selectedEntry, selectedTargetLang
       setNtNicknameTouched(false)
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Submission failed')
+      setEmailLinkDeliveryState('error')
     } finally {
       setSubmitting(false)
     }
@@ -483,12 +515,102 @@ export default function SubmitSuggestionForm({ selectedEntry, selectedTargetLang
                 )}
               </>
             )
+          ) : emailLinkFinalizeState === 'confirmed' ? (
+            <>
+              <div className="submit-success-banner">{emailLinkFinalizeMessage}</div>
+              <button
+                type="button"
+                className="submit-secondary-btn"
+                onClick={handleDismissEmailLinkConfirmation}
+              >
+                Dismiss
+              </button>
+            </>
           ) : (
-            <div className="submit-success-banner">
-              Thanks! Your proposed term is queued for moderator review.
-            </div>
+            <>
+              <div className="submit-success-banner">
+                {stubInfo
+                  ? 'Term proposal received — awaiting email confirmation.'
+                  : emailLinkDeliveryState === 'error'
+                    ? 'Term proposal received, but the Firebase confirmation email did not send. Retry below.'
+                    : pendingEmailLink
+                      ? "Thanks! Check your email — you'll get a secure sign-in link to confirm your term for moderator review."
+                      : "Thanks — your term proposal has been received and is now awaiting moderator review."}
+              </div>
+              {(pendingEmailLink || stubInfo) && (
+                <div className="submit-dev-stub">
+                  <p className="submit-dev-stub-label">
+                    {firebaseEmailLinkMode ? 'Firebase Auth email-link confirmation' : 'Dev mode — email stubbed'}
+                  </p>
+                  <p>
+                    {firebaseEmailLinkMode ? (
+                      <>
+                        The confirmation link is sent to <strong>{pendingEmailLink!.email}</strong>.
+                        Opening it in this browser will move the proposal to <strong>await-review</strong> after secure email verification.
+                      </>
+                    ) : (
+                      <>
+                        In production a confirmation link would be sent to <strong>{ntEmail || stubInfo?.approvalPath}</strong>.
+                        Click the button below to simulate that email click.
+                      </>
+                    )}
+                  </p>
+                  {firebaseEmailLinkMode ? (
+                    <>
+                      <dl className="submit-dev-info">
+                        <dt>Suggestion ID</dt>
+                        <dd><code>{pendingEmailLink!.suggestionId}</code></dd>
+                        <dt>Nickname</dt>
+                        <dd><code>{pendingEmailLink!.nickname}</code></dd>
+                      </dl>
+                      {emailLinkDeliveryState === 'error' && (
+                        <button
+                          type="button"
+                          className="submit-dev-confirm-btn"
+                          onClick={handleResendEmailLink}
+                          disabled={submitting}
+                        >
+                          Resend confirmation email
+                        </button>
+                      )}
+                    </>
+                  ) : (
+                    <>
+                      <dl className="submit-dev-info">
+                        <dt>Suggestion ID</dt>
+                        <dd><code>{stubInfo?.suggestionId}</code></dd>
+                        <dt>Confirm endpoint</dt>
+                        <dd><code>POST {stubInfo?.approvalPath}</code></dd>
+                        <dt>Token</dt>
+                        <dd><code>{stubInfo?.approvalToken}</code></dd>
+                      </dl>
+                      {confirmState === 'confirmed' ? (
+                        <p className="submit-dev-confirmed">
+                          Confirmed — term proposal is now in the <strong>await-review</strong> moderator queue.
+                          Switch to the <strong>Moderator</strong> tab to review it.
+                        </p>
+                      ) : (
+                        <>
+                          <button
+                            type="button"
+                            className="submit-dev-confirm-btn"
+                            onClick={handleConfirm}
+                            disabled={confirmState === 'confirming'}
+                          >
+                            {confirmState === 'confirming' ? 'Confirming…' : 'Simulate email confirmation'}
+                          </button>
+                          {confirmState === 'error' && (
+                            <p className="submit-error" style={{ marginTop: '0.5rem' }}>{confirmError}</p>
+                          )}
+                        </>
+                      )}
+                    </>
+                  )}
+                </div>
+              )}
+            </>
           )}
-          {!(successKind === 'translation-improvement' && emailLinkFinalizeState === 'confirmed') && (
+          {!(emailLinkFinalizeState === 'confirmed') && (
             <button
               type="button"
               className="submit-secondary-btn"

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import {
   checkHealth,
+  deleteSuggestion,
   getSuggestion,
   getStatusMeta,
   listSuggestions,
@@ -61,9 +62,10 @@ interface DetailPaneProps {
   adminSecret: string
   statusMeta: StatusMeta[]
   onTransitioned: () => void
+  onDeleted: () => void
 }
 
-function DetailPane({ id, adminSecret, statusMeta, onTransitioned }: DetailPaneProps) {
+function DetailPane({ id, adminSecret, statusMeta, onTransitioned, onDeleted }: DetailPaneProps) {
   const [suggestion, setSuggestion] = useState<Suggestion | null>(null)
   const [events, setEvents] = useState<ModerationEvent[]>([])
   const [loading, setLoading] = useState(true)
@@ -72,6 +74,10 @@ function DetailPane({ id, adminSecret, statusMeta, onTransitioned }: DetailPaneP
   const [reason, setReason] = useState('')
   const [transitioning, setTransitioning] = useState(false)
   const [transitionError, setTransitionError] = useState('')
+  const [deleteConfirming, setDeleteConfirming] = useState(false)
+  const [deleteReason, setDeleteReason] = useState('')
+  const [deleting, setDeleting] = useState(false)
+  const [deleteError, setDeleteError] = useState('')
 
   const load = useCallback(async () => {
     setLoading(true)
@@ -106,6 +112,23 @@ function DetailPane({ id, adminSecret, statusMeta, onTransitioned }: DetailPaneP
       setTransitionError(err instanceof Error ? err.message : 'Transition failed')
     } finally {
       setTransitioning(false)
+    }
+  }
+
+  async function handleDelete() {
+    if (!deleteReason.trim()) {
+      setDeleteError('Reason is required.')
+      return
+    }
+    setDeleting(true)
+    setDeleteError('')
+    try {
+      await deleteSuggestion(id, adminSecret, deleteReason.trim())
+      onDeleted()
+    } catch (err) {
+      setDeleteError(err instanceof Error ? err.message : 'Delete failed')
+      setDeleting(false)
+      setDeleteConfirming(false)
     }
   }
 
@@ -262,6 +285,51 @@ function DetailPane({ id, adminSecret, statusMeta, onTransitioned }: DetailPaneP
           </ol>
         )}
       </div>
+
+      <div className="mod-section mod-delete-section">
+        <p className="mod-section-label">Danger zone</p>
+        {deleteConfirming ? (
+          <div className="mod-delete-confirm-panel">
+            <p className="mod-delete-warn">Permanent. For test-data cleanup only. Do not use for normal moderation.</p>
+            <div className="mod-transition-row">
+              <input
+                className="mod-input"
+                type="text"
+                value={deleteReason}
+                onChange={(e) => setDeleteReason(e.target.value)}
+                placeholder="Reason (required)"
+                disabled={deleting}
+                autoFocus
+              />
+              <button
+                type="button"
+                className="mod-btn-danger"
+                onClick={() => void handleDelete()}
+                disabled={deleting || !deleteReason.trim()}
+              >
+                {deleting ? 'Deleting…' : 'Permanently delete test submission'}
+              </button>
+              <button
+                type="button"
+                className="mod-btn-secondary"
+                onClick={() => { setDeleteConfirming(false); setDeleteReason(''); setDeleteError('') }}
+                disabled={deleting}
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        ) : (
+          <button
+            type="button"
+            className="mod-btn-danger"
+            onClick={() => { setDeleteConfirming(true); setDeleteError('') }}
+          >
+            Delete test submission
+          </button>
+        )}
+        {deleteError ? <p className="mod-error">{deleteError}</p> : null}
+      </div>
     </div>
   )
 }
@@ -297,6 +365,7 @@ export function ModerationPanel() {
         status: filterStatus || undefined,
         page,
         pageSize: PAGE_SIZE,
+        includeHidden: isUnlocked,
       })
       setSuggestions(data.suggestions)
       setPage(data.page)
@@ -310,7 +379,7 @@ export function ModerationPanel() {
     } finally {
       setLoading(false)
     }
-  }, [filterKind, filterStatus, page])
+  }, [filterKind, filterStatus, isUnlocked, page])
 
   useEffect(() => {
     checkHealth().then((ok) => {
@@ -526,6 +595,7 @@ export function ModerationPanel() {
                 adminSecret={adminSecret}
                 statusMeta={statusMeta}
                 onTransitioned={() => void loadList()}
+                onDeleted={() => { setSelectedId(null); void loadList() }}
               />
             ) : (
               <div className="mod-empty mod-empty-detail">

@@ -30,6 +30,7 @@ export function createMemorySuggestionRepository(seed = { suggestions: [], moder
   const state = {
     suggestions: sortNewestFirst(seed.suggestions ?? []),
     moderationEvents: sortNewestFirst(seed.moderationEvents ?? []),
+    deletionAudit: [],
   }
 
   return {
@@ -70,6 +71,13 @@ export function createMemorySuggestionRepository(seed = { suggestions: [], moder
       state.suggestions[index] = next
       return clone(next)
     },
+    async deleteSuggestion(id) {
+      const index = state.suggestions.findIndex((suggestion) => suggestion.id === id)
+      if (index === -1) return false
+      state.suggestions.splice(index, 1)
+      state.moderationEvents = state.moderationEvents.filter((ev) => ev.entityId !== id)
+      return true
+    },
     async appendModerationEvent(event) {
       state.moderationEvents.unshift(clone(event))
       return clone(event)
@@ -78,6 +86,10 @@ export function createMemorySuggestionRepository(seed = { suggestions: [], moder
       return clone(
         state.moderationEvents.filter((event) => (entityId ? event.entityId === entityId : true)),
       )
+    },
+    async appendDeletionAudit(record) {
+      state.deletionAudit.unshift(clone(record))
+      return clone(record)
     },
   }
 }
@@ -90,11 +102,12 @@ async function ensureStore(storePath) {
     return {
       suggestions: sortNewestFirst(parsed.suggestions ?? []),
       moderationEvents: sortNewestFirst(parsed.moderationEvents ?? []),
+      deletionAudit: sortNewestFirst(parsed.deletionAudit ?? []),
     }
   } catch (error) {
     if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
       await mkdir(path.dirname(storePath), { recursive: true })
-      const empty = { suggestions: [], moderationEvents: [] }
+      const empty = { suggestions: [], moderationEvents: [], deletionAudit: [] }
       await writeFile(storePath, JSON.stringify(empty, null, 2))
       return empty
     }
@@ -142,6 +155,19 @@ export function createFirestoreSuggestionRepository(db) {
       return result
     },
 
+    async deleteSuggestion(id) {
+      const doc = await suggestionsCol.doc(id).get()
+      if (!doc.exists) return false
+      const eventsSnapshot = await eventsCol.where('entityId', '==', id).get()
+      const batch = db.batch()
+      batch.delete(suggestionsCol.doc(id))
+      for (const evDoc of eventsSnapshot.docs) {
+        batch.delete(evDoc.ref)
+      }
+      await batch.commit()
+      return true
+    },
+
     async appendModerationEvent(event) {
       await eventsCol.doc(event.id).set(event)
       return clone(event)
@@ -153,6 +179,11 @@ export function createFirestoreSuggestionRepository(db) {
       return snapshot.docs
         .map(docToObject)
         .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+    },
+
+    async appendDeletionAudit(record) {
+      await db.collection('moderator_actions').doc(record.id).set(record)
+      return clone(record)
     },
   }
 }
@@ -211,6 +242,15 @@ export function createJsonFileSuggestionRepository(storePath) {
       await persist(store)
       return clone(next)
     },
+    async deleteSuggestion(id) {
+      const store = await readStore()
+      const index = store.suggestions.findIndex((suggestion) => suggestion.id === id)
+      if (index === -1) return false
+      store.suggestions.splice(index, 1)
+      store.moderationEvents = store.moderationEvents.filter((ev) => ev.entityId !== id)
+      await persist(store)
+      return true
+    },
     async appendModerationEvent(event) {
       const store = await readStore()
       store.moderationEvents.unshift(clone(event))
@@ -222,6 +262,12 @@ export function createJsonFileSuggestionRepository(storePath) {
       return clone(
         store.moderationEvents.filter((event) => (entityId ? event.entityId === entityId : true)),
       )
+    },
+    async appendDeletionAudit(record) {
+      const store = await readStore()
+      store.deletionAudit.unshift(clone(record))
+      await persist(store)
+      return clone(record)
     },
   }
 }

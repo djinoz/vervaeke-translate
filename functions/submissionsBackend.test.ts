@@ -136,16 +136,17 @@ describe('local submissions backend', () => {
 
   it('submits existing-term suggestions in Firebase email-link mode without returning a stub token', async () => {
     const repository = createMemorySuggestionRepository()
-    const upsertCalls: { email: string; displayName: string }[] = []
     const app = createTrustedSuggestionApp({
       repository,
       adminSecret: 'test-secret',
       emailMode: 'firebase-auth-email-link',
       emailBlocker: null,
       authService: {
-        async upsertEmailLinkUser(payload: { email: string; displayName: string }) {
-          upsertCalls.push(payload)
-          return 'firebase-user-1'
+        async verifyEmailLinkIdToken() {
+          return {
+            uid: 'firebase-user-1',
+            email: 'test@example.com',
+          }
         },
       },
     })
@@ -172,14 +173,13 @@ describe('local submissions backend', () => {
     expect(payload.suggestion.status).toBe('wait-click')
     expect(payload.ignoredClientFields).toEqual(['status'])
     expect(payload.localEmailStub).toBeNull()
-    expect(upsertCalls).toEqual([{ email: 'test@example.com', displayName: 'Logos Fan' }])
 
     const stored = await repository.getSuggestion(payload.suggestion.id)
     expect(stored?.submitterNickname).toBe('Logos Fan')
     expect(stored?.status).toBe('wait-click')
   })
 
-  it('forces new terms into await-review and ignores client status', async () => {
+  it('forces new terms into wait-click, requires email confirmation to reach await-review, ignores client status', async () => {
     const repository = createMemorySuggestionRepository()
     const app = createTrustedSuggestionApp({ repository, adminSecret: 'test-secret' })
 
@@ -200,9 +200,29 @@ describe('local submissions backend', () => {
 
     expect(response.status).toBe(201)
     const payload = await json(response)
-    expect(payload.suggestion.status).toBe('await-review')
+    expect(payload.suggestion.status).toBe('wait-click')
     expect(payload.suggestion.termSlug).toBe('dialogos-of-care')
     expect(payload.ignoredClientFields).toEqual(['status'])
+    expect(payload.localEmailStub.approvalToken).toBeTruthy()
+
+    const stored = await repository.getSuggestion(payload.suggestion.id)
+    expect(stored?.status).toBe('wait-click')
+
+    const confirmResponse = await app.handle(
+      new Request(`http://local.test/api/suggestions/${payload.suggestion.id}/confirm`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ token: payload.localEmailStub.approvalToken }),
+      }),
+    )
+    expect(confirmResponse.status).toBe(200)
+    const confirmed = await json(confirmResponse)
+    expect(confirmed.suggestion.status).toBe('await-review')
+
+    const events = await repository.listModerationEvents(payload.suggestion.id)
+    expect(events).toHaveLength(1)
+    expect(events[0]?.fromStatus).toBe('wait-click')
+    expect(events[0]?.toStatus).toBe('await-review')
   })
 
   it('requires the approval token before moving wait-click to contender', async () => {
@@ -419,7 +439,7 @@ describe('local submissions backend', () => {
     expect(payload.statuses).toHaveLength(suggestionStatuses.length)
     expect(payload.statuses.find((entry: { status: string }) => entry.status === 'wait-click')).toBeTruthy()
     expect(initialStatusForKind('translation-improvement')).toBe('wait-click')
-    expect(initialStatusForKind('new-term')).toBe('await-review')
+    expect(initialStatusForKind('new-term')).toBe('wait-click')
     expect(getAllowedNextStatuses('wait-click')).toContain('contender')
   })
 
@@ -507,6 +527,181 @@ describe('local submissions backend', () => {
     expect(unlockedDetail.status).toBe(200)
     const unlockedDetailPayload = await json(unlockedDetail)
     expect(unlockedDetailPayload.suggestion.proposedTranslation).toBe('A caring shared movement of meaning.')
+  })
+})
+
+describe('moderator hard-delete endpoint', () => {
+  function makeSuggestion(overrides = {}) {
+    return {
+      id: 'suggestion-del-1',
+      kind: 'new-term',
+      termSlug: 'logos',
+      sourceLanguage: 'greek',
+      proposedSourceTerm: 'Logos',
+      normalizedSourceTerm: 'logos',
+      proposedTargetLanguage: 'plain-english',
+      proposedTranslation: 'Shared intelligibility.',
+      proposedOriginBackground: '',
+      proposedVervaekeUsage: '',
+      submitterNickname: 'Test User',
+      submitterEmailHash: 'hashed-email',
+      captchaScore: 0.5,
+      captchaVerified: false,
+      status: 'await-review',
+      createdAt: '2026-01-01T00:00:00.000Z',
+      updatedAt: '2026-01-01T00:00:00.000Z',
+      approvalTokenHash: '',
+      approvalClickedAt: '',
+      lastModerationReason: '',
+      ...overrides,
+    }
+  }
+
+  it('filters hidden suggestions out of the public list totals unless includeHidden=1 is set', async () => {
+    const repository = createMemorySuggestionRepository({
+      suggestions: [
+        makeSuggestion({ id: 'visible-1', status: 'await-review', createdAt: '2026-01-03T00:00:00.000Z' }),
+        makeSuggestion({ id: 'hidden-1', status: 'hidden-inappropriate', createdAt: '2026-01-02T00:00:00.000Z' }),
+        makeSuggestion({ id: 'visible-2', status: 'rejected-unworthy', createdAt: '2026-01-01T00:00:00.000Z' }),
+      ],
+      moderationEvents: [],
+    })
+    const app = createTrustedSuggestionApp({ repository, adminSecret: 'test-secret' })
+
+    const publicResponse = await app.handle(
+      new Request('http://local.test/api/suggestions?page=1&pageSize=10'),
+    )
+    expect(publicResponse.status).toBe(200)
+    const publicPayload = await json(publicResponse)
+    expect(publicPayload.total).toBe(2)
+    expect(publicPayload.totalPages).toBe(1)
+    expect(publicPayload.suggestions.map((s) => s.id)).toEqual(['visible-1', 'visible-2'])
+
+    const moderatorResponse = await app.handle(
+      new Request('http://local.test/api/suggestions?page=1&pageSize=10&includeHidden=1'),
+    )
+    expect(moderatorResponse.status).toBe(200)
+    const moderatorPayload = await json(moderatorResponse)
+    expect(moderatorPayload.total).toBe(3)
+    expect(moderatorPayload.suggestions.map((s) => s.id)).toEqual(['visible-1', 'hidden-1', 'visible-2'])
+  })
+
+  it('allows a moderator to hard-delete with scope and reason, removes linked events, creates audit record', async () => {
+    const repository = createMemorySuggestionRepository({ suggestions: [makeSuggestion()], moderationEvents: [] })
+    await repository.appendModerationEvent({
+      id: 'event-del-1',
+      entityType: 'suggestion',
+      entityId: 'suggestion-del-1',
+      fromStatus: 'wait-click',
+      toStatus: 'await-review',
+      actor: 'local-admin',
+      reason: 'approved',
+      createdAt: '2026-01-01T01:00:00.000Z',
+    })
+    const app = createTrustedSuggestionApp({ repository, adminSecret: 'test-secret' })
+
+    const response = await app.handle(
+      new Request('http://local.test/api/suggestions/suggestion-del-1', {
+        method: 'DELETE',
+        headers: {
+          'content-type': 'application/json',
+          'x-local-admin-secret': 'test-secret',
+        },
+        body: JSON.stringify({ scope: 'test-data-cleanup', reason: 'clearing QA batch' }),
+      }),
+    )
+
+    expect(response.status).toBe(200)
+    const payload = await json(response)
+    expect(payload.ok).toBe(true)
+    expect(payload.deleted).toBe('suggestion-del-1')
+    expect(payload.scope).toBe('test-data-cleanup')
+
+    expect(await repository.getSuggestion('suggestion-del-1')).toBeNull()
+    const remainingEvents = await repository.listModerationEvents('suggestion-del-1')
+    expect(remainingEvents).toHaveLength(0)
+  })
+
+  it('blocks delete without admin secret (403)', async () => {
+    const repository = createMemorySuggestionRepository({ suggestions: [makeSuggestion()], moderationEvents: [] })
+    const app = createTrustedSuggestionApp({ repository, adminSecret: 'test-secret' })
+
+    const response = await app.handle(
+      new Request('http://local.test/api/suggestions/suggestion-del-1', {
+        method: 'DELETE',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ scope: 'test-data-cleanup', reason: 'trying without auth' }),
+      }),
+    )
+
+    expect(response.status).toBe(403)
+    expect(await repository.getSuggestion('suggestion-del-1')).not.toBeNull()
+  })
+
+  it('rejects delete with wrong scope (400)', async () => {
+    const repository = createMemorySuggestionRepository({ suggestions: [makeSuggestion()], moderationEvents: [] })
+    const app = createTrustedSuggestionApp({ repository, adminSecret: 'test-secret' })
+
+    const response = await app.handle(
+      new Request('http://local.test/api/suggestions/suggestion-del-1', {
+        method: 'DELETE',
+        headers: { 'content-type': 'application/json', 'x-local-admin-secret': 'test-secret' },
+        body: JSON.stringify({ scope: 'wrong-scope', reason: 'some reason' }),
+      }),
+    )
+
+    expect(response.status).toBe(400)
+    expect(await repository.getSuggestion('suggestion-del-1')).not.toBeNull()
+  })
+
+  it('rejects delete with missing reason (400)', async () => {
+    const repository = createMemorySuggestionRepository({ suggestions: [makeSuggestion()], moderationEvents: [] })
+    const app = createTrustedSuggestionApp({ repository, adminSecret: 'test-secret' })
+
+    const response = await app.handle(
+      new Request('http://local.test/api/suggestions/suggestion-del-1', {
+        method: 'DELETE',
+        headers: { 'content-type': 'application/json', 'x-local-admin-secret': 'test-secret' },
+        body: JSON.stringify({ scope: 'test-data-cleanup', reason: '   ' }),
+      }),
+    )
+
+    expect(response.status).toBe(400)
+    expect(await repository.getSuggestion('suggestion-del-1')).not.toBeNull()
+  })
+
+  it('returns 404 when deleting a non-existent suggestion', async () => {
+    const repository = createMemorySuggestionRepository()
+    const app = createTrustedSuggestionApp({ repository, adminSecret: 'test-secret' })
+
+    const response = await app.handle(
+      new Request('http://local.test/api/suggestions/nonexistent', {
+        method: 'DELETE',
+        headers: { 'content-type': 'application/json', 'x-local-admin-secret': 'test-secret' },
+        body: JSON.stringify({ scope: 'test-data-cleanup', reason: 'cleanup' }),
+      }),
+    )
+
+    expect(response.status).toBe(404)
+  })
+
+  it('existing status-transition flow still works after the delete endpoint is added', async () => {
+    const repository = createMemorySuggestionRepository({ suggestions: [makeSuggestion()], moderationEvents: [] })
+    const app = createTrustedSuggestionApp({ repository, adminSecret: 'test-secret' })
+
+    const response = await app.handle(
+      new Request('http://local.test/api/suggestions/suggestion-del-1/transition', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json', 'x-local-admin-secret': 'test-secret' },
+        body: JSON.stringify({ status: 'rejected-unworthy', reason: 'not relevant' }),
+      }),
+    )
+
+    expect(response.status).toBe(200)
+    const payload = await json(response)
+    expect(payload.suggestion.status).toBe('rejected-unworthy')
+    const stored = await repository.getSuggestion('suggestion-del-1')
+    expect(stored?.status).toBe('rejected-unworthy')
   })
 })
 
