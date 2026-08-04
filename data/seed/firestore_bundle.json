@@ -105,6 +105,111 @@
       ],
       "updatedFromSeed": true
     },
+    "absurdism": {
+      "slug": "absurdism",
+      "term": "Absurdism",
+      "normalizedTerm": "absurdism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "absurdism",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "the",
+        "stance",
+        "that",
+        "human",
+        "beings",
+        "seek",
+        "meaning",
+        "reality",
+        "offers",
+        "final",
+        "answer",
+        "producing",
+        "unresolved",
+        "tension",
+        "rather",
+        "than"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
+    "advent-of-the-sacred": {
+      "slug": "advent-of-the-sacred",
+      "term": "Advent of the Sacred",
+      "normalizedTerm": "advent of the sacred",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "advent of the sacred",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "the",
+        "emerging",
+        "possibility",
+        "that",
+        "sacredness",
+        "can",
+        "again",
+        "become",
+        "live",
+        "philosophically",
+        "respectable",
+        "and",
+        "transformative",
+        "reality",
+        "human",
+        "life"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
+    "affected": {
+      "slug": "affected",
+      "term": "Affected",
+      "normalizedTerm": "affected",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "affected",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "not",
+        "merely",
+        "thought",
+        "detached",
+        "way",
+        "but",
+        "emotionally",
+        "existentially",
+        "bodily",
+        "touched",
+        "that",
+        "claim",
+        "condition",
+        "lived",
+        "having",
+        "weight"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Added as requested even though it is less term-like than most corpus entries.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "affordance": {
       "slug": "affordance",
       "term": "affordance",
@@ -377,6 +482,41 @@
       ],
       "updatedFromSeed": true
     },
+    "basho": {
+      "slug": "basho",
+      "term": "Basho",
+      "normalizedTerm": "basho",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "basho",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "term",
+        "from",
+        "nishida",
+        "often",
+        "rendered",
+        "place",
+        "topos",
+        "the",
+        "field",
+        "within",
+        "which",
+        "beings",
+        "relations",
+        "and",
+        "meaning",
+        "arise"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "being-vs-having-mode": {
       "slug": "being-vs-having-mode",
       "term": "Being vs having mode",
@@ -477,6 +617,41 @@
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: his definition related to relevance realization Reference snippet: logical manipulation of propositions * Descartes: rationality is caring about the truth on purpose according to normative standards and values and none of that machinery can be fou",
       "primarySourceIds": [
         "source_manual-pod-k1-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "cartesian": {
+      "slug": "cartesian",
+      "term": "Cartesian",
+      "normalizedTerm": "cartesian",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "cartesian",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "belonging",
+        "the",
+        "style",
+        "thought",
+        "associated",
+        "with",
+        "descartes",
+        "especially",
+        "sharp",
+        "split",
+        "between",
+        "subject",
+        "and",
+        "object",
+        "inner",
+        "mind"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Canonicalized from the note’s lowercase form 'cartesian'.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
       ],
       "updatedFromSeed": true
     },
@@ -1379,6 +1554,41 @@
       ],
       "updatedFromSeed": true
     },
+    "eudaimonia": {
+      "slug": "eudaimonia",
+      "term": "Eudaimonia",
+      "normalizedTerm": "eudaimonia",
+      "sourceLanguage": "greek",
+      "searchTerms": [
+        "eudaimonia",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "deep",
+        "flourishing",
+        "living",
+        "well",
+        "not",
+        "just",
+        "feeling",
+        "good",
+        "but",
+        "having",
+        "one",
+        "life",
+        "shaped",
+        "increasingly",
+        "spirit",
+        "meaningful"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Canonicalized from the note’s spelling 'eudemonia'.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "exaptation": {
       "slug": "exaptation",
       "term": "Exaptation",
@@ -1445,6 +1655,41 @@
       ],
       "updatedFromSeed": true
     },
+    "existentialism": {
+      "slug": "existentialism",
+      "term": "Existentialism",
+      "normalizedTerm": "existentialism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "existentialism",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "the",
+        "modern",
+        "philosophical",
+        "movement",
+        "that",
+        "foregrounds",
+        "existence",
+        "freedom",
+        "anxiety",
+        "responsibility",
+        "and",
+        "meaning",
+        "face",
+        "finitude",
+        "contingency",
+        "possible"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Canonicalized from the note’s combined label 'existentialist philosophy / existentialism'.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "extended-cognition": {
       "slug": "extended-cognition",
       "term": "Extended cognition",
@@ -1477,6 +1722,74 @@
       "notes": "Added for the 4E cluster.",
       "primarySourceIds": [
         "source_manual-4p-4e-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "fact-value-economy": {
+      "slug": "fact-value-economy",
+      "term": "Fact-value economy",
+      "normalizedTerm": "fact value economy",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "fact-value economy",
+        "fact value economy",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "the",
+        "structured",
+        "split",
+        "that",
+        "treats",
+        "facts",
+        "objective",
+        "and",
+        "values",
+        "somehow",
+        "secondary",
+        "private",
+        "nonreal",
+        "thereby",
+        "reshaping"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Canonicalized from the note’s phrasing 'fact valued economy'.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
+    "finitude": {
+      "slug": "finitude",
+      "term": "Finitude",
+      "normalizedTerm": "finitude",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "finitude",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "the",
+        "condition",
+        "being",
+        "limited",
+        "vulnerable",
+        "mortal",
+        "and",
+        "bounded",
+        "rather",
+        "than",
+        "infinite",
+        "self",
+        "sufficient",
+        "complete"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
       ],
       "updatedFromSeed": true
     },
@@ -2019,6 +2332,41 @@
       ],
       "updatedFromSeed": true
     },
+    "interlocutor": {
+      "slug": "interlocutor",
+      "term": "Interlocutor",
+      "normalizedTerm": "interlocutor",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "interlocutor",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "participant",
+        "dialogue",
+        "someone",
+        "with",
+        "whom",
+        "one",
+        "genuinely",
+        "thinks",
+        "questions",
+        "and",
+        "transformed",
+        "rather",
+        "than",
+        "merely",
+        "exchanges",
+        "information"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "kairos": {
       "slug": "kairos",
       "term": "Kairos",
@@ -2083,6 +2431,41 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "kyoto-school": {
+      "slug": "kyoto-school",
+      "term": "Kyoto School",
+      "normalizedTerm": "kyoto school",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "kyoto school",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "the",
+        "modern",
+        "japanese",
+        "philosophical",
+        "movement",
+        "that",
+        "brought",
+        "zen",
+        "and",
+        "related",
+        "buddhist",
+        "insights",
+        "into",
+        "deep",
+        "dialogue",
+        "with"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
       ],
       "updatedFromSeed": true
     },
@@ -2323,6 +2706,41 @@
       ],
       "updatedFromSeed": true
     },
+    "metanoetics": {
+      "slug": "metanoetics",
+      "term": "Metanoetics",
+      "normalizedTerm": "metanoetics",
+      "sourceLanguage": "greek",
+      "searchTerms": [
+        "metanoetics",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "philosophy",
+        "transformative",
+        "self",
+        "reversal",
+        "and",
+        "repentance",
+        "which",
+        "thought",
+        "becomes",
+        "conversional",
+        "rather",
+        "than",
+        "merely",
+        "analytical",
+        "the",
+        "reoriented"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "metanoia": {
       "slug": "metanoia",
       "term": "Metanoia",
@@ -2527,6 +2945,41 @@
       ],
       "updatedFromSeed": true
     },
+    "narcissism": {
+      "slug": "narcissism",
+      "term": "Narcissism",
+      "normalizedTerm": "narcissism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "narcissism",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "self",
+        "enclosed",
+        "orientation",
+        "which",
+        "meaning",
+        "importance",
+        "and",
+        "value",
+        "collapse",
+        "inward",
+        "around",
+        "the",
+        "ego",
+        "rather",
+        "than",
+        "opening"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "nationalism": {
       "slug": "nationalism",
       "term": "Nationalism",
@@ -2657,6 +3110,146 @@
       ],
       "updatedFromSeed": true
     },
+    "nihilism": {
+      "slug": "nihilism",
+      "term": "Nihilism",
+      "normalizedTerm": "nihilism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "nihilism",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "the",
+        "stance",
+        "that",
+        "reality",
+        "lacks",
+        "inherent",
+        "meaning",
+        "value",
+        "purpose",
+        "human",
+        "life",
+        "appears",
+        "groundless",
+        "unless",
+        "somehow",
+        "created"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
+    "nishida": {
+      "slug": "nishida",
+      "term": "Nishida",
+      "normalizedTerm": "nishida",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "nishida",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "kitaro",
+        "the",
+        "founding",
+        "figure",
+        "kyoto",
+        "school",
+        "known",
+        "for",
+        "rethinking",
+        "place",
+        "selfhood",
+        "and",
+        "ultimate",
+        "reality",
+        "beyond",
+        "simple"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
+    "nishitani": {
+      "slug": "nishitani",
+      "term": "Nishitani",
+      "normalizedTerm": "nishitani",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "nishitani",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "keiji",
+        "kyoto",
+        "school",
+        "philosopher",
+        "best",
+        "known",
+        "for",
+        "treating",
+        "nihilism",
+        "and",
+        "emptiness",
+        "way",
+        "that",
+        "opens",
+        "toward",
+        "religion"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
+    "no-thing-nothingness": {
+      "slug": "no-thing-nothingness",
+      "term": "No-thing / nothingness",
+      "normalizedTerm": "no thing nothingness",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "no-thing / nothingness",
+        "no thing nothingness",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "not",
+        "mere",
+        "blank",
+        "nonexistence",
+        "but",
+        "the",
+        "depth",
+        "dimension",
+        "which",
+        "fixed",
+        "identities",
+        "and",
+        "reified",
+        "things",
+        "loosen"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "nominalize-what-is-meant-to-what-is-spoken": {
       "slug": "nominalize-what-is-meant-to-what-is-spoken",
       "term": "Nominalize what is meant to what is spoken",
@@ -2727,6 +3320,41 @@
       ],
       "updatedFromSeed": true
     },
+    "normative-conceptual-structure": {
+      "slug": "normative-conceptual-structure",
+      "term": "Normative conceptual structure",
+      "normalizedTerm": "normative conceptual structure",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "normative conceptual structure",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "the",
+        "value",
+        "laden",
+        "conceptual",
+        "framework",
+        "that",
+        "silently",
+        "shapes",
+        "what",
+        "counts",
+        "real",
+        "important",
+        "justified",
+        "meaningful",
+        "before",
+        "explicit"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Canonicalized from the note’s label 'normative ( conceptual structure )'.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "normativity": {
       "slug": "normativity",
       "term": "Normativity",
@@ -2759,6 +3387,41 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "opponent-processing": {
+      "slug": "opponent-processing",
+      "term": "Opponent Processing",
+      "normalizedTerm": "opponent processing",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "opponent processing",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "structured",
+        "interplay",
+        "opposing",
+        "tendencies",
+        "that",
+        "not",
+        "simply",
+        "cancel",
+        "out",
+        "but",
+        "dynamically",
+        "constrain",
+        "and",
+        "enrich",
+        "one",
+        "another"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
       ],
       "updatedFromSeed": true
     },
@@ -3383,6 +4046,41 @@
       ],
       "updatedFromSeed": true
     },
+    "propositional-tyranny": {
+      "slug": "propositional-tyranny",
+      "term": "Propositional tyranny",
+      "normalizedTerm": "propositional tyranny",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "propositional tyranny",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "the",
+        "domination",
+        "thought",
+        "explicit",
+        "propositions",
+        "alone",
+        "such",
+        "that",
+        "embodied",
+        "practice",
+        "transformation",
+        "participatory",
+        "knowing",
+        "and",
+        "performative",
+        "contradiction"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Included because the approved Joplin note explicitly flagged it for inclusion alongside the fact-value entry.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "psychotechnology": {
       "slug": "psychotechnology",
       "term": "Psychotechnology",
@@ -3933,6 +4631,41 @@
       ],
       "updatedFromSeed": true
     },
+    "solipsism": {
+      "slug": "solipsism",
+      "term": "Solipsism",
+      "normalizedTerm": "solipsism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "solipsism",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "the",
+        "view",
+        "tendency",
+        "that",
+        "collapses",
+        "reality",
+        "into",
+        "what",
+        "available",
+        "only",
+        "isolated",
+        "subject",
+        "making",
+        "shared",
+        "meaning",
+        "real"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "spirituality": {
       "slug": "spirituality",
       "term": "Spirituality",
@@ -3998,6 +4731,40 @@
       "notes": "Added because the exact phrase 'super salient' appears in Vervaeke’s discussion of flow and higher states.",
       "primarySourceIds": [
         "source_manual-supersalience-2026-07-15"
+      ],
+      "updatedFromSeed": true
+    },
+    "tanabe": {
+      "slug": "tanabe",
+      "term": "Tanabe",
+      "normalizedTerm": "tanabe",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "tanabe",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "hajime",
+        "kyoto",
+        "school",
+        "philosopher",
+        "known",
+        "for",
+        "metanoetics",
+        "repentance",
+        "and",
+        "transformative",
+        "philosophical",
+        "pilgrimage",
+        "beyond",
+        "self",
+        "certainty"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
       ],
       "updatedFromSeed": true
     },
@@ -4689,6 +5456,41 @@
       ],
       "updatedFromSeed": true
     },
+    "weltgeist": {
+      "slug": "weltgeist",
+      "term": "Weltgeist",
+      "normalizedTerm": "weltgeist",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "weltgeist",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "world",
+        "spirit",
+        "the",
+        "larger",
+        "civilizational",
+        "historical",
+        "intelligibility",
+        "that",
+        "shapes",
+        "age",
+        "culture",
+        "unfolding",
+        "shared",
+        "meaning",
+        "beyond",
+        "any"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Added after the user explicitly requested it; canonicalized from the note’s spelling 'veltgeist'.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "updatedFromSeed": true
+    },
     "wisdom": {
       "slug": "wisdom",
       "term": "wisdom",
@@ -4756,6 +5558,41 @@
       "notes": "",
       "primarySourceIds": [
         "source_0fa95d834e4c4f518adce16fef3fca45"
+      ],
+      "updatedFromSeed": true
+    },
+    "zen-neoplatonism": {
+      "slug": "zen-neoplatonism",
+      "term": "Zen Neoplatonism",
+      "normalizedTerm": "zen neoplatonism",
+      "sourceLanguage": "mixed",
+      "searchTerms": [
+        "zen neoplatonism",
+        "manual-enrichment",
+        "joplin transcript review",
+        "john vervaeke’s lectern",
+        "vervaeke",
+        "comparative",
+        "framework",
+        "for",
+        "bringing",
+        "zen",
+        "and",
+        "neoplatonic",
+        "traditions",
+        "into",
+        "deep",
+        "dialogue",
+        "they",
+        "can",
+        "jointly",
+        "illuminate"
+      ],
+      "public": true,
+      "seedStatus": "current",
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript.",
+      "primarySourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
       ],
       "updatedFromSeed": true
     },
@@ -4843,6 +5680,54 @@
         "source_manual-pod-k4-6e-cognition-2026-07-17"
       ],
       "notes": "Promoted from user-curated k4 row in the POD extraction sheet. Reference hint in sheet pointed to Antoine Buteau summary. Marked provisional because the accessible grounding here is a secondary synthesis source and the exact 6E label is looser than core 4E usage."
+    },
+    "absurdism__plain-english__seed": {
+      "termSlug": "absurdism",
+      "targetLanguage": "plain-english",
+      "translation": "The stance that human beings seek meaning in a reality that offers no final answer, producing an unresolved tension rather than a stable reconciliation.",
+      "originBackground": "Absurdism is strongly associated with Camus and neighboring existential currents, where the mismatch between human longing and the world’s silence becomes central.",
+      "vervaekeUsage": "Vervaeke treats absurdism as one influential modern response to nihilism, but often contrasts it with traditions that offer more transformative or participatory ways of responding to nothingness.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
+    },
+    "advent-of-the-sacred__plain-english__seed": {
+      "termSlug": "advent-of-the-sacred",
+      "targetLanguage": "plain-english",
+      "translation": "The emerging possibility that sacredness can again become a live, philosophically respectable, and transformative reality in human life rather than a discarded premodern leftover.",
+      "originBackground": "The phrase belongs to Vervaeke’s later work on the meaning crisis, post-nihilistic religion, and the recovery of sacredness under modern conditions of disenchantment and fragmentation.",
+      "vervaekeUsage": "Vervaeke uses the advent of the sacred as the positive counterpart to merely diagnosing nihilism: it names the re-emergence of a participatory, reality-disclosing sacredness capable of reorienting culture and persons.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
+    },
+    "affected__plain-english__seed": {
+      "termSlug": "affected",
+      "targetLanguage": "plain-english",
+      "translation": "Not merely thought in a detached way, but emotionally, existentially, or bodily touched so that a claim or condition is lived as having weight.",
+      "originBackground": "In philosophical and phenomenological usage, what is affectively charged or affected is not neutral information but something that has begun to grip the person in feeling, care, or vulnerability.",
+      "vervaekeUsage": "In Vervaeke-adjacent discourse, affected points to the fact that nihilism, sacredness, and transformation are not just conceptual matters: they involve the person being moved, burdened, opened, or struck.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Added as requested even though it is less term-like than most corpus entries."
     },
     "affordance__plain-english__seed": {
       "termSlug": "affordance",
@@ -4972,6 +5857,22 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: Sacred Second Self 320 Jung and Individuation 320 Episode 50 - Tillich and Barfield 322 Tillich 322 Non-theism 325 xBarfield 325 ________________ Episode 1 - Introduction https://y"
     },
+    "basho__plain-english__seed": {
+      "termSlug": "basho",
+      "targetLanguage": "plain-english",
+      "translation": "A term from Nishida often rendered as place or topos: the field or place of no place within which beings, relations, and meaning arise and are held together.",
+      "originBackground": "Basho is a core Nishida term used to rethink metaphysics and experience beyond ordinary object-based ontology. It names a more fundamental place-like field of intelligibility and disclosure.",
+      "vervaekeUsage": "Vervaeke points to basho as one of the Kyoto School’s key conceptual innovations for understanding how reality and meaning can be grounded without falling back into rigid subject-object or natural-supernatural splits.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
+    },
     "being-vs-having-mode__plain-english__seed": {
       "termSlug": "being-vs-having-mode",
       "targetLanguage": "plain-english",
@@ -5019,6 +5920,22 @@
         "source_manual-pod-k1-2026-07-15"
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Translation seed hint: his definition related to relevance realization Reference snippet: logical manipulation of propositions * Descartes: rationality is caring about the truth on purpose according to normative standards and values and none of that machinery can be fou"
+    },
+    "cartesian__plain-english__seed": {
+      "termSlug": "cartesian",
+      "targetLanguage": "plain-english",
+      "translation": "Belonging to the style of thought associated with Descartes, especially the sharp split between subject and object, inner mind and outer world, or certainty and doubt.",
+      "originBackground": "The term derives from René Descartes and is often used to name the modern philosophical framework that privileges the isolated subject and strict mental-world dualisms.",
+      "vervaekeUsage": "Vervaeke uses Cartesian framing mainly as part of the problem-space of modernity: it helps generate subject-object splits, skepticism, and solipsistic distortions that participatory knowing must overcome.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Canonicalized from the note’s lowercase form 'cartesian'."
     },
     "category-error__plain-english__seed": {
       "termSlug": "category-error",
@@ -5436,6 +6353,22 @@
       ],
       "notes": "Promoted from user-curated k3 row in the POD extraction sheet. Translation seed hint: include Vervaeke's view. Sheet source: https://docs.google.com/spreadsheets/d/1AlLAZYK3BxUjuyxHPT1GeGtp1ujOxWOtOQS6eFPxxws/edit?gid=0#gid=0"
     },
+    "eudaimonia__plain-english__seed": {
+      "termSlug": "eudaimonia",
+      "targetLanguage": "plain-english",
+      "translation": "Deep flourishing or living well: not just feeling good, but having one’s life shaped by an increasingly good spirit, meaningful orientation, and fitting participation in reality.",
+      "originBackground": "Eudaimonia is the classical Greek ideal of flourishing, especially in Aristotle, though the term has broader ethical and spiritual resonances than simple happiness.",
+      "vervaekeUsage": "Vervaeke uses eudaimonia to point beyond hedonic satisfaction toward resilient flourishing rooted in wisdom, reality contact, and the cultivation of a good living spirit.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Canonicalized from the note’s spelling 'eudemonia'."
+    },
     "exaptation__plain-english__seed": {
       "termSlug": "exaptation",
       "targetLanguage": "plain-english",
@@ -5468,6 +6401,22 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: of power and prosperity. Never saw anything distressing. Everything he wanted. Existential Modes: Having and Being * Myths: attempts to engage with perennial ongoing patterns: * Pa"
     },
+    "existentialism__plain-english__seed": {
+      "termSlug": "existentialism",
+      "targetLanguage": "plain-english",
+      "translation": "The modern philosophical movement that foregrounds existence, freedom, anxiety, responsibility, and meaning in the face of finitude, contingency, and possible absurdity.",
+      "originBackground": "Existentialism gathers thinkers such as Kierkegaard, Nietzsche, Sartre, Camus, and others around the problem of what it means to live meaningfully without easy metaphysical guarantees.",
+      "vervaekeUsage": "Vervaeke treats existentialism as an important but incomplete response to nihilism, often contrasting it with the Kyoto School’s deeper transformation of nothingness and sacredness.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Canonicalized from the note’s combined label 'existentialist philosophy / existentialism'."
+    },
     "extended-cognition__plain-english__seed": {
       "termSlug": "extended-cognition",
       "targetLanguage": "plain-english",
@@ -5483,6 +6432,38 @@
         "source_manual-4p-4e-2026-07-15"
       ],
       "notes": "Added for the 4E cluster."
+    },
+    "fact-value-economy__plain-english__seed": {
+      "termSlug": "fact-value-economy",
+      "targetLanguage": "plain-english",
+      "translation": "The structured split that treats facts as objective and values as somehow secondary, private, or nonreal, thereby reshaping how meaning and justification are distributed across experience.",
+      "originBackground": "Modern philosophy often distinguishes fact from value, but critics argue that this division can become a deep cultural framework that hollows out meaning and hides the normative commitments already present in reasoning.",
+      "vervaekeUsage": "In Vervaeke-adjacent critique, the fact-value economy names part of modernity’s inherited framing: people continue to trust a conceptual split that undermines the possibility of objective significance, sacredness, or participatory meaning.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Canonicalized from the note’s phrasing 'fact valued economy'."
+    },
+    "finitude__plain-english__seed": {
+      "termSlug": "finitude",
+      "targetLanguage": "plain-english",
+      "translation": "The condition of being limited, vulnerable, mortal, and bounded rather than infinite, self-sufficient, or complete.",
+      "originBackground": "Finitude is a major theme in existential and phenomenological philosophy, where human limitation is treated not as a defect to be ignored but as a basic structure of human existence.",
+      "vervaekeUsage": "Vervaeke uses finitude in connection with failure, mortality, and the need for practices and meanings that help human beings respond well to the limits built into our condition.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
     },
     "flow-state__plain-english__seed": {
       "termSlug": "flow-state",
@@ -5740,6 +6721,22 @@
       ],
       "notes": ""
     },
+    "interlocutor__plain-english__seed": {
+      "termSlug": "interlocutor",
+      "targetLanguage": "plain-english",
+      "translation": "A participant in dialogue: someone with whom one genuinely thinks, questions, and is transformed rather than merely exchanges information or arguments.",
+      "originBackground": "The term is standard in philosophy and dialogue theory, but it takes on more weight in traditions that treat conversation as a mode of shared inquiry rather than a mere debate format.",
+      "vervaekeUsage": "Vervaeke often treats interlocutors as dialogical partners whose difference matters, because meaning emerges through real encounter rather than isolated monologue.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
+    },
     "kairos__plain-english__seed": {
       "termSlug": "kairos",
       "targetLanguage": "plain-english",
@@ -5771,6 +6768,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "kyoto-school__plain-english__seed": {
+      "termSlug": "kyoto-school",
+      "targetLanguage": "plain-english",
+      "translation": "The modern Japanese philosophical movement that brought Zen and related Buddhist insights into deep dialogue with Western philosophy in order to rethink selfhood, nothingness, religion, and modernity.",
+      "originBackground": "The Kyoto School centers on thinkers such as Nishida, Nishitani, and Tanabe, and is historically important for cross-cultural philosophy, philosophy of religion, and responses to nihilism.",
+      "vervaekeUsage": "Vervaeke uses the Kyoto School as a major dialogical partner for moving beyond the modern Western framing of nihilism, especially by treating nothingness as transformative and religiously significant rather than merely void or negation.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
     },
     "lectio-divina__plain-english__seed": {
       "termSlug": "lectio-divina",
@@ -5884,6 +6897,22 @@
       ],
       "notes": "Promoted from user-curated k4 row in the POD extraction sheet. Standalone hyphenated form added because existing corpus had 'Meta Crisis' as the unhyphenated variant."
     },
+    "metanoetics__plain-english__seed": {
+      "termSlug": "metanoetics",
+      "targetLanguage": "plain-english",
+      "translation": "A philosophy of transformative self-reversal and repentance in which thought becomes conversional rather than merely analytical, and the self is reoriented through radical revision of its stance.",
+      "originBackground": "The term is associated especially with Tanabe’s philosophy of metanoesis and draws on Greek and religious traditions of conversion, repentance, and change of mind, while recasting them philosophically.",
+      "vervaekeUsage": "Vervaeke points to metanoetics as a way philosophy can become existential pilgrimage and self-overcoming rather than a detached circulation of propositions.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
+    },
     "metanoia__plain-english__seed": {
       "termSlug": "metanoia",
       "targetLanguage": "plain-english",
@@ -5980,6 +7009,22 @@
       ],
       "notes": "Promoted from user-curated k2 row in the POD extraction sheet."
     },
+    "narcissism__plain-english__seed": {
+      "termSlug": "narcissism",
+      "targetLanguage": "plain-english",
+      "translation": "A self-enclosed orientation in which meaning, importance, and value collapse inward around the ego rather than opening into shared reality, mutual transformation, or the good.",
+      "originBackground": "The term originates in psychoanalytic and cultural critique, but it is also used more broadly in moral and existential analysis to name self-enclosure, self-preoccupation, and distorted forms of agency.",
+      "vervaekeUsage": "Vervaeke pairs narcissism with nihilism as a mutually reinforcing oscillation: when shared meaning collapses, the self either retreats into private significance or falls into despairing meaninglessness.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
+    },
     "nationalism__plain-english__seed": {
       "termSlug": "nationalism",
       "targetLanguage": "plain-english",
@@ -6044,6 +7089,70 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: ng about what you say - but how you think * Doesn’t matter if atheist. * Nietzsche: I fear we are not getting rid of God because we still believe in grammar * We still talk this wa"
     },
+    "nihilism__plain-english__seed": {
+      "termSlug": "nihilism",
+      "targetLanguage": "plain-english",
+      "translation": "The stance that reality lacks inherent meaning, value, or purpose, so human life appears groundless unless meaning is somehow created or rediscovered.",
+      "originBackground": "Nihilism is a major modern philosophical problem, especially in post-Nietzschean debates about the death of God, the collapse of inherited value structures, and the question of whether meaning can survive disenchantment.",
+      "vervaekeUsage": "Vervaeke uses nihilism as a core diagnosis within the meaning crisis: not just a doctrine, but an existential and cultural condition in which people lose contact with intelligibility, sacredness, and participatory meaning.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
+    },
+    "nishida__plain-english__seed": {
+      "termSlug": "nishida",
+      "targetLanguage": "plain-english",
+      "translation": "Kitaro Nishida, the founding figure of the Kyoto School, known for rethinking place, selfhood, and ultimate reality beyond simple subject-object divisions.",
+      "originBackground": "Nishida is a foundational 20th-century Japanese philosopher whose work blends Buddhist insight with Western philosophy and helped establish the conceptual framework later developed by other Kyoto School thinkers.",
+      "vervaekeUsage": "Vervaeke invokes Nishida as one of the key thinkers who helps reframe nothingness, sacredness, and the relation between self and reality beyond the binaries inherited from modernity.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
+    },
+    "nishitani__plain-english__seed": {
+      "termSlug": "nishitani",
+      "targetLanguage": "plain-english",
+      "translation": "Keiji Nishitani, a Kyoto School philosopher best known for treating nihilism and emptiness in a way that opens toward religion, self-overcoming, and transformed participation in reality.",
+      "originBackground": "Nishitani’s work, especially Religion and Nothingness and The Self-Overcoming of Nihilism, is a major modern attempt to engage Western nihilism through Buddhist philosophy.",
+      "vervaekeUsage": "Vervaeke treats Nishitani as a central guide for moving from nihilism as wound or lack toward nothingness as an opening into sacredness, transformation, and a deeper realism.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
+    },
+    "no-thing-nothingness__plain-english__seed": {
+      "termSlug": "no-thing-nothingness",
+      "targetLanguage": "plain-english",
+      "translation": "Not mere blank nonexistence, but the depth dimension in which fixed identities and reified things loosen, making room for transformation, disclosure, and a more luminous relation to reality.",
+      "originBackground": "In Buddhist and Kyoto School contexts, nothingness or no-thingness is not simple negation. It can name emptiness, the collapse of rigid self-world framing, or the opening through which things become newly intelligible.",
+      "vervaekeUsage": "Vervaeke uses no-thingness to mark the shift from nihilistic absence to transformative opening: nothingness ceases to be only a wound and becomes an aperture into sacredness and participation.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
+    },
     "nominalize-what-is-meant-to-what-is-spoken__plain-english__seed": {
       "termSlug": "nominalize-what-is-meant-to-what-is-spoken",
       "targetLanguage": "plain-english",
@@ -6076,6 +7185,22 @@
       ],
       "notes": "Promoted from user-curated k1 row in the POD extraction sheet. Reference snippet: Individuation 320 Episode 50 - Tillich and Barfield 322 Tillich 322 Non-theism 325 xBarfield 325 ________________ Episode 1 - Introduction https://youtu.be/54l8_ewcOlY * Going to d"
     },
+    "normative-conceptual-structure__plain-english__seed": {
+      "termSlug": "normative-conceptual-structure",
+      "targetLanguage": "plain-english",
+      "translation": "The value-laden conceptual framework that silently shapes what counts as real, important, justified, or meaningful before explicit argument even begins.",
+      "originBackground": "Philosophy often distinguishes descriptive concepts from normative structures, but many traditions argue that our conceptual worlds already carry standards, salience patterns, and hidden commitments.",
+      "vervaekeUsage": "Vervaeke uses this kind of phrase to show that supposedly neutral modern frameworks already privilege certain splits and priorities, which then continue to guide people even when they claim to be beyond religion or tradition.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Canonicalized from the note’s label 'normative ( conceptual structure )'."
+    },
     "normativity__plain-english__seed": {
       "termSlug": "normativity",
       "targetLanguage": "plain-english",
@@ -6091,6 +7216,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "opponent-processing__plain-english__seed": {
+      "termSlug": "opponent-processing",
+      "targetLanguage": "plain-english",
+      "translation": "A structured interplay of opposing tendencies that do not simply cancel out, but dynamically constrain and enrich one another so that deeper coordination, balance, or transformation becomes possible.",
+      "originBackground": "The phrase has roots in psychology and systems thinking, but in philosophical use it can describe how apparently opposed poles become mutually informative within a higher-order pattern.",
+      "vervaekeUsage": "Vervaeke uses opponent processing to explain how converging traditions, perspectives, or practices can generate a more powerful framework than either pole alone, especially in dialogical and comparative philosophy.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
     },
     "optimal-grip__plain-english__seed": {
       "termSlug": "optimal-grip",
@@ -6380,6 +7521,22 @@
       ],
       "notes": "Added to support the 4Ps cluster explicitly."
     },
+    "propositional-tyranny__plain-english__seed": {
+      "termSlug": "propositional-tyranny",
+      "targetLanguage": "plain-english",
+      "translation": "The domination of thought by explicit propositions alone, such that embodied practice, transformation, participatory knowing, and performative contradiction are pushed to the margins.",
+      "originBackground": "The phrase is a critical label for the tendency to reduce understanding to statements, arguments, and declared beliefs while ignoring what is enacted, embodied, or existentially lived.",
+      "vervaekeUsage": "Vervaeke’s style of critique often pushes beyond propositional circulation by asking what a worldview does, what it enacts, and where its performative contradictions appear; propositional tyranny names the failure to make that move.",
+      "status": "current",
+      "originConfidence": "provisional",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Included because the approved Joplin note explicitly flagged it for inclusion alongside the fact-value entry."
+    },
     "psychotechnology__plain-english__seed": {
       "termSlug": "psychotechnology",
       "targetLanguage": "plain-english",
@@ -6636,6 +7793,22 @@
       ],
       "notes": ""
     },
+    "solipsism__plain-english__seed": {
+      "termSlug": "solipsism",
+      "targetLanguage": "plain-english",
+      "translation": "The view or tendency that collapses reality into what is available only to the isolated subject, making shared meaning, real otherness, and participatory contact difficult or impossible.",
+      "originBackground": "Solipsism is a classic philosophical problem emerging from extreme forms of subject-centered epistemology, especially in post-Cartesian modern thought.",
+      "vervaekeUsage": "Vervaeke uses solipsism as one pole of a modern trap: culture oscillates between third-person skepticism and first-person enclosure, leaving participatory knowing and shared meaning impoverished.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
+    },
     "spirituality__plain-english__seed": {
       "termSlug": "spirituality",
       "targetLanguage": "plain-english",
@@ -6667,6 +7840,22 @@
         "source_manual-supersalience-2026-07-15"
       ],
       "notes": "Added because the exact phrase 'super salient' appears in Vervaeke’s discussion of flow and higher states."
+    },
+    "tanabe__plain-english__seed": {
+      "termSlug": "tanabe",
+      "targetLanguage": "plain-english",
+      "translation": "Hajime Tanabe, a Kyoto School philosopher known for metanoetics, repentance, and transformative philosophical pilgrimage beyond self-certainty.",
+      "originBackground": "Tanabe is a major Kyoto School thinker whose work on metanoesis, self-critique, and religious transformation offers a distinct response to modern crisis and philosophical impasse.",
+      "vervaekeUsage": "Vervaeke uses Tanabe as a key example of how philosophy can become transformative self-overcoming rather than mere conceptual argument, especially in relation to nihilism and the sacred.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
     },
     "teleology__plain-english__seed": {
       "termSlug": "teleology",
@@ -6988,6 +8177,22 @@
       ],
       "notes": "Promoted from user-curated k2 row in the POD extraction sheet."
     },
+    "weltgeist__plain-english__seed": {
+      "termSlug": "weltgeist",
+      "targetLanguage": "plain-english",
+      "translation": "World-spirit: the larger civilizational or historical intelligibility that shapes an age, a culture, or the unfolding of shared meaning beyond any one individual mind.",
+      "originBackground": "Weltgeist is a German idealist term associated especially with Hegel, where it names the spirit of the world or of history as it realizes itself through cultural and historical development.",
+      "vervaekeUsage": "In Vervaeke-adjacent usage, weltgeist can name the larger field of shared intelligibility or spirit of the times that responds when a culture bottoms out in nihilism and begins to reorient toward the sacred.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript. Added after the user explicitly requested it; canonicalized from the note’s spelling 'veltgeist'."
+    },
     "wisdom__plain-english__seed": {
       "termSlug": "wisdom",
       "targetLanguage": "plain-english",
@@ -7019,6 +8224,22 @@
         "source_0fa95d834e4c4f518adce16fef3fca45"
       ],
       "notes": ""
+    },
+    "zen-neoplatonism__plain-english__seed": {
+      "termSlug": "zen-neoplatonism",
+      "targetLanguage": "plain-english",
+      "translation": "Vervaeke’s comparative framework for bringing Zen and Neoplatonic traditions into deep dialogue so they can jointly illuminate participation, transformation, sacredness, and the overcoming of modern fragmentation.",
+      "originBackground": "This is a Vervaeke-specific synthetic framing that draws cross-culturally on Zen, Daoist-Chan development, Neoplatonism, and related traditions rather than treating East and West as sealed conceptual worlds.",
+      "vervaekeUsage": "Vervaeke uses Zen Neoplatonism to break the oscillation between nihilism and narcissism by recovering dialogical, participatory, and opponent-processing structures that can support a post-nihilistic encounter with the sacred.",
+      "status": "current",
+      "originConfidence": "grounded",
+      "isPublic": true,
+      "isSeed": true,
+      "sortKey": 100,
+      "sourceIds": [
+        "source_aa6e164790fb4fd4ae3e9a9589ede0bb"
+      ],
+      "notes": "Approved from the Joplin candidate list for the No-Thing / Kyoto School transcript."
     },
     "zombies__plain-english__seed": {
       "termSlug": "zombies",
@@ -7052,6 +8273,14 @@
       "title": "Lessons from Dr. John Vervaeke",
       "externalRef": "manual-pod-k4-6e-cognition-2026-07-17",
       "link": "https://www.antoinebuteau.com/lessons-from-dr-john-vervaeke/",
+      "public": true
+    },
+    "source_aa6e164790fb4fd4ae3e9a9589ede0bb": {
+      "sourceId": "source_aa6e164790fb4fd4ae3e9a9589ede0bb",
+      "kind": "joplin-note",
+      "title": "Notes on No-Thing: John Vervaeke on Nihilism, the Kyoto School, and the Sacred - 2026-08-04",
+      "externalRef": "aa6e164790fb4fd4ae3e9a9589ede0bb",
+      "link": "https://www.youtube.com/watch?v=lPWDQ4HA-uM",
       "public": true
     },
     "source_manual-pod-k4-affordance-2026-07-17": {
