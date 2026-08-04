@@ -131,6 +131,16 @@ GOOGLE_APPLICATION_CREDENTIALS=/absolute/path/service-account.json npm run corpu
 GOOGLE_APPLICATION_CREDENTIALS=/absolute/path/service-account.json npm run corpus:pull -- --output data/seed/vervaeke_seed_corpus.from-firestore.json
 ```
 
+## Durable Firebase deploy auth on this machine
+For this repo, `npm run deploy` and `npm run deploy:hosting` now go through `scripts/firebase-auth-wrapper.sh`.
+
+If `~/.hermes/secrets/vervaeke-translate-firebase-cli-hosting-sa.json` exists, the wrapper:
+- exports it as `GOOGLE_APPLICATION_CREDENTIALS`
+- isolates Firebase CLI state under `~/.cache/firebase-sa-config/vervaeke-translate`
+- avoids the broken user-login refresh path that was repeatedly demanding `firebase login --reauth`
+
+That makes hosting deploys work without depending on the interactive Firebase CLI login state for this project.
+
 ## Next implementation step
 The strongest next slice is now:
 1. seed Firestore from `data/seed/vervaeke_seed_corpus.json`
